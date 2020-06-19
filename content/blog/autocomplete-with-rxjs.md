@@ -1,5 +1,5 @@
 ---
-title: Autocomplete With Rxjs
+title: Autocomplete With RxJS
 date: "2019-06-04"
 description: A quick look at how RxJS implements an autocomplete subscription.
 ---
