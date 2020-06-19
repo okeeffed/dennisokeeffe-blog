@@ -1,13 +1,10 @@
-
 ---
-title: React Debounce
-date: "2019-10-22"
-description: TODO
+title: Debouncing events in React
+date: "2018-09-22"
+description: See example code on how to debounce trailing and leading events.
 ---
 
 # Hello Series #2: Using debounce in React
-
-Published: September 19th 2018
 
 ## Why debounce?
 
@@ -26,7 +23,7 @@ In this example, we are debouncing the submission of the form but from the leadi
 Note: text input may not always need to be debounced depending on the weight of the operation performed. We are going to assume in this example that there is some intense computation going on.
 
 ```javascript
-import debounce from 'debounce';
+import debounce from "debounce"
 
 /**
  * Form that debounces input and
@@ -37,8 +34,8 @@ import debounce from 'debounce';
  */
 class DebouncedForm extends Component {
   state = {
-    input: ''
-  };
+    input: "",
+  }
 
   /**
    * Action the submission of the CTA
@@ -50,13 +47,13 @@ class DebouncedForm extends Component {
    */
   handleSubmit = debounce(
     () => {
-      const { input } = this.state;
+      const { input } = this.state
       // Perform some form of submission
-      API.submit(input);
+      API.submit(input)
     },
     600,
     true
-  );
+  )
 
   /**
    * Update local state based on the input.
@@ -67,14 +64,14 @@ class DebouncedForm extends Component {
    * @param {object} event Event parameter
    */
   handleChange = debounce(
-    (value) => {
+    value => {
       // Pretend you are performing a
       // compute heavy task
-      this.setState({ input: value });
+      this.setState({ input: value })
     },
     600,
     false
-  );
+  )
 
   /**
    * Render DebouncedForm component
@@ -86,25 +83,24 @@ class DebouncedForm extends Component {
     return (
       <section className="form">
         <form
-          onSubmit={(e) => {
-            e.preventDefault();
-            this.handleSubmit();
+          onSubmit={e => {
+            e.preventDefault()
+            this.handleSubmit()
           }}
         >
           <input
             type="text"
-            onChange={(e) => this.handleChange(e.target.value)}
+            onChange={e => this.handleChange(e.target.value)}
             placeholder={placeholder}
           />
           <input type="submit" />
         </form>
       </section>
-    );
+    )
   }
 }
 
-export default DebouncedForm;
+export default DebouncedForm
 ```
 
 _**Hello** is a series that is about short, sharp examples. Read more on this series to find small gems to add your toolset._
-

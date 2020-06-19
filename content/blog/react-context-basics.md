@@ -1,8 +1,7 @@
-
 ---
 title: React Context Basics
-date: "2019-10-22"
-description: TODO
+date: "2018-09-18"
+description: An introduction to React Context.
 ---
 
 # React Context Basics
@@ -20,13 +19,13 @@ A basic app where we want to pass context of things like language everywhere.
 
 ```javascript
 class App extends Component {
-    state = {langauge: 'english'};
+  state = { langauge: "english" }
 
-    onLanguageChange = language => this.setState({language});
+  onLanguageChange = language => this.setState({ language })
 
-    render() {
-        // return elements with onClick to change state
-    }
+  render() {
+    // return elements with onClick to change state
+  }
 }
 ```
 
@@ -44,7 +43,7 @@ import React from 'react';
 // creating context with default 'english'
 export default React.createContext('english');
 
-// inside of a component 
+// inside of a component
 import LanguageContext from 'path/to/file';
 export default class Button extends React.Component {
     static contextType = LanguageContext;
@@ -86,7 +85,7 @@ import React from 'react';
 // creating context with default 'english'
 export default React.createContext('english');
 
-// inside of a component 
+// inside of a component
 import LanguageContext from 'path/to/file';
 export default class Button extends React.Component {
     render() {
@@ -108,7 +107,7 @@ import React from 'react';
 // creating context with default 'english'
 export default React.createContext('english');
 
-// inside of a component 
+// inside of a component
 import LanguageContext from 'path/to/file';
 export default class Button extends React.Component {
     render() {
@@ -117,7 +116,7 @@ export default class Button extends React.Component {
             {color => {
                 <LanguageContext.Consumer>
                     {value => value === 'english' ? 'Submit' : 'Voorleggen'}
-                </LanguageContext.Consumer>  
+                </LanguageContext.Consumer>
             }}
            </ColorContext.Consumer>
         </button>
@@ -132,5 +131,3 @@ export default class Button extends React.Component {
 | Excellent documentation               | No need for extra lib                                         |
 | Well-known for design patterns        | Hard to build a 'store' component with cross cutting concerns |
 | Tremendous amount of open source libs |                                                               |
-
-

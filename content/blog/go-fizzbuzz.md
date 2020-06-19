@@ -1,8 +1,7 @@
-
 ---
 title: Go Fizzbuzz
-date: "2019-10-22"
-description: TODO
+date: "2018-09-22"
+description: The classic FizzBuzz implementation in Golang with Unit Testing.
 ---
 
 # Fizz Buzz in Golang
@@ -95,4 +94,3 @@ func FizzBuzz(i int) string {
 ## Running Tests
 
 In the directory, run `go test`.
-

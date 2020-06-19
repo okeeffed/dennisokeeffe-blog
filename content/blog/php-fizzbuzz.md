@@ -1,8 +1,7 @@
-
 ---
-title: Php Fizzbuzz
-date: "2019-10-22"
-description: TODO
+title: PHP Fizzbuzz
+date: "2018-07-04"
+description: The classic FizzBuzz implementation in PHP with Unit Testing.
 ---
 
 # FizzBuzz in PHP
@@ -67,4 +66,3 @@ function fizzBuzz($i)
 ## Running Tests
 
 Change into directory and run `phpunit.phar file_test.php`.
-

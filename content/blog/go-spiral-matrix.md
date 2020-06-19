@@ -1,8 +1,7 @@
-
 ---
 title: Go Spiral Matrix
-date: "2019-10-22"
-description: TODO
+date: "2018-11-22"
+description: Golang Spiral Matrices with unit testing.
 ---
 
 # Spiral Matrix in Golang
@@ -100,4 +99,3 @@ func genSpiralMatrix(s int) [][]int {
 ## Running Tests
 
 In the directory, run `go test`.
-

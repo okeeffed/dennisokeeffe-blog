@@ -1,8 +1,7 @@
-
 ---
 title: Python Fizzbuzz
-date: "2019-10-22"
-description: TODO
+date: "2018-07-15"
+description: The classic FizzBuzz implementation in Python with Unit Testing.
 ---
 
 # Python FizzBuzz
@@ -64,4 +63,3 @@ def run(arg):
 ## Running tests
 
 Change into directory and run `python3 -m pytest -v fizz_buzz_test.py`.
-

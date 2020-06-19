@@ -1,8 +1,7 @@
-
 ---
-title: Php Spiral Matrix
-date: "2019-10-22"
-description: TODO
+title: PHP Spiral Matrix
+date: "2018-07-15"
+description: PHP Spiral Matrices with unit testing.
 ---
 
 # Spiral Matrix in PHP
@@ -101,4 +100,3 @@ function sprialMatrix($size)
 ## Running Tests
 
 Change into directory and run `phpunit.phar php-spiral-matrix_test.php`.
-

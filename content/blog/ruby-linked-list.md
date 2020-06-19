@@ -1,8 +1,7 @@
-
 ---
 title: Ruby Linked List
-date: "2019-10-22"
-description: TODO
+date: "2018-10-09"
+description: Ruby implementation of a basic unidirectional Linked List.
 ---
 
 # Ruby Linked List
@@ -119,4 +118,3 @@ end
 ## Testing
 
 Change into directory and run `ruby linked_list_test.rb`.
-

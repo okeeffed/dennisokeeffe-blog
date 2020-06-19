@@ -1,8 +1,7 @@
-
 ---
 title: Hello Gin
-date: "2019-10-22"
-description: TODO
+date: "2018-12-25"
+description: Simple basics on a GET and POST request for Gin in Go.
 ---
 
 # Hello Gin!
@@ -37,8 +36,8 @@ func main() {
 
 If we now run `go run main.go` we can start the server on port 3000. Either using `curl http://localhost:3000` or a GUI like Postman, we can see the results:
 
-![GET ping](https://res.cloudinary.com/gitgoodclub/image/upload/v1538628243/getCLI-compressed.png 'GET ping')
-![GET postman](https://res.cloudinary.com/gitgoodclub/image/upload/v1538628243/getPostman-compressed.png 'GET Postman')
+![GET ping](https://res.cloudinary.com/gitgoodclub/image/upload/v1538628243/getCLI-compressed.png "GET ping")
+![GET postman](https://res.cloudinary.com/gitgoodclub/image/upload/v1538628243/getPostman-compressed.png "GET Postman")
 
 ## Handling JSON data
 
@@ -118,12 +117,11 @@ Finally, we log the result out and send back the `res` string to Postman.
 
 Results:
 
-![POST post](https://res.cloudinary.com/gitgoodclub/image/upload/v1538628243/postCLI-compressed.png 'POST post')
-![POST postman](https://res.cloudinary.com/gitgoodclub/image/upload/v1538628244/postPostman-compressed.png 'POST Postman')
+![POST post](https://res.cloudinary.com/gitgoodclub/image/upload/v1538628243/postCLI-compressed.png "POST post")
+![POST postman](https://res.cloudinary.com/gitgoodclub/image/upload/v1538628244/postPostman-compressed.png "POST Postman")
 
 For more information and documentation, check out [Gin's github](https://github.com/gin-gonic/gin).
 
 For my repo, [check here](https://github.com/okeeffed/hello-gin)
 
 _**Hello** is a series that is about short, sharp examples. Read more on this series to find small gems to add your toolset._
-

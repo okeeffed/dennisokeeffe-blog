@@ -1,13 +1,10 @@
-
 ---
-title: Hello World
-date: "2019-10-22"
-description: TODO
+title: Hello, Blog!
+date: "2018-07-02"
+description: Blog initiation and hazing. Read my primary objectives with this blog and the series I will write about.
 ---
 
-# Hello World
-
-Published: 16th September 2018
+# Hello, Blog!
 
 In the coming months I'll be working hard to bring you content in a few different series.
 
@@ -40,4 +37,3 @@ The "pensive" series will be a collage of keys ideas and reflections from the bo
 ## 5. Imposter Series
 
 The "imposter" series will be recounts of experiences outside of my domain. With a look to start launching a few side projects and businesses, this will hopefully give some insight into harsh lessons or wins along the journey.
-

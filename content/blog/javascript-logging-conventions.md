@@ -1,8 +1,7 @@
-
 ---
 title: Javascript Logging Conventions
-date: "2019-10-22"
-description: TODO
+date: "2019-01-03"
+description: See what I do when it comes to JavaScript logging for web.
 ---
 
 # JavaScript Logging Conventions
@@ -53,15 +52,15 @@ These are more guidelines that take influence from languages like Objective-C an
 | Debug level 2    | ##  | console.log('## moreImportantDebugMessage');   |
 | Debug level 3    | ### | console.log('### mostImportantDebugMessage');  |
 | Event            | @   | console.log('@ analyticsEndpoint:', data);     |
-| Success          | $   | console.log('$ message');                      |
+| Success          | \$  | console.log('\$ message');                     |
 
 ### Example Class
 
 ```javascript
-import React, {Component} from 'react';
-import Emitter from 'common/Emitter';
-import Config from 'src/app.json';
-import Waypoint from 'react-waypoint';
+import React, { Component } from "react"
+import Emitter from "common/Emitter"
+import Config from "src/app.json"
+import Waypoint from "react-waypoint"
 
 /**
  * Render the ComponentALLandingFive component
@@ -70,101 +69,102 @@ import Waypoint from 'react-waypoint';
  * @extends {Component}
  */
 class ComponentALLandingFive extends Component {
-    /**
-     * Handle primary button click event.
-     *
-     * @memberof ComponentALLandingFive
-     */
-    handlePrimaryClick = e => {
-        console.group('- ComponentALLandingFive.handlePrimaryClick');
-        Emitter.emit('event', {
-            event: 'ComponentALLandingFive.handlePrimaryClick',
-            e: e.target,
-            data: {
-                href: '/'
-            }
-        });
+  /**
+   * Handle primary button click event.
+   *
+   * @memberof ComponentALLandingFive
+   */
+  handlePrimaryClick = e => {
+    console.group("- ComponentALLandingFive.handlePrimaryClick")
+    Emitter.emit("event", {
+      event: "ComponentALLandingFive.handlePrimaryClick",
+      e: e.target,
+      data: {
+        href: "/",
+      },
+    })
 
-        if (Config.debug) {
-            e.preventDefault();
-            console.warn('? Debug mode: early return');
-            console.groupEnd();
-            return;
-        }
-
-        const {router} = this.props;
-        router.push(Config.baseUrl + '/test');
-        console.groupEnd();
+    if (Config.debug) {
+      e.preventDefault()
+      console.warn("? Debug mode: early return")
+      console.groupEnd()
+      return
     }
 
-    /**
-     * Handle secondary button click event.
-     *
-     * @memberof ComponentALLandingFive
-     */
-    handleSecondaryClick = e => {
-        console.group('- ComponentALLandingFive.handleSecondaryClick');
-        Emitter.emit('event', {
-            event: 'ComponentALLandingFive.handleSecondaryClick',
-            e: e.target,
-            data: {
-                href: '/'
-            }
-        });
+    const { router } = this.props
+    router.push(Config.baseUrl + "/test")
+    console.groupEnd()
+  }
 
-        if (Config.debug) {
-            e.preventDefault();
-            console.warn('? Debug mode: early return');
-            console.groupEnd();
-            return;
-        }
+  /**
+   * Handle secondary button click event.
+   *
+   * @memberof ComponentALLandingFive
+   */
+  handleSecondaryClick = e => {
+    console.group("- ComponentALLandingFive.handleSecondaryClick")
+    Emitter.emit("event", {
+      event: "ComponentALLandingFive.handleSecondaryClick",
+      e: e.target,
+      data: {
+        href: "/",
+      },
+    })
 
-        const {router} = this.props;
-        router.push(Config.baseUrl + '/test');
-        console.groupEnd();
+    if (Config.debug) {
+      e.preventDefault()
+      console.warn("? Debug mode: early return")
+      console.groupEnd()
+      return
     }
 
-    /**
-     * Handle component enter event.
-     *
-     * @memberof ComponentALLandingFive
-     */
-    handleWaypointEnter = e => {
-        console.log('- ComponentALLandingFive.handleWaypointEnter');
-        Emitter.emit('event', {event: 'ComponentALLandingFive.handleWaypointEnter'});
-    }
+    const { router } = this.props
+    router.push(Config.baseUrl + "/test")
+    console.groupEnd()
+  }
 
-    /**
-     * Handle component exit event.
-     *
-     * @memberof ComponentALLandingFive
-     */
-    handleWaypointExit = e => {
-        console.log('- ComponentALLandingFive.handleWaypointExit');
-        Emitter.emit('event', {event: 'ComponentALLandingFive.handleWaypointExit'});
-    }
+  /**
+   * Handle component enter event.
+   *
+   * @memberof ComponentALLandingFive
+   */
+  handleWaypointEnter = e => {
+    console.log("- ComponentALLandingFive.handleWaypointEnter")
+    Emitter.emit("event", {
+      event: "ComponentALLandingFive.handleWaypointEnter",
+    })
+  }
 
-    /**
-     * Render ComponentALLandingFive component
-     * @memberof ComponentALLandingFive
-     * @var {function} render Render ComponentALLandingFive component
-	 * @returns {Object} component
-     */
-    render() {
-        // omitted for brevity
-    }
+  /**
+   * Handle component exit event.
+   *
+   * @memberof ComponentALLandingFive
+   */
+  handleWaypointExit = e => {
+    console.log("- ComponentALLandingFive.handleWaypointExit")
+    Emitter.emit("event", {
+      event: "ComponentALLandingFive.handleWaypointExit",
+    })
+  }
+
+  /**
+   * Render ComponentALLandingFive component
+   * @memberof ComponentALLandingFive
+   * @var {function} render Render ComponentALLandingFive component
+   * @returns {Object} component
+   */
+  render() {
+    // omitted for brevity
+  }
 }
 
-export default ComponentALLandingFive;
+export default ComponentALLandingFive
 ```
 
 **Note:** In the below gif, the "analytics" logs come from the Emitter module class.
 
 ![Example in action](https://res.cloudinary.com/gitgoodclub/image/upload/v1539219876/gifAnalytics.gif)
 
-
-
 ## Other tips and gotchas
 
 If there is a possibility of an early return or error when logging and using groups, ensure that you adequately close the group off properly. If you cannot ensure that a group will close (ie entering a zone, mouse hover etc may not exit) then avoid the use of a group for that event and rely more on logs.
-

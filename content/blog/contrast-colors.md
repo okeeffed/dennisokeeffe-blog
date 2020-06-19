@@ -1,8 +1,7 @@
-
 ---
 title: Contrast Colors
-date: "2019-10-22"
-description: TODO
+date: "2018-10-19"
+description: A small intro into auto-determing WCAG color contrast standards
 ---
 
 # Hello Series #5: Auto-determining WCAG contrast standards
@@ -23,21 +22,21 @@ yarn add get-contrast
 ## Example code
 
 ```javascript
-const contrast = require('get-contrast');
+const contrast = require("get-contrast")
 
-const arg = process.argv[2];
+const arg = process.argv[2]
 
 if (!arg) {
-  console.error('Error: Color arg required eg. "#000"');
-  process.exit(1);
+  console.error('Error: Color arg required eg. "#000"')
+  process.exit(1)
 }
 
-const isLight = contrast.isAccessible(arg, '#000');
+const isLight = contrast.isAccessible(arg, "#000")
 const res = `${arg} is light: ${isLight}. You should use ${
-  isLight ? 'black' : 'white'
-} for the font.`;
+  isLight ? "black" : "white"
+} for the font.`
 
-console.log(res);
+console.log(res)
 ```
 
 ## Usage
@@ -54,4 +53,3 @@ node index.js "#888"
 Original code [can be found on my Github account](https://github.com/okeeffed/hello-contrast-ratio).
 
 _**Hello** is a series that is about short, sharp examples. Read more on this series to find small gems to add your toolset._
-

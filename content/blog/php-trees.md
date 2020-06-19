@@ -1,8 +1,7 @@
-
 ---
-title: Php Trees
-date: "2019-10-22"
-description: TODO
+title: PHP Trees
+date: "2018-08-12"
+description: PHP implementation of a basic node tree and traversal using DFS and BFS.
 ---
 
 # Trees in PHP
@@ -116,4 +115,3 @@ class Node {
 ## Running Tests
 
 Change into directory and run `phpunit.phar tree_test.php`.
-

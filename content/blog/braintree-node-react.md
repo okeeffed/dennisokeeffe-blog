@@ -1,8 +1,7 @@
-
 ---
-title: Braintree Node React
-date: "2019-10-22"
-description: TODO
+title: Braintree with Nodejs and React
+date: "2019-01-02"
+description: Create a basic payment with Braintree using React and Nodejs!
 ---
 
 # Depth Series #3: Getting started with the Braintree Sandbox
@@ -65,34 +64,34 @@ To set up the main server, update the server.js file to look like so:
 
 ```javascript
 // Add variables from dotenv into process.env vars
-require('dotenv').config();
+require("dotenv").config()
 
 // Main starting point of the application
-const express = require('express');
-const http = require('http');
-const bodyParser = require('body-parser');
-const morgan = require('morgan');
-const app = express();
-const cors = require('cors');
+const express = require("express")
+const http = require("http")
+const bodyParser = require("body-parser")
+const morgan = require("morgan")
+const app = express()
+const cors = require("cors")
 
 // Routes Setup
-const routes = require('./routes');
+const routes = require("./routes")
 
 // App Setup
-const morganFormat = process.env.NODE_ENV === 'production' ? 'combined' : 'dev';
-app.use(morgan(morganFormat));
-app.use(cors());
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
+const morganFormat = process.env.NODE_ENV === "production" ? "combined" : "dev"
+app.use(morgan(morganFormat))
+app.use(cors())
+app.use(bodyParser.json())
+app.use(bodyParser.urlencoded({ extended: true }))
 
 // Add routes after setting up middleware
-routes(app);
+routes(app)
 
 // Server Setup
-const port = process.env.NODE_ENV == 'production' ? 80 : 5000;
-const server = http.createServer(app);
-server.listen(port);
-console.log('Server listening on:', port);
+const port = process.env.NODE_ENV == "production" ? 80 : 5000
+const server = http.createServer(app)
+server.listen(port)
+console.log("Server listening on:", port)
 ```
 
 This `server.js` file will load the `routes/index.js` file, which we will now update.
@@ -102,65 +101,65 @@ This `server.js` file will load the `routes/index.js` file, which we will now up
 Let's now update our `routes/index.js` to take setup the gateway and setup three routes - one for a simple ping test, another for fetching a client token and a third for making a payment:
 
 ```javascript
-const braintree = require('braintree');
+const braintree = require("braintree")
 
 var gateway = braintree.connect({
   environment: braintree.Environment.Sandbox,
   // Use your own credentials from the sandbox Control Panel here
   merchantId: process.env.BRAINTREE_MERCHANT_ID,
   publicKey: process.env.BRAINTREE_PUBLIC_KEY,
-  privateKey: process.env.BRAINTREE_PRIVATE_KEY
-});
+  privateKey: process.env.BRAINTREE_PRIVATE_KEY,
+})
 
 module.exports = function(app) {
-  app.get('/braintree', function(req, res) {
-    res.send('Braintree route is healthy');
-  });
+  app.get("/braintree", function(req, res) {
+    res.send("Braintree route is healthy")
+  })
 
-  app.get('/api/braintree/v1/getToken', async function(req, res) {
+  app.get("/api/braintree/v1/getToken", async function(req, res) {
     try {
       gateway.clientToken.generate({}, function(err, response) {
         if (err) {
-          res.status(500).send(err);
+          res.status(500).send(err)
         } else {
-          res.send(response);
+          res.send(response)
         }
-      });
+      })
     } catch (err) {
-      res.status(500).send(err);
+      res.status(500).send(err)
     }
-  });
+  })
 
-  app.post('/api/braintree/v1/sandbox', async function(req, res) {
+  app.post("/api/braintree/v1/sandbox", async function(req, res) {
     try {
       // Use the payment method nonce here
-      var nonceFromTheClient = req.body.paymentMethodNonce;
+      var nonceFromTheClient = req.body.paymentMethodNonce
       // Create a new transaction for $10
       var newTransaction = gateway.transaction.sale(
         {
-          amount: '10.00',
+          amount: "10.00",
           paymentMethodNonce: nonceFromTheClient,
           options: {
             // This option requests the funds from the transaction once it has been
             // authorized successfully
-            submitForSettlement: true
-          }
+            submitForSettlement: true,
+          },
         },
         function(error, result) {
           if (result) {
-            res.send(result);
+            res.send(result)
           } else {
-            res.status(500).send(error);
+            res.status(500).send(error)
           }
         }
-      );
+      )
     } catch (err) {
       // Deal with an error
-      console.log(err);
-      res.send(err);
+      console.log(err)
+      res.send(err)
     }
-  });
-};
+  })
+}
 ```
 
 Now if we run `node server.js`, we should have our app up and running on port 5000!
@@ -184,44 +183,44 @@ yarn add braintree-web braintree-web-drop-in-react axios
 Go to our App.js file and clean it out. Replace the file with the following:
 
 ```javascript
-import React, { Component } from 'react';
-import './App.css';
-import 'braintree-web';
-import axios from 'axios';
-import DropIn from 'braintree-web-drop-in-react';
+import React, { Component } from "react"
+import "./App.css"
+import "braintree-web"
+import axios from "axios"
+import DropIn from "braintree-web-drop-in-react"
 
 class App extends Component {
-  instance;
+  instance
 
   state = {
-    clientToken: null
-  };
+    clientToken: null,
+  }
 
   async componentDidMount() {
     try {
       // Get a client token for authorization from your server
       const response = await axios.get(
-        'http://localhost:5000/api/braintree/v1/getToken'
-      );
-      const clientToken = response.data.clientToken;
+        "http://localhost:5000/api/braintree/v1/getToken"
+      )
+      const clientToken = response.data.clientToken
 
-      this.setState({ clientToken });
+      this.setState({ clientToken })
     } catch (err) {
-      console.error(err);
+      console.error(err)
     }
   }
 
   async buy() {
     try {
       // Send the nonce to your server
-      const { nonce } = await this.instance.requestPaymentMethod();
+      const { nonce } = await this.instance.requestPaymentMethod()
       const response = await axios.post(
-        'http://localhost:5000/api/braintree/v1/sandbox',
+        "http://localhost:5000/api/braintree/v1/sandbox",
         nonce
-      );
-      console.log(response);
+      )
+      console.log(response)
     } catch (err) {
-      console.error(err);
+      console.error(err)
     }
   }
 
@@ -231,31 +230,31 @@ class App extends Component {
         <div>
           <h1>Loading...</h1>
         </div>
-      );
+      )
     } else {
       return (
         <div>
           <DropIn
             options={{
-              authorization: this.state.clientToken
+              authorization: this.state.clientToken,
             }}
-            onInstance={(instance) => (this.instance = instance)}
+            onInstance={instance => (this.instance = instance)}
           />
           <button onClick={this.buy.bind(this)}>Buy</button>
         </div>
-      );
+      )
     }
   }
 }
 
-export default App;
+export default App
 ```
 
 This code is a variation of the intro code found on the [Braintree Web Drop-in React Github intro](https://github.com/cretezy/braintree-web-drop-in-react).
 
 If we run `yarn start` we should load up the React app on locahost and you should be able to see the following:
 
-![React Frontend](https://res.cloudinary.com/gitgoodclub/image/upload/v1538698065/samples/braintree-one.png 'React Frontend')
+![React Frontend](https://res.cloudinary.com/gitgoodclub/image/upload/v1538698065/samples/braintree-one.png "React Frontend")
 
 If that is the case, perfect! We are ready to roll.
 
@@ -272,11 +271,11 @@ Postal Code: 40000
 
 If we insert both the card number and expiry, that should be enough for us to get to the end of the road! After inserting and making the payment, our front end should look like the following:
 
-![Payment made](https://res.cloudinary.com/gitgoodclub/image/upload/v1538698064/samples/braintree-two.png 'Payment made')
+![Payment made](https://res.cloudinary.com/gitgoodclub/image/upload/v1538698064/samples/braintree-two.png "Payment made")
 
 Opening up `devtools`, we can even inspect the response object we are logging to see our great success!
 
-![Devtools](https://res.cloudinary.com/gitgoodclub/image/upload/v1538698065/samples/braintree-three.png 'Devtools')
+![Devtools](https://res.cloudinary.com/gitgoodclub/image/upload/v1538698065/samples/braintree-three.png "Devtools")
 
 Bingo!
 
@@ -284,7 +283,7 @@ Bingo!
 
 If we checkout the server terminal, we should be able to see how events went down thanks to Morgan doing our logging:
 
-![Express App](https://res.cloudinary.com/gitgoodclub/image/upload/v1538698063/samples/braintree-four.png 'Express App')
+![Express App](https://res.cloudinary.com/gitgoodclub/image/upload/v1538698063/samples/braintree-four.png "Express App")
 
 The image above can help us fully understand the process. When our frontend app loads, we make a `GET` request to fetch the token from `/api/braintree/v1/getToken`. This token is required for when that final payment request was made. The `OPTIONS` 204 request we see there secondly is a CORS preflight request made to ensure we are allowed to make the call and finally and `POST` 200 to `/api/braintree/v1/sandbox` is our success response after making the payment.
 
@@ -292,7 +291,7 @@ The image above can help us fully understand the process. When our frontend app 
 
 If we now go back to our Sandbox dashboard, we can now see the successful transaction has been recorded!
 
-![Success](https://res.cloudinary.com/gitgoodclub/image/upload/v1538698732/braintreedashboard.png 'Success')
+![Success](https://res.cloudinary.com/gitgoodclub/image/upload/v1538698732/braintreedashboard.png "Success")
 
 Very cool. We just went from 0 to payment in a short amount of time.
 
@@ -307,4 +306,3 @@ Original post: https://www.dennisokeeffe.com/blog/braintree-node-react
 Git repo: https://github.com/okeeffed/hello-braintree
 
 _**Depth** is a series that goes into more detail for projects than it's friendly counterpart series "Hello"._
-

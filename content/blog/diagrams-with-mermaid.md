@@ -1,8 +1,7 @@
-
 ---
 title: Diagrams With Mermaid
-date: "2019-10-22"
-description: TODO
+date: "2018-12-18"
+description: Depth series: Checkout how to create dynamic diagrams using mermaid!
 ---
 
 # MermaidJS Diagram library
@@ -36,10 +35,10 @@ In this scenario, I want to also dynamically update the chart, so also add in `y
 I decided to start using the [the intro learn page for mermaid](https://mermaidjs.github.io/usage.html) to get up an going. Following the instructions, I updated my `src/App.js` file to look like the following:
 
 ```javascript
-import React, { Component } from 'react';
-import './App.css';
-import mermaid from 'mermaid';
-import debounce from 'debounce';
+import React, { Component } from "react"
+import "./App.css"
+import mermaid from "mermaid"
+import debounce from "debounce"
 
 class App extends Component {
   /**
@@ -50,25 +49,25 @@ class App extends Component {
    * @memberof App
    */
   handleChange = debounce(
-    (value) => {
-      console.log(value);
-      var output = document.getElementById('output');
+    value => {
+      console.log(value)
+      var output = document.getElementById("output")
       try {
-        mermaid.parse(value);
+        mermaid.parse(value)
 
-        output.innerHTML = '';
+        output.innerHTML = ""
 
-        mermaid.render('theGraph', value, function(svgCode) {
-          console.log(svgCode);
-          output.innerHTML = svgCode;
-        });
+        mermaid.render("theGraph", value, function(svgCode) {
+          console.log(svgCode)
+          output.innerHTML = svgCode
+        })
       } catch (err) {
-        console.error(err);
+        console.error(err)
       }
     },
     600,
     false
-  );
+  )
 
   /**
    * Render an initial chart on mount.
@@ -76,40 +75,37 @@ class App extends Component {
    * @memberof App
    */
   componentDidMount() {
-    var output = document.getElementById('output');
-    mermaid.initialize({ startOnLoad: true });
+    var output = document.getElementById("output")
+    mermaid.initialize({ startOnLoad: true })
 
     var graphDefinition = `graph TB
     a-->b
-    b-->a`;
+    b-->a`
 
-    mermaid.render('theGraph', graphDefinition, function(svgCode) {
-      output.innerHTML = svgCode;
-    });
+    mermaid.render("theGraph", graphDefinition, function(svgCode) {
+      output.innerHTML = svgCode
+    })
   }
 
   render() {
     return (
       <div className="App">
-        <textarea
-          rows="4"
-          onChange={(e) => this.handleChange(e.target.value)}
-        />
+        <textarea rows="4" onChange={e => this.handleChange(e.target.value)} />
         <div id="output" />
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App
 ```
 
 What's going on here? First of all, I am importing the required packages.
 
 ```javascript
 // code omitted for brevity
-import mermaid from 'mermaid';
-import debounce from 'debounce';
+import mermaid from "mermaid"
+import debounce from "debounce"
 ```
 
 Secondly, I have updated the render code to give me a `div` to target with the outputted graph and a text area I can add markdown into:
@@ -162,34 +158,34 @@ Finally, I add the `handleChange` function to attempt an update to the graph.
  * @memberof App
  */
 handleChange = debounce(
-  (value) => {
-    console.log(value);
-    var output = document.getElementById('output');
+  value => {
+    console.log(value)
+    var output = document.getElementById("output")
     try {
       // use the mermaid parse first to
       // ensure code is parsable. If not,
       // throw an error, handle it gracefully
       // and do nothing.
-      mermaid.parse(value);
+      mermaid.parse(value)
 
-      output.innerHTML = '';
+      output.innerHTML = ""
 
-      mermaid.render('theGraph', value, function(svgCode) {
-        console.log(svgCode);
-        output.innerHTML = svgCode;
-      });
+      mermaid.render("theGraph", value, function(svgCode) {
+        console.log(svgCode)
+        output.innerHTML = svgCode
+      })
     } catch (err) {
-      console.error(err);
+      console.error(err)
     }
   },
   600,
   false
-);
+)
 ```
 
 When we run `yarn start` on the terminal and the web page opens up, we get the following image:
 
-![Initial app](https://res.cloudinary.com/gitgoodclub/image/upload/v1537746495/hlhp7gcpqov7bynrs6nj.png 'Initial app')
+![Initial app](https://res.cloudinary.com/gitgoodclub/image/upload/v1537746495/hlhp7gcpqov7bynrs6nj.png "Initial app")
 
 Great! Now thanks to our `handleChange` function and graceful handling, we can also dynamically update the chart on the fly.
 
@@ -203,7 +199,7 @@ graph LR
     C -->|Two| E[Result two]
 ```
 
-![Graph](https://res.cloudinary.com/gitgoodclub/image/upload/v1537746496/uvxm9akwbfhd7p7jqllj.png 'Graph')
+![Graph](https://res.cloudinary.com/gitgoodclub/image/upload/v1537746496/uvxm9akwbfhd7p7jqllj.png "Graph")
 
 ```
 sequenceDiagram
@@ -213,7 +209,7 @@ sequenceDiagram
     John-->>-Alice: I feel great!
 ```
 
-![Sequence diagram](https://res.cloudinary.com/gitgoodclub/image/upload/v1537746496/xw34lkevrva04sib3yt0.png 'Sequence diagram')
+![Sequence diagram](https://res.cloudinary.com/gitgoodclub/image/upload/v1537746496/xw34lkevrva04sib3yt0.png "Sequence diagram")
 
 ```
 gantt
@@ -245,7 +241,7 @@ gantt
        Add another diagram to demo page    :48h
 ```
 
-![Gantt](https://res.cloudinary.com/gitgoodclub/image/upload/v1537746497/cjsznl54jbf1qhsxdhfg.png 'Gantt chart')
+![Gantt](https://res.cloudinary.com/gitgoodclub/image/upload/v1537746497/cjsznl54jbf1qhsxdhfg.png "Gantt chart")
 
 ## Next steps
 
@@ -256,4 +252,3 @@ Very cool! Now we can easily start creating some cool dynamic flows. What next? 
 [Also, checkout their docs to see what else you can do!](https://mermaidjs.github.io/)
 
 _**Depth** is a series that goes into more detail for projects than it's friendly counterpart series "Hello"._
-

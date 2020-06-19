@@ -1,8 +1,7 @@
-
 ---
 title: Yargs Parser
-date: "2019-10-22"
-description: TODO
+date: "2018-10-12"
+description: Say hello to an easy way to parse CLI args and options with yargs parser.
 ---
 
 # Hello Series #3: Parsing args with Yargs Parser
@@ -30,8 +29,8 @@ The main use case we will use is for options and arguments passed from the comma
 First, create an index.js file and require the following:
 
 ```javascript
-var argv = require('yargs-parser')(process.argv.slice(2));
-console.log(argv);
+var argv = require("yargs-parser")(process.argv.slice(2))
+console.log(argv)
 ```
 
 Now we can already run the script from the command line, pass options and arguments and see what happens:
@@ -46,10 +45,10 @@ If we disect the above command, we note that anything passed after `node index.j
 Taking all this into account, the above is now accesible as follows:
 
 ```javascript
-var argv = require('yargs-parser')(process.argv.slice(2));
-console.log(argv._[0]); // hello
-console.log(argv.foo); // 33
-console.log(argv.bar); // world
+var argv = require("yargs-parser")(process.argv.slice(2))
+console.log(argv._[0]) // hello
+console.log(argv.foo) // 33
+console.log(argv.bar) // world
 ```
 
 Great! Now we can start building our Node.js commandline tools.
@@ -57,7 +56,7 @@ Great! Now we can start building our Node.js commandline tools.
 For now, let's just set up a basic example of how you could run a command line tool that just logs out some basic information based on the first argument passed and options.
 
 ```javascript
-var argv = require('yargs-parser')(process.argv.slice(2));
+var argv = require("yargs-parser")(process.argv.slice(2))
 
 const help = `
     Usage
@@ -72,14 +71,14 @@ const help = `
     $ node index.js hello
     $ node index.js hello --name clark
     $ node index.js friends
-`;
+`
 
 const hello = () => {
-  const name = argv.name ? argv.name : 'clark';
-  console.log(`hello ${name}`);
-};
+  const name = argv.name ? argv.name : "clark"
+  console.log(`hello ${name}`)
+}
 
-const friends = () => console.log('are like flowers');
+const friends = () => console.log("are like flowers")
 
 /**
  * Run a function based on the argument provided.
@@ -88,23 +87,23 @@ const friends = () => console.log('are like flowers');
 const main = async () => {
   try {
     switch (argv._[0]) {
-      case 'hello':
-        hello();
-        break;
-      case 'friends':
-        friends();
-        break;
+      case "hello":
+        hello()
+        break
+      case "friends":
+        friends()
+        break
       default:
-        console.log(help);
-        break;
+        console.log(help)
+        break
     }
   } catch (err) {
-    console.error(err);
+    console.error(err)
   }
-};
+}
 
 // Run the program
-main();
+main()
 ```
 
 Now we can run our tool above!
@@ -125,4 +124,3 @@ Get creative and start building some useful Node.js CLI tools for your workflow.
 Code can be [found on my Github](https://github.com/okeeffed/hello-yargs).
 
 _**Hello** is a series that is about short, sharp examples. Read more on this series to find small gems to add your toolset._
-

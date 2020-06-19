@@ -1,8 +1,7 @@
-
 ---
-title: Mysql Dev With Docker
-date: "2019-10-22"
-description: TODO
+title: MySQL Development With Docker
+date: "2019-07-16"
+description: Setting up a MySQL container for local development.
 ---
 
 # MySQL Development using Docker
@@ -20,4 +19,3 @@ Linking `docker run -d -name app-container-name --link mysql-container-name app-
 ## Updating the local Docker MySQL instance
 
 Log into the container and first log into `mysql` using `mysql -u root -p`. This will prompt you for that password we created, so now type that in and enter the command line terminal. First, run `CREATE USER 'admin'@'%' IDENTIFIED BY 'password';` Run `GRANT ALL PRIVILEGES ON *.* TO 'admin'@'%' WITH GRANT OPTION;`. Finally, run `FLUSH PRIVILEGES;`.
-

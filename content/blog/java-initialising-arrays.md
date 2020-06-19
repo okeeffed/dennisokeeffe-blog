@@ -1,8 +1,7 @@
-
 ---
 title: Java Initialising Arrays
-date: "2019-10-22"
-description: TODO
+date: "2019-01-06"
+description: Using the arrays and array list utility packages in Java.
 ---
 
 # Initialising Arrays in Java
@@ -64,4 +63,3 @@ public class Main {
     }
 }
 ```
-

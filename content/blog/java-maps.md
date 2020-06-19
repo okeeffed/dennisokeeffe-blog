@@ -1,8 +1,7 @@
-
 ---
 title: Java Maps
-date: "2019-10-22"
-description: TODO
+date: "2019-01-14"
+description: Basic implementation of maps in Java.
 ---
 
 # Maps in Java
@@ -15,4 +14,3 @@ Map<String, String> map = new HashMap<String, String>();
 map.put("dog", "type of animal");
 System.out.println(map.get("dog"));
 ```
-

@@ -1,8 +1,7 @@
-
 ---
 title: Ruby Fizzbuzz
-date: "2019-10-22"
-description: TODO
+date: "2019-07-19"
+description: The classic FizzBuzz implementation in Ruby with Unit Testing.
 ---
 
 # Ruby FizzBuzz
@@ -77,4 +76,3 @@ end
 ## Testing
 
 Change into directory and run `ruby fizz_buzz_test.rb`.
-

@@ -1,8 +1,7 @@
-
 ---
-title: Php Anagrams
-date: "2019-10-22"
-description: TODO
+title: PHP Anagrams
+date: "2019-08-02"
+description: PHP implementation of comparing two strings to check if they are anagrams.
 ---
 
 # Anagrams in PHP
@@ -76,4 +75,3 @@ function anagrams($a, $b)
 ## Running Tests
 
 Change into directory and run `phpunit.phar anagrams_test.php`.
-

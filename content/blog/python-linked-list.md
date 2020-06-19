@@ -1,7 +1,7 @@
 ---
 title: Python Linked List
-date: "2019-10-22"
-description: TODO
+date: "2018-08-12"
+description: Python implementation of a basic unidirectional Linked List.
 ---
 
 # Python Linked Lists

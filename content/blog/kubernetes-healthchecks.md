@@ -1,8 +1,7 @@
-
 ---
 title: Kubernetes Healthchecks
-date: "2019-10-22"
-description: TODO
+date: "2019-07-24"
+description: An example of a simple health check for Kubernetes.
 ---
 
 # Healthchecks in Kubernetes
@@ -43,4 +42,3 @@ spec:
 ```
 
 More explicit information can be [found here](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-probes/).
-

@@ -1,6 +1,6 @@
 ---
 title: Ruby Constructors
-date: "2019-2-20"
+date: "2019-02-20"
 description: How to build instances with Ruby.
 ---
 

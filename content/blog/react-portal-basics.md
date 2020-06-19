@@ -1,8 +1,7 @@
-
 ---
 title: React Portal Basics
-date: "2019-10-22"
-description: TODO
+date: "2018-12-22"
+description: An introduction to React Portals.
 ---
 
 # React Portals Basics
@@ -16,16 +15,15 @@ The tl;dr is to make a React component a descendent of a HTML element other than
 ## Creating a Portal
 
 ```javascript
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react"
+import ReactDOM from "react-dom"
 
-const Modal = (props) => {
+const Modal = props => {
   return ReactDOM.createPortal(
     <div className="modal">
       <div className="modal-body" />
     </div>,
-    document.querySelector('#modal')
-  );
-};
+    document.querySelector("#modal")
+  )
+}
 ```
-

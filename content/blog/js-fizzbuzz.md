@@ -1,8 +1,7 @@
-
 ---
-title: Js Fizzbuzz
-date: "2019-10-22"
-description: TODO
+title: JavaScript FizzBuzz
+date: "2018-07-04"
+description: The classic FizzBuzz implementation in JavaScript with Unit Testing.
 ---
 
 # FizzBuzz in JavaScript
@@ -14,30 +13,30 @@ This blog assumes a global install of `mocha`, although that can also be install
 Create `fizzbuzz.mocha.js`.
 
 ```javascript
-const lib = require('./index');
-const chai = require('chai');
-const { expect } = chai;
-describe('check basic function', function() {
-  it('should return when not part of fizz buzz', function() {
-    const res = lib.run(2);
-    expect(res).to.equal(2);
-  });
+const lib = require("./index")
+const chai = require("chai")
+const { expect } = chai
+describe("check basic function", function() {
+  it("should return when not part of fizz buzz", function() {
+    const res = lib.run(2)
+    expect(res).to.equal(2)
+  })
 
-  it('should return fizz', function() {
-    const res = lib.run(3);
-    expect(res).to.equal('Fizz');
-  });
+  it("should return fizz", function() {
+    const res = lib.run(3)
+    expect(res).to.equal("Fizz")
+  })
 
-  it('should return buzz', function() {
-    const res = lib.run(5);
-    expect(res).to.equal('Buzz');
-  });
+  it("should return buzz", function() {
+    const res = lib.run(5)
+    expect(res).to.equal("Buzz")
+  })
 
-  it('should return fizzbuzz', function() {
-    const res = lib.run(15);
-    expect(res).to.equal('FizzBuzz');
-  });
-});
+  it("should return fizzbuzz", function() {
+    const res = lib.run(15)
+    expect(res).to.equal("FizzBuzz")
+  })
+})
 ```
 
 ## Main js file
@@ -45,25 +44,24 @@ describe('check basic function', function() {
 Create `index.js`:
 
 ```javascript
-const run = (arg) => {
+const run = arg => {
   switch (true) {
     case arg % 15 === 0:
-      return 'FizzBuzz';
+      return "FizzBuzz"
     case arg % 3 === 0:
-      return 'Fizz';
+      return "Fizz"
     case arg % 5 === 0:
-      return 'Buzz';
+      return "Buzz"
     default:
-      return arg;
+      return arg
   }
-};
+}
 
 module.exports = {
-  run
-};
+  run,
+}
 ```
 
 ## Testing
 
 Change into directory and run `mocha fizzbuzz.mocha.js`.
-

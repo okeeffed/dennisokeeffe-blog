@@ -1,12 +1,10 @@
 ---
 title: Depth Sharp Cli
-date: "2019-10-22"
-description: TODO
+date: "2018-9-22"
+description: Use the incredible Sharp package for Node and build a simple CLI image compression tool.
 ---
 
 # Depth Series #1: Basic CLI image compression with Sharp
-
-Published: September 18th 2018
 
 ## Intro to Sharp
 

@@ -1,8 +1,7 @@
-
 ---
 title: Ruby Spiral Matrix
-date: "2019-10-22"
-description: TODO
+date: "2018-07-15"
+description: Ruby Spiral Matrices with unit testing.
 ---
 
 # Ruby Spiral Matrix
@@ -104,4 +103,3 @@ end
 ## Testing
 
 Change into directory and run `ruby spiral-matrix_test.rb`.
-

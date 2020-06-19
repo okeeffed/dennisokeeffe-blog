@@ -1,8 +1,7 @@
-
 ---
 title: React Dynamic Imports
-date: "2019-10-22"
-description: TODO
+date: "2019-09-12"
+description: See example code for dynamically importing a React Component.
 ---
 
 # Hello Series #1: Dynamic Imports for a Component
@@ -24,7 +23,7 @@ componentDidMount() {
 Here is the full code example:
 
 ```javascript
-import React, { Component } from 'react';
+import React, { Component } from "react"
 
 /**
  * Dynamically load ComponentB.
@@ -34,11 +33,11 @@ import React, { Component } from 'react';
  */
 class ComponentA extends Component {
   constructor(props) {
-    super(props);
+    super(props)
 
     this.state = {
-      module: null
-    };
+      module: null,
+    }
   }
 
   /**
@@ -47,9 +46,9 @@ class ComponentA extends Component {
    * @memberof ComponentA
    */
   componentDidMount() {
-    import('components/ComponentB').then((module) =>
+    import("components/ComponentB").then(module =>
       this.setState({ module: module.default })
-    );
+    )
   }
 
   /**
@@ -59,17 +58,16 @@ class ComponentA extends Component {
    * @returns {ComponentA} component Basic div with dynamically loaded child
    */
   render() {
-    const { module: ComponentB } = this.state;
+    const { module: ComponentB } = this.state
     return (
       <div className="component-a">
         {ComponentB && <ComponentB {...this.props} />}
       </div>
-    );
+    )
   }
 }
 
-export default ComponentA;
+export default ComponentA
 ```
 
 _**Hello** is a series that is about short, sharp examples. Read more on this series to find small gems to add your toolset._
-

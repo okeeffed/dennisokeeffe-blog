@@ -1,8 +1,7 @@
-
 ---
 title: Ruby Anagrams
-date: "2019-10-22"
-description: TODO
+date: "2018-08-07"
+description: Ruby implementation of comparing two strings to check if they are anagrams.
 ---
 
 # Ruby Anagrams
@@ -69,4 +68,3 @@ end
 ## Testing
 
 Change into directory and run `ruby anagrams_test.rb`.
-

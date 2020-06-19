@@ -1,8 +1,7 @@
-
 ---
 title: Java Fizzbuzz
-date: "2019-10-22"
-description: TODO
+date: "2018-07-04"
+description: The classic FizzBuzz implementation in Java with Unit Testing.
 ---
 
 # Fizz Buzz in Java
@@ -88,4 +87,3 @@ class FizzBuzz {
 ## Running tests
 
 Run `gradle test` to compile and test our FizzBuzz class.
-

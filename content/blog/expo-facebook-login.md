@@ -1,8 +1,7 @@
-
 ---
 title: Expo Facebook Login
-date: "2019-10-22"
-description: TODO
+date: "2018-07-12"
+description: How to use the Expo API to log into Facebook and authenticate on AWS Amplify.
 ---
 
 # Expo Facebook Login
@@ -45,25 +44,24 @@ https://docs.expo.io/versions/latest/sdk/facebook
 FB.login(function(response) {
   // Check if the user logged in successfully.
   if (response.authResponse) {
-    console.log('You are now logged in.');
+    console.log("You are now logged in.")
 
     // Add the Facebook access token to the Cognito credentials login map.
     AWS.config.credentials = new AWS.CognitoIdentityCredentials({
-      IdentityPoolId: 'IDENTITY_POOL_ID',
+      IdentityPoolId: "IDENTITY_POOL_ID",
       Logins: {
-        'graph.facebook.com': response.authResponse.accessToken
-      }
-    });
+        "graph.facebook.com": response.authResponse.accessToken,
+      },
+    })
 
     // Obtain AWS credentials
     AWS.config.credentials.get(function() {
       // Access AWS resources here.
-    });
+    })
   } else {
-    console.log('There was a problem logging you in.');
+    console.log("There was a problem logging you in.")
   }
-});
+})
 ```
 
 5. Ensure auth is added to the project `wsmobile user-signin configure` and selecting `Advanced` > `Add Facebook`.
-

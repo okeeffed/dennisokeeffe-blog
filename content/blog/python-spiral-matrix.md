@@ -1,8 +1,7 @@
-
 ---
 title: Python Spiral Matrix
-date: "2019-10-22"
-description: TODO
+date: "2018-09-11"
+description: Python Spiral Matrices with unit testing.
 ---
 
 # Python Trees
@@ -100,4 +99,3 @@ def create(dim):
 ## Running tests
 
 Change into directory and run `python3 -m pytest -v spiral_matrix_test.py`.
-
