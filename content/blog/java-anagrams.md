@@ -1,6 +1,6 @@
 ---
 title: Java Anagrams
-date: "2019-10-22"
+date: "2018-10-22"
 description: Solution in Java.
 ---
 

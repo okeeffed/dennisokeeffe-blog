@@ -1,6 +1,6 @@
 ---
 title: JavaScript Naming Conventions
-date: "2019-10-22"
+date: "2018-10-22"
 description: Suggestions and guides for naming in JavaScript.
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Ruby Error Handling
-date: "2019-10-22"
+date: "2018-10-25"
 description: Examples on how to handle errors in Ruby.
 ---
 

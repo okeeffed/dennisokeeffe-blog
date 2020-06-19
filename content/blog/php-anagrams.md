@@ -1,6 +1,6 @@
 ---
 title: PHP Anagrams
-date: "2019-08-02"
+date: "2018-08-02"
 description: PHP implementation of comparing two strings to check if they are anagrams.
 ---
 

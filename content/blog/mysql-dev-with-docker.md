@@ -1,6 +1,6 @@
 ---
 title: MySQL Development With Docker
-date: "2019-07-16"
+date: "2019-03-16"
 description: Setting up a MySQL container for local development.
 ---
 

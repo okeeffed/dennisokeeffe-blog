@@ -1,7 +1,7 @@
 ---
 title: Diagrams With Mermaid
 date: "2018-12-18"
-description: Depth series: Checkout how to create dynamic diagrams using mermaid!
+description: Checkout how to create dynamic diagrams using mermaid!
 ---
 
 # MermaidJS Diagram library

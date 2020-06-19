@@ -1,5 +1,5 @@
 ---
-title: Osi Layers
+title: OSI Layers
 date: "2019-06-24"
 description: A quick overview on the seven layers of the Open System Interconnection (OSI) model.
 ---

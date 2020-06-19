@@ -1,6 +1,6 @@
 ---
 title: React Dynamic Imports
-date: "2019-09-12"
+date: "2018-09-12"
 description: See example code for dynamically importing a React Component.
 ---
 

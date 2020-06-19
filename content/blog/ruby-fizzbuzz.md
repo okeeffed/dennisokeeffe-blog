@@ -1,6 +1,6 @@
 ---
 title: Ruby Fizzbuzz
-date: "2019-07-19"
+date: "2018-07-19"
 description: The classic FizzBuzz implementation in Ruby with Unit Testing.
 ---
 

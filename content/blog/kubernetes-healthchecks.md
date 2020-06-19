@@ -1,6 +1,6 @@
 ---
 title: Kubernetes Healthchecks
-date: "2019-07-24"
+date: "2018-07-24"
 description: An example of a simple health check for Kubernetes.
 ---
 
