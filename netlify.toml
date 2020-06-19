@@ -3,7 +3,7 @@ ID = "blog.dennisokeeffe.com"
 
 [build]
   command = "yarn build"
-  publish = "build"
+  publish = "public"
 
 # The following redirect is intended for use with most SPAs that handle
 # routing internally.
