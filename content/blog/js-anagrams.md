@@ -1,6 +1,6 @@
 ---
 title: Anagrams in JavaScript
-date: "2019-3-31"
+date: "2019-03-31"
 description: JavaScript implementation of comparing two strings to check if they are anagrams.
 ---
 

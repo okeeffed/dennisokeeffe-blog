@@ -1,6 +1,6 @@
 ---
 title: Redis CLI Basics
-date: "2019-3-12"
+date: "2019-03-12"
 description: Basic usage and command calls for Redis from the command line.
 ---
 

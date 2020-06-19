@@ -1,6 +1,6 @@
 ---
 title: Network Addressing
-date: "2019-6-26"
+date: "2019-06-26"
 description: An overview of network addressing and how to understand concepts like network masking.
 ---
 

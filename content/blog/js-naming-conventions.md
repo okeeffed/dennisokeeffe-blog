@@ -1,8 +1,7 @@
-
 ---
-title: Js Naming Conventions
+title: JavaScript Naming Conventions
 date: "2019-10-22"
-description: TODO
+description: Suggestions and guides for naming in JavaScript.
 ---
 
 # JavaScript Function Naming Guidelines
@@ -43,22 +42,21 @@ The `[noun][preoposition][noun]` may not always need to be used and simplicity i
 
 ```javascript
 // high specificity examples [verb][noun][preposition][noun]
-getUserFromDatabase();
-saveUserToDatabase();
-saveImageToTable();
-fetchRestaurantFromCopy();
+getUserFromDatabase()
+saveUserToDatabase()
+saveImageToTable()
+fetchRestaurantFromCopy()
 
 // omitting the preposition and second noun [verb][noun]
-removeItem();
-getResult();
+removeItem()
+getResult()
 
 // omitting all except verb [verb]
-signIn();
-signOut();
-signUp();
+signIn()
+signOut()
+signUp()
 
 // using the first verb [verb][verb]
-confirmSignIn();
-confirmSignUp();
+confirmSignIn()
+confirmSignUp()
 ```
-

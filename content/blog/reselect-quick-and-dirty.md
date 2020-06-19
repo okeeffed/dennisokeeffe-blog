@@ -1,6 +1,6 @@
 ---
 title: Reselect Quick And Dirty
-date: "2019-5-25"
+date: "2019-05-25"
 description: The tl;dr reminder of how Reselect works for Redux state memoization.
 ---
 

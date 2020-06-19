@@ -1,6 +1,6 @@
 ---
 title: PHP Array Method Applications
-date: "2019-1-22"
+date: "2019-01-22"
 description: Basic push, pop, shift and unshift applications for PHP.
 ---
 

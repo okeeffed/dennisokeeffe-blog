@@ -1,6 +1,6 @@
 ---
 title: Trees in Golang
-date: "2019-4-8"
+date: "2019-04-08"
 description: Golang implementation of a basic node tree and traversal using DFS and BFS.
 ---
 

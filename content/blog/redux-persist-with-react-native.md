@@ -1,6 +1,6 @@
 ---
 title: Redux Persist With React Native
-date: "2019-4-29"
+date: "2019-04-29"
 description: Adding Redux Persist to React Native for data persistence.
 ---
 

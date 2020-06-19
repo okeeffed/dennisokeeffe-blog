@@ -1,8 +1,7 @@
-
 ---
 title: Java Trees
 date: "2019-10-22"
-description: TODO
+description: Solution in Java
 ---
 
 # Java - Basic Tree Data Structure
@@ -164,4 +163,3 @@ public class TreeTest {
     }
 }
 ```
-

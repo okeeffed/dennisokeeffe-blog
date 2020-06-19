@@ -1,6 +1,6 @@
 ---
 title: Depth Sharp Cli
-date: "2018-9-22"
+date: "2018-09-22"
 description: Use the incredible Sharp package for Node and build a simple CLI image compression tool.
 ---
 

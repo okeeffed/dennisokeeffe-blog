@@ -1,8 +1,7 @@
-
 ---
 title: Expo Amplify
 date: "2019-10-22"
-description: TODO
+description: Example of adding in Amplify
 ---
 
 # Expo with Amplify
@@ -51,22 +50,21 @@ This code will also ensure that only the user can see the info
 
 ```javascript
 // Create something only the user can see if user only on
-let create = await API.post('ServerlessExampleCRUD', '/ServerlessExample', {
+let create = await API.post("ServerlessExampleCRUD", "/ServerlessExample", {
   body: {
-    ID: '3',
-    ItemDescription: 'Description',
-    ItemName: 'Item Three',
-    ItemPrice: 99
-  }
-});
-console.log(create);
+    ID: "3",
+    ItemDescription: "Description",
+    ItemName: "Item Three",
+    ItemPrice: 99,
+  },
+})
+console.log(create)
 
 // Fetch if only user can fetch
 let counter = await API.get(
-  'ServerlessExampleCRUD',
-  '/ServerlessExample/object/3',
+  "ServerlessExampleCRUD",
+  "/ServerlessExample/object/3",
   {}
-);
-console.log('> CounterOne.counter', counter);
+)
+console.log("> CounterOne.counter", counter)
 ```
-

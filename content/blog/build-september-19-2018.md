@@ -1,8 +1,7 @@
-
 ---
 title: Build September 19 2018
-date: "2019-10-22"
-description: TODO
+date: "2018-08-19"
+description: Quick website build.
 ---
 
 # Build Series #3: Pexel Japan
@@ -15,11 +14,10 @@ The images themselves come from Pexel which I rediscovered thanks to Product Hun
 
 The site ended up reusing some of the split column components I built on the train in previous days but I also added in some ipsum blog pages to sit as placeholders to make sure that today's build wasn't a single page website like the previous two.
 
-![Desktop view](https://res.cloudinary.com/gitgoodclub/image/upload/v1537360123/vuhlnnshafvcjaa9faqq.png 'Desktop view')
+![Desktop view](https://res.cloudinary.com/gitgoodclub/image/upload/v1537360123/vuhlnnshafvcjaa9faqq.png "Desktop view")
 
-![Mobile View](https://res.cloudinary.com/gitgoodclub/image/upload/v1537360115/ldav9ali7mibc7nkmyym.png 'Mobile view')
+![Mobile View](https://res.cloudinary.com/gitgoodclub/image/upload/v1537360115/ldav9ali7mibc7nkmyym.png "Mobile view")
 
 Check out the final site at [https://dennisokeeffe.com/pexel-japan/](https://dennisokeeffe.com/pexel-japan/)
 
 _**Build** is a series that is about personal project builds. These vary from small practise topics to large scale projects._
-

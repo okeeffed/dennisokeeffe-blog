@@ -1,6 +1,6 @@
 ---
 title: Install Redis With Helm
-date: "2019-3-9"
+date: "2019-03-09"
 description: A basic intro to using the Redis chart and installing it with Helm.
 ---
 

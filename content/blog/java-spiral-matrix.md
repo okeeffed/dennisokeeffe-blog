@@ -1,6 +1,6 @@
 ---
 title: Java Spiral Matrix
-date: "2019-2-9"
+date: "2019-02-09"
 description: Java Spiral Matrices with unit testing.
 ---
 

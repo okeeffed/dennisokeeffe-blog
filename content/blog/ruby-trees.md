@@ -1,6 +1,6 @@
 ---
 title: Ruby Trees
-date: "2019-4-12"
+date: "2019-04-12"
 description: Ruby implementation of a basic node tree and traversal using DFS and BFS.
 ---
 

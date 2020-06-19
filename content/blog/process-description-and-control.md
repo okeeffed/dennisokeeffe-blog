@@ -1,6 +1,6 @@
 ---
 title: Process Description And Control
-date: "2019-5-17"
+date: "2019-05-17"
 description: A deeper look into processes under the hood.
 ---
 

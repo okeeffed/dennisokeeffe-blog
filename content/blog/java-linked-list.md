@@ -1,6 +1,6 @@
 ---
 title: Java Linked List
-date: "2019-4-5"
+date: "2019-04-05"
 description: Java implementation of a basic unidirectional Linked List.
 ---
 

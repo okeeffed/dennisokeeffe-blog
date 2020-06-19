@@ -1,6 +1,6 @@
 ---
 title: React Hook Basics
-date: "2019-4-15"
+date: "2019-04-15"
 description: An introduction to React Hooks.
 ---
 

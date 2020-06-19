@@ -1,6 +1,6 @@
 ---
 title: Go Basic Strings
-date: "2019-1-22"
+date: "2019-01-22"
 description: Basic string manipulation in Golang using the strings package.
 ---
 

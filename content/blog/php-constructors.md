@@ -1,6 +1,6 @@
 ---
 title: PHP Constructors
-date: "2019-2-12"
+date: "2019-02-12"
 description: Building instances with PHP classes.
 ---
 

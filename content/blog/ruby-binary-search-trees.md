@@ -1,6 +1,6 @@
 ---
 title: Ruby Binary Search Trees
-date: "2019-4-1"
+date: "2019-04-01"
 description: Ruby implementation of a Binary Search Tree.
 ---
 

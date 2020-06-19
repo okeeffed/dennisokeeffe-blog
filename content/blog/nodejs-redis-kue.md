@@ -1,6 +1,6 @@
 ---
 title: Queues with Kue.js, Node.js and Redis
-date: "2019-5-7"
+date: "2019-05-07"
 description: Creating queues to schedule workers using Kue.js, Node.js and Redis
 ---
 

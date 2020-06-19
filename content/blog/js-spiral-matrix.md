@@ -1,6 +1,6 @@
 ---
 title: Spiral Matrices in JavaScript
-date: "2019-3-18"
+date: "2019-03-18"
 description: JavaScript Spiral Matrices with unit testing.
 ---
 

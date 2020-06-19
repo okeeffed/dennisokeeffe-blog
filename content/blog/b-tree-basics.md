@@ -1,6 +1,6 @@
 ---
 title: B Tree Basics
-date: "2019-4-19"
+date: "2019-04-19"
 description: A short look into B-Tree structures, what defines them and some technologies that use them.
 ---
 

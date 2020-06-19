@@ -1,6 +1,6 @@
 ---
 title: PHP Linked List
-date: "2019-1-17"
+date: "2019-01-17"
 description: PHP implementation of a basic unidirectional Linked List.
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Kafka Basic Terms
-date: "2019-6-10"
+date: "2019-06-10"
 description: A look into the common terms and their definitions when using Apache Kafka.
 ---
 

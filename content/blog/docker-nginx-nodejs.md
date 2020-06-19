@@ -1,6 +1,6 @@
 ---
 title: Docker application with Nginx and Nodejs
-date: "2019-1-29"
+date: "2019-01-29"
 description: Linking two Docker containers to run a Nodejs app behind a NGINX reverse proxy.
 ---
 

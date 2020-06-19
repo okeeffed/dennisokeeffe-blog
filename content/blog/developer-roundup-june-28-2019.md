@@ -1,6 +1,6 @@
 ---
 title: Developer Roundup
-date: "2019-6-28"
+date: "2019-06-28"
 description: Weekly roundup for June 28th 2019
 ---
 

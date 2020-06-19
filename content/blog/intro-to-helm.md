@@ -1,6 +1,6 @@
 ---
 title: Intro To Helm
-date: "2019-4-22"
+date: "2019-04-22"
 description: An introduction into managing packages on Kubernetes with Helm.
 ---
 

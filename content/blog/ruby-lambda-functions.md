@@ -1,6 +1,6 @@
 ---
 title: Ruby Lambda Functions
-date: "2019-1-25"
+date: "2019-01-25"
 description: A quick look at Ruby Lambda and Proc functions.
 ---
 

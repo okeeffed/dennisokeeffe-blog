@@ -1,6 +1,6 @@
 ---
 title: Python Exceptions
-date: "2019-2-16"
+date: "2019-02-16"
 description: Basic error handling with exceptions in Python.
 ---
 

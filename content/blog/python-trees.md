@@ -1,6 +1,6 @@
 ---
 title: Python Trees
-date: "2019-3-11"
+date: "2019-03-11"
 description: Python implementation of a basic node tree and traversal using DFS and BFS.
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: EKS Basics
-date: "2019-5-2"
+date: "2019-05-02"
 description: An introduction to what EKS is.
 ---
 

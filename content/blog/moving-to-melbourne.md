@@ -1,6 +1,6 @@
 ---
 title: Moving To Melbourne
-date: "2019-5-22"
+date: "2019-05-22"
 description: tl;dr Syd => Melb.
 ---
 

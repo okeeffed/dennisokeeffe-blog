@@ -1,6 +1,6 @@
 ---
 title: Rust Fizzbuzz
-date: "2019-4-13"
+date: "2019-04-13"
 description: The classic FizzBuzz implementation in Rust with Unit Testing.
 ---
 

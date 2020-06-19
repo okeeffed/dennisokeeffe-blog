@@ -1,6 +1,6 @@
 ---
 title: Autocomplete With Rxjs
-date: "2019-6-4"
+date: "2019-06-04"
 description: A quick look at how RxJS implements an autocomplete subscription.
 ---
 

@@ -1,8 +1,7 @@
-
 ---
-title: Lsm Tree Basics
-date: "2019-10-22"
-description: TODO
+title: LSM Tree Basics
+date: "2018-10-22"
+description: Resources for log-structured merge trees.
 ---
 
 # Log-Structured Merge-Tree Basics
@@ -10,4 +9,3 @@ description: TODO
 ## Resources
 
 https://blog.yugabyte.com/a-busy-developers-guide-to-database-storage-engines-the-basics/
-

@@ -1,6 +1,6 @@
 ---
 title: Go Linked List
-date: "2019-3-30"
+date: "2019-03-30"
 description: Go implementation of a basic unidirectional Linked List.
 ---
 

@@ -1,6 +1,6 @@
 ---
-title: Istio With Eks
-date: "2019-4-15"
+title: Istio With EKS
+date: "2019-04-15"
 description: A basic look at how to add Istio to your EKS cluster.
 ---
 

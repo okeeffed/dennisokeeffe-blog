@@ -1,6 +1,6 @@
 ---
 title: Intro To Cassandra
-date: "2019-6-6"
+date: "2019-06-06"
 description: A small intro into how you can get started with Cassandra using Docker and basic syntax.
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Basics On Programming Paradigms
-date: "2019-6-1"
+date: "2019-06-01"
 description: A quick overview of a number of programming paradigms and what are some key defining features.
 ---
 

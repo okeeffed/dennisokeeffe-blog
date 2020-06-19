@@ -1,6 +1,6 @@
 ---
 title: Python Binary Search Trees
-date: "2019-3-22"
+date: "2019-03-22"
 description: Python implementation of a Binary Search Tree.
 ---
 

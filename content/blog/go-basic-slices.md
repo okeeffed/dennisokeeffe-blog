@@ -1,6 +1,6 @@
 ---
 title: Basic Slices with Golang
-date: "2019-2-25"
+date: "2019-02-25"
 description: Basic applications of slices.
 ---
 

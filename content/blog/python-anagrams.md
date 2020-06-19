@@ -1,6 +1,6 @@
 ---
 title: Python Anagrams
-date: "2019-4-25"
+date: "2019-04-25"
 description: Python implementation of comparing two strings to check if they are anagrams.
 ---
 

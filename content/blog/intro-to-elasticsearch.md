@@ -1,6 +1,6 @@
 ---
 title: Intro To Elasticsearch
-date: "2019-6-8"
+date: "2019-06-08"
 description: A look at ElasticSearch and setting up a multi-node cluster using Docker compose and create a JavaScript client for insertions.
 ---
 

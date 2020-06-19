@@ -1,6 +1,6 @@
 ---
 title: Java Lambda Functions
-date: "2019-2-5"
+date: "2019-02-05"
 description: How to create basic lambda functions in Java requiring interfaces.
 ---
 

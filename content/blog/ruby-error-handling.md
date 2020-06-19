@@ -1,8 +1,7 @@
-
 ---
 title: Ruby Error Handling
 date: "2019-10-22"
-description: TODO
+description: Examples on how to handle errors in Ruby.
 ---
 
 # Ruby Error Handling
@@ -21,4 +20,3 @@ def raise_and_rescue
   puts 'I am after the begin block.'
 end
 ```
-

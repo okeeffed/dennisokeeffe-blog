@@ -1,6 +1,6 @@
 ---
 title: PHP Binary Search Trees
-date: "2019-4-10"
+date: "2019-04-10"
 description: PHP implementation of a Binary Search Tree.
 ---
 

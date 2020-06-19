@@ -1,6 +1,6 @@
 ---
 title: EKS Pulling From Docker Hub
-date: "2019-3-7"
+date: "2019-03-07"
 description: Adding credentials to be used for EKS when pulling images from Docker Hub.
 ---
 

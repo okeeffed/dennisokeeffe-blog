@@ -1,6 +1,6 @@
 ---
 title: PHP Anonymous Functions
-date: "2019-3-7"
+date: "2019-03-07"
 description: Basic intro to anonymous functions with PHP.
 ---
 

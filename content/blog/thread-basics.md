@@ -1,6 +1,6 @@
 ---
 title: Thread Basics
-date: "2019-4-20"
+date: "2019-04-20"
 description: A look into how threads operate.
 ---
 

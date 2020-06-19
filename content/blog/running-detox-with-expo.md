@@ -1,6 +1,6 @@
 ---
 title: Running Detox With Expo
-date: "2019-4-11"
+date: "2019-04-11"
 description: How to setup Detox to run e2e tests for an Expo application.
 ---
 

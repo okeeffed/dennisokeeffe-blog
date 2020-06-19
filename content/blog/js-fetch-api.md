@@ -1,6 +1,6 @@
 ---
 title: Web Fetch Api
-date: "2019-6-16"
+date: "2019-06-16"
 description: Looking at usage of the web "fetch" API. This example uses the node-fetch library for demonstration purposes.
 ---
 
