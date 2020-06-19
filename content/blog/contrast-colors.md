@@ -4,10 +4,6 @@ date: "2018-10-19"
 description: A small intro into auto-determing WCAG color contrast standards
 ---
 
-# Hello Series #5: Auto-determining WCAG contrast standards
-
-Published: September 20th 2018
-
 Short and sharp. I needed to use something to help auto-determine what text color to use for components based on the background color. Also - American spelling for those Australians out there. I know.
 
 ## Installation

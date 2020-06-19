@@ -4,8 +4,6 @@ date: "2019-03-18"
 description: JavaScript Spiral Matrices with unit testing.
 ---
 
-# Spiral Matrix in JavaScript
-
 This blog assumes a global install of `mocha`, although that can also be installed locally. `chai` is also required as the assertion library - install as a dev dependency.
 
 ## Writing tests

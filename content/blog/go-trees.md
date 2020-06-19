@@ -4,8 +4,6 @@ date: "2019-04-08"
 description: Golang implementation of a basic node tree and traversal using DFS and BFS.
 ---
 
-# Trees in Golang
-
 DFS and BFS tree implementations with Golang.
 
 ## Setting up the test

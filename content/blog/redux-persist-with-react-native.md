@@ -4,8 +4,6 @@ date: "2019-04-29"
 description: Adding Redux Persist to React Native for data persistence.
 ---
 
-# Redux Persist usage with React Native
-
 ```bash
 yarn add redux-persist redux-persist-sensitive-storage
 ```

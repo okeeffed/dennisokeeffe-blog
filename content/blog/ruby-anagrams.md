@@ -4,8 +4,6 @@ date: "2018-08-07"
 description: Ruby implementation of comparing two strings to check if they are anagrams.
 ---
 
-# Ruby Anagrams
-
 This requires the gem installation of `minitest`.
 
 ## Test file

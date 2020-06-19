@@ -4,8 +4,6 @@ date: "2018-07-19"
 description: The classic FizzBuzz implementation in Ruby with Unit Testing.
 ---
 
-# Ruby FizzBuzz
-
 This requires the gem installation of `minitest`.
 
 ## Test file

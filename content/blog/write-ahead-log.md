@@ -4,8 +4,6 @@ date: "2019-06-20"
 description: A quick overview on the seven layers of the Open System Interconnection (OSI) model.
 ---
 
-# What is the Write Ahead Log (WAL)?
-
 In database systems, the write ahead log is used a technique to provide the atomicity and durability of ACID principles.
 
 The WAL is used to log any changes we wish to make to a database prior to making the actual change is made.

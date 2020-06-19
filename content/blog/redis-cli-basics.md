@@ -4,8 +4,6 @@ date: "2019-03-12"
 description: Basic usage and command calls for Redis from the command line.
 ---
 
-# Redis
-
 ## tl;dr
 
 ### Hash Sets

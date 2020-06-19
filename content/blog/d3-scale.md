@@ -4,8 +4,6 @@ date: "2019-05-28"
 description: Looking at how we can normalise data using the d3-scale library.
 ---
 
-# The power of d3-scale
-
 There is no denying the power of d3. You only have to look as far as the [examples on their website](https://github.com/d3/d3/wiki/gallery) to be overwhelmed by its flexibility and aesthetics.
 
 Admittedly, the learning curve for d3.js can be as steep as they come for a JavaScript library. Luckily for us mere muggles, d3 has lightened the (bundle size) burden and can be equipped using the power of ES modules to become useful outside of d3.

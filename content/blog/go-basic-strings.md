@@ -4,8 +4,6 @@ date: "2019-01-22"
 description: Basic string manipulation in Golang using the strings package.
 ---
 
-# Basic String Functions
-
 This is a simple example of the implementation of some basic functions using the `strings` package. The `unicode` package is used for the example using runes.
 
 If building a file, ensure to have the correct imports and package name:

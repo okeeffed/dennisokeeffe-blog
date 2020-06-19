@@ -4,8 +4,6 @@ date: "2019-04-25"
 description: Python implementation of comparing two strings to check if they are anagrams.
 ---
 
-# Python Anagrams
-
 ## Test file
 
 Create file `anagrams_test.py`:

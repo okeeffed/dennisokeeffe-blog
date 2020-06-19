@@ -4,10 +4,6 @@ date: "2019-01-02"
 description: Create a basic payment with Braintree using React and Nodejs!
 ---
 
-# Depth Series #3: Getting started with the Braintree Sandbox
-
-Published: October 5th 2018
-
 Braintree is one of those methods to get started with payments.
 
 I've been looking for alternatives to Stripe more for comparisons sake to see what would be easiest to implement and more relevant to what I am trying to achieve en masse down the road.

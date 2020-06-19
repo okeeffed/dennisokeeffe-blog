@@ -4,8 +4,6 @@ date: "2019-01-29"
 description: Linking two Docker containers to run a Nodejs app behind a NGINX reverse proxy.
 ---
 
-# Docker container with Nginx and Nodejs
-
 First create a directory for both `nginx` and `nodejs`.
 
 Within the Node folder, create a `Dockerfile` that contains the following to expose an app running on a particular port:

@@ -4,8 +4,6 @@ date: "2019-06-16"
 description: Looking at usage of the web "fetch" API. This example uses the node-fetch library for demonstration purposes.
 ---
 
-# Using fetch with the JavaScript API
-
 Full disclosure, I normally use `axios` as my library of choice for http fetching. This is in case I get asked this question in the upcoming interviews and they want me to use a native web API.
 
 ## Setup

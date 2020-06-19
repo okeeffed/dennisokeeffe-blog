@@ -4,8 +4,6 @@ date: "2018-07-15"
 description: PHP Spiral Matrices with unit testing.
 ---
 
-# Spiral Matrix in PHP
-
 This expects an installation on the system of `phpunit`.
 
 ## Test File

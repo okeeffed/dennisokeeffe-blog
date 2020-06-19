@@ -4,8 +4,6 @@ date: "2018-07-24"
 description: An example of a simple health check for Kubernetes.
 ---
 
-# Healthchecks in Kubernetes
-
 If the application malfunctions, the pod and container may still be running but the application may no longer be running. This is where health checks come in.
 
 ## Two types of health checks

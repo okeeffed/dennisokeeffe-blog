@@ -4,8 +4,6 @@ date: "2018-07-12"
 description: How to use the Expo API to log into Facebook and authenticate on AWS Amplify.
 ---
 
-# Expo Facebook Login
-
 If using Expo, first you need to follow the setup instructions.
 
 https://docs.expo.io/versions/latest/sdk/facebook

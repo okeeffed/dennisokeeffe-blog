@@ -4,8 +4,6 @@ date: "2018-09-22"
 description: Use the incredible Sharp package for Node and build a simple CLI image compression tool.
 ---
 
-# Depth Series #1: Basic CLI image compression with Sharp
-
 ## Intro to Sharp
 
 Sharp is a powerful image compression library for Node. As defined by it's [summary on Github](https://github.com/lovell/sharp), Sharp is a _"High performance Node.js image processing, the fastest module to resize JPEG, PNG, WebP and TIFF images. Uses the libvips library."_

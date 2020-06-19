@@ -4,8 +4,6 @@ date: "2018-09-22"
 description: The classic FizzBuzz implementation in Golang with Unit Testing.
 ---
 
-# Fizz Buzz in Golang
-
 A basic implementation of the infamous Fizz Buzz with unit testing.
 
 ## Setting up the test

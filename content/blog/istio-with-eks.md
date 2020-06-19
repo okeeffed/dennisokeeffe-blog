@@ -4,8 +4,6 @@ date: "2019-04-15"
 description: A basic look at how to add Istio to your EKS cluster.
 ---
 
-# Getting start with Istio on EKS
-
 Reference link https://aws.amazon.com/blogs/opensource/getting-started-istio-eks/
 
 ## Architecture

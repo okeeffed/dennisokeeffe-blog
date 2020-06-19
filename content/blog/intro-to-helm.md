@@ -4,8 +4,6 @@ date: "2019-04-22"
 description: An introduction into managing packages on Kubernetes with Helm.
 ---
 
-# Packaging and Deploying on Kubernetes
-
 ## Intro to Helm
 
 Helm is the best way to find, share and use software built for Kubernetes.

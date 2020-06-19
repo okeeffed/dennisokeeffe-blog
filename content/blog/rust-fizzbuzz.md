@@ -4,8 +4,6 @@ date: "2019-04-13"
 description: The classic FizzBuzz implementation in Rust with Unit Testing.
 ---
 
-# FizzBuzz in Rust
-
 A basic implementation of FizzBuzz in Rust.
 
 ## Writing the Code

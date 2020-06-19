@@ -4,8 +4,6 @@ date: "2019-04-10"
 description: PHP implementation of a Binary Search Tree.
 ---
 
-# Binary Search Trees in PHP
-
 This expects an installation on the system of `phpunit`.
 
 ## Test File

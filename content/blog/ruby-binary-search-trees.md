@@ -4,8 +4,6 @@ date: "2019-04-01"
 description: Ruby implementation of a Binary Search Tree.
 ---
 
-# Ruby Binary Search Trees
-
 This requires the gem installation of `minitest`.
 
 ## Test file

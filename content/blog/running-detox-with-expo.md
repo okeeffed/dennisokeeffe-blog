@@ -4,8 +4,6 @@ date: "2019-04-11"
 description: How to setup Detox to run e2e tests for an Expo application.
 ---
 
-# Intro to Detox and Expo
-
 ## Links
 
 [Setup guide can be found here](https://github.com/wix/detox/blob/master/docs/Guide.Expo.md)

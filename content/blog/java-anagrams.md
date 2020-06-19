@@ -4,8 +4,6 @@ date: "2018-10-22"
 description: Solution in Java.
 ---
 
-# Anagrams in Java
-
 ## Gradle setup
 
 For our `build.gradle` file:

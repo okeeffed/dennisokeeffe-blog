@@ -4,8 +4,6 @@ date: "2019-04-12"
 description: Ruby implementation of a basic node tree and traversal using DFS and BFS.
 ---
 
-# Ruby Trees
-
 This requires the gem installation of `minitest`.
 
 ## Test file

@@ -4,8 +4,6 @@ date: "2019-03-31"
 description: JavaScript implementation of comparing two strings to check if they are anagrams.
 ---
 
-# Anagrams in JavaScript
-
 This blog assumes a global install of `mocha`, although that can also be installed locally. `chai` is also required as the assertion library - install as a dev dependency.
 
 ## Writing tests

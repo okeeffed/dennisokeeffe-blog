@@ -4,8 +4,6 @@ date: "2019-01-22"
 description: Basic push, pop, shift and unshift applications for PHP.
 ---
 
-# PHP Array Method Applications
-
 This covers the basic actions of applying a push, pop, shift and unshift function with PHP.
 
 These functions are incredibly useful for data structure implementations.

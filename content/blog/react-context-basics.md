@@ -4,8 +4,6 @@ date: "2018-09-18"
 description: An introduction to React Context.
 ---
 
-# React Context Basics
-
 ## Basic Introduction
 
 | System  | Description                                                    |

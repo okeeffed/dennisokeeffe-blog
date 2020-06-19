@@ -4,8 +4,6 @@ date: "2018-09-11"
 description: Python Spiral Matrices with unit testing.
 ---
 
-# Python Trees
-
 ## Test file
 
 Create file `spiral_matrix_test.py`:

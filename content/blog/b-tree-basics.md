@@ -4,8 +4,6 @@ date: "2019-04-19"
 description: A short look into B-Tree structures, what defines them and some technologies that use them.
 ---
 
-# B-Tree Basics
-
 ## What is it?
 
 A self-balancing tree that is a generalisation of a `binary search tree` in that it can have more than two child nodes.

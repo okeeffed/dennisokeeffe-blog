@@ -4,8 +4,6 @@ date: "2019-06-24"
 description: A quick overview on the seven layers of the Open System Interconnection (OSI) model.
 ---
 
-# Hello Open System Interconnection (OSI) Layers
-
 A quick and dirty on the seven layers of the OSI Model.
 
 ## OSI Layers in Network Traffic

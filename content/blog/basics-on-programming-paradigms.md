@@ -4,8 +4,6 @@ date: "2019-06-01"
 description: A quick overview of a number of programming paradigms and what are some key defining features.
 ---
 
-# A Brief Recap of Programming Paradigms
-
 ## Procedural Program
 
 - The ideas that programs are a sense of functions

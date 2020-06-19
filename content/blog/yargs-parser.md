@@ -4,10 +4,6 @@ date: "2018-10-12"
 description: Say hello to an easy way to parse CLI args and options with yargs parser.
 ---
 
-# Hello Series #3: Parsing args with Yargs Parser
-
-Published: 20th September 2018
-
 [Yargs parser](https://github.com/yargs/yargs-parser) is an incredibly basic option parser for the command line.
 
 This is a basic library I tend to use a lot for any of my CLI tools that I am building out.

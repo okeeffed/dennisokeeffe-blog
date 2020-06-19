@@ -4,8 +4,6 @@ date: "2019-03-30"
 description: Go implementation of a basic unidirectional Linked List.
 ---
 
-# Linked Lists in Golang
-
 Basic unidirectional linked lists with Golang.
 
 ## Setting up the test

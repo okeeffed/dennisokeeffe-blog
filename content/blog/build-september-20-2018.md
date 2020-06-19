@@ -4,10 +4,6 @@ date: "2018-08-20"
 description: Quick overview on component updates.
 ---
 
-# Build Series #4: Component Updates
-
-Published: September 20th 2018
-
 Every now and then, you just have to bite the bullet and go back and make some overdue updates to component stylings! These we some of them.
 
 ![Desktop view](https://res.cloudinary.com/gitgoodclub/image/upload/v1537426551/smejfsq50zdjz4npnyts.png "Desktop view")

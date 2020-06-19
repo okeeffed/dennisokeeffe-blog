@@ -4,8 +4,6 @@ date: "2019-03-11"
 description: Python implementation of a basic node tree and traversal using DFS and BFS.
 ---
 
-# Python Trees
-
 ## Test file
 
 Create file `trees_test.py`:

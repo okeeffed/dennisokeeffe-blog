@@ -4,8 +4,6 @@ date: "2018-07-02"
 description: Blog initiation and hazing. Read my primary objectives with this blog and the series I will write about.
 ---
 
-# Hello, Blog!
-
 In the coming months I'll be working hard to bring you content in a few different series.
 
 There will be 5 main series that I will be aiming to write for:

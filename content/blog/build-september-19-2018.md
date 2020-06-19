@@ -4,10 +4,6 @@ date: "2018-08-19"
 description: Quick website build.
 ---
 
-# Build Series #3: Pexel Japan
-
-Published: September 20th 2018
-
 In earnest, today was pretty busy between work and outside commitments... so I ended up taking a quick route with the final build after work today and forgot to use the new things I was working on.
 
 The images themselves come from Pexel which I rediscovered thanks to Product Hunt and Pexel release a mobile version which ranked in the top 5 product releases for the day. Highly recommend as another option if you need some image placeholders. The theme was Japan -- my favourite holiday destination.

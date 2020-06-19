@@ -4,8 +4,6 @@ date: "2019-01-17"
 description: PHP implementation of a basic unidirectional Linked List.
 ---
 
-# Linked List in PHP
-
 This expects an installation on the system of `phpunit`.
 
 ## Test File

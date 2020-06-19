@@ -4,8 +4,6 @@ date: "2018-10-25"
 description: Examples on how to handle errors in Ruby.
 ---
 
-# Ruby Error Handling
-
 This is a basic example of raising and exception and rescueing the thrown exception.
 
 ```ruby

@@ -4,8 +4,6 @@ date: "2019-06-14"
 description: Looking at usage of the web "fetch" API. This example uses the node-fetch library for demonstration purposes.
 ---
 
-# Auxiliary Space Complexity
-
 ## Space Complexity vs. Auxiliary Space
 
 Auxiliary space refers to the temporary space required by an algorithm to be used. Think temporary arrays, pointers etc.

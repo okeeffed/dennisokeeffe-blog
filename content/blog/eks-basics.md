@@ -4,8 +4,6 @@ date: "2019-05-02"
 description: An introduction to what EKS is.
 ---
 
-# EKS Basics
-
 This is more of a basic theory section to understand how EKS works.
 
 ## Pricing

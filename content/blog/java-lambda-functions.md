@@ -4,8 +4,6 @@ date: "2019-02-05"
 description: How to create basic lambda functions in Java requiring interfaces.
 ---
 
-# Java Lambda Funcs
-
 The basic gist is to generate a `interface` with the lambda signature, then explicitly create a function preface by the interface type.
 
 This will allow you to call the lambda function as a instance method.

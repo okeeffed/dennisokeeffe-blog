@@ -4,8 +4,6 @@ date: "2019-03-22"
 description: Python implementation of a Binary Search Tree.
 ---
 
-# Python Binary Search Trees
-
 ## Test file
 
 Create file `binary_search_trees_test.py`:

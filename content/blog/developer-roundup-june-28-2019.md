@@ -4,10 +4,6 @@ date: "2019-06-28"
 description: Weekly roundup for June 28th 2019
 ---
 
-# Developer Roundup
-
-Fri Jun 28 2019
-
 ## Trending This Week On Github
 
 - **libra / libra** (Rust): [Libra’s mission is to enable a simple global currency and financial infrastructure that empowers billions of people.](https://github.com/libra/libra)

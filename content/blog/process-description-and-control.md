@@ -4,8 +4,6 @@ date: "2019-05-17"
 description: A deeper look into processes under the hood.
 ---
 
-# Process Description and Control
-
 ## Objectives
 
 - How are processes represented and controlled by the OS

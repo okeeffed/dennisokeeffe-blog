@@ -4,8 +4,6 @@ date: "2019-06-18"
 description: A short look at the data types available when using Scala.
 ---
 
-# Scala Values, Variables and Types
-
 The presumes you have Scala installed on the local system.
 
 This is just the basics on declaring variables in Scala and what data types are available.

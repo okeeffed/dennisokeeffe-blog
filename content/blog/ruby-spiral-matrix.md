@@ -4,8 +4,6 @@ date: "2018-07-15"
 description: Ruby Spiral Matrices with unit testing.
 ---
 
-# Ruby Spiral Matrix
-
 This requires the gem installation of `minitest`.
 
 ## Test file

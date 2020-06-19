@@ -4,8 +4,6 @@ date: "2018-09-22"
 description: See example code on how to debounce trailing and leading events.
 ---
 
-# Hello Series #2: Using debounce in React
-
 ## Why debounce?
 
 This excerpt from [John Dugan's blog](https://john-dugan.com/javascript-debounce/) provides a succinct reason:

@@ -4,8 +4,6 @@ date: "2019-01-25"
 description: A quick look at Ruby Lambda and Proc functions.
 ---
 
-# Ruby Lambda Functions
-
 The basic gist of declaration and usage is to use the `lambda` keyword. Note that Lambda functions have subtle differences to Proc functions, although they both derive from the Proc object.
 
 The Lambda function enforces the number of arguments passed.

@@ -4,8 +4,6 @@ date: "2019-05-25"
 description: The tl;dr reminder of how Reselect works for Redux state memoization.
 ---
 
-# Reselect Quick and Dirty
-
 Quick and dirty implementation of `reselect`. This assumes you already have the requirements for Redux installed and in operation.
 
 ## Links

@@ -4,8 +4,6 @@ date: "2019-06-04"
 description: A quick look at how RxJS implements an autocomplete subscription.
 ---
 
-# Hello Autocomplete with RxJS
-
 This is a short looking at subscribing to a particular `keyup` event using RxJS to determine when we should generate a basic autocomplete function (using JQuery - not exactly my recommendation in 2019).
 
 ## The RxJS Way

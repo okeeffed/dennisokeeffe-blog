@@ -4,10 +4,6 @@ date: "2018-10-15"
 description: What do you do when your content becomes super long?
 ---
 
-# Hello Series #4: Hello Shave!
-
-Published: September 20th 2018
-
 Have you ever run into the issue of grids breaking when content input is too long? While there are a number of solutions to restraining height on elements, one that I like comes in [Shave from the Dollar Shave Club](https://github.com/dollarshaveclub/shave).
 
 ## Installation

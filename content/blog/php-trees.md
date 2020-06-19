@@ -4,8 +4,6 @@ date: "2018-08-12"
 description: PHP implementation of a basic node tree and traversal using DFS and BFS.
 ---
 
-# Trees in PHP
-
 This expects an installation on the system of `phpunit`.
 
 ## Test File

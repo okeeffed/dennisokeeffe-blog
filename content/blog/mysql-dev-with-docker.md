@@ -4,8 +4,6 @@ date: "2019-03-16"
 description: Setting up a MySQL container for local development.
 ---
 
-# MySQL Development using Docker
-
 Firstly, pull `docker pull mysql/mysql-server`.
 
 Then `docker run --name sql-test -e MYSQL_ROOT_PASSWORD=password -p 6000:3306 -d mysql/mysql-server:latest`. If there a replacement or commited image, run that instead.

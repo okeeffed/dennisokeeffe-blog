@@ -4,8 +4,6 @@ date: "2019-06-12"
 description: A short look at how to sum an integer list and manipulate a string list using Java 8 streams.
 ---
 
-# Hello Java Streams
-
 Streams in Java 8 are a way of creating operations to express sophisticated data processesing queries.
 
 This example will just give a short on how to stream to very basic lists:

@@ -4,8 +4,6 @@ date: "2019-06-08"
 description: A look at ElasticSearch and setting up a multi-node cluster using Docker compose and create a JavaScript client for insertions.
 ---
 
-# Intro to ElasticSearch
-
 ## Why ElasticSearch?
 
 - Open-source

@@ -4,8 +4,6 @@ date: "2018-07-04"
 description: The classic FizzBuzz implementation in PHP with Unit Testing.
 ---
 
-# FizzBuzz in PHP
-
 This expects an installation on the system of `phpunit`.
 
 ## Test File

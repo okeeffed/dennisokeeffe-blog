@@ -4,8 +4,6 @@ date: "2019-02-12"
 description: Building instances with PHP classes.
 ---
 
-# PHP Constructors
-
 This is a overly simplified application of a how to use constructors in PHP with a very limited `LinkedList` class that omits most common methods.
 
 The main point of this post is to show how to create classes that in turn can be used to create instances using `__construct`.

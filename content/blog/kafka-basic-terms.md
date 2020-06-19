@@ -4,8 +4,6 @@ date: "2019-06-10"
 description: A look into the common terms and their definitions when using Apache Kafka.
 ---
 
-# Kafka Basic Terms
-
 ## Messages
 
 The base unit of data within Kafka is called a message. You could think of this as a `row` or `record` if you are familiar with databases. A message is simply an array of bytes as far as Kafka is concerne, so it does not need to be a specific format.

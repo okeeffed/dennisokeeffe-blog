@@ -4,8 +4,6 @@ date: "2019-05-10"
 description: Creating a D3 word cloud from a base Create React App project.
 ---
 
-# Creating a D3 Word Cloud using Create React App
-
 ## Initialise CRA App
 
 First of all, initalise the React app:

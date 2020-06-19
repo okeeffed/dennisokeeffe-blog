@@ -4,8 +4,6 @@ date: "2018-08-02"
 description: PHP implementation of comparing two strings to check if they are anagrams.
 ---
 
-# Anagrams in PHP
-
 This expects an installation on the system of `phpunit`.
 
 ## Test File

@@ -4,8 +4,6 @@ date: "2019-06-26"
 description: An overview of network addressing and how to understand concepts like network masking.
 ---
 
-# Network Addressing Basics
-
 ## IPv4
 
 IPv4 address are 32bit with an octet each consisting of 8 bits (hence the 255.255.255.255 limit).

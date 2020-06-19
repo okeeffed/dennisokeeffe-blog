@@ -4,8 +4,6 @@ date: "2019-02-20"
 description: How to build instances with Ruby.
 ---
 
-# Ruby Contructors
-
 The important constructor method is the `initialize` method.
 
 ## Simple Example

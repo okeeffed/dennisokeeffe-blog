@@ -4,8 +4,6 @@ date: "2019-03-07"
 description: Adding credentials to be used for EKS when pulling images from Docker Hub.
 ---
 
-# Pulling from Docker Hub
-
 Reference from here https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/.
 
 ## tl;dr

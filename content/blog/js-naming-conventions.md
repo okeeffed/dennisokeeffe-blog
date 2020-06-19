@@ -4,8 +4,6 @@ date: "2018-10-22"
 description: Suggestions and guides for naming in JavaScript.
 ---
 
-# JavaScript Function Naming Guidelines
-
 ```bash
 [verb = required][verb = null][noun = null][preposition = null][noun = null]
 ```

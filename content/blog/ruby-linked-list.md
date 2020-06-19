@@ -4,8 +4,6 @@ date: "2018-10-09"
 description: Ruby implementation of a basic unidirectional Linked List.
 ---
 
-# Ruby Linked List
-
 This requires the gem installation of `minitest`.
 
 ## Test file

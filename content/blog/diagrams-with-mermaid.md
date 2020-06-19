@@ -4,10 +4,6 @@ date: "2018-12-18"
 description: Checkout how to create dynamic diagrams using mermaid!
 ---
 
-# MermaidJS Diagram library
-
-Published: 24th September 2018
-
 This is a small intro into building HTML diagrams on the fly.
 
 I really, really want to be able to visualise some stacks I am building on the go down the track, so I thought this would be a very convenient way to explore that.

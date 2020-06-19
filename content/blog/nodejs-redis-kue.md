@@ -4,8 +4,6 @@ date: "2019-05-07"
 description: Creating queues to schedule workers using Kue.js, Node.js and Redis
 ---
 
-# Redis queues and forking with Kue
-
 Reference these links:
 
 https://medium.com/@NorbertdeLangen/communicating-between-nodejs-processes-4e68be42b917

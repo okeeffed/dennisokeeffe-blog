@@ -4,8 +4,6 @@ date: "2018-07-04"
 description: The classic FizzBuzz implementation in Java with Unit Testing.
 ---
 
-# Fizz Buzz in Java
-
 ## Gradle setup
 
 For our `build.gradle` file:

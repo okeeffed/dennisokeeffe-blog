@@ -4,8 +4,6 @@ date: "2018-10-22"
 description: A look at current base principles.
 ---
 
-# Styling Guidelines and Principles
-
 ## Challenges
 
 ### Current challenges

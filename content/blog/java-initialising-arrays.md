@@ -4,8 +4,6 @@ date: "2019-01-06"
 description: Using the arrays and array list utility packages in Java.
 ---
 
-# Initialising Arrays in Java
-
 Basic example on how to declare, declare with allocated size and initialise with default values:
 
 ```java

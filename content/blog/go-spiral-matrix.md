@@ -4,8 +4,6 @@ date: "2018-11-22"
 description: Golang Spiral Matrices with unit testing.
 ---
 
-# Spiral Matrix in Golang
-
 Base spiral matrix implementation.
 
 ## Setting up the test

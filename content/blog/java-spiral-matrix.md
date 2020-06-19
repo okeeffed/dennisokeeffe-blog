@@ -4,8 +4,6 @@ date: "2019-02-09"
 description: Java Spiral Matrices with unit testing.
 ---
 
-# Java - Spiral Matrix
-
 ## Writing the tests
 
 ```java

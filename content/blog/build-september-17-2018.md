@@ -4,10 +4,6 @@ date: "2018-08-17"
 description: Quick website build.
 ---
 
-# Build Series #1: Blueberries
-
-Published: September 19th 2018
-
 This short build launch was focusing on creating different split landing pages elements with CTA buttons.
 
 The side focus was on using "Sharp" for Node to automate image compression from the command line - for those interesting, a follow up for this will be added into the "Hello" series that I will update with a link here.

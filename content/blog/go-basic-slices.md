@@ -4,8 +4,6 @@ date: "2019-02-25"
 description: Basic applications of slices.
 ---
 
-# Basic Slice Functions
-
 Set up the folder with test and main file:
 
 ```go

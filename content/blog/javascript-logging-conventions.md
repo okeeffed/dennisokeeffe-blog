@@ -4,8 +4,6 @@ date: "2019-01-03"
 description: See what I do when it comes to JavaScript logging for web.
 ---
 
-# JavaScript Logging Conventions
-
 This should cover things like logging, tracing etc.
 
 [This article is a great reference.](https://medium.freecodecamp.org/how-you-can-improve-your-workflow-using-the-javascript-console-bdd7823a9472)

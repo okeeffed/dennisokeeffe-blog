@@ -4,10 +4,6 @@ date: "2018-12-25"
 description: Simple basics on a GET and POST request for Gin in Go.
 ---
 
-# Hello Gin!
-
-Published: October 4th 2018
-
 A simple implementation of the Gin web framework for go.
 
 ## Installation

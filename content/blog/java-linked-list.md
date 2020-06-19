@@ -4,8 +4,6 @@ date: "2019-04-05"
 description: Java implementation of a basic unidirectional Linked List.
 ---
 
-# Linked Lists in Java
-
 Basic unidirectional linked list in Java.
 
 ## Gradle setup

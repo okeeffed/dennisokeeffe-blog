@@ -4,8 +4,6 @@ date: "2019-05-31"
 description: A quick and dirty intro into the applications of numpy, pandas, sklearn and matplotlib to apply basic logistic regression.
 ---
 
-# Classification: Logistic Regression
-
 This is a basic look at `Logistic Regression` and implementing an example from a `csv` file. While the CSV file itself with the data is excluded, this basic look will show how to interpret the CSV in a particular way to give your dependent and independent variables.
 
 The performance and reduction of these independent variables to improve the model are not included in this basic overview.

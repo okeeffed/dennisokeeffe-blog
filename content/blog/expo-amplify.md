@@ -4,8 +4,6 @@ date: "2018-10-22"
 description: Example of adding in Amplify
 ---
 
-# Expo with Amplify
-
 ## Links
 
 - https://docs.aws.amazon.com/aws-mobile/latest/developerguide/mobile-hub-web-access-databases.html

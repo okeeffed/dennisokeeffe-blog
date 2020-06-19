@@ -4,8 +4,6 @@ date: "2019-05-22"
 description: tl;dr Syd => Melb.
 ---
 
-# Moving to Melbourne
-
 Quick update - I am leaving Sydney and moving to Melbourne!
 
 I've had a wonderful few years in SydVegas but am very excited for Melb.

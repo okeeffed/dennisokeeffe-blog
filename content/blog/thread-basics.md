@@ -4,8 +4,6 @@ date: "2019-04-20"
 description: A look into how threads operate.
 ---
 
-# Thread Basics
-
 ## Processes and Threads
 
 Processes have two characteristics:

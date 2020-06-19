@@ -4,8 +4,6 @@ date: "2019-02-09"
 description: Basic unit testing for PHP.
 ---
 
-# PHP Unit Testing
-
 This is simply a basic example of the layout.
 
 Ensure `phpunit` is downloaded and add it to your `$PATH`.

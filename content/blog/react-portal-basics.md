@@ -4,8 +4,6 @@ date: "2018-12-22"
 description: An introduction to React Portals.
 ---
 
-# React Portals Basics
-
 ## Why Portals?
 
 A great use case for portals is for use with things like React modals. Anything that uses a stack context can obscure the css position for something like a modal.

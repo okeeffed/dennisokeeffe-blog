@@ -4,8 +4,6 @@ date: "2019-04-15"
 description: An introduction to React Hooks.
 ---
 
-# React Hook Basics
-
 Hooks introduces `State` and `Lifecycle Methods` to function-based components.
 
 Hooks make it really easy to share logic between components.

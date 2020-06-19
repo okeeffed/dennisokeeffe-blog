@@ -4,8 +4,6 @@ date: "2018-08-12"
 description: Python implementation of a basic unidirectional Linked List.
 ---
 
-# Python Linked Lists
-
 ## Test file
 
 Create file `linked_list_test.py`:

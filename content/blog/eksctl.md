@@ -4,8 +4,6 @@ date: "2019-03-01"
 description: Basic instructions on how to use EKSCTL on the command line.
 ---
 
-# eksctl
-
 https://eksctl.io/
 
 ## tl;dr

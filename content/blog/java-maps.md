@@ -4,8 +4,6 @@ date: "2019-01-14"
 description: Basic implementation of maps in Java.
 ---
 
-# Maps in Java
-
 Basic example of creating a new map and accessing the parameters:
 
 ```java

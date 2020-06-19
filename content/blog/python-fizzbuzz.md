@@ -4,8 +4,6 @@ date: "2018-07-15"
 description: The classic FizzBuzz implementation in Python with Unit Testing.
 ---
 
-# Python FizzBuzz
-
 ## Test file
 
 Create file `fizz_buzz_test.py`:

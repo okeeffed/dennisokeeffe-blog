@@ -4,10 +4,6 @@ date: "2018-08-18"
 description: Quick website build.
 ---
 
-# Build Series #2: Split Columns
-
-Published: September 20th 2018
-
 This train build had a focus on build small, split square-like landing page elements. As opposed to most grids where I use Neat 2, I made use of flexbox and `flex-direction: column-reverse` for mobile media grids.
 
 ![Desktop view](https://res.cloudinary.com/gitgoodclub/image/upload/v1537306064/icr1mblmhxlfezfrpn5h.png "Desktop view")

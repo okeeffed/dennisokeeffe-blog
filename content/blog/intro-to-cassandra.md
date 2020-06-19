@@ -4,8 +4,6 @@ date: "2019-06-06"
 description: A small intro into how you can get started with Cassandra using Docker and basic syntax.
 ---
 
-# Intro to Cassandra
-
 ## Foreword
 
 I am currently reading `Designing Data-Driven Applications` and am about to do a mini series on some technologies I come across in the book and some of the pros/cons.
