@@ -7,10 +7,7 @@
 
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
-import Image from "gatsby-image"
 import styled from "styled-components"
-
-import { rhythm } from "../utils/typography"
 
 function Bio() {
   return (
@@ -21,8 +18,7 @@ function Bio() {
         return (
           <Container>
             <p>
-              Written by <strong>{author}</strong>,
-              {` `}
+              Written by <strong>{author}</strong>,{` `}
               <a href={`https://twitter.com/${social.twitter}`}>
                 Follow me on Twitter
               </a>
