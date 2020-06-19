@@ -5,7 +5,6 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
-import Button from "../components/button"
 
 class Blog extends React.Component {
   render() {
@@ -17,7 +16,14 @@ class Blog extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
           title="Denns O'Keeffe - Blog"
-          keywords={[`blog`, `gatsby`, `javascript`, `react`, `dennis o'keeffe`, `melbourne`]}
+          keywords={[
+            `blog`,
+            `gatsby`,
+            `javascript`,
+            `react`,
+            `dennis o'keeffe`,
+            `melbourne`,
+          ]}
         />
         <Bio />
         <div style={{ margin: "20px 0 40px" }}>
