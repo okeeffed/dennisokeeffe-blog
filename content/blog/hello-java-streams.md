@@ -1,8 +1,7 @@
-
 ---
 title: Hello Java Streams
-date: "2019-10-22"
-description: TODO
+date: "2019-06-12"
+description: A short look at how to sum an integer list and manipulate a string list using Java 8 streams.
 ---
 
 # Hello Java Streams
@@ -103,4 +102,3 @@ class HelloStreams {
 ## Testing
 
 Simply run `gradle test` and if everything compiles successful you will see two ticks.
-

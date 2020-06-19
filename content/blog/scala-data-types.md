@@ -1,8 +1,7 @@
-
 ---
 title: Scala Data Types
-date: "2019-10-22"
-description: TODO
+date: "2019-06-18"
+description: A short look at the data types available when using Scala.
 ---
 
 # Scala Values, Variables and Types
@@ -59,4 +58,3 @@ object Playground extends App {
 ```
 
 Note that the `val` and `var` keywords have different meanings. `val` is a constant and follows functional, immutable conventions while `var` is mutable and changing a mutable variable is known as a side effect.
-

@@ -1,8 +1,7 @@
-
 ---
 title: Python Exceptions
-date: "2019-10-22"
-description: TODO
+date: "2019-2-16"
+description: Basic error handling with exceptions in Python.
 ---
 
 # Python Exceptions
@@ -35,4 +34,3 @@ try:
 except Exception, error:
     print(error)
 ```
-

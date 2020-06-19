@@ -1,8 +1,7 @@
-
 ---
-title: Developer Roundup June 28 2019
-date: "2019-10-22"
-description: TODO
+title: Developer Roundup
+date: "2019-6-28"
+description: Weekly roundup for June 28th 2019
 ---
 
 # Developer Roundup
@@ -19,7 +18,7 @@ Fri Jun 28 2019
 - **kefranabg / readme-md-generator** (JavaScript): [📄 CLI that generates beautiful README.md files](https://github.com/kefranabg/readme-md-generator)
 - **tensorflow / tfjs-models** (TypeScript): [Pretrained models for TensorFlow.js](https://github.com/tensorflow/tfjs-models)
 - **zephyrproject-rtos / zephyr** (C): [Primary Git Repository for the Zephyr Project. Zephyr is a new generation, scalable, optimized, secure RTOS for multiple hardware architectures.](https://github.com/zephyrproject-rtos/zephyr)
-- **princewen / tensorflow_practice** (Python): [tensorflow实战练习，包括强化学习、推荐系统、nlp等](https://github.com/princewen/tensorflow_practice)
+- **princewen / tensorflow_practice** (Python): [tensorflow 实战练习，包括强化学习、推荐系统、nlp 等](https://github.com/princewen/tensorflow_practice)
 
 ## Trending This Week On Dev.To
 
@@ -31,7 +30,7 @@ Fri Jun 28 2019
 - **Geoff Stevens・Jun 21**: [Why publishing your own npm packages can make you a better developer](https://dev.to/thegeoffstevens/why-publishing-your-own-npm-packages-can-make-you-a-better-developer-2lc6)
 - **Fahim ul Haq・Jun 26**: [The 7 most important software design patterns](https://dev.to/fahimulhaq/the-7-most-important-software-design-patterns-2fea)
 - **jsmanifest・Jun 21**: [Here Are 7 Ways Higher Order Functions Can Improve Your Life](https://dev.to/jsmanifest/here-are-7-ways-higher-order-functions-can-improve-your-life-1j)
-- **Francesco Leardini・Jun 23**: [A gentle introduction to Progressive Web Apps  - Step 1](https://dev.to/paco_ita/a-gentle-introduction-to-progressive-web-apps-step-1-24da)
+- **Francesco Leardini・Jun 23**: [A gentle introduction to Progressive Web Apps - Step 1](https://dev.to/paco_ita/a-gentle-introduction-to-progressive-web-apps-step-1-24da)
 - **Shubheksha Jalan・Jun 24**: [A few things I wish I knew before I started working as a software engineer](https://dev.to/shubheksha/a-few-things-i-wish-i-knew-before-i-started-working-as-a-software-engineer-3kd2)
 
 ## Trending This Week In Hacker News

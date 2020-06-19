@@ -1,8 +1,7 @@
-
 ---
 title: Istio With Eks
-date: "2019-10-22"
-description: TODO
+date: "2019-4-15"
+description: A basic look at how to add Istio to your EKS cluster.
 ---
 
 # Getting start with Istio on EKS
@@ -431,4 +430,3 @@ helm delete \
 --namespace istio-system \
 install/kubernetes/helm/istio
 ```
-

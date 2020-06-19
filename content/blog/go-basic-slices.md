@@ -1,8 +1,7 @@
-
 ---
-title: Go Basic Slices
-date: "2019-10-22"
-description: TODO
+title: Basic Slices with Golang
+date: "2019-2-25"
+description: Basic applications of slices.
 ---
 
 # Basic Slice Functions
@@ -95,4 +94,3 @@ func Shift(a []int) (int, []int) {
 	return x, b
 }
 ```
-

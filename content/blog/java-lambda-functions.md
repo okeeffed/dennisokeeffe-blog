@@ -1,8 +1,7 @@
-
 ---
 title: Java Lambda Functions
-date: "2019-10-22"
-description: TODO
+date: "2019-2-5"
+description: How to create basic lambda functions in Java requiring interfaces.
 ---
 
 # Java Lambda Funcs
@@ -57,4 +56,3 @@ public class LambdaTest {
     }
 }
 ```
-

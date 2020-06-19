@@ -1,8 +1,7 @@
-
 ---
 title: Kafka Basic Terms
-date: "2019-10-22"
-description: TODO
+date: "2019-6-10"
+description: A look into the common terms and their definitions when using Apache Kafka.
 ---
 
 # Kafka Basic Terms
@@ -105,4 +104,3 @@ As deployment grow, it is important to have multiple clusters. The benefits:
 - Multiple datacenters (disaster recovery)
 
 With multiple datacenters, Kafka includes a tool called `MirrorMaker` used for the purpose of copying messages between datacenters. At the core, it is simply a Kafka consumer and producer linked together with a queue. Messages are consumed from one Kafka cluster and produced for another.
-

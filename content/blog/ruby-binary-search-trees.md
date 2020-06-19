@@ -1,8 +1,7 @@
-
 ---
 title: Ruby Binary Search Trees
-date: "2019-10-22"
-description: TODO
+date: "2019-4-1"
+description: Ruby implementation of a Binary Search Tree.
 ---
 
 # Ruby Binary Search Trees
@@ -106,4 +105,3 @@ end
 ## Testing
 
 Change into directory and run `ruby binary_search_trees_test.rb`.
-

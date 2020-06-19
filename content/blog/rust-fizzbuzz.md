@@ -1,7 +1,7 @@
 ---
 title: Rust Fizzbuzz
-date: "2019-10-22"
-description: TODO
+date: "2019-4-13"
+description: The classic FizzBuzz implementation in Rust with Unit Testing.
 ---
 
 # FizzBuzz in Rust

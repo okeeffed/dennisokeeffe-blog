@@ -1,8 +1,7 @@
-
 ---
 title: React Hook Basics
-date: "2019-10-22"
-description: TODO
+date: "2019-4-15"
+description: An introduction to React Hooks.
 ---
 
 # React Hook Basics
@@ -46,20 +45,22 @@ export default App extends React.Component {
 
 ```javascript
 // components/App.js
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect } from "react"
 
 const App = () => {
-    const [counter, setCounter] = useState(0);
+  const [counter, setCounter] = useState(0)
 
-    const updateCounter = () => setCounter(counter++)
+  const updateCounter = () => setCounter(counter++)
 
-    useEffect(() => {
-        console.log('Counter updated!');
-    }, [counter]);
+  useEffect(() => {
+    console.log("Counter updated!")
+  }, [counter])
 
-    return <div>
-        <button onClick={updateCounter}>{counter}</button>
+  return (
+    <div>
+      <button onClick={updateCounter}>{counter}</button>
     </div>
+  )
 }
 ```
 
@@ -72,16 +73,16 @@ Notes:
 - useEffect argument function cannot be an async func.
 
 ```javascript
-import React, {useEffect} from 'react';
+import React, { useEffect } from "react"
 
 // second argument controls whether or not the arrow function is called
 useEffect(() => {
-    console.log('Counter updated!');
-}, [counter]);
+  console.log("Counter updated!")
+}, [counter])
 ```
 
 ## Code Reuse Example
 
-Believe it or not, what we can actually do is abstract the useEffect outside of the function component. 
+Believe it or not, what we can actually do is abstract the useEffect outside of the function component.
 
 This is incredibly useful to create reuseable effects.

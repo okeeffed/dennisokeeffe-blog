@@ -1,8 +1,7 @@
-
 ---
-title: Php Anonymous Functions
-date: "2019-10-22"
-description: TODO
+title: PHP Anonymous Functions
+date: "2019-3-7"
+description: Basic intro to anonymous functions with PHP.
 ---
 
 # PHP Anonymous Functions
@@ -58,4 +57,3 @@ class AnonymousTest extends PHPUnit\Framework\TestCase
     }
 }
 ```
-

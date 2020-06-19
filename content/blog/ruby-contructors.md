@@ -1,8 +1,7 @@
-
 ---
-title: Ruby Contructors
-date: "2019-10-22"
-description: TODO
+title: Ruby Constructors
+date: "2019-2-20"
+description: How to build instances with Ruby.
 ---
 
 # Ruby Contructors
@@ -144,4 +143,3 @@ end
 
 __END__
 ```
-

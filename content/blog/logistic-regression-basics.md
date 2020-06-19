@@ -1,8 +1,7 @@
-
 ---
 title: Logistic Regression Basics
-date: "2019-10-22"
-description: TODO
+date: "2019-05-31"
+description: A quick and dirty intro into the applications of numpy, pandas, sklearn and matplotlib to apply basic logistic regression.
 ---
 
 # Classification: Logistic Regression
@@ -176,4 +175,3 @@ plt.legend()
 plt.show()
 plt.close()
 ```
-

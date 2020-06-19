@@ -1,8 +1,7 @@
-
 ---
-title: Nodejs Redis Kue
-date: "2019-10-22"
-description: TODO
+title: Queues with Kue.js, Node.js and Redis
+date: "2019-5-7"
+description: Creating queues to schedule workers using Kue.js, Node.js and Redis
 ---
 
 # Redis queues and forking with Kue
@@ -16,83 +15,82 @@ https://github.com/Automattic/kue
 ## tl;dr
 
 ```javascript
-const { fork } = require('child_process');
+const { fork } = require("child_process")
 
-const kue = require('kue');
-kue.app.listen(3050);
-const port = process.env.REDIS_PORT ? process.env.REDIS_PORT : '6379';
-const host = process.env.REDIS_HOST ? process.env.REDIS_HOST : '127.0.0.1';
+const kue = require("kue")
+kue.app.listen(3050)
+const port = process.env.REDIS_PORT ? process.env.REDIS_PORT : "6379"
+const host = process.env.REDIS_HOST ? process.env.REDIS_HOST : "127.0.0.1"
 
 let queue = kue.createQueue({
   redis: {
     host: host,
-    port: port
-  }
-});
+    port: port,
+  },
+})
 
-queue.process('build', 1, (job, done) => {
-  run(job, done);
-});
+queue.process("build", 1, (job, done) => {
+  run(job, done)
+})
 
 const run = async (job, done) => {
   try {
-    const { data } = job.data;
+    const { data } = job.data
     // process is a forked process
-    const compute = fork('./processes/buildWeb.js');
-    compute.send(data);
+    const compute = fork("./processes/buildWeb.js")
+    compute.send(data)
 
-    compute.on('message', (_) => {
-      return done();
-    });
+    compute.on("message", _ => {
+      return done()
+    })
   } catch (err) {
-    console.error(err);
-    return done(new Error(JSON.stringify(err)));
+    console.error(err)
+    return done(new Error(JSON.stringify(err)))
   }
-};
+}
 
-module.exports = (app) => {
-  app.post('/', async function(req, res) {
+module.exports = app => {
+  app.post("/", async function(req, res) {
     try {
       // Create a fork for a process
       const buildJob = queue
-        .create('build', {
+        .create("build", {
           // Job Type
           project: project, // Job Data
-          data: req.body
+          data: req.body,
         })
         .removeOnComplete(true) // REMOVE THE JOB FROM THE QUEUE ONCE IT'S COMPLETED
         .attempts(5) // The maximum number of retries you want the job to have
-        .backoff({ delay: 60 * 1000, type: 'exponential' }) // Time between retries. Read docs.
-        .save(); // PERSIST THE DAMN JOB LOL
+        .backoff({ delay: 60 * 1000, type: "exponential" }) // Time between retries. Read docs.
+        .save() // PERSIST THE DAMN JOB LOL
 
-      buildJob.on('failed', function(errorMessage) {
-        console.log('Job failed');
-        let error = JSON.parse(errorMessage);
+      buildJob.on("failed", function(errorMessage) {
+        console.log("Job failed")
+        let error = JSON.parse(errorMessage)
         // error now contains the object passed from the worker when the job failed
-        console.log(error); // Check it out for yourself
+        console.log(error) // Check it out for yourself
         // call pagerduty or whatever jazz you wanna do in case of failure
-      });
+      })
 
-      res.status(200).send('Building ' + project);
+      res.status(200).send("Building " + project)
     } catch (err) {
-      return res.status(500).send('Failed');
+      return res.status(500).send("Failed")
     }
-  });
-};
+  })
+}
 
 // buildWeb.js
-const run = async (data) => {
+const run = async data => {
   try {
     setTimeout(() => {
-      process.send('Done');
-    }, 3000);
+      process.send("Done")
+    }, 3000)
   } catch (err) {
-    console.error(err);
+    console.error(err)
   }
-};
+}
 
-process.on('message', (data) => {
-  run(data);
-});
+process.on("message", data => {
+  run(data)
+})
 ```
-

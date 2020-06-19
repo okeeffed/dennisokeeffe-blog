@@ -1,8 +1,7 @@
-
 ---
-title: Eks Basics
-date: "2019-10-22"
-description: TODO
+title: EKS Basics
+date: "2019-5-2"
+description: An introduction to what EKS is.
 ---
 
 # EKS Basics
@@ -111,4 +110,3 @@ Through the service of type `LoadBalancer`, EKS will create a:
 - Supports target group of instance mode (hooked into NodePort).
 - Supports target group of IP mode (directly communicating with the pod).
 - Supports Application Load Balancer listener rules.
-

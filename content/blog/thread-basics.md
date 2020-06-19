@@ -1,8 +1,7 @@
-
 ---
 title: Thread Basics
-date: "2019-10-22"
-description: TODO
+date: "2019-4-20"
+description: A look into how threads operate.
 ---
 
 # Thread Basics
@@ -173,4 +172,3 @@ Windows makes use of two types of process-related objects:
 
 **Threads**
 – a dispatchable unit of work that executes sequentially and is interruptible
-

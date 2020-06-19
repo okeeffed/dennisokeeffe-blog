@@ -1,8 +1,7 @@
-
 ---
 title: Running Detox With Expo
-date: "2019-10-22"
-description: TODO
+date: "2019-4-11"
+description: How to setup Detox to run e2e tests for an Expo application.
 ---
 
 # Intro to Detox and Expo
@@ -71,25 +70,25 @@ Fetch/copy files [from Github](https://github.com/expo/with-detox-tests/tree/mas
 A basic example of incorporating some useful detox calls:
 
 ```js
-const { reloadApp } = require('detox-expo-helpers');
+const { reloadApp } = require("detox-expo-helpers")
 
-describe('Login flow', () => {
+describe("Login flow", () => {
   beforeEach(async () => {
-    await reloadApp();
-  });
+    await reloadApp()
+  })
 
-  it('should login successfully', async () => {
-    await device.reloadReactNative();
-    await expect(element(by.id('email'))).toBeVisible();
+  it("should login successfully", async () => {
+    await device.reloadReactNative()
+    await expect(element(by.id("email"))).toBeVisible()
 
-    await element(by.id('email')).typeText('john@example.com');
-    await element(by.id('password')).typeText('123456');
-    await element(by.text('Login')).tap();
+    await element(by.id("email")).typeText("john@example.com")
+    await element(by.id("password")).typeText("123456")
+    await element(by.text("Login")).tap()
 
-    await expect(element(by.text('Welcome'))).toBeVisible();
-    await expect(element(by.id('email'))).toNotExist();
-  });
-});
+    await expect(element(by.text("Welcome"))).toBeVisible()
+    await expect(element(by.id("email"))).toNotExist()
+  })
+})
 ```
 
 The element can be selected by making the most of using the `testId` — for example, the following test button has ID `hello_button`:
@@ -97,9 +96,9 @@ The element can be selected by making the most of using the `testId` — for exa
 ```js
 <TouchableOpacity
   testID="hello_button"
-  onPress={this.onButtonPress.bind(this, 'Hello')}
+  onPress={this.onButtonPress.bind(this, "Hello")}
 >
-  <Text style={{ color: 'blue', marginBottom: 20 }}>Say Hello</Text>
+  <Text style={{ color: "blue", marginBottom: 20 }}>Say Hello</Text>
 </TouchableOpacity>
 ```
 
@@ -110,4 +109,3 @@ Finally, to run the test we can run `yarn start` in one terminal and `yarn e2e` 
 ## Notes
 
 You may need to add the `--reuse` flag to the `e2e` script. At the time of writing, the current version 0.55 is having issues on iOS with hanging. The requirement at the moment is that you have to open and close the Expo window. [See this GitHub issue for more info](https://github.com/wix/Detox/issues/917#issuecomment-422396875).
-

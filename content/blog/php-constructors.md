@@ -1,8 +1,7 @@
-
 ---
-title: Php Constructors
-date: "2019-10-22"
-description: TODO
+title: PHP Constructors
+date: "2019-2-12"
+description: Building instances with PHP classes.
 ---
 
 # PHP Constructors
@@ -73,4 +72,3 @@ $ll = new LinkedList($n1);
 $ll->insertFirst($n2);
 $ll->getFirst(); // returns $n2
 ```
-

@@ -1,8 +1,7 @@
-
 ---
-title: Eksctl
-date: "2019-10-22"
-description: TODO
+title: Overview of eksctl
+date: "2019-3-1"
+description: Basic instructions on how to use EKSCTL on the command line.
 ---
 
 # eksctl
@@ -19,7 +18,6 @@ https://eksctl.io/
 | Create cluster   | `eksctl create cluster --name=cluster-1 --nodes=4`                                                    |
 | Write kubeconfig | `eksctl utils write-kubeconfig --name=<name> [--kubeconfig=<path>] [--set-kubeconfig-context=<bool>]` |
 | Delete cluster   | `eksctl delete cluster --name=<name> [--region=<region>]`                                             |
-
 
 eksctl create cluster --name=cluster-3 --nodes=4 --auto-kubeconfig
 
@@ -85,18 +83,18 @@ metadata:
 vpc:
   subnets:
     private:
-      eu-north-1a: {id: subnet-0ff156e0c4a6d300c}
-      eu-north-1b: {id: subnet-0549cdab573695c03}
-      eu-north-1c: {id: subnet-0426fb4a607393184}
+      eu-north-1a: { id: subnet-0ff156e0c4a6d300c }
+      eu-north-1b: { id: subnet-0549cdab573695c03 }
+      eu-north-1c: { id: subnet-0426fb4a607393184 }
 
 nodeGroups:
   - name: ng-1-workers
-    labels: {role: workers}
+    labels: { role: workers }
     instanceType: m5.xlarge
     desiredCapacity: 10
     privateNetworking: true
   - name: ng-2-builders
-    labels: {role: builders}
+    labels: { role: builders }
     instanceType: m5.2xlarge
     desiredCapacity: 2
     privateNetworking: true

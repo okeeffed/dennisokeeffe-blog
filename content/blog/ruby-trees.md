@@ -1,8 +1,7 @@
-
 ---
 title: Ruby Trees
-date: "2019-10-22"
-description: TODO
+date: "2019-4-12"
+description: Ruby implementation of a basic node tree and traversal using DFS and BFS.
 ---
 
 # Ruby Trees
@@ -125,4 +124,3 @@ end
 ## Testing
 
 Change into directory and run `ruby trees_test.rb`.
-

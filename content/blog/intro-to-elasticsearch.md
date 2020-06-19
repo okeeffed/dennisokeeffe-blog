@@ -1,8 +1,7 @@
-
 ---
 title: Intro To Elasticsearch
-date: "2019-10-22"
-description: TODO
+date: "2019-6-8"
+description: A look at ElasticSearch and setting up a multi-node cluster using Docker compose and create a JavaScript client for insertions.
 ---
 
 # Intro to ElasticSearch
@@ -38,7 +37,7 @@ To then start the image for development or testing:
 If you want to start a cluster with two ElasticSearch nodes, use the `docker-compose.yml` file [given from the main website](https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html#docker-prod-cluster-composefile) - also copied below:
 
 ```yaml
-version: '2.2'
+version: "2.2"
 services:
   elasticsearch:
     image: docker.elastic.co/elasticsearch/elasticsearch:6.7.1
@@ -46,7 +45,7 @@ services:
     environment:
       - cluster.name=docker-cluster
       - bootstrap.memory_lock=true
-      - 'ES_JAVA_OPTS=-Xms512m -Xmx512m'
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
     ulimits:
       memlock:
         soft: -1
@@ -63,8 +62,8 @@ services:
     environment:
       - cluster.name=docker-cluster
       - bootstrap.memory_lock=true
-      - 'ES_JAVA_OPTS=-Xms512m -Xmx512m'
-      - 'discovery.zen.ping.unicast.hosts=elasticsearch'
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+      - "discovery.zen.ping.unicast.hosts=elasticsearch"
     ulimits:
       memlock:
         soft: -1
@@ -107,50 +106,49 @@ The official repo for this client [can be found here](https://github.com/elastic
 ## Basic doc creation
 
 ```javascript
-const { Client } = require('@elastic/elasticsearch');
-const client = new Client({ node: 'http://localhost:9200' });
+const { Client } = require("@elastic/elasticsearch")
+const client = new Client({ node: "http://localhost:9200" })
 
 // promise API
 const result = await client.create({
-  index: 'my-index',
-  body: { foo: 'bar' }
-});
+  index: "my-index",
+  body: { foo: "bar" },
+})
 
 // callback API
 client.create(
   {
-    index: 'my-index',
-    body: { foo: 'bar' }
+    index: "my-index",
+    body: { foo: "bar" },
   },
   (err, result) => {
-    if (err) console.log(err);
+    if (err) console.log(err)
   }
-);
+)
 ```
 
 ## Basic search
 
 ```javascript
-const { Client } = require('@elastic/elasticsearch');
-const client = new Client({ node: 'http://localhost:9200' });
+const { Client } = require("@elastic/elasticsearch")
+const client = new Client({ node: "http://localhost:9200" })
 
 // promise API
 const result = await client.search({
-  index: 'my-index',
-  body: { foo: 'bar' }
-});
+  index: "my-index",
+  body: { foo: "bar" },
+})
 
 // callback API
 client.search(
   {
-    index: 'my-index',
-    body: { foo: 'bar' }
+    index: "my-index",
+    body: { foo: "bar" },
   },
   (err, result) => {
-    if (err) console.log(err);
+    if (err) console.log(err)
   }
-);
+)
 ```
 
 For more examples using `CURL` and the options available, TutorialsPoint have a basic intro for more info [found here](https://www.tutorialspoint.com/elasticsearch/elasticsearch_index_apis.htm)
-

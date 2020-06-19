@@ -1,8 +1,7 @@
-
 ---
-title: Php Binary Search Trees
-date: "2019-10-22"
-description: TODO
+title: PHP Binary Search Trees
+date: "2019-4-10"
+description: PHP implementation of a Binary Search Tree.
 ---
 
 # Binary Search Trees in PHP
@@ -114,4 +113,3 @@ class Node {
 ## Running Tests
 
 Change into directory and run `phpunit.phar binary-search-tree_test.php`.
-

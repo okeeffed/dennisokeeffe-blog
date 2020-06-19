@@ -1,8 +1,7 @@
-
 ---
 title: Java Linked List
-date: "2019-10-22"
-description: TODO
+date: "2019-4-5"
+description: Java implementation of a basic unidirectional Linked List.
 ---
 
 # Linked Lists in Java
@@ -366,4 +365,3 @@ class LinkedList {
     }
 }
 ```
-

@@ -1,8 +1,7 @@
-
 ---
 title: Basics On Programming Paradigms
-date: "2019-10-22"
-description: TODO
+date: "2019-6-1"
+description: A quick overview of a number of programming paradigms and what are some key defining features.
 ---
 
 # A Brief Recap of Programming Paradigms
@@ -60,12 +59,9 @@ description: TODO
 - Subscriptions help change the data
 
 ```javascript
-const cellC2$ = cellA2$
-  .combineLatest(cellB2$)
-  .map((cells) => cells[0] + cells[1]);
+const cellC2$ = cellA2$.combineLatest(cellB2$).map(cells => cells[0] + cells[1])
 
-cellC2$.subscribe((value) => {
-  console.log(value);
-});
+cellC2$.subscribe(value => {
+  console.log(value)
+})
 ```
-

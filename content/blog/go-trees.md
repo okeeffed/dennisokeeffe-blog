@@ -1,8 +1,7 @@
-
 ---
-title: Go Trees
-date: "2019-10-22"
-description: TODO
+title: Trees in Golang
+date: "2019-4-8"
+description: Golang implementation of a basic node tree and traversal using DFS and BFS.
 ---
 
 # Trees in Golang
@@ -176,4 +175,3 @@ func (t *Tree) dfs() []int {
 ## Running Tests
 
 In the directory, run `go test`.
-

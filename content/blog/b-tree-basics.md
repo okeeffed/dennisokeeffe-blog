@@ -1,8 +1,7 @@
-
 ---
 title: B Tree Basics
-date: "2019-10-22"
-description: TODO
+date: "2019-4-19"
+description: A short look into B-Tree structures, what defines them and some technologies that use them.
 ---
 
 # B-Tree Basics
@@ -34,4 +33,3 @@ The height of a B-Tree is kept low by keeping the maximum possible number of key
 B-Trees in practice are used by technologies such as `MySQL`, `PostgreSQL`, `MongoDB` and more.
 
 Alternative database options with a different data structure include `LSM-Trees` for log structured append-only storage and is used by alternative technologies such as `Cassandra`, `RocksDB`, `LevelDB`, but that's another topic.
-

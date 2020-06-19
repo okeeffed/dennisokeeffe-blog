@@ -1,8 +1,7 @@
-
 ---
-title: Redis Cli Basics
-date: "2019-10-22"
-description: TODO
+title: Redis CLI Basics
+date: "2019-3-12"
+description: Basic usage and command calls for Redis from the command line.
 ---
 
 # Redis
@@ -27,7 +26,6 @@ description: TODO
 | RPUSH   | Push elements onto a list     | RPUSH list "one" |
 | LPOP    | Pop element from last on list | LPOP list        |
 | LLEN    | Get list length               | LLEN list        |
-
 
 ### Run local server and attach
 

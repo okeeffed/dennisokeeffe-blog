@@ -1,8 +1,7 @@
-
 ---
 title: Java Spiral Matrix
-date: "2019-10-22"
-description: TODO
+date: "2019-2-9"
+description: Java Spiral Matrices with unit testing.
 ---
 
 # Java - Spiral Matrix
@@ -85,4 +84,3 @@ class SpiralMatrix {
     }
 }
 ```
-

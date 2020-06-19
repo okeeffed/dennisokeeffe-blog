@@ -1,8 +1,7 @@
-
 ---
-title: Docker Nginx Nodejs
-date: "2019-10-22"
-description: TODO
+title: Docker application with Nginx and Nodejs
+date: "2019-1-29"
+description: Linking two Docker containers to run a Nodejs app behind a NGINX reverse proxy.
 ---
 
 # Docker container with Nginx and Nodejs
@@ -61,4 +60,3 @@ Then build out this file using `docker built -t foo/nginx .`.
 Running it: `docker run -p 8000:80 --link node-app:app --name nginx-proxy foo/nginx`
 
 Since we expose 3000 for the node-app, we do not need to redo that
-

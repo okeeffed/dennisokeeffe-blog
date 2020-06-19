@@ -1,8 +1,7 @@
-
 ---
 title: Go Basic Strings
-date: "2019-10-22"
-description: TODO
+date: "2019-1-22"
+description: Basic string manipulation in Golang using the strings package.
 ---
 
 # Basic String Functions
@@ -152,4 +151,3 @@ func MapOverStringToLower(str string) string {
 	return strings.Map(toLower, str)
 }
 ```
-

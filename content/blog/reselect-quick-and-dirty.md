@@ -1,8 +1,7 @@
-
 ---
 title: Reselect Quick And Dirty
-date: "2019-10-22"
-description: TODO
+date: "2019-5-25"
+description: The tl;dr reminder of how Reselect works for Redux state memoization.
 ---
 
 # Reselect Quick and Dirty
@@ -25,26 +24,25 @@ yarn install reselect
 
 ```javascript
 // Reducer file
-import { createSelector } from 'reselect';
+import { createSelector } from "reselect"
 
 /* Creating the Selector in reducer file */
-const getElementsUi = (state) => state.sidebarReducer.elementsUi;
+const getElementsUi = state => state.sidebarReducer.elementsUi
 
 export const getElementsUiState = createSelector(
   [getElementsUi],
-  (elementsUi) => elementsUi
-);
+  elementsUi => elementsUi
+)
 
 // In file calling mapStateToProps
-const mapStateToProps = (state) => ({
-  elementsUi: reducers.getElementsUiState(state)
-});
+const mapStateToProps = state => ({
+  elementsUi: reducers.getElementsUiState(state),
+})
 
-const mapDispatchToProps = (dispatch) => ({ dispatch: dispatch });
+const mapDispatchToProps = dispatch => ({ dispatch: dispatch })
 
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(Component);
+)(Component)
 ```
-

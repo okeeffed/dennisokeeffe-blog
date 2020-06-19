@@ -1,8 +1,7 @@
-
 ---
 title: Intro To Helm
-date: "2019-10-22"
-description: TODO
+date: "2019-4-22"
+description: An introduction into managing packages on Kubernetes with Helm.
 ---
 
 # Packaging and Deploying on Kubernetes
@@ -137,7 +136,8 @@ service:
 
 ingress:
   enabled: false
-  annotations: {}
+  annotations:
+    {}
     # kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
   paths: []
@@ -148,7 +148,8 @@ ingress:
   #    hosts:
   #      - chart-example.local
 
-resources: {}
+resources:
+  {}
   # We usually recommend not to specify default resources and to leave this as a conscious
   # choice for the user. This also increases chances charts run on environments with little
   # resources, such as Minikube. If you do want to specify resources, uncomment the following
@@ -240,22 +241,22 @@ The `mychart/service.yaml` also templates how the service file will be created:
 apiVersion: v1
 kind: Service
 metadata:
-  name: {{ include "test.fullname" . }}
+  name: { { include "test.fullname" . } }
   labels:
-    app.kubernetes.io/name: {{ include "test.name" . }}
-    helm.sh/chart: {{ include "test.chart" . }}
-    app.kubernetes.io/instance: {{ .Release.Name }}
-    app.kubernetes.io/managed-by: {{ .Release.Service }}
+    app.kubernetes.io/name: { { include "test.name" . } }
+    helm.sh/chart: { { include "test.chart" . } }
+    app.kubernetes.io/instance: { { .Release.Name } }
+    app.kubernetes.io/managed-by: { { .Release.Service } }
 spec:
-  type: {{ .Values.service.type }}
+  type: { { .Values.service.type } }
   ports:
-    - port: {{ .Values.service.port }}
+    - port: { { .Values.service.port } }
       targetPort: http
       protocol: TCP
       name: http
   selector:
-    app.kubernetes.io/name: {{ include "test.name" . }}
-    app.kubernetes.io/instance: {{ .Release.Name }}
+    app.kubernetes.io/name: { { include "test.name" . } }
+    app.kubernetes.io/instance: { { .Release.Name } }
 ```
 
 From here, you can directly install the helm chart using `helm install mychart/`.
@@ -266,7 +267,7 @@ Using the default chart, there is a `nginx` configuration you then port forward 
 kubectl port-forward 80:8080
 # Press ^z here
 bg # set to background
-curl localhost:8080 
+curl localhost:8080
 # result should be default nginx html
 fg # bring port-forward back to foreground
 ```
@@ -294,7 +295,8 @@ service:
 
 ingress:
   enabled: false
-  annotations: {}
+  annotations:
+    {}
     # kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
   paths: []
@@ -306,7 +308,8 @@ ingress:
   #    hosts:
   #      - chart-example.local
 
-resources: {}
+resources:
+  {}
   # We usually recommend not to specify default resources and to leave this as a conscious
   # choice for the user. This also increases chances charts run on environments with little
   # resources, such as Minikube. If you do want to specify resources, uncomment the following
@@ -323,7 +326,6 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
-
 # Here you can add dependencies
 ```
 
@@ -343,11 +345,9 @@ Ensure you update the chart if you need to change the `containerPort` or env var
 
 Once the chart is up and running, you can update charts which will update the orchestration. Use `helm update <OPTIONS> <CHART> path/to/chart`
 
-Rollbacks can easily be done as well. 
+Rollbacks can easily be done as well.
 
-Use `helm history <CHART>` to get a history of deployments. Say we want to rollback to revision one, we can then just run `helm rollback <CHART> 1`. 
-
-
+Use `helm history <CHART>` to get a history of deployments. Say we want to rollback to revision one, we can then just run `helm rollback <CHART> 1`.
 
 ## Setting up Helm Repo with S3
 

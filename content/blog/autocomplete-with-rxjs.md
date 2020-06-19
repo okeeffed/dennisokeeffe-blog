@@ -1,8 +1,7 @@
-
 ---
 title: Autocomplete With Rxjs
-date: "2019-10-22"
-description: TODO
+date: "2019-6-4"
+description: A quick look at how RxJS implements an autocomplete subscription.
 ---
 
 # Hello Autocomplete with RxJS
@@ -42,4 +41,3 @@ There are many bad ways this can be implemented in vanilla:
 - A lot of state across the module being changed
 
 However, that being said, the main race condition in vanilla can also be prevented by implementing a debounce function as well before calling an event handler. Note that the above Rx note still stands that in this particular application, we still need to "tell" the program when to call the event handler.
-

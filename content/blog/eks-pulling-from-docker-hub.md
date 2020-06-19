@@ -1,8 +1,7 @@
-
 ---
-title: Eks Pulling From Docker Hub
-date: "2019-10-22"
-description: TODO
+title: EKS Pulling From Docker Hub
+date: "2019-3-7"
+description: Adding credentials to be used for EKS when pulling images from Docker Hub.
 ---
 
 # Pulling from Docker Hub
@@ -33,4 +32,3 @@ spec:
   imagePullSecrets:
     - name: regcred
 ```
-

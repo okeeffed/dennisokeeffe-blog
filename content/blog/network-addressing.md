@@ -1,8 +1,7 @@
-
 ---
 title: Network Addressing
-date: "2019-10-22"
-description: TODO
+date: "2019-6-26"
+description: An overview of network addressing and how to understand concepts like network masking.
 ---
 
 # Network Addressing Basics
@@ -100,4 +99,3 @@ CIDR blocks are denoted with an IP address followed by a `/n` where n is a numbe
 Example address `192.168.100.1/24` would be a network that supports 256 host addresses (the last octet).
 
 `192.168.100.1/23` would support 512 host addresses and so on and so forth.
-

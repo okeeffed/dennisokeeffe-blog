@@ -1,8 +1,7 @@
-
 ---
 title: Ruby Lambda Functions
-date: "2019-10-22"
-description: TODO
+date: "2019-1-25"
+description: A quick look at Ruby Lambda and Proc functions.
 ---
 
 # Ruby Lambda Functions
@@ -62,4 +61,3 @@ end
 
 __END__
 ```
-

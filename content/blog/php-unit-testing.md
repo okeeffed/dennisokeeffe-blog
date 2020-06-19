@@ -1,8 +1,7 @@
-
 ---
-title: Php Unit Testing
-date: "2019-10-22"
-description: TODO
+title: PHP Unit Testing
+date: "2019-2-9"
+description: Basic unit testing for PHP.
 ---
 
 # PHP Unit Testing
@@ -77,4 +76,3 @@ class AnagramsTest extends PHPUnit\Framework\TestCase
     }
 }
 ```
-

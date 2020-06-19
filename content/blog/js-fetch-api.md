@@ -1,8 +1,7 @@
-
 ---
-title: Js Fetch Api
-date: "2019-10-22"
-description: TODO
+title: Web Fetch Api
+date: "2019-6-16"
+description: Looking at usage of the web "fetch" API. This example uses the node-fetch library for demonstration purposes.
 ---
 
 # Using fetch with the JavaScript API
@@ -30,30 +29,30 @@ We will use `https://postman-echo.com/post` as our endpoint to essentially test 
 ### Standard
 
 ```javascript
-const fetch = require('node-fetch');
+const fetch = require("node-fetch")
 const runFetch = () => {
-  const url = 'https://postman-echo.com/post';
+  const url = "https://postman-echo.com/post"
   const json = {
-    foo: 'bar'
-  };
+    foo: "bar",
+  }
 
   return fetch(url, {
-    method: 'post',
+    method: "post",
     headers: {
-      'Content-type': 'application/json'
+      "Content-type": "application/json",
     },
-    body: JSON.stringify(json)
+    body: JSON.stringify(json),
   })
     .then(function(data) {
-      console.log('Request succeeded with JSON response', data.status);
+      console.log("Request succeeded with JSON response", data.status)
     })
     .catch(function(error) {
-      console.log('Request failed', error);
-    });
-};
+      console.log("Request failed", error)
+    })
+}
 
-const run = async () => await runFetch();
-run();
+const run = async () => await runFetch()
+run()
 ```
 
 If we run `node index.js` from our CLI we will see `Request succeeded with JSON response 200`.
@@ -61,33 +60,33 @@ If we run `node index.js` from our CLI we will see `Request succeeded with JSON 
 ### Await
 
 ```javascript
-const fetch = require('node-fetch');
+const fetch = require("node-fetch")
 const runFetch = () => {
   return new Promise((resolve, reject) => {
-    const url = 'https://postman-echo.com/post';
+    const url = "https://postman-echo.com/post"
     const json = {
-      foo: 'bar'
-    };
+      foo: "bar",
+    }
 
     try {
       const data = fetch(url, {
-        method: 'post',
+        method: "post",
         headers: {
-          'Content-type': 'application/json'
+          "Content-type": "application/json",
         },
-        body: JSON.stringify(json)
-      });
-      console.log('Request succeeded with JSON response', data.status);
-      resolve();
+        body: JSON.stringify(json),
+      })
+      console.log("Request succeeded with JSON response", data.status)
+      resolve()
     } catch (err) {
-      console.log('Request failed', error);
-      reject();
+      console.log("Request failed", error)
+      reject()
     }
-  });
-};
+  })
+}
 
-const run = async () => await runFetch();
-run();
+const run = async () => await runFetch()
+run()
 ```
 
 With this method, we are returning a `Promise` to begin with but manually running our `try/catch` block with a `resolve/reject` resolution based on failure or success.
@@ -95,4 +94,3 @@ With this method, we are returning a `Promise` to begin with but manually runnin
 ## Reference
 
 - https://developers.google.com/web/updates/2015/03/introduction-to-fetch
-

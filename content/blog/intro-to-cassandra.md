@@ -1,8 +1,7 @@
-
 ---
 title: Intro To Cassandra
-date: "2019-10-22"
-description: TODO
+date: "2019-6-6"
+description: A small intro into how you can get started with Cassandra using Docker and basic syntax.
 ---
 
 # Intro to Cassandra
@@ -123,4 +122,3 @@ cqlsh> select * from emp where name_first = 'Dennis';
 ```
 
 This should now give you a general intro into how Cassandra basics! The Docker images will give you a quick basis to spin up containers running Cassandra to play around with, stop and remove.
-

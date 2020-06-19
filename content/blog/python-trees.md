@@ -1,8 +1,7 @@
-
 ---
 title: Python Trees
-date: "2019-10-22"
-description: TODO
+date: "2019-3-11"
+description: Python implementation of a basic node tree and traversal using DFS and BFS.
 ---
 
 # Python Trees
@@ -107,4 +106,3 @@ class Node:
 ## Running tests
 
 Change into directory and run `python3 -m pytest -v trees_test.py`.
-

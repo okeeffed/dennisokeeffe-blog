@@ -1,8 +1,7 @@
-
 ---
 title: Python Binary Search Trees
-date: "2019-10-22"
-description: TODO
+date: "2019-3-22"
+description: Python implementation of a Binary Search Tree.
 ---
 
 # Python Binary Search Trees
@@ -120,4 +119,3 @@ class Node:
 ## Running tests
 
 Change into directory and run `python3 -m pytest -v binary_search_trees_test.py`.
-

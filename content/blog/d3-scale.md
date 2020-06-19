@@ -1,8 +1,7 @@
-
 ---
-title: D 3 Scale
-date: "2019-10-22"
-description: TODO
+title: D3 Scale
+date: "2019-05-28"
+description: Looking at how we can normalise data using the d3-scale library.
 ---
 
 # The power of d3-scale
@@ -28,13 +27,13 @@ Putting on our thinking hats, we need to take the context of the situation to de
 Knowing this, let’s begin by importing the `scaleThreshold` function from d3-scale and setting up two basic arrays.
 
 ```javascript
-import { scaleThreshold } from 'd3-scale';
+import { scaleThreshold } from "d3-scale"
 
 // we want the domain and range arrays to indicate a
 // value from 0 until 49 results in a fail, 50 to 64
 // a pass etc.
-const domain = [50, 65, 75, 85];
-const range = ['fail', 'pass', 'credit', 'distinction', 'high distinction'];
+const domain = [50, 65, 75, 85]
+const range = ["fail", "pass", "credit", "distinction", "high distinction"]
 ```
 
 You may have noticed that our range has one more element than what is specified in the domain, why is that? As taken from the [online documentation]([GitHub - d3/d3-scale: Encodings that map abstract data to visual representation.](https://github.com/d3/d3-scale#threshold-scales): "If the number of values in the scale’s domain is N, the number of values in the scale’s range must be N+1".
@@ -44,7 +43,7 @@ Now that we have defined our domain and range arrays with their corresponding br
 ```javascript
 const thScaleRamp = scaleThreshold()
   .domain(domain)
-  .range(range);
+  .range(range)
 ```
 
 Given the beauty of d3, setting up a domain and range will follow a similar pattern for each implementation of a scaling function.
@@ -52,18 +51,18 @@ Given the beauty of d3, setting up a domain and range will follow a similar patt
 But what actually happened? We just created a function variable that can be used to map an integer onto a range classification. Observe and see the magic unfold.
 
 ```javascript
-console.log(thScaleRamp(7)); // fail
-console.log(thScaleRamp(37)); // fail
-console.log(thScaleRamp(67)); // credit
-console.log(thScaleRamp(96)); // high distinction
-console.log(thScaleRamp(49)); // fail
+console.log(thScaleRamp(7)) // fail
+console.log(thScaleRamp(37)) // fail
+console.log(thScaleRamp(67)) // credit
+console.log(thScaleRamp(96)) // high distinction
+console.log(thScaleRamp(49)) // fail
 ```
 
 If you want to see the full scale in action, run the following.
 
 ```javascript
 for (let i = 0; i < 100; i++) {
-  console.log(`${i} - ${thScaleRamp(i)}`);
+  console.log(`${i} - ${thScaleRamp(i)}`)
 }
 ```
 
@@ -108,15 +107,15 @@ Let’s begin small: scaling linearly. Assume we have started a company and to c
 Assuming we wish to generate a simple progress report that will take some data within a domain, scale it and output it within a basic range, we could use the `scaleLinear()` function, take what we know from our previous example and conjure this up.
 
 ```javascript
-import { scaleLinear } from 'd3-scale';
+import { scaleLinear } from "d3-scale"
 
 const lScaleRamp = scaleLinear()
   .domain([0, 5000])
-  .range([0, 100]);
+  .range([0, 100])
 
-console.log(lScaleRamp(0)); // 0
-console.log(lScaleRamp(2500)); // 50
-console.log(lScaleRamp(5000)); // 100
+console.log(lScaleRamp(0)) // 0
+console.log(lScaleRamp(2500)) // 50
+console.log(lScaleRamp(5000)) // 100
 ```
 
 What do you mean you’re not impressed? I can hear it now. "You can do just some basic math if you want to scale it as a percentage."
@@ -124,18 +123,18 @@ What do you mean you’re not impressed? I can hear it now. "You can do just som
 Alas, you are correct so far. Let’s create a random data array this time and see what happens.
 
 ```javascript
-data = [];
+data = []
 // randomly generate a number within the
 // domain and add it to the data array
 for (let i = 0; i < 20; i++) {
-  data.push(Math.floor(Math.random() * 5000));
+  data.push(Math.floor(Math.random() * 5000))
 }
 
-data.map((d) => {
+data.map(d => {
   // These come out the same
-  console.log(`Linear scale - ${d}: ${lScaleRamp(d)}`);
-  console.log(`Basic math - ${d}: ${(d / 5000) * 100}`);
-});
+  console.log(`Linear scale - ${d}: ${lScaleRamp(d)}`)
+  console.log(`Basic math - ${d}: ${(d / 5000) * 100}`)
+})
 ```
 
 Well fine, you’re not impressed... but what happens if we want to see our progress across four rounds of fundraisers?
@@ -147,12 +146,12 @@ Well, why not just adjust our domain on the current scale?
 ```javascript
 const lScaleRampAdjusted = scaleLinear()
   .domain([0, 5000000])
-  .range([0, 100]);
+  .range([0, 100])
 
-console.log(lScaleRampAdjusted(5000)); // 0.1
-console.log(lScaleRampAdjusted(50000)); // 1
-console.log(lScaleRampAdjusted(500000)); // 10
-console.log(lScaleRampAdjusted(5000000)); // 100
+console.log(lScaleRampAdjusted(5000)) // 0.1
+console.log(lScaleRampAdjusted(50000)) // 1
+console.log(lScaleRampAdjusted(500000)) // 10
+console.log(lScaleRampAdjusted(5000000)) // 100
 ```
 
 ![Linear scale](https://res.cloudinary.com/gitgoodclub/image/upload/v1553837782/blog/d3-scale-linear-scale.jpg)
@@ -164,7 +163,7 @@ Let’s create a scale now that denotes all of the important phase data points.
 ```javascript
 const pScaleRamp = scaleLinear()
   .domain([0, 5000, 50000, 500000, 5000000])
-  .range([0, 25, 50, 75, 100]);
+  .range([0, 25, 50, 75, 100])
 ```
 
 With the domain and range arrays that we have used, we are telling d3 to map anything between 0 - 5000 to a value between 0 - 25, anything between 5000 - 50000 mapped to 25 - 50 and so on.
@@ -172,8 +171,8 @@ With the domain and range arrays that we have used, we are telling d3 to map any
 Let’s generate some data and log out the results!
 
 ```javascript
-data = [4000, 5000, 25000, 50000, 60000, 400000, 1200000];
-data.map((d) => console.log(`Poly scale ${d}: ${pScaleRamp(d)}`));
+data = [4000, 5000, 25000, 50000, 60000, 400000, 1200000]
+data.map(d => console.log(`Poly scale ${d}: ${pScaleRamp(d)}`))
 // Output values respectively
 // Poly scale 4000: 20
 // Poly scale 5000: 25
@@ -200,21 +199,21 @@ In between, we also celebrated a few other key achievements as assigned to our `
 
 ```javascript
 const timestamps = [
-  'Sat Sep 14 2013 00:00 GMT-0800 (PST)',
-  'Mon Dec 15 2014 00:00 GMT-0800 (PST)',
-  'Fri Jan 09 2015 00:00 GMT-0800 (PST)',
-  'Sun Jan 01 2017 00:00 GMT-0800 (PST)',
-  'Fri Dec 07 2018 00:00 GMT-0800 (PST)'
-];
+  "Sat Sep 14 2013 00:00 GMT-0800 (PST)",
+  "Mon Dec 15 2014 00:00 GMT-0800 (PST)",
+  "Fri Jan 09 2015 00:00 GMT-0800 (PST)",
+  "Sun Jan 01 2017 00:00 GMT-0800 (PST)",
+  "Fri Dec 07 2018 00:00 GMT-0800 (PST)",
+]
 ```
 
 Given the current format of the data given to use, we can make use of Array’s prototype function `.map()` to create the `dates` array that we actually want.
 
 ```javascript
-const dates = timestamps.map((d) => new Date(d));
+const dates = timestamps.map(d => new Date(d))
 
 // Logging out to the console will give you useable dates
-console.log(dates);
+console.log(dates)
 // 0: Sat Sep 14 2013 18:00:00 GMT+1000 (AEST) {}
 // 1: Mon Dec 15 2014 18:00:00 GMT+1000 (AEST) {}
 // 2: Fri Jan 09 2015 18:00:00 GMT+1000 (AEST) {}
@@ -228,13 +227,13 @@ This time, the scaling function we are looking for our newest friend `scaleTime`
 // Ahhh, the beauty of consistent method naming strikes again
 const tScaleRamp = scaleTime()
   .domain([dates[0], dates[dates.length - 1]]) // refer to notes at the end for this domain assignment
-  .range([0, 100]);
+  .range([0, 100])
 ```
 
 Now that we have our scaling variable, all that is left to do is run the elements of our `dates` array through it!
 
 ```javascript
-dates.map((d) => console.log(tScaleRamp(d)));
+dates.map(d => console.log(tScaleRamp(d)))
 // Output values respectively
 // 0
 // 23.926701570680628
@@ -252,4 +251,3 @@ And there you have it. Mapping points along a progress bar was once daunting, ye
 ## Summary
 
 d3 is home to many JavaScript gems, and `scaleThreshold()`, `scaleLinear()` and `scaleTime()` are but a small part of the d3 ecosystem. Given the malleability of the `d3-scale` module, it allows those who are unfamiliar with d3 the ability to still utilise these wonderful functions in abstract, useful ways with our own code.
-

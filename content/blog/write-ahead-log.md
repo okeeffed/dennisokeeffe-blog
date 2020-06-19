@@ -1,8 +1,7 @@
-
 ---
 title: Write Ahead Log
-date: "2019-10-22"
-description: TODO
+date: "2019-06-20"
+description: A quick overview on the seven layers of the Open System Interconnection (OSI) model.
 ---
 
 # What is the Write Ahead Log (WAL)?
@@ -58,4 +57,3 @@ For relational databases, a logical log is usually a sequences of records descri
 A multi-row transactions includes several such log records. This is followed by a record indicating it was commited. The `MySQL` binlog uses this approach.
 
 Given the decoupling nature of the `logical log`, it can more easily maintain backwards compatibility and allow leaders and followers to run different versions of the database software (possibly even different storage engines).
-

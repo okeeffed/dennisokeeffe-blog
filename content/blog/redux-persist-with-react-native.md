@@ -1,8 +1,7 @@
-
 ---
 title: Redux Persist With React Native
-date: "2019-10-22"
-description: TODO
+date: "2019-4-29"
+description: Adding Redux Persist to React Native for data persistence.
 ---
 
 # Redux Persist usage with React Native
@@ -12,44 +11,44 @@ yarn add redux-persist redux-persist-sensitive-storage
 ```
 
 ```javascript
-import { persistStore, persistReducer } from 'redux-persist';
-import storage from 'redux-persist/lib/storage';
-import { PersistGate } from 'redux-persist/es/integration/react';
+import { persistStore, persistReducer } from "redux-persist"
+import storage from "redux-persist/lib/storage"
+import { PersistGate } from "redux-persist/es/integration/react"
 // if you need to persist
-import createSensitiveStorage from 'redux-persist-sensitive-storage';
+import createSensitiveStorage from "redux-persist-sensitive-storage"
 
-Amplify.configure(config);
+Amplify.configure(config)
 
-const sagaMiddleware = createSagaMiddleware();
-const enhancers = [];
+const sagaMiddleware = createSagaMiddleware()
+const enhancers = []
 const reducers = combineReducers({
   copy: CopyReducer,
   auth: AuthReducer,
-  navigation: NavReducer
-});
-enhancers.push(applyMiddleware(logger, reduxNavMiddleware, sagaMiddleware));
+  navigation: NavReducer,
+})
+enhancers.push(applyMiddleware(logger, reduxNavMiddleware, sagaMiddleware))
 
 // persist updates
 const persistConfig = {
-  key: 'primary',
+  key: "primary",
   storage,
   whitelist: __DEV__
-    ? ['CopyReducer', 'OffersReducer', 'StoresReducer']
+    ? ["CopyReducer", "OffersReducer", "StoresReducer"]
     : [
-        'CopyReducer',
-        'ProfileReducer',
-        'OffersReducer',
-        'StoresReducer',
-        'LoyaltyCardReducer'
-      ]
-};
-const configuredReducers = persistReducer(persistConfig, reducers);
-const store = createStore(configuredReducers, composeEnhancers(...enhancers));
+        "CopyReducer",
+        "ProfileReducer",
+        "OffersReducer",
+        "StoresReducer",
+        "LoyaltyCardReducer",
+      ],
+}
+const configuredReducers = persistReducer(persistConfig, reducers)
+const store = createStore(configuredReducers, composeEnhancers(...enhancers))
 
 /* if you need sensitive storage */
 const persistor = persistStore(store, createSensitiveStorage(), () =>
-  console.info('Persist configured')
-);
+  console.info("Persist configured")
+)
 /* else */
 // const persistor = persistStore(store);
 
@@ -61,8 +60,7 @@ export default class App extends Component {
           <ReduxNavigation />
         </PersistGate>
       </Provider>
-    );
+    )
   }
 }
 ```
-

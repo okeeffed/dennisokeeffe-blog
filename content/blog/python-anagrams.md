@@ -1,8 +1,7 @@
-
 ---
 title: Python Anagrams
-date: "2019-10-22"
-description: TODO
+date: "2019-4-25"
+description: Python implementation of comparing two strings to check if they are anagrams.
 ---
 
 # Python Anagrams
@@ -97,4 +96,3 @@ def isAnagram(strA, strB):
 ## Running tests
 
 Change into directory and run `python3 -m pytest -v anagrams_test.py`.
-
