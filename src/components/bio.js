@@ -18,7 +18,8 @@ function Bio() {
         return (
           <Container>
             <p>
-              Written by <strong>{author}</strong>,{` `}
+              A personal blog on all things of interest. Written by{" "}
+              <strong>{author}</strong>,{` `}
               <a href={`https://twitter.com/${social.twitter}`}>
                 Follow me on Twitter
               </a>

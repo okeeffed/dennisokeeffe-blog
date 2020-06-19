@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     // edit below
-    title: `Dennis O'Keeffe - Personal Blog`,
+    title: `Den Dribbles`,
     author: `Dennis O'Keeffe`,
     description: `Personal blog for Dennis O'Keeffe`,
     siteUrl: `https://blog.dennisokeeffe.com/`,
