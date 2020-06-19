@@ -1,3 +1,10 @@
+
+---
+title: Ruby Lambda Functions
+date: "2019-10-22"
+description: TODO
+---
+
 # Ruby Lambda Functions
 
 The basic gist of declaration and usage is to use the `lambda` keyword. Note that Lambda functions have subtle differences to Proc functions, although they both derive from the Proc object.
@@ -55,3 +62,4 @@ end
 
 __END__
 ```
+

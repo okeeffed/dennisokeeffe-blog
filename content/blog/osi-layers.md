@@ -1,3 +1,10 @@
+
+---
+title: Osi Layers
+date: "2019-10-22"
+description: TODO
+---
+
 # Hello Open System Interconnection (OSI) Layers
 
 A quick and dirty on the seven layers of the OSI Model.
@@ -42,3 +49,4 @@ Data: Data.
 - Application Layer (5-7): Data = App Header + User Data
 
 When dealing with subnetting, network masks etc, note that you are working in the `Network Layer` (layer 3).
+

@@ -1,3 +1,10 @@
+
+---
+title: Python Anagrams
+date: "2019-10-22"
+description: TODO
+---
+
 # Python Anagrams
 
 ## Test file
@@ -90,3 +97,4 @@ def isAnagram(strA, strB):
 ## Running tests
 
 Change into directory and run `python3 -m pytest -v anagrams_test.py`.
+

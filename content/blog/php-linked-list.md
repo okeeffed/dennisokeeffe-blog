@@ -1,3 +1,10 @@
+
+---
+title: Php Linked List
+date: "2019-10-22"
+description: TODO
+---
+
 # Linked List in PHP
 
 This expects an installation on the system of `phpunit`.
@@ -100,3 +107,4 @@ class Node {
 ## Running Tests
 
 Change into directory and run `phpunit.phar linked_list_test.php`.
+

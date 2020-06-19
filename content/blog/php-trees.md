@@ -1,3 +1,10 @@
+
+---
+title: Php Trees
+date: "2019-10-22"
+description: TODO
+---
+
 # Trees in PHP
 
 This expects an installation on the system of `phpunit`.
@@ -109,3 +116,4 @@ class Node {
 ## Running Tests
 
 Change into directory and run `phpunit.phar tree_test.php`.
+

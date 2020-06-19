@@ -1,3 +1,10 @@
+
+---
+title: Go Basic Strings
+date: "2019-10-22"
+description: TODO
+---
+
 # Basic String Functions
 
 This is a simple example of the implementation of some basic functions using the `strings` package. The `unicode` package is used for the example using runes.
@@ -145,3 +152,4 @@ func MapOverStringToLower(str string) string {
 	return strings.Map(toLower, str)
 }
 ```
+

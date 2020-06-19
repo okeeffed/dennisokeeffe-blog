@@ -1,3 +1,9 @@
+---
+title: Python Linked List
+date: "2019-10-22"
+description: TODO
+---
+
 # Python Linked Lists
 
 ## Test file

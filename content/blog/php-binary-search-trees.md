@@ -1,3 +1,10 @@
+
+---
+title: Php Binary Search Trees
+date: "2019-10-22"
+description: TODO
+---
+
 # Binary Search Trees in PHP
 
 This expects an installation on the system of `phpunit`.
@@ -107,3 +114,4 @@ class Node {
 ## Running Tests
 
 Change into directory and run `phpunit.phar binary-search-tree_test.php`.
+

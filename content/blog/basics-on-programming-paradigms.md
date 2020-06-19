@@ -1,3 +1,10 @@
+
+---
+title: Basics On Programming Paradigms
+date: "2019-10-22"
+description: TODO
+---
+
 # A Brief Recap of Programming Paradigms
 
 ## Procedural Program
@@ -61,3 +68,4 @@ cellC2$.subscribe((value) => {
   console.log(value);
 });
 ```
+

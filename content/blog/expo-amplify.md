@@ -1,3 +1,10 @@
+
+---
+title: Expo Amplify
+date: "2019-10-22"
+description: TODO
+---
+
 # Expo with Amplify
 
 ## Links
@@ -62,3 +69,4 @@ let counter = await API.get(
 );
 console.log('> CounterOne.counter', counter);
 ```
+

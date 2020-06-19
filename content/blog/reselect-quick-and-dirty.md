@@ -1,3 +1,10 @@
+
+---
+title: Reselect Quick And Dirty
+date: "2019-10-22"
+description: TODO
+---
+
 # Reselect Quick and Dirty
 
 Quick and dirty implementation of `reselect`. This assumes you already have the requirements for Redux installed and in operation.
@@ -40,3 +47,4 @@ export default connect(
   mapDispatchToProps
 )(Component);
 ```
+

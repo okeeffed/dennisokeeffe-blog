@@ -1,3 +1,10 @@
+
+---
+title: Go Trees
+date: "2019-10-22"
+description: TODO
+---
+
 # Trees in Golang
 
 DFS and BFS tree implementations with Golang.
@@ -169,3 +176,4 @@ func (t *Tree) dfs() []int {
 ## Running Tests
 
 In the directory, run `go test`.
+

@@ -1,3 +1,10 @@
+
+---
+title: Diagrams With Mermaid
+date: "2019-10-22"
+description: TODO
+---
+
 # MermaidJS Diagram library
 
 Published: 24th September 2018
@@ -249,3 +256,4 @@ Very cool! Now we can easily start creating some cool dynamic flows. What next? 
 [Also, checkout their docs to see what else you can do!](https://mermaidjs.github.io/)
 
 _**Depth** is a series that goes into more detail for projects than it's friendly counterpart series "Hello"._
+

@@ -1,3 +1,10 @@
+
+---
+title: Install Redis With Helm
+date: "2019-10-22"
+description: TODO
+---
+
 # Installing Redis with Helm
 
 Ensure that you have configured Helm first and applied the appropriate RBAC (see Helm Intro for more).
@@ -53,3 +60,4 @@ To connect to your Redis server:
 ```
 
 Ensure to delete by using `helm delete <NAME>`.
+

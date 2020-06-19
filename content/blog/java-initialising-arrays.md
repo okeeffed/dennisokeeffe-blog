@@ -1,3 +1,10 @@
+
+---
+title: Java Initialising Arrays
+date: "2019-10-22"
+description: TODO
+---
+
 # Initialising Arrays in Java
 
 Basic example on how to declare, declare with allocated size and initialise with default values:
@@ -57,3 +64,4 @@ public class Main {
     }
 }
 ```
+

@@ -1,3 +1,10 @@
+
+---
+title: React Context Basics
+date: "2019-10-22"
+description: TODO
+---
+
 # React Context Basics
 
 ## Basic Introduction
@@ -125,4 +132,5 @@ export default class Button extends React.Component {
 | Excellent documentation               | No need for extra lib                                         |
 | Well-known for design patterns        | Hard to build a 'store' component with cross cutting concerns |
 | Tremendous amount of open source libs |                                                               |
+
 

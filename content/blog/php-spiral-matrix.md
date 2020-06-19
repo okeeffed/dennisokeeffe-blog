@@ -1,3 +1,10 @@
+
+---
+title: Php Spiral Matrix
+date: "2019-10-22"
+description: TODO
+---
+
 # Spiral Matrix in PHP
 
 This expects an installation on the system of `phpunit`.
@@ -94,3 +101,4 @@ function sprialMatrix($size)
 ## Running Tests
 
 Change into directory and run `phpunit.phar php-spiral-matrix_test.php`.
+

@@ -1,3 +1,10 @@
+
+---
+title: Contrast Colors
+date: "2019-10-22"
+description: TODO
+---
+
 # Hello Series #5: Auto-determining WCAG contrast standards
 
 Published: September 20th 2018
@@ -47,3 +54,4 @@ node index.js "#888"
 Original code [can be found on my Github account](https://github.com/okeeffed/hello-contrast-ratio).
 
 _**Hello** is a series that is about short, sharp examples. Read more on this series to find small gems to add your toolset._
+

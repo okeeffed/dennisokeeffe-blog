@@ -1,3 +1,10 @@
+
+---
+title: Java Spiral Matrix
+date: "2019-10-22"
+description: TODO
+---
+
 # Java - Spiral Matrix
 
 ## Writing the tests
@@ -78,3 +85,4 @@ class SpiralMatrix {
     }
 }
 ```
+

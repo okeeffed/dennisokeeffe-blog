@@ -1,3 +1,10 @@
+
+---
+title: Ruby Trees
+date: "2019-10-22"
+description: TODO
+---
+
 # Ruby Trees
 
 This requires the gem installation of `minitest`.
@@ -118,3 +125,4 @@ end
 ## Testing
 
 Change into directory and run `ruby trees_test.rb`.
+

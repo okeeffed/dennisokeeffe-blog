@@ -1,3 +1,10 @@
+
+---
+title: Python Exceptions
+date: "2019-10-22"
+description: TODO
+---
+
 # Python Exceptions
 
 The base example is to use a try/except block. You can raise exceptions in code that can be caught by the except block.
@@ -28,3 +35,4 @@ try:
 except Exception, error:
     print(error)
 ```
+

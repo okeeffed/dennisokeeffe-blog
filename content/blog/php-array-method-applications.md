@@ -1,3 +1,10 @@
+
+---
+title: Php Array Method Applications
+date: "2019-10-22"
+description: TODO
+---
+
 # PHP Array Method Applications
 
 This covers the basic actions of applying a push, pop, shift and unshift function with PHP.
@@ -129,3 +136,4 @@ class Node {
 ## Resources + Extra Reading
 
 http://www.thecave.info/php-array-push-pop-shift-and-unshift/
+

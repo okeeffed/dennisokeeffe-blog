@@ -1,3 +1,10 @@
+
+---
+title: Expo Facebook Login
+date: "2019-10-22"
+description: TODO
+---
+
 # Expo Facebook Login
 
 If using Expo, first you need to follow the setup instructions.
@@ -59,3 +66,4 @@ FB.login(function(response) {
 ```
 
 5. Ensure auth is added to the project `wsmobile user-signin configure` and selecting `Advanced` > `Add Facebook`.
+

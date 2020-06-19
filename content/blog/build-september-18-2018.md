@@ -1,3 +1,10 @@
+
+---
+title: Build September 18 2018
+date: "2019-10-22"
+description: TODO
+---
+
 # Build Series #2: Split Columns
 
 Published: September 20th 2018
@@ -11,3 +18,4 @@ This train build had a focus on build small, split square-like landing page elem
 Check out the final site at [https://dennisokeeffe.com/split-columns/](https://dennisokeeffe.com/split-columns/)
 
 _**Build** is a series that is about personal project builds. These vary from small practise topics to large scale projects._
+

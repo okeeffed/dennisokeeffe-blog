@@ -1,3 +1,10 @@
+
+---
+title: Go Binary Search Trees
+date: "2019-10-22"
+description: TODO
+---
+
 # Trees in Golang
 
 Binary Search Tree implementation with Golang.
@@ -179,3 +186,4 @@ func (n *Node) validate(min *int, max *int) bool {
 ## Running Tests
 
 In the directory, run `go test`.
+

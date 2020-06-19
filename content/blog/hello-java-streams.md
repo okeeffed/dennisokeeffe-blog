@@ -1,3 +1,10 @@
+
+---
+title: Hello Java Streams
+date: "2019-10-22"
+description: TODO
+---
+
 # Hello Java Streams
 
 Streams in Java 8 are a way of creating operations to express sophisticated data processesing queries.
@@ -96,3 +103,4 @@ class HelloStreams {
 ## Testing
 
 Simply run `gradle test` and if everything compiles successful you will see two ticks.
+

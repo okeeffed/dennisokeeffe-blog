@@ -1,3 +1,10 @@
+
+---
+title: Process Description And Control
+date: "2019-10-22"
+description: TODO
+---
+
 # Process Description and Control
 
 ## Objectives
@@ -249,3 +256,4 @@ A key security issue in the design of any OS is to prevent anything (user or pro
   – The running process is the one that is currently being executed by the processor
   – A blocked process is waiting for the completion of some event
   – A running process is interrupted either by an interrupt or by executing a supervisor call to the OS
+

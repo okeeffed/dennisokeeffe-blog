@@ -1,3 +1,10 @@
+
+---
+title: Hello Shave
+date: "2019-10-22"
+description: TODO
+---
+
 # Hello Series #4: Hello Shave!
 
 Published: September 20th 2018
@@ -34,3 +41,4 @@ shave(selector, height);
 ![Issue after](https://res.cloudinary.com/gitgoodclub/image/upload/v1537397999/wvn8ekrm0czo9qvxvv93.png 'Fixed grids')
 
 _**Hello** is a series that is about short, sharp examples. Read more on this series to find small gems to add your toolset._
+

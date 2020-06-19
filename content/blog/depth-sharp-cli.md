@@ -1,3 +1,9 @@
+---
+title: Depth Sharp Cli
+date: "2019-10-22"
+description: TODO
+---
+
 # Depth Series #1: Basic CLI image compression with Sharp
 
 Published: September 18th 2018
@@ -11,11 +17,11 @@ It's simple API means that usage is incredibly simple. It would simply even just
 ```javascript
 // example.js
 // usage from cli: node example.js
-const sharp = require('sharp');
+const sharp = require("sharp")
 
-(async () => {
-  await sharp('path/to/file.jpg').toFile('path/to/file-output.jpg');
-})();
+;(async () => {
+  await sharp("path/to/file.jpg").toFile("path/to/file-output.jpg")
+})()
 ```
 
 ## Project
@@ -52,12 +58,12 @@ Create a file `index.js` at root of your project and add the following:
 
 ```javascript
 // 1. Require modules.
-const cwd = process.cwd();
-const yp = require('yargs-parser');
-const argv = yp(process.argv.slice(2));
-const sharp = require('sharp');
-const fs = require('fs');
-const util = require('util');
+const cwd = process.cwd()
+const yp = require("yargs-parser")
+const argv = yp(process.argv.slice(2))
+const sharp = require("sharp")
+const fs = require("fs")
+const util = require("util")
 
 // 2. Set up a basic help fallback to display when no args equate to a command.
 const help = `
@@ -75,7 +81,7 @@ const help = `
     Examples
     $ sharp compress path/to/file
     $ sharp compress path/to/file --width 200
-`;
+`
 
 // 3. Add a basic compressImage function that fires on arg "compress".
 /**
@@ -85,11 +91,11 @@ const help = `
  */
 const compressImage = async () => {
   try {
-    console.log('[node index.js compress] fires!');
+    console.log("[node index.js compress] fires!")
   } catch (err) {
-    console.error('Errored', err);
+    console.error("Errored", err)
   }
-};
+}
 
 // 4. Add a basic switch to run when the node script is executed.
 /**
@@ -97,24 +103,24 @@ const compressImage = async () => {
  *
  */
 const run = async () => {
-  console.log('Running Image Compression CLI');
+  console.log("Running Image Compression CLI")
 
   try {
     switch (argv._[0]) {
-      case 'compress':
-        compressImage();
-        break;
+      case "compress":
+        compressImage()
+        break
       default:
-        console.log(help);
-        break;
+        console.log(help)
+        break
     }
   } catch (err) {
-    console.error(err);
+    console.error(err)
   }
-};
+}
 
 // 5. Run that switch function.
-run();
+run()
 ```
 
 From the command line, if you now run `node index.js compress` you should get the `console.log` message that the `compressImage` function fired and for any argument the `help` variable should log out!
@@ -139,48 +145,48 @@ Our updated code now looks like so:
  *
  * @param {*} file The path to the file.
  */
-const compressImage = async (file) => {
+const compressImage = async file => {
   try {
-    const outputArr = file.split('.');
-    const output = outputArr[0] + '-compressed.' + outputArr[1];
-    let res;
+    const outputArr = file.split(".")
+    const output = outputArr[0] + "-compressed." + outputArr[1]
+    let res
     if (argv.width) {
       res = await sharp(file)
         .resize(argv.width)
-        .toFile(output);
+        .toFile(output)
     } else {
-      res = await sharp(file).toFile(output);
+      res = await sharp(file).toFile(output)
     }
 
-    const result = util.inspect(res, { depth: null });
-    console.log(`Image compressed! ${result}`);
+    const result = util.inspect(res, { depth: null })
+    console.log(`Image compressed! ${result}`)
   } catch (err) {
-    console.error('Failed to upload', err);
+    console.error("Failed to upload", err)
   }
-};
+}
 
 /**
  * Run a function based on the argument provided.
  *
  */
 const run = async () => {
-  console.log('Running Image Compression CLI');
+  console.log("Running Image Compression CLI")
 
   try {
     switch (argv._[0]) {
-      case 'compress':
-        compressImage(argv._[1]);
-        break;
+      case "compress":
+        compressImage(argv._[1])
+        break
       default:
-        console.log(help);
-        break;
+        console.log(help)
+        break
     }
   } catch (err) {
-    console.error(err);
+    console.error(err)
   }
-};
+}
 
-run();
+run()
 ```
 
 Place an image named `example.jpg` (or whatever) in an `image` folder now and run `node index.js compress image/example.jpg`. You will now see we have a `image/example-compressed.jpg` file!
@@ -203,42 +209,42 @@ The bottom of our updated code now looks like so:
  *
  * @param {*} folder The folder path to batch compress
  */
-const batchCompress = async (folder) => {
+const batchCompress = async folder => {
   try {
-    fs.readdirSync(folder).forEach((file) => {
-      const filepath = cwd + '/' + folder + '/' + file;
-      compressImage(filepath);
-    });
+    fs.readdirSync(folder).forEach(file => {
+      const filepath = cwd + "/" + folder + "/" + file
+      compressImage(filepath)
+    })
   } catch (err) {
-    console.error(err);
+    console.error(err)
   }
-};
+}
 
 /**
  * Run a function based on the argument provided.
  *
  */
 const run = async () => {
-  console.log('Running Image Compression CLI');
+  console.log("Running Image Compression CLI")
 
   try {
     switch (argv._[0]) {
-      case 'compress':
-        compressImage(argv._[1]);
-        break;
-      case 'batch':
-        batchCompress(argv._[1]);
-        break;
+      case "compress":
+        compressImage(argv._[1])
+        break
+      case "batch":
+        batchCompress(argv._[1])
+        break
       default:
-        console.log(help);
-        break;
+        console.log(help)
+        break
     }
   } catch (err) {
-    console.error(err);
+    console.error(err)
   }
-};
+}
 
-run();
+run()
 ```
 
 If we now place multiple files in our `image` folder, we could run `node index.js batch image` to batch process all the images! In fact, we can even run `node index.js batch image --width=200` to limit the width of all those images processed!
@@ -248,12 +254,12 @@ If we now place multiple files in our `image` folder, we could run `node index.j
 Our final code now looks like the following:
 
 ```javascript
-const cwd = process.cwd();
-const yp = require('yargs-parser');
-const argv = yp(process.argv.slice(2));
-const sharp = require('sharp');
-const fs = require('fs');
-const util = require('util');
+const cwd = process.cwd()
+const yp = require("yargs-parser")
+const argv = yp(process.argv.slice(2))
+const sharp = require("sharp")
+const fs = require("fs")
+const util = require("util")
 
 const help = `
     Usage
@@ -270,74 +276,74 @@ const help = `
     Examples
     $ sharp compress path/to/file
     $ sharp compress path/to/file --width 200
-`;
+`
 
 /**
  * Compress an image.
  *
  * @param {*} file The path to the file.
  */
-const compressImage = async (file) => {
+const compressImage = async file => {
   try {
-    const outputArr = file.split('.');
-    const output = outputArr[0] + '-compressed.' + outputArr[1];
-    let res;
+    const outputArr = file.split(".")
+    const output = outputArr[0] + "-compressed." + outputArr[1]
+    let res
     if (argv.width) {
       res = await sharp(file)
         .resize(argv.width)
-        .toFile(output);
+        .toFile(output)
     } else {
-      res = await sharp(file).toFile(output);
+      res = await sharp(file).toFile(output)
     }
 
-    const result = util.inspect(res, { depth: null });
-    console.log(`Image compressed! ${result}`);
+    const result = util.inspect(res, { depth: null })
+    console.log(`Image compressed! ${result}`)
   } catch (err) {
-    console.error('Failed to upload', err);
+    console.error("Failed to upload", err)
   }
-};
+}
 
 /**
  * Compress multiple images
  *
  * @param {*} folder The folder path to batch compress
  */
-const batchCompress = async (folder) => {
+const batchCompress = async folder => {
   try {
-    fs.readdirSync(folder).forEach((file) => {
-      const filepath = cwd + '/' + folder + '/' + file;
-      compressImage(filepath);
-    });
+    fs.readdirSync(folder).forEach(file => {
+      const filepath = cwd + "/" + folder + "/" + file
+      compressImage(filepath)
+    })
   } catch (err) {
-    console.error(err);
+    console.error(err)
   }
-};
+}
 
 /**
  * Run a function based on the argument provided.
  *
  */
 const run = async () => {
-  console.log('Running Image Compression CLI');
+  console.log("Running Image Compression CLI")
 
   try {
     switch (argv._[0]) {
-      case 'compress':
-        compressImage(argv._[1]);
-        break;
-      case 'batch':
-        batchCompress(argv._[1]);
-        break;
+      case "compress":
+        compressImage(argv._[1])
+        break
+      case "batch":
+        batchCompress(argv._[1])
+        break
       default:
-        console.log(help);
-        break;
+        console.log(help)
+        break
     }
   } catch (err) {
-    console.error(err);
+    console.error(err)
   }
-};
+}
 
-run();
+run()
 ```
 
 ## Next steps

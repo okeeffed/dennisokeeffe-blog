@@ -1,3 +1,10 @@
+
+---
+title: Build September 20 2018
+date: "2019-10-22"
+description: TODO
+---
+
 # Build Series #4: Component Updates
 
 Published: September 20th 2018
@@ -11,3 +18,4 @@ Every now and then, you just have to bite the bullet and go back and make some o
 Check out the final site at [https://www.dennisokeeffe.com/landing-one-updates/](https://www.dennisokeeffe.com/landing-one-updates/)
 
 _**Build** is a series that is about personal project builds. These vary from small practise topics to large scale projects._
+

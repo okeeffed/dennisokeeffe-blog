@@ -1,3 +1,10 @@
+
+---
+title: Ruby Binary Search Trees
+date: "2019-10-22"
+description: TODO
+---
+
 # Ruby Binary Search Trees
 
 This requires the gem installation of `minitest`.
@@ -99,3 +106,4 @@ end
 ## Testing
 
 Change into directory and run `ruby binary_search_trees_test.rb`.
+

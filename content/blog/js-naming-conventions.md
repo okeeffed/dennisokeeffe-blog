@@ -1,3 +1,10 @@
+
+---
+title: Js Naming Conventions
+date: "2019-10-22"
+description: TODO
+---
+
 # JavaScript Function Naming Guidelines
 
 ```bash
@@ -54,3 +61,4 @@ signUp();
 confirmSignIn();
 confirmSignUp();
 ```
+

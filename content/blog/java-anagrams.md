@@ -1,3 +1,10 @@
+
+---
+title: Java Anagrams
+date: "2019-10-22"
+description: TODO
+---
+
 # Anagrams in Java
 
 ## Gradle setup
@@ -60,3 +67,4 @@ In `src/main/java/Anagrams.java`:
 ## Running tests
 
 Run `gradle test` to compile and test our Anagrams class.
+

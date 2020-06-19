@@ -1,3 +1,10 @@
+
+---
+title: Hello Gin
+date: "2019-10-22"
+description: TODO
+---
+
 # Hello Gin!
 
 Published: October 4th 2018
@@ -119,3 +126,4 @@ For more information and documentation, check out [Gin's github](https://github.
 For my repo, [check here](https://github.com/okeeffed/hello-gin)
 
 _**Hello** is a series that is about short, sharp examples. Read more on this series to find small gems to add your toolset._
+

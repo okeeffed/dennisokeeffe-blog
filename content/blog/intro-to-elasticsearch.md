@@ -1,3 +1,10 @@
+
+---
+title: Intro To Elasticsearch
+date: "2019-10-22"
+description: TODO
+---
+
 # Intro to ElasticSearch
 
 ## Why ElasticSearch?
@@ -146,3 +153,4 @@ client.search(
 ```
 
 For more examples using `CURL` and the options available, TutorialsPoint have a basic intro for more info [found here](https://www.tutorialspoint.com/elasticsearch/elasticsearch_index_apis.htm)
+

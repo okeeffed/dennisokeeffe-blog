@@ -1,3 +1,10 @@
+
+---
+title: Php Constructors
+date: "2019-10-22"
+description: TODO
+---
+
 # PHP Constructors
 
 This is a overly simplified application of a how to use constructors in PHP with a very limited `LinkedList` class that omits most common methods.
@@ -66,3 +73,4 @@ $ll = new LinkedList($n1);
 $ll->insertFirst($n2);
 $ll->getFirst(); // returns $n2
 ```
+

@@ -1,3 +1,10 @@
+
+---
+title: Javascript Logging Conventions
+date: "2019-10-22"
+description: TODO
+---
+
 # JavaScript Logging Conventions
 
 This should cover things like logging, tracing etc.
@@ -160,3 +167,4 @@ export default ComponentALLandingFive;
 ## Other tips and gotchas
 
 If there is a possibility of an early return or error when logging and using groups, ensure that you adequately close the group off properly. If you cannot ensure that a group will close (ie entering a zone, mouse hover etc may not exit) then avoid the use of a group for that event and rely more on logs.
+

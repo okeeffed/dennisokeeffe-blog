@@ -1,3 +1,10 @@
+
+---
+title: Braintree Node React
+date: "2019-10-22"
+description: TODO
+---
+
 # Depth Series #3: Getting started with the Braintree Sandbox
 
 Published: October 5th 2018
@@ -300,3 +307,4 @@ Original post: https://www.dennisokeeffe.com/blog/braintree-node-react
 Git repo: https://github.com/okeeffed/hello-braintree
 
 _**Depth** is a series that goes into more detail for projects than it's friendly counterpart series "Hello"._
+

@@ -1,3 +1,10 @@
+
+---
+title: Php Anagrams
+date: "2019-10-22"
+description: TODO
+---
+
 # Anagrams in PHP
 
 This expects an installation on the system of `phpunit`.
@@ -69,3 +76,4 @@ function anagrams($a, $b)
 ## Running Tests
 
 Change into directory and run `phpunit.phar anagrams_test.php`.
+

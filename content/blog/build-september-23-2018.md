@@ -1,3 +1,10 @@
+
+---
+title: Build September 23 2018
+date: "2019-10-22"
+description: TODO
+---
+
 # Build Series #5: Into apps
 
 Published: September 23rd 2018
@@ -13,3 +20,4 @@ I eased off a little the last few days... not good, although I have started to p
 This current build is not currently available to download.
 
 _**Build** is a series that is about personal project builds. These vary from small practise topics to large scale projects._
+

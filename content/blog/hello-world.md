@@ -1,3 +1,10 @@
+
+---
+title: Hello World
+date: "2019-10-22"
+description: TODO
+---
+
 # Hello World
 
 Published: 16th September 2018
@@ -33,3 +40,4 @@ The "pensive" series will be a collage of keys ideas and reflections from the bo
 ## 5. Imposter Series
 
 The "imposter" series will be recounts of experiences outside of my domain. With a look to start launching a few side projects and businesses, this will hopefully give some insight into harsh lessons or wins along the journey.
+

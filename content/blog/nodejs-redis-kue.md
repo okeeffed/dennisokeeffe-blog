@@ -1,3 +1,10 @@
+
+---
+title: Nodejs Redis Kue
+date: "2019-10-22"
+description: TODO
+---
+
 # Redis queues and forking with Kue
 
 Reference these links:
@@ -88,3 +95,4 @@ process.on('message', (data) => {
   run(data);
 });
 ```
+

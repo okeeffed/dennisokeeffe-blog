@@ -1,3 +1,10 @@
+
+---
+title: Build September 24 2018
+date: "2019-10-22"
+description: TODO
+---
+
 # Build Series #6: Onboarding
 
 Published: September 24rd 2018
@@ -9,3 +16,4 @@ I am ill today unfortunately, but I did sit up in bed and build some quick onboa
 This current build is not currently available to download.
 
 _**Build** is a series that is about personal project builds. These vary from small practise topics to large scale projects._
+

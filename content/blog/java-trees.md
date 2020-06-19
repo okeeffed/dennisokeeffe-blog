@@ -1,3 +1,10 @@
+
+---
+title: Java Trees
+date: "2019-10-22"
+description: TODO
+---
+
 # Java - Basic Tree Data Structure
 
 This is a basic implementation. The `bfs` and `dfs` methods each return a `List<Integer>` of the data stored in each `Node` to make a comparison in the test.
@@ -157,3 +164,4 @@ public class TreeTest {
     }
 }
 ```
+

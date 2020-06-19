@@ -1,3 +1,10 @@
+
+---
+title: Kubernetes Healthchecks
+date: "2019-10-22"
+description: TODO
+---
+
 # Healthchecks in Kubernetes
 
 If the application malfunctions, the pod and container may still be running but the application may no longer be running. This is where health checks come in.
@@ -36,3 +43,4 @@ spec:
 ```
 
 More explicit information can be [found here](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-probes/).
+

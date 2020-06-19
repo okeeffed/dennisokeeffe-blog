@@ -1,3 +1,10 @@
+
+---
+title: Java Lambda Functions
+date: "2019-10-22"
+description: TODO
+---
+
 # Java Lambda Funcs
 
 The basic gist is to generate a `interface` with the lambda signature, then explicitly create a function preface by the interface type.
@@ -50,3 +57,4 @@ public class LambdaTest {
     }
 }
 ```
+

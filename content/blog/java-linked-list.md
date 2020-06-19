@@ -1,3 +1,10 @@
+
+---
+title: Java Linked List
+date: "2019-10-22"
+description: TODO
+---
+
 # Linked Lists in Java
 
 Basic unidirectional linked list in Java.
@@ -359,3 +366,4 @@ class LinkedList {
     }
 }
 ```
+

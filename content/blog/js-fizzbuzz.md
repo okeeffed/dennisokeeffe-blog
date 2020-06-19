@@ -1,3 +1,10 @@
+
+---
+title: Js Fizzbuzz
+date: "2019-10-22"
+description: TODO
+---
+
 # FizzBuzz in JavaScript
 
 This blog assumes a global install of `mocha`, although that can also be installed locally. `chai` is also required as the assertion library - install as a dev dependency.
@@ -59,3 +66,4 @@ module.exports = {
 ## Testing
 
 Change into directory and run `mocha fizzbuzz.mocha.js`.
+

@@ -1,3 +1,10 @@
+
+---
+title: Go Spiral Matrix
+date: "2019-10-22"
+description: TODO
+---
+
 # Spiral Matrix in Golang
 
 Base spiral matrix implementation.
@@ -93,3 +100,4 @@ func genSpiralMatrix(s int) [][]int {
 ## Running Tests
 
 In the directory, run `go test`.
+

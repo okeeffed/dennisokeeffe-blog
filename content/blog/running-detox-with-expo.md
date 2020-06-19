@@ -1,3 +1,10 @@
+
+---
+title: Running Detox With Expo
+date: "2019-10-22"
+description: TODO
+---
+
 # Intro to Detox and Expo
 
 ## Links
@@ -103,3 +110,4 @@ Finally, to run the test we can run `yarn start` in one terminal and `yarn e2e` 
 ## Notes
 
 You may need to add the `--reuse` flag to the `e2e` script. At the time of writing, the current version 0.55 is having issues on iOS with hanging. The requirement at the moment is that you have to open and close the Expo window. [See this GitHub issue for more info](https://github.com/wix/Detox/issues/917#issuecomment-422396875).
+

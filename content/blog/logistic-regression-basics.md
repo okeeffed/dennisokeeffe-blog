@@ -1,3 +1,10 @@
+
+---
+title: Logistic Regression Basics
+date: "2019-10-22"
+description: TODO
+---
+
 # Classification: Logistic Regression
 
 This is a basic look at `Logistic Regression` and implementing an example from a `csv` file. While the CSV file itself with the data is excluded, this basic look will show how to interpret the CSV in a particular way to give your dependent and independent variables.
@@ -169,3 +176,4 @@ plt.legend()
 plt.show()
 plt.close()
 ```
+

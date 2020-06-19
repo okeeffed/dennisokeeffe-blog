@@ -1,3 +1,10 @@
+
+---
+title: Write Ahead Log
+date: "2019-10-22"
+description: TODO
+---
+
 # What is the Write Ahead Log (WAL)?
 
 In database systems, the write ahead log is used a technique to provide the atomicity and durability of ACID principles.
@@ -51,3 +58,4 @@ For relational databases, a logical log is usually a sequences of records descri
 A multi-row transactions includes several such log records. This is followed by a record indicating it was commited. The `MySQL` binlog uses this approach.
 
 Given the decoupling nature of the `logical log`, it can more easily maintain backwards compatibility and allow leaders and followers to run different versions of the database software (possibly even different storage engines).
+

@@ -1,3 +1,10 @@
+
+---
+title: Ruby Anagrams
+date: "2019-10-22"
+description: TODO
+---
+
 # Ruby Anagrams
 
 This requires the gem installation of `minitest`.
@@ -62,3 +69,4 @@ end
 ## Testing
 
 Change into directory and run `ruby anagrams_test.rb`.
+

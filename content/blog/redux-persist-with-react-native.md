@@ -1,3 +1,10 @@
+
+---
+title: Redux Persist With React Native
+date: "2019-10-22"
+description: TODO
+---
+
 # Redux Persist usage with React Native
 
 ```bash
@@ -58,3 +65,4 @@ export default class App extends Component {
   }
 }
 ```
+

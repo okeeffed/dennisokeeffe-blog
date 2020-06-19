@@ -1,3 +1,10 @@
+
+---
+title: Go Linked List
+date: "2019-10-22"
+description: TODO
+---
+
 # Linked Lists in Golang
 
 Basic unidirectional linked lists with Golang.
@@ -390,3 +397,4 @@ func (l *List) insertAt(index int, node *Node) error {
 ## Running Tests
 
 In the directory, run `go test`.
+

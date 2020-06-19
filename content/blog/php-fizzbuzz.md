@@ -1,3 +1,10 @@
+
+---
+title: Php Fizzbuzz
+date: "2019-10-22"
+description: TODO
+---
+
 # FizzBuzz in PHP
 
 This expects an installation on the system of `phpunit`.
@@ -60,3 +67,4 @@ function fizzBuzz($i)
 ## Running Tests
 
 Change into directory and run `phpunit.phar file_test.php`.
+

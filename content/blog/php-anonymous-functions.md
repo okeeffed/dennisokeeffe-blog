@@ -1,3 +1,10 @@
+
+---
+title: Php Anonymous Functions
+date: "2019-10-22"
+description: TODO
+---
+
 # PHP Anonymous Functions
 
 The basic gist is to use the keyword `function()` with a block scope.
@@ -51,3 +58,4 @@ class AnonymousTest extends PHPUnit\Framework\TestCase
     }
 }
 ```
+

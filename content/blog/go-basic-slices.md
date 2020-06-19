@@ -1,3 +1,10 @@
+
+---
+title: Go Basic Slices
+date: "2019-10-22"
+description: TODO
+---
+
 # Basic Slice Functions
 
 Set up the folder with test and main file:
@@ -88,3 +95,4 @@ func Shift(a []int) (int, []int) {
 	return x, b
 }
 ```
+

@@ -1,3 +1,9 @@
+---
+title: Principles
+date: "2019-10-22"
+description: TODO
+---
+
 # Styling Guidelines and Principles
 
 ## Challenges
@@ -60,17 +66,17 @@ Predetermined types by level:
 
 ```yml
 body:
-  header: # @classname header
+  header:# @classname header
     # @children
   # Top level for each section
   section: # @classname section-name
     # @children
     container: # @classname container-name
       # Base selection of rules
-      ? block
+      block:
       # @children
       grid:
-        ? grid-item
+        grid-item:
         # @children
       table:
         # @children
@@ -90,10 +96,10 @@ body:
     # Specific component based styling
     # @children
     # Base selection of rules
-    ? block
+    block:
     # @children
     grid:
-      ? grid-item
+      grid-item:
       # @children
     table:
       # @children
@@ -109,7 +115,7 @@ body:
     nav:
       nav-item:
         # @children
-  footer: # @classname footer - but maybe should be more specific
+  footer:# @classname footer - but maybe should be more specific
     # @children
 ```
 
@@ -180,7 +186,7 @@ body:
 
 ## Example layout
 
-![Example layout](../assets/example-layout.png 'Example Layout')
+![Example layout](../assets/example-layout.png "Example Layout")
 
 The aim is that regardless of whether or not we are using a template engine, JSX, html or whatever that uses/doesn't use partials or components of some form that we are able to maintain consistency.
 
@@ -189,27 +195,31 @@ In the above image, let's look at how we would implement in a template engine li
 ```html
 <!-- Section partial ~/partials/page-offers/section-offers.twig (TODO: decide naming strutures?) -->
 <section class="section-offers">
-    <div class="container-content">
-        <div class="block-content"></div>
-        <div class="block-header"></div>
-        <div class="grid-offers">
-            {% for offer in offers %}
-                <div class="grid-offer">
-                    {% include 'partials/component-offer/offer.twig' with {offer: offer} %}
-                </div>
-            {% endfor %}
-        </div>
+  <div class="container-content">
+    <div class="block-content"></div>
+    <div class="block-header"></div>
+    <div class="grid-offers">
+      {% for offer in offers %}
+      <div class="grid-offer">
+        {% include 'partials/component-offer/offer.twig' with {offer: offer} %}
+      </div>
+      {% endfor %}
     </div>
+  </div>
 </section>
 
 <!-- Section partial ~/partials/page-offers/component-offer.twig (TODO: decide naming strutures?) -->
 <div class="component-offer">
-    <div class="block-image">
-        <img src="{{ offer.imgSource }}" alt="{{ offer.alt }}" class="offer-image">
-    </div>
-    <div class="block-title">
-        <h3 class="offer-title">{{ offer.title }}</h3>
-    </div>
+  <div class="block-image">
+    <img
+      src="{{ offer.imgSource }}"
+      alt="{{ offer.alt }}"
+      class="offer-image"
+    />
+  </div>
+  <div class="block-title">
+    <h3 class="offer-title">{{ offer.title }}</h3>
+  </div>
 </div>
 ```
 

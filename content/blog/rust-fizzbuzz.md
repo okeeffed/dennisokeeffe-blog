@@ -1,3 +1,9 @@
+---
+title: Rust Fizzbuzz
+date: "2019-10-22"
+description: TODO
+---
+
 # FizzBuzz in Rust
 
 A basic implementation of FizzBuzz in Rust.

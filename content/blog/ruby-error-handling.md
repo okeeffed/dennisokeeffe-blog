@@ -1,3 +1,10 @@
+
+---
+title: Ruby Error Handling
+date: "2019-10-22"
+description: TODO
+---
+
 # Ruby Error Handling
 
 This is a basic example of raising and exception and rescueing the thrown exception.
@@ -14,3 +21,4 @@ def raise_and_rescue
   puts 'I am after the begin block.'
 end
 ```
+

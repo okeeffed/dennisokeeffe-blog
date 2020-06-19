@@ -1,3 +1,10 @@
+
+---
+title: Yargs Parser
+date: "2019-10-22"
+description: TODO
+---
+
 # Hello Series #3: Parsing args with Yargs Parser
 
 Published: 20th September 2018
@@ -118,3 +125,4 @@ Get creative and start building some useful Node.js CLI tools for your workflow.
 Code can be [found on my Github](https://github.com/okeeffed/hello-yargs).
 
 _**Hello** is a series that is about short, sharp examples. Read more on this series to find small gems to add your toolset._
+

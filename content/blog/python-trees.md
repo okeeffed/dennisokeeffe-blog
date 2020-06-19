@@ -1,3 +1,10 @@
+
+---
+title: Python Trees
+date: "2019-10-22"
+description: TODO
+---
+
 # Python Trees
 
 ## Test file
@@ -100,3 +107,4 @@ class Node:
 ## Running tests
 
 Change into directory and run `python3 -m pytest -v trees_test.py`.
+

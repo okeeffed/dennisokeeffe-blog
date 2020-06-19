@@ -1,3 +1,10 @@
+
+---
+title: D 3 Scale
+date: "2019-10-22"
+description: TODO
+---
+
 # The power of d3-scale
 
 There is no denying the power of d3. You only have to look as far as the [examples on their website](https://github.com/d3/d3/wiki/gallery) to be overwhelmed by its flexibility and aesthetics.
@@ -245,3 +252,4 @@ And there you have it. Mapping points along a progress bar was once daunting, ye
 ## Summary
 
 d3 is home to many JavaScript gems, and `scaleThreshold()`, `scaleLinear()` and `scaleTime()` are but a small part of the d3 ecosystem. Given the malleability of the `d3-scale` module, it allows those who are unfamiliar with d3 the ability to still utilise these wonderful functions in abstract, useful ways with our own code.
+

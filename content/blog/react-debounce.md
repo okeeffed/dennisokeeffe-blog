@@ -1,3 +1,10 @@
+
+---
+title: React Debounce
+date: "2019-10-22"
+description: TODO
+---
+
 # Hello Series #2: Using debounce in React
 
 Published: September 19th 2018
@@ -100,3 +107,4 @@ export default DebouncedForm;
 ```
 
 _**Hello** is a series that is about short, sharp examples. Read more on this series to find small gems to add your toolset._
+

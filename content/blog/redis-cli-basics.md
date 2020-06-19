@@ -1,3 +1,10 @@
+
+---
+title: Redis Cli Basics
+date: "2019-10-22"
+description: TODO
+---
+
 # Redis
 
 ## tl;dr

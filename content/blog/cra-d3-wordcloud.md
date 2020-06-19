@@ -1,3 +1,10 @@
+
+---
+title: Cra D 3 Wordcloud
+date: "2019-10-22"
+description: TODO
+---
+
 # Creating a D3 Word Cloud using Create React App
 
 ## Initialise CRA App
@@ -187,3 +194,4 @@ Our chart should now be up and looking pretty!
 Bam - our JSON data is defining the words required for the cloud and the colour is being determined by `threshold` parameter that we are using. Play around with this threshold to update the colour or remove it to use the default value of 20!
 
 This is just a simple word colour. You could change the colour function or play around with it however you want from here.
+

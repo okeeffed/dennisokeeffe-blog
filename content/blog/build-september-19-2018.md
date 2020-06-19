@@ -1,3 +1,10 @@
+
+---
+title: Build September 19 2018
+date: "2019-10-22"
+description: TODO
+---
+
 # Build Series #3: Pexel Japan
 
 Published: September 20th 2018
@@ -15,3 +22,4 @@ The site ended up reusing some of the split column components I built on the tra
 Check out the final site at [https://dennisokeeffe.com/pexel-japan/](https://dennisokeeffe.com/pexel-japan/)
 
 _**Build** is a series that is about personal project builds. These vary from small practise topics to large scale projects._
+

@@ -1,3 +1,10 @@
+
+---
+title: Ruby Linked List
+date: "2019-10-22"
+description: TODO
+---
+
 # Ruby Linked List
 
 This requires the gem installation of `minitest`.
@@ -112,3 +119,4 @@ end
 ## Testing
 
 Change into directory and run `ruby linked_list_test.rb`.
+

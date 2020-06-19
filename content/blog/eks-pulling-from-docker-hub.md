@@ -1,3 +1,10 @@
+
+---
+title: Eks Pulling From Docker Hub
+date: "2019-10-22"
+description: TODO
+---
+
 # Pulling from Docker Hub
 
 Reference from here https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/.
@@ -26,3 +33,4 @@ spec:
   imagePullSecrets:
     - name: regcred
 ```
+
