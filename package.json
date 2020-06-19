@@ -43,7 +43,9 @@
     "typography-theme-wordpress-2016": "^0.16.19"
   },
   "devDependencies": {
-    "prettier": "^1.17.0"
+    "lodash.startcase": "^4.4.0",
+    "prettier": "^1.17.0",
+    "recursive-readdir": "^2.2.2"
   },
   "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
   "keywords": [
