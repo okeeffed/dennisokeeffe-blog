@@ -4581,7 +4581,7 @@ commander@2.17.x:
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.17.1.tgz#bd77ab7de6de94205ceacc72f1716d29f20a77bf"
   integrity sha512-wPMUt6FnH2yzG95SA6mzjQOEKUU3aLaDEmzs1ti+1E9h+CsrZghRlqEM/EJ4KscsQVG8uNN4uVreUeT8+drlgg==
 
-commander@^2.11.0, commander@^2.20.0:
+commander@^2.11.0, commander@^2.19.0, commander@^2.20.0:
   version "2.20.3"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
   integrity sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==
@@ -9609,6 +9609,20 @@ jwt-decode@^2.1.0, jwt-decode@^2.2.0:
   resolved "https://registry.yarnpkg.com/jwt-decode/-/jwt-decode-2.2.0.tgz#7d86bd56679f58ce6a84704a657dd392bba81a79"
   integrity sha1-fYa9VmefWM5qhHBKZX3TkruoGnk=
 
+katex@^0.11.1:
+  version "0.11.1"
+  resolved "https://registry.yarnpkg.com/katex/-/katex-0.11.1.tgz#df30ca40c565c9df01a466a00d53e079e84ffaa2"
+  integrity sha512-5oANDICCTX0NqYIyAiFCCwjQ7ERu3DQG2JFHLbYOf+fXaMoH8eg/zOq5WSYJsKMi/QebW+Eh3gSM+oss1H/bww==
+  dependencies:
+    commander "^2.19.0"
+
+katex@^0.9.0:
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/katex/-/katex-0.9.0.tgz#26a7d082c21d53725422d2d71da9b2d8455fbd4a"
+  integrity sha512-lp3x90LT1tDZBW2tjLheJ98wmRMRjUHwk4QpaswT9bhqoQZ+XA4cPcjcQBxgOQNwaOSt6ZeL/a6GKQ1of3LFxQ==
+  dependencies:
+    match-at "^0.1.1"
+
 kebab-case@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/kebab-case/-/kebab-case-1.0.0.tgz#3f9e4990adcad0c686c0e701f7645868f75f91eb"
@@ -10142,6 +10156,11 @@ markdown-table@^1.1.0:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/markdown-table/-/markdown-table-1.1.3.tgz#9fcb69bcfdb8717bfd0398c6ec2d93036ef8de60"
   integrity sha512-1RUZVgQlpJSPWYbFSpmudq5nHY1doEIv89gBtF0s4gW1GF2XorxcA/70M5vq7rLv0a6mhOUccRsqkwhwLCIQ2Q==
+
+match-at@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/match-at/-/match-at-0.1.1.tgz#25d040d291777704d5e6556bbb79230ec2de0540"
+  integrity sha512-h4Yd392z9mST+dzc+yjuybOGFNOZjmXIPKWjxBd1Bb23r4SmDOsk2NYCU2BMUBGbSpZqwVsZYNq26QS3xfaT3Q==
 
 md5-file@^3.2.3:
   version "3.2.3"
@@ -12995,6 +13014,13 @@ react-is@^16.6.0, react-is@^16.6.3, react-is@^16.7.0, react-is@^16.8.1:
   version "16.10.2"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.10.2.tgz#984120fd4d16800e9a738208ab1fba422d23b5ab"
   integrity sha512-INBT1QEgtcCCgvccr5/86CfD71fw9EPmDxgiJX4I2Ddr6ZsV6iFXsuby+qWJPtmNuMY0zByTsG4468P7nHuNWA==
+
+react-katex@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/react-katex/-/react-katex-2.0.2.tgz#0cb9559a4f30cb18f808006922b116c06e8b0ae9"
+  integrity sha512-mk1ezfUF4mBIstjvpfELf9g1rWF1Y1+idXMiOvkFvCLi0JFZDCQdui59VqQcI2ynOpb0jj52TM4kyBjKG+qEBg==
+  dependencies:
+    katex "^0.9.0"
 
 react-lifecycles-compat@^3.0.0, react-lifecycles-compat@^3.0.4:
   version "3.0.4"
