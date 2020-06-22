@@ -1,5 +1,5 @@
 ---
-title: Weekly Developer Roundup - 2020-06-22;
+title: Weekly Developer Roundup - 2020-06-22
 description: Your weekly dose of trending articles and repos from across the web!
 date: "2020-06-22"
 ---
@@ -41,13 +41,13 @@ Here is your update from across the web for the week of 2020-06-22.
 - **Sebastian Witowski**: [My Favorite CLI Tools](https://dev.to/switowski/my-favorite-cli-tools-4p4g)
 - **Maxim Chechenev**: [Do I need to code in my free time to be a good developer?](https://dev.to/chechenev/do-i-need-to-code-in-my-free-time-to-be-a-good-developer-10h9)
 - **Hemant Joshi**: [30 React Apps](https://dev.to/hemantt/30-react-apps-4hn9)
-- **Carlos Roso**: [Best sites to land top remote jobs [+$100K/year]](https://dev.to/caroso1222/best-sites-to-land-top-remote-jobs-100k-year-4n04)
+- **Carlos Roso**: [Best sites to land top remote jobs [+\$100K/year]](https://dev.to/caroso1222/best-sites-to-land-top-remote-jobs-100k-year-4n04)
 - **Tyler Hawkins**: [3 React Mistakes Junior Developers Make With Component State](https://dev.to/thawkin3/3-react-mistakes-junior-developers-make-with-component-state-1bhd)
 - **Nick Taylor (he/him)**: [#discussShare some frontend resources!](https://dev.to/nickytonline/share-some-frontend-resources-15j5)
 - **Tharun Shiv**: [18 Programming YouTube Channels that you shouldn't miss](https://dev.to/tharunshiv/18-programming-youtube-channels-that-you-shouldn-t-miss-2hk)
 - **Matt Lewis**: [How I passed the Solutions Architect Professional with mostly free content🥇](https://dev.to/aws-heroes/how-i-passed-the-solutions-architect-professional-with-mostly-free-content-ine)
 - **Jane Tracy**: [👩‍💻 Git and Github for beginners](https://dev.to/janetracydev/git-and-github-for-beginners-po3)
-- **Aashir Aamir Khan**: [Best JavaScript resources 2020 - Start from here  🚲](https://dev.to/justaashir/best-javascript-resources-2020-start-from-here-6n8)
+- **Aashir Aamir Khan**: [Best JavaScript resources 2020 - Start from here 🚲](https://dev.to/justaashir/best-javascript-resources-2020-start-from-here-6n8)
 - **Adrian Bece**: [CSS Houdini introduction & future of CSS](https://dev.to/adrianbdesigns/css-houdini-introduction-future-of-css-1010)
 - **Milu**: [Demystifying React Hooks: useCallback and useMemo](https://dev.to/milu_franz/demystifying-react-hooks-usecallback-and-usememo-1a8j)
 - **Jess Lee (she/her)**: [Hats off to the Class of 2020!](https://dev.to/devteam/hats-off-to-the-class-of-2020-59ck)
