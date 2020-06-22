@@ -50,6 +50,8 @@ Once we have this file saved, we can use `tmuxinator start example` to get our T
 
 We can run `tmux kill-session -t example` to now end the session from a terminal pane.
 
+> As for navigation, the default for Tmux is to use `Ctrl + b`, then the action button. For example, to change between panes, you can use `Ctrl + b, arrow-key`. A list of handy tips can be found [here](https://tmuxcheatsheet.com/).
+
 ## Making a slightly-less contrived example
 
 As you may be able to tell from the above example, each pane has a set of commands we can set into the YAML array that will be executed in order. This means that we could use these two run basic Node applications.
@@ -104,3 +106,4 @@ If you are looking for alternatives to help with local development, I also recom
 2. [GitHub - Tmuxinator](https://github.com/tmuxinator/tmuxinator)
 3. [GitHub - Tmux](https://github.com/tmux/tmux)
 4. [GitHub - Node Foreman alternative](https://github.com/strongloop/node-foreman)
+5. [Tmux - Cheatsheet](https://tmuxcheatsheet.com/)
