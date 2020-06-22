@@ -143,3 +143,6 @@ Searching through Alfred looks like so...
 ![Opening at the website](../assets/2020-06-23-opening-at-the-page.png)
 
 ## Resources and Further Reading
+
+1. [GitHub - Alfy](https://github.com/sindresorhus/alfy)
+2. [GitHub - Personal developer notes](https://github.com/okeeffed/developer-notes)
