@@ -1,0 +1,3 @@
+#!/bin/bash
+node bin/upload-to-devto.js $1 $2
+node bin/upload-to-medium.js $1 $2
