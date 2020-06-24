@@ -7,7 +7,7 @@ const postArticle = (
   title,
   body_markdown,
   canonical_url,
-  tags = ["100DaysOfCode", "javascript", "tutorial"],
+  tags = ["100DaysOfCode", "tutorial"],
   published = false
 ) =>
   axios.post(
