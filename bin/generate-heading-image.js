@@ -1,10 +1,10 @@
+// Usage example: node bin/generate-heading-image.js --icons=ts,js,docker,redux,swift
 require("dotenv").config()
 const fs = require("fs")
 const argv = require("yargs-parser")(process.argv.slice(2))
 const fetch = require("node-fetch")
 const axios = require("axios")
 const sharp = require("sharp")
-const path = require("path")
 const mergeImages = require("merge-images")
 const { Canvas, Image } = require("canvas")
 const { default: Unsplash, toJson } = require("unsplash-js")
@@ -14,6 +14,9 @@ const unsplash = new Unsplash({
 })
 
 global.fetch = fetch
+
+const IMG_WIDTH = 800
+const IMG_HEIGHT = 600
 
 // date helper
 function formatDate() {
@@ -34,7 +37,8 @@ const writeImageToDisk = (title, base64Data) =>
 const sharpResize = async uri =>
   new Promise((resolve, reject) => {
     sharp(uri)
-      .resize({ width: 800, height: 600 })
+      .resize({ width: IMG_WIDTH, height: IMG_HEIGHT })
+      .gamma(1)
       .toFile("./temp/temp-sharp.png")
       .then(info => resolve(info))
       .catch(err => reject(err))
@@ -69,6 +73,47 @@ const getUnsplashImage = query =>
     query,
   })
 
+// const calculateXDisplacement = (index, arrLen) => {
+//   const iconWidth = 100
+//   const iconSeperation = 20
+//   const centerImgDisplacement = arrLen % 2 === 0 ?  :
+// }
+
+// Hack displacements for now.
+// Can have up to 5 icons.
+const displacements = [
+  [],
+  [350],
+  [290, 410],
+  [230, 350, 470],
+  [170, 290, 410, 530],
+  [110, 230, 350, 470, 590],
+]
+
+const combineAllImages = () => {
+  const icons = argv.icons ? argv.icons.split(",") : []
+  const displacement = displacements[icons.length]
+
+  console.log("icons", icons)
+  const iconsToMerge = icons.map((icon, index) => {
+    return { src: `./icons/${icon}.png`, x: displacement[index], y: 250 }
+  })
+
+  console.log(iconsToMerge)
+  return mergeImages(
+    [
+      {
+        src: `./temp/temp-sharp.png`,
+      },
+      ...iconsToMerge,
+    ],
+    {
+      Canvas: Canvas,
+      Image: Image,
+    }
+  )
+}
+
 const main = async () => {
   try {
     console.log("Generating image...")
@@ -77,29 +122,17 @@ const main = async () => {
 
     const image = await getUnsplashImage(query)
     const imageJson = await toJson(image)
-    // console.log(imageJson)
+    console.log(imageJson)
+
     const bufferData = await downloadImage(imageJson.links.download_location)
 
-    const uri = "./temp/test.png"
+    const uri = "./temp/temp-unsplash.png"
     writeImageToDisk(uri, bufferData)
     await sharpResize(uri)
 
-    const b64Img = await mergeImages(
-      [
-        {
-          src: "./temp/temp-sharp.png",
-        },
-        { src: "./icons/ts.png", x: 230, y: 250 },
-        { src: "./icons/js.png", x: 350, y: 250 },
-        { src: "./icons/db.png", x: 460, y: 250 },
-      ],
-      {
-        Canvas: Canvas,
-        Image: Image,
-      }
-    )
+    const b64Img = await combineAllImages()
     writeImageToDisk(
-      "./temp/final.png",
+      `./temp/${formatDate()}-final.png`,
       b64Img.replace(/data:image\/png;base64/, "")
     )
   } catch (err) {
