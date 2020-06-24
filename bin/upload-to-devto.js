@@ -59,7 +59,7 @@ const main = async () => {
       canonicalUrl,
       tags
     )
-    console.log("Posted to DevTo!", devtoRes)
+    console.log("Posted to DevTo!", devtoRes.url)
   } catch (err) {
     console.log(err)
     process.exit(1)
