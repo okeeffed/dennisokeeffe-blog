@@ -1,4 +1,4 @@
-// Usage example: node bin/generate-heading-image.js --icons=ts,js,docker,redux,swift
+// Usage example: node bin/generate-heading-image.js path/to/file --icons=ts,js,docker,redux,swift
 require("dotenv").config()
 const fs = require("fs")
 const argv = require("yargs-parser")(process.argv.slice(2))
@@ -114,27 +114,53 @@ const combineAllImages = () => {
   )
 }
 
+const getBlogName = blogPath => {
+  const pathArr = blogPath.split("/")
+  const blogFile = pathArr[pathArr.length - 1]
+  return blogFile.split(".")[0]
+}
+
+const addAuthorToBlogPost = (blogPath, imageMetadata) => {
+  // get blog
+  let blog = fs.readFileSync(blogPath, "utf-8")
+  const photoCredit = `_Image credit: [${imageMetadata.user.name}](${imageMetadata.user.links.html})_`
+
+  if (/_Image credit/.test(blog)) {
+    blog = blog.replace(/_Image credit.+/, photoCredit)
+  } else {
+    blog += `\n${photoCredit}`
+  }
+
+  fs.writeFileSync(blogPath, blog, "utf-8")
+}
+
 const main = async () => {
   try {
-    console.log("Generating image...")
-    // const [blogPath, ...images] = argv._
+    const [blogPath] = argv._
+    console.log("Generating image for:", blogPath)
+
     const query = argv.query ? argv.query : "code"
 
     const image = await getUnsplashImage(query)
-    const imageJson = await toJson(image)
-    console.log(imageJson)
+    const imageMetadata = await toJson(image)
+    console.log(imageMetadata)
 
-    const bufferData = await downloadImage(imageJson.links.download_location)
+    const bufferData = await downloadImage(
+      imageMetadata.links.download_location
+    )
 
     const uri = "./temp/temp-unsplash.png"
     writeImageToDisk(uri, bufferData)
     await sharpResize(uri)
 
+    const blogName = getBlogName(blogPath)
     const b64Img = await combineAllImages()
     writeImageToDisk(
-      `./temp/${formatDate()}-final.png`,
+      `./content/assets/${blogName}-main-image.png`,
       b64Img.replace(/data:image\/png;base64/, "")
     )
+
+    addAuthorToBlogPost(blogPath, imageMetadata)
   } catch (err) {
     console.error(err)
   }

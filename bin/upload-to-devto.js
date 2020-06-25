@@ -7,6 +7,7 @@ const postArticle = (
   title,
   body_markdown,
   canonical_url,
+  main_image,
   tags = ["100DaysOfCode", "tutorial"],
   published = false
 ) =>
@@ -17,6 +18,7 @@ const postArticle = (
         title,
         body_markdown,
         canonical_url,
+        main_image,
         tags,
         published,
       },
@@ -47,6 +49,7 @@ const main = async () => {
   const blogUrl = blogPostFilePath.replace(`${BASE_DIR}/`, "").split(".")[0]
   const title = blog.split("\n")[1].replace("title: ", "")
   const canonicalUrl = `https://blog.dennisokeeffe.com/blog/${blogUrl}/`
+  const mainImage = `https://github.com/okeeffed/dennisokeeffe-blog/blob/master/content/assets/${blogUrl}-main-image?raw=true)`
 
   blogToUpload += `\n\n_Originally posted on my [blog](${canonicalUrl}). Follow me on Twitter for more hidden gems [@dennisokeeffe92](https://twitter.com/dennisokeeffe92)._`
 
@@ -57,6 +60,7 @@ const main = async () => {
       title,
       blogToUpload,
       canonicalUrl,
+      mainImage,
       tags
     )
     console.log("Posted to DevTo!", devtoRes.url)

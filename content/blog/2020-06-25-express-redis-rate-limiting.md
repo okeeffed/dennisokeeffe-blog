@@ -350,3 +350,5 @@ Go forth and rate limit those pesky IPs from your sweet, sweet dog appreciation 
 7. [Redis commands](https://redis.io/commands)
 8. [DockerHub - Redis](https://hub.docker.com/_/redis)
 9. [Express.js](https://expressjs.com/)
+
+_Image credit: [Markus Spiske](https://unsplash.com/@markusspiske)_
