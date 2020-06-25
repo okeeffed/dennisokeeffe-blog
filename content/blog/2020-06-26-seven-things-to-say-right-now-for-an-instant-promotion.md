@@ -42,7 +42,7 @@ Stand out from the crowd and start introducing nanofrontends today.
 
 What is the best way to make friends with programmers? Start preaching that their job is no longer needed.
 
-People will tell you that No Code/Low Code will open you to "focusing on the more important tasks", but here is the trade secret that only Tech Lead Tips will can tell you: you cannot focus on more important tasks when you don't have a job.
+People will tell you that No Code/Low Code will open you to "focusing on the more important tasks", but here is the trade secret that only Tech Lead Tips will tell you: you cannot focus on more important tasks when you don't have a job.
 
 > Hot tip: You can not work a job if you do not have a job.
 
@@ -93,3 +93,5 @@ If there is one thing that you should take away from today, it's that no one in 
 So there you have it. Those are **seven terms that you need to start introducing** into each form of communication affilliated with your company. [Tweet](https://twitter.com/dennisokeeffe92) me your success stories.
 
 _Tech Lead Tips is my satirical getaway series from writing useful blog posts and working too hard._
+
+_Image credit: [Markus Spiske](https://unsplash.com/@markusspiske)_
