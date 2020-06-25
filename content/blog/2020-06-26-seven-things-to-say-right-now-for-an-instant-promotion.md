@@ -1,5 +1,5 @@
 ---
-title: Seven things to start saying RIGHT NOW for an instant promotion
+title: Seven things to start saying RIGHT NOW to become a Tech Lead
 description: Satirical Tech Lead Fridays
 date: "2020-06-25"
 ---
