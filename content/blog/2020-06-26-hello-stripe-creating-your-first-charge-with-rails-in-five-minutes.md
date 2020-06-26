@@ -115,3 +115,5 @@ If you now go and check your Stripe dashboard, you will be able to see a charge
 5. [HTTP Requests in Rails Apps](https://thoughtbot.com/blog/back-to-basics-http-requests)
 6. [Action Controlller Overview](https://guides.rubyonrails.org/v5.2/action_controller_overview.html)
 7. [HTTPie](https://httpie.org/)
+
+_Image credit: [Alexandru Acea](https://unsplash.com/@alexacea)_
