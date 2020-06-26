@@ -104,7 +104,9 @@ curl --header "Content-Type: application/json" \
   http://localhost:3000/charges/create
 ```
 
-If you now go and check your Stripe dashboard, you will be able to see a charge
+If you now go and check your Stripe dashboard, you will be able to see a charge.
+
+![Stripe Dashboard](../assets/2020-06-26-stripe-dashboard.png)
 
 ## Resources and further reading
 
