@@ -1,12 +1,12 @@
 ---
-title: Creating your first Charge with Stripe in 5 minutes
+title: Creating your first Stripe Charge with Rails in 5 minutes
 description: Follow along in this short Stripe series as we take a look at making a Stripe charge in a few different languages!
 date: "2020-06-26"
 ---
 
 In this short series, we are going to look at how to create a charge to Stripe in a number of their officially supported languages!
 
-Today, we are going to look at how to do so in Rails.
+Today, we are going to look at how to do so with Ruby on Rails.
 
 The expectations are that you have both Rails installed and have your [Stripe API keys](https://stripe.com/docs/keys) setup and ready to go.
 
