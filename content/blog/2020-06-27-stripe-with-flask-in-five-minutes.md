@@ -1,21 +1,16 @@
 ---
-menu: Stripe
-name: Python Flask Stripe Configuration
+title: Creating your first Stripe Charge with Python + Flask in 5 minutes
+description: Follow along in this short Stripe series as we take a look at making a Stripe charge in a few different languages!
+date: "2020-06-27"
 ---
 
-# Python Flask Stripe Configuration
+In this short series, we are going to look at how to create a charge to Stripe in a number of their officially supported languages!
 
-A quick look at setting up the Stripe Python API with a Flask server.
+Today, we are going to look at how to do so with Python and Flask.
 
-## Resources
+The expectations are that you have both Python 3 and `pip3` installed and have your [Stripe API keys](https://stripe.com/docs/keys) setup and ready to go.
 
-1. [Stripe API](https://stripe.com/docs/api?lang=python)
-2. [Flask Hello World Docs](https://docs.dennisokeeffe.com/manual-flask-hello-world)
-3. [Stripe Python Github](https://github.com/stripe/stripe-python)
-4. [Python Try/Except](https://www.w3schools.com/python/python_try_except.asp)
-5. [Status codes in Flask](https://stackoverflow.com/questions/45412228/flask-sending-data-and-status-code-through-a-response-object/45412576)
-6. [Parsing JSON data w/ Flask](https://techtutorialsx.com/2017/01/07/flask-parsing-json-data/)
-7. [Python Dotenv Github](https://github.com/theskumar/python-dotenv)
+> The following comes in part from my [documentation website](https://docs.dennisokeeffe.com/manual-stripe-flask-stripe-configuration).
 
 ## Getting Started
 
@@ -86,4 +81,25 @@ The above:
 
 `python3 server.py` will start the server on port 5000.
 
-Running `http POST http://localhost:5000/api/charge amount:=600 receiptEmail=hello_flask@example.com` (using HTTPie) will come back with success. Check your Stripe dashboard and you will see a charge made for US\$6.00! Hooray!
+Running `http POST http://localhost:5000/api/charge amount:=1700 receiptEmail=hello_flask@example.com` (using HTTPie) will come back with success. Check your Stripe dashboard and you will see a charge made for AUD\$17.00! Hooray!
+
+I chose to use HTTPie because I feel it is a fun tool that more should know about! Alternative, you could do the above using `curl` as well (or anything that can make a POST request for a matter of fact).
+
+```s
+curl --header "Content-Type: application/json" \
+  --request POST \
+  --data '{"amount":1700,"receipt_email":"hello_flask@example.com"}' \
+  http://localhost:5000/api/charge
+```
+
+![Stripe Dashboard](../assets/2020-06-26-stripe-dashboard.png)
+
+## Resources and Further Reading
+
+1. [Stripe API](https://stripe.com/docs/api?lang=python)
+2. [Flask Hello World Docs](https://docs.dennisokeeffe.com/manual-flask-hello-world)
+3. [Stripe Python Github](https://github.com/stripe/stripe-python)
+4. [Python Try/Except](https://www.w3schools.com/python/python_try_except.asp)
+5. [Status codes in Flask](https://stackoverflow.com/questions/45412228/flask-sending-data-and-status-code-through-a-response-object/45412576)
+6. [Parsing JSON data w/ Flask](https://techtutorialsx.com/2017/01/07/flask-parsing-json-data/)
+7. [Python Dotenv Github](https://github.com/theskumar/python-dotenv)

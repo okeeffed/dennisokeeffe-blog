@@ -1,5 +1,5 @@
 ---
-title: Creating your first Stripe Charge with Rails in 5 minutes
+title: Creating your first Stripe Charge with Ruby on Rails in 5 minutes
 description: Follow along in this short Stripe series as we take a look at making a Stripe charge in a few different languages!
 date: "2020-06-26"
 ---

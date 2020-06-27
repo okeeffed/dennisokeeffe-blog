@@ -1,6 +1,7 @@
 ---
-menu: Stripe
-name: Configuring Stripe for .NET
+title: Creating your first Stripe Charge with Dotnet + C# in 5 minutes
+description: Follow along in this short Stripe series as we take a look at making a Stripe charge in a few different languages!
+date: "2020-06-27"
 ---
 
 In this short series, we are going to look at how to create a charge to Stripe in a number of their officially supported languages!
@@ -12,6 +13,8 @@ The expectations are that you have both Dotnet installed and have your [Stripe A
 > The following comes in part from my [documentation website](https://docs.dennisokeeffe.com/manual-stripe-dotnet-stripe-configuration).
 
 ## Adding the library
+
+Assuming you have Dotnet setup, run the following:
 
 ```shell
 # install stripe
@@ -35,9 +38,9 @@ touch .env
 
 Within the Dotenv file, we need to add your test keys from Stripe's website.
 
-```shell
-SK_TEST_KEY= sk_test...
-PK_TEST_KEY=pk_test...
+```s
+SK_TEST_KEY=<sk_test_key>
+PK_TEST_KEY=<pk_test_key>
 ```
 
 ## Updating your settings file
@@ -111,9 +114,9 @@ namespace dotnet_stripe.Controllers
             var options = new ChargeCreateOptions
             {
                 Amount = createOptions.Amount,
-                Currency = "usd",
+                Currency = "auread",
                 Source = "tok_visa",
-                ReceiptEmail = "tim.apple@example.com",
+                ReceiptEmail = "hello_dotnet@example.com",
             };
             var service = new ChargeService();
             var charge = service.Create(options);
@@ -127,13 +130,20 @@ namespace dotnet_stripe.Controllers
 
 Since we are sending back the response from the `Stripe.Charge` object, it will be very verbose and not what you want to do in reality for the API.
 
-Using HTTPie (check resource [12]), we can check for our 200 response with the full JSON body returned by Stripe by calling `http POST http://localhost:5000/api/charges Amount:=1700` in our console.
+In this example using [HTTPie](https://httpie.org/), call `http POST http://localhost:5000/api/charges amount:=1700 receipt_email=hello_dotnet@example.com` and we will get back our charge results sent as JSON. Hooray!
 
-## Check the Stripe developer console
+I chose to use HTTPie because I feel it is a fun tool that more should know about! Alternative, you could do the above using `curl` as well (or anything that can make a POST request for a matter of fact).
 
-Heading to our Stripe dashboard and checking under `Developers > Events`, one can see our payment made for `US$2.00` by `"tim.apple@example.com"`. Great success!
+```s
+curl --header "Content-Type: application/json" \
+  --request POST \
+  --data '{"amount":1700,"receipt_email":"hello_dotnet@example.com"}' \
+  http://localhost:5000/api/charges
+```
 
-Of course, all those values are coded and not exactly what we want in the real world... but we are connected.
+If you now go and check your Stripe dashboard, you will be able to see a charge.
+
+![Stripe Dashboard](../assets/2020-06-26-stripe-dashboard.png)
 
 ## Resources and Further Ready
 

@@ -1,22 +1,16 @@
 ---
-menu: Stripe
-name: Java Spring Stripe Configuration
+title: Creating your first Stripe Charge with Java + Spring in 5 minutes
+description: Follow along in this short Stripe series as we take a look at making a Stripe charge in a few different languages!
+date: "2020-06-27"
 ---
 
-# Java Spring Stripe Configuration
+In this short series, we are going to look at how to create a charge to Stripe in a number of their officially supported languages!
 
-In this short example, we are going to "Hello, World!" a Stripe charge!
+In this article, we are going to look at how to do so with Java and Spring.
 
-## Resources
+The expectations are that you have Java installed and have your [Stripe API keys](https://stripe.com/docs/keys) setup and ready to go and that you have a general idea of how Gradle works.
 
-1. [Gradle Intro Docs](https://docs.dennisokeeffe.com/manual-java-gradle-intro)
-2. [Spring Guide to Rest Services](https://spring.io/guides/gs/rest-service/)
-3. [Stripe API](https://stripe.com/docs/api)
-4. [Stripe with Spring](https://stackabuse.com/stripe-integration-with-java-spring-for-payment-processing/)
-5. [Stripe Github Java Usage](https://github.com/stripe/stripe-java#usage)
-6. [Spring ResponseEntity](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/http/ResponseEntity.html)
-7. [Tutorials Point: Service Components](https://www.tutorialspoint.com/spring_boot/spring_boot_service_components.htm)
-8. [Basic Spring Boot Gitignore file](https://gist.github.com/fteychene/1e5c30fc86d7623084d0)
+> The following comes in part from my [documentation website](https://docs.dennisokeeffe.com/manual-stripe-spring-stripe-configuration).
 
 ## Setup
 
@@ -189,7 +183,7 @@ public class StripeChargeController {
 
 Run `./gradlew build` to build to project or `./gradlew bootRun` to build and run.
 
-Once the project is running, we can ping `http POST http://localhost:8080/api/charge amount:=200 receiptEmail=hello@example.com` (using HTTPie) and we get a response like the following:
+Once the project is running, we can ping `http POST http://localhost:8080/api/charge amount:=1700 receiptEmail=hello_spring@example.com` (using HTTPie) and we get a response like the following:
 
 ```s
 HTTP/1.1 201
@@ -200,4 +194,26 @@ Date: Sun, 12 Jan 2020 03:33:10 GMT
 Success
 ```
 
-Check your Stripe Dashboard under `Developer > Events` and you'll see we have successfully made a payment! Hooray!
+I chose to use HTTPie because I feel it is a fun tool that more should know about! Alternative, you could do the above using `curl` as well (or anything that can make a POST request for a matter of fact).
+
+```s
+curl --header "Content-Type: application/json" \
+  --request POST \
+  --data '{"amount":1700,"receipt_email":"hello_spring@example.com"}' \
+  http://localhost:8080/api/charge
+```
+
+If you now go and check your Stripe dashboard, you will be able to see a charge.
+
+![Stripe Dashboard](../assets/2020-06-26-stripe-dashboard.png)
+
+## Resources and Further Reading
+
+1. [Gradle Intro Docs](https://docs.dennisokeeffe.com/manual-java-gradle-intro)
+2. [Spring Guide to Rest Services](https://spring.io/guides/gs/rest-service/)
+3. [Stripe API](https://stripe.com/docs/api)
+4. [Stripe with Spring](https://stackabuse.com/stripe-integration-with-java-spring-for-payment-processing/)
+5. [Stripe Github Java Usage](https://github.com/stripe/stripe-java#usage)
+6. [Spring ResponseEntity](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/http/ResponseEntity.html)
+7. [Tutorials Point: Service Components](https://www.tutorialspoint.com/spring_boot/spring_boot_service_components.htm)
+8. [Basic Spring Boot Gitignore file](https://gist.github.com/fteychene/1e5c30fc86d7623084d0)

@@ -1,21 +1,16 @@
 ---
-menu: Stripe
-name: Configuring Stripe for PHP and Slim
+title: Creating your first Stripe Charge with Slim + PHP in 5 minutes
+description: Follow along in this short Stripe series as we take a look at making a Stripe charge in a few different languages!
+date: "2020-06-27"
 ---
 
-# Configuring Stripe for PHP and Slim
+In this short series, we are going to look at how to create a charge to Stripe in a number of their officially supported languages!
 
-## Resources
+In this article, we are going to look at how to do so with PHP and Slim.
 
-1. [Composer installation](https://getcomposer.org/download/)
-2. [Getting started with Slim](http://www.slimframework.com/docs/v4/start/installation.html)
-3. [Request Object - Slim](http://www.slimframework.com/docs/v4/objects/request.html)
-4. [PHP Exceptions](https://www.php.net/manual/en/language.exceptions.php)
-5. [Receiving input into a Slim 4 application](https://akrabat.com/receiving-input-into-a-slim-4-application/)
-6. [PHP Dotenv](https://github.com/vlucas/phpdotenv)
-7. [Stripe PHP Github](https://github.com/stripe/stripe-php)
-8. [Stripe API](https://stripe.com/docs/api)
-9. [getParsedBody Slim](https://hotexamples.com/examples/slim.http/Request/getParsedBody/php-request-getparsedbody-method-examples.html)
+The expectations are that you have PHP + Composer installed and have your [Stripe API keys](https://stripe.com/docs/keys) setup and ready to go.
+
+> The following comes in part from my [documentation website](https://docs.dennisokeeffe.com/manual-stripe-slim-stripe-configuration).
 
 ## Get Started
 
@@ -65,7 +60,7 @@ Our `.env` file should contain our keys for development. Get these from your Str
 
 Add the following to the `.env` file in the root of your project directory:
 
-```shell
+```s
 SK_TEST_KEY= sk_test...
 PK_TEST_KEY=pk_test...
 ```
@@ -131,6 +126,29 @@ $app->run();
 
 Note that in the above example we are loading keys from `.env`, setting the Stripe API key, then using Slim 4's body parsing middleware to help us with parsing the request body from JSON.
 
-If we run `http POST http://localhost:8080/api/charge amount:=500 receiptEmail=hello@example.com` (using HTTPie) from the console, we will get our `Successful charge` message back.
+If we run `http POST http://localhost:8080/api/charge amount:=1700 receiptEmail=hello_slim@example.com` (using HTTPie) from the console, we will get our `Successful charge` message back.
 
-We can head to our dashboard on Stripe and head to `Developers > Events` to see the log of our successful charge for `US$5.00`. Hooray!
+I chose to use HTTPie because I feel it is a fun tool that more should know about! Alternative, you could do the above using `curl` as well (or anything that can make a POST request for a matter of fact).
+
+```s
+curl --header "Content-Type: application/json" \
+  --request POST \
+  --data '{"amount":1700,"receipt_email":"hello_slim@example.com"}' \
+  http://localhost:8080/api/charge
+```
+
+If you now go and check your Stripe dashboard, you will be able to see a charge.
+
+![Stripe Dashboard](../assets/2020-06-26-stripe-dashboard.png)
+
+## Resources and Further Reading
+
+1. [Composer installation](https://getcomposer.org/download/)
+2. [Getting started with Slim](http://www.slimframework.com/docs/v4/start/installation.html)
+3. [Request Object - Slim](http://www.slimframework.com/docs/v4/objects/request.html)
+4. [PHP Exceptions](https://www.php.net/manual/en/language.exceptions.php)
+5. [Receiving input into a Slim 4 application](https://akrabat.com/receiving-input-into-a-slim-4-application/)
+6. [PHP Dotenv](https://github.com/vlucas/phpdotenv)
+7. [Stripe PHP Github](https://github.com/stripe/stripe-php)
+8. [Stripe API](https://stripe.com/docs/api)
+9. [getParsedBody Slim](https://hotexamples.com/examples/slim.http/Request/getParsedBody/php-request-getparsedbody-method-examples.html)

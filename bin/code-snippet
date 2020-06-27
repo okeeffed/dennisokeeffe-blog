@@ -1,0 +1,3 @@
+#!/bin/bash
+# $1: Input file
+carbon-now $1 -h -t content/assets/$1
