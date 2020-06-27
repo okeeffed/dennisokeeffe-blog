@@ -88,7 +88,7 @@ I chose to use HTTPie because I feel it is a fun tool that more should know abou
 ```s
 curl --header "Content-Type: application/json" \
   --request POST \
-  --data '{"amount":1700,"receipt_email":"hello_flask@example.com"}' \
+  --data '{"amount":1700,"receiptEmail":"hello_flask@example.com"}' \
   http://localhost:5000/api/charge
 ```
 

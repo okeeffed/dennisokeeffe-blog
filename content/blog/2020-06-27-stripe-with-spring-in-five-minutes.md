@@ -199,7 +199,7 @@ I chose to use HTTPie because I feel it is a fun tool that more should know abou
 ```s
 curl --header "Content-Type: application/json" \
   --request POST \
-  --data '{"amount":1700,"receipt_email":"hello_spring@example.com"}' \
+  --data '{"amount":1700,"receiptEmail":"hello_spring@example.com"}' \
   http://localhost:8080/api/charge
 ```
 

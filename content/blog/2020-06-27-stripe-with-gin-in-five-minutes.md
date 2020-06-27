@@ -108,14 +108,14 @@ We can run our server with the following:
 go run main.go
 ```
 
-In another terminal, run `http POST http://localhost:8080/api/charges amount:=1700 receiptEmail=hello@example.com` (using [HTTPie](https://httpie.org/)) and we will get back `Successfully charged`! Hooray! We made it.
+In another terminal, run `http POST http://localhost:8080/api/charges amount:=1700 receiptEmail=hello_gin@example.com` (using [HTTPie](https://httpie.org/)) and we will get back `Successfully charged`! Hooray! We made it.
 
 I chose to use HTTPie because I feel it is a fun tool that more should know about! Alternative, you could do the above using `curl` as well (or anything that can make a POST request for a matter of fact).
 
 ```s
 curl --header "Content-Type: application/json" \
   --request POST \
-  --data '{"amount":1700,"receipt_email":"hello_gin@example.com"}' \
+  --data '{"amount":1700,"receiptEmail":"hello_gin@example.com"}' \
   http://localhost:8080/api/charges
 ```
 
@@ -133,4 +133,4 @@ If you now go and check your Stripe dashboard, you will be able to see a charge.
 6. [Golang Dotenv Github](https://github.com/joho/godotenv)
 7. [HTTPie](https://httpie.org/)
 
-_Image credit: [Lee  Campbell](https://unsplash.com/@leecampbell)_
+_Image credit: [Lee Campbell](https://unsplash.com/@leecampbell)_
