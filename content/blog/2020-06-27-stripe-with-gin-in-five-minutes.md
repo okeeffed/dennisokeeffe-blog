@@ -132,3 +132,5 @@ If you now go and check your Stripe dashboard, you will be able to see a charge.
 5. [Gin Github](https://github.com/gin-gonic/gin)
 6. [Golang Dotenv Github](https://github.com/joho/godotenv)
 7. [HTTPie](https://httpie.org/)
+
+_Image credit: [Lee  Campbell](https://unsplash.com/@leecampbell)_

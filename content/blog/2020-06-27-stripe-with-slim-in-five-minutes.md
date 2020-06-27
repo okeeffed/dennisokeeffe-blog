@@ -152,3 +152,5 @@ If you now go and check your Stripe dashboard, you will be able to see a charge.
 7. [Stripe PHP Github](https://github.com/stripe/stripe-php)
 8. [Stripe API](https://stripe.com/docs/api)
 9. [getParsedBody Slim](https://hotexamples.com/examples/slim.http/Request/getParsedBody/php-request-getparsedbody-method-examples.html)
+
+_Image credit: [Sai Kiran Anagani](https://unsplash.com/@_imkiran)_

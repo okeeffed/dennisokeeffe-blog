@@ -159,3 +159,5 @@ If you now go and check your Stripe dashboard, you will be able to see a charge.
 10. [Toptal ASP.NET WebAPI](https://www.toptal.com/asp-dot-net/asp-net-web-api-tutorial)
 11. [Dev.To tutorial](https://dev.to/integerman/creating-a-net-core-api-3n6d)
 12. [HTTPie JSON](https://httpie.org/doc#default-behaviour)
+
+_Image credit: [Goran Ivos](https://unsplash.com/@goran_ivos)_

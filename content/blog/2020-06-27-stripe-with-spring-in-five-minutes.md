@@ -217,3 +217,5 @@ If you now go and check your Stripe dashboard, you will be able to see a charge.
 6. [Spring ResponseEntity](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/http/ResponseEntity.html)
 7. [Tutorials Point: Service Components](https://www.tutorialspoint.com/spring_boot/spring_boot_service_components.htm)
 8. [Basic Spring Boot Gitignore file](https://gist.github.com/fteychene/1e5c30fc86d7623084d0)
+
+_Image credit: [Gio Bartlett](https://unsplash.com/@giobartlett)_
