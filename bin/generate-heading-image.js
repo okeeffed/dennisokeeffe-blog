@@ -1,4 +1,4 @@
-// Usage example: node bin/generate-heading-image.js path/to/file --icons=ts,js,docker,redux,swift
+// Usage example: node bin/generate-heading-image.js path/to/file --icons=ts,js,docker,redux,swift --query=search
 require("dotenv").config()
 const fs = require("fs")
 const argv = require("yargs-parser")(process.argv.slice(2))
