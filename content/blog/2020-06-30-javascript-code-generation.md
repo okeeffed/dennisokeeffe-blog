@@ -1,7 +1,7 @@
 ---
 title: Build your own code generator in JavaScript
 description: Follow along as we do the bare minimum to start generating files using EJS from the command line
-date: "2020-06-29"
+date: "2020-06-30"
 ---
 
 ![Hello EJS](../assets/2020-06-30-hello-ejs.gif)
