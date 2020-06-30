@@ -47,7 +47,10 @@ const main = async () => {
     )
   const blogUrl = blogPostFilePath.replace(`${BASE_DIR}/`, "").split(".")[0]
   const title = blog.split("\n")[1].replace("title: ", "")
-  const canonicalUrl = `https://blog.dennisokeeffe.com/${blogUrl}/`
+  const canonicalUrl = `https://blog.dennisokeeffe.com/${blogUrl.replace(
+    /content\//,
+    ""
+  )}/`
 
   blogToUpload += `\n\n_Originally posted on my [blog](${canonicalUrl}). Follow me on Twitter for more hidden gems [@dennisokeeffe92](https://twitter.com/dennisokeeffe92)._`
 
