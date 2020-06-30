@@ -4,6 +4,8 @@ description: Follow along as we do the bare minimum to start generating files us
 date: "2020-06-29"
 ---
 
+![Hello EJS](../assets/2020-06-30-hello-ejs.gif)
+
 Let's build a small CLI tool today to scaffold some JavaScript files!
 
 We're going to be _super minimal_ today (since I haven't ate dinner yet and still have work to do :crying:) and build out a small "Hello, world!" file using the EJS template engine.
