@@ -4,7 +4,7 @@ description: Improve your Design System with these websites that work as togethe
 date: "2020-06-29"
 ---
 
-Finding inspiration and ideas for your design system shouldn't be so hard. Here are five resources that set a great foundation and set your design system up for success.
+Finding inspiration and ideas for your design system _**shouldn't be so hard**_. Here are **five resources** that set a great foundation and set your design system up for success.
 
 ## Style Guides
 
