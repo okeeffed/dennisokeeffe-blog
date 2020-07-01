@@ -1,7 +1,7 @@
 ---
 title: Build a CLI Puppeteer tool to screenshot all the things!
 description: In this example, we will screenshot vaild HTML with Puppeteer
-date: "2020-07-01"
+date: "2020-07-30"
 ---
 
 _**If you like this project, be sure to follow me on [GitHub](https://github.com/okeeffed) and [Twitter](https://twitter.com/dennisokeeffe92) for other sweet projects and isolation banter.**_
@@ -15,34 +15,6 @@ In tonight's example, we're going to use [Puppeteer](https://github.com/puppetee
 The expectations for today's project is that you have the usual suspects for NodeJS setup.
 
 We are going to install both [Puppeteer](https://github.com/puppeteer/puppeteer) and [Yargs Parser](https://github.com/yargs/yargs-parser). Don't worry if you haven't used them before, prerequisite knowledge is **not required**. However, you may want to check the documentation on each repo for more information or better understanding.
-
-## Table of contents
-
-- [Table of contents](#table-of-contents)
-- [Important author's note](#important-authors-note)
-- [Initialising the project](#initialising-the-project)
-- [The code in its full glory](#the-code-in-its-full-glory)
-- [Requiring our npm packages](#requiring-our-npm-packages)
-- [Validating our flags](#validating-our-flags)
-- [The HTML string to be used for Puppeteer](#the-html-string-to-be-used-for-puppeteer)
-- [Loading KaTeX](#loading-katex)
-- [Upping the font size](#upping-the-font-size)
-- [The important KaTeX HTML](#the-important-katex-html)
-- [Our main function](#our-main-function)
-- [Running the code](#running-the-code)
-- [Conclusion](#conclusion)
-- [Final Code](#final-code)
-- [Resources and Further Reading](#resources-and-further-reading)
-
-## Important author's note
-
-Everything you see `String.raw(${argv.math})` in this post, it actually means the following in the image:
-
-![What I mean for String.raw](../assets/2020-07-01-string-raw.png)
-
-I was having issues validating the Markdown. It is really painful, but you may have to see the final code on my [GitHub](https://github.com/okeeffed/puppeteer-katex).
-
-Life is hard sometimes, but we'll get through.
 
 ## Initialising the project
 
@@ -93,7 +65,7 @@ const html = `<!DOCTYPE html>
   </head>
   <span id="mykatex" style="display: inline-block;">...</span>
   <script>
-    katex.render(String.raw(${argv.math}), mykatex);
+    katex.render(String.raw\`${argv.math}\`, mykatex);
   </script>
 </html>`
 
@@ -171,12 +143,12 @@ const html = `<!DOCTYPE html>
     <script src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"
         onload="renderMathInElement(document.body);"></script>
     <style>
-      .katex { font-size: 48px !important; }
+      .katex { font-size: 48px !important; } 
     </style>
   </head>
   <span id="mykatex" style="display: inline-block;">...</span>
   <script>
-    katex.render(String.raw(${argv.math}), mykatex);
+    katex.render(String.raw\`${argv.math}\`, mykatex);
   </script>
 </html>`
 ```
@@ -235,10 +207,10 @@ I've added a styles into the HTML to simply up the font size of our output. Noth
 
 ## The important KaTeX HTML
 
-```javascript
+```html
 <span id="mykatex" style="display: inline-block;">...</span>
 <script>
-  katex.render(String.raw(${argv.math}), mykatex);
+  katex.render(String.raw\`${argv.math}\`, mykatex);
 </script>
 ```
 
@@ -388,7 +360,7 @@ const html = `<!DOCTYPE html>
   </head>
   <span id="mykatex" style="display: inline-block;">...</span>
   <script>
-    katex.render(String.raw(${argv.math}), mykatex);
+    katex.render(String.raw\`${argv.math}\`, mykatex);
   </script>
 </html>`
 
