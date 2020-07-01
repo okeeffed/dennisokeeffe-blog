@@ -1,7 +1,7 @@
 ---
 title: Build a CLI Puppeteer tool to screenshot all the things!
-description: In this example, we will screenshot  vaild HTML with Puppeteer
-date: "2020-06-30"
+description: In this example, we will screenshot vaild HTML with Puppeteer
+date: "2020-07-01"
 ---
 
 _**If you like this project, be sure to follow me on [GitHub](https://github.com/okeeffed) and [Twitter](https://twitter.com/dennisokeeffe92) for other sweet projects and isolation banter.**_
