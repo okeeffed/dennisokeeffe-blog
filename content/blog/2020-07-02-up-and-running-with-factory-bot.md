@@ -194,3 +194,5 @@ Finished in 0.001607s, 0.0000 runs/s, 0.0000 assertions/s.
 2. [thoughtbot/factory_bot](https://github.com/thoughtbot/factory_bot)
 3. [Creating an Article model in Rails](https://guides.rubyonrails.org/getting_started.html#creating-the-article-model)
 4. [Testing RSpec](https://semaphoreci.com/community/tutorials/how-to-test-rails-models-with-rspec)
+
+_Image credit: [Alex Knight](https://unsplash.com/@agkdesign)_
