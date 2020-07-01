@@ -19,6 +19,7 @@ We are going to install both [Puppeteer](https://github.com/puppeteer/puppeteer)
 ## Table of contents
 
 - [Table of contents](#table-of-contents)
+- [Important author's note](#important-authors-note)
 - [Initialising the project](#initialising-the-project)
 - [The code in its full glory](#the-code-in-its-full-glory)
 - [Requiring our npm packages](#requiring-our-npm-packages)
@@ -32,6 +33,16 @@ We are going to install both [Puppeteer](https://github.com/puppeteer/puppeteer)
 - [Conclusion](#conclusion)
 - [Final Code](#final-code)
 - [Resources and Further Reading](#resources-and-further-reading)
+
+## Important author's note
+
+Everything you see `String.raw(${argv.math})` in this post, it actually means the following in the image:
+
+![What I mean for String.raw](../assets/2020-07-01-string-raw.png)
+
+I was having issues validating the Markdown. It is really painful, but you may have to see the final code on my [GitHub](https://github.com/okeeffed/puppeteer-katex).
+
+Life is hard sometimes, but we'll get through.
 
 ## Initialising the project
 
@@ -82,7 +93,7 @@ const html = `<!DOCTYPE html>
   </head>
   <span id="mykatex" style="display: inline-block;">...</span>
   <script>
-    katex.render(String.raw\`${argv.math}\`, mykatex);
+    katex.render(String.raw(${argv.math}), mykatex);
   </script>
 </html>`
 
@@ -160,12 +171,12 @@ const html = `<!DOCTYPE html>
     <script src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"
         onload="renderMathInElement(document.body);"></script>
     <style>
-      .katex { font-size: 48px !important; } 
+      .katex { font-size: 48px !important; }
     </style>
   </head>
   <span id="mykatex" style="display: inline-block;">...</span>
   <script>
-    katex.render(String.raw\`${argv.math}\`, mykatex);
+    katex.render(String.raw(${argv.math}), mykatex);
   </script>
 </html>`
 ```
@@ -224,10 +235,10 @@ I've added a styles into the HTML to simply up the font size of our output. Noth
 
 ## The important KaTeX HTML
 
-```html
+```javascript
 <span id="mykatex" style="display: inline-block;">...</span>
 <script>
-  katex.render(String.raw\`${argv.math}\`, mykatex);
+  katex.render(String.raw(${argv.math}), mykatex);
 </script>
 ```
 
@@ -377,7 +388,7 @@ const html = `<!DOCTYPE html>
   </head>
   <span id="mykatex" style="display: inline-block;">...</span>
   <script>
-    katex.render(String.raw\`${argv.math}\`, mykatex);
+    katex.render(String.raw(${argv.math}), mykatex);
   </script>
 </html>`
 
