@@ -396,9 +396,12 @@ func main() {
 
 ## Resources and Further Reading
 
-1. [fiber - GitHub](https://github.com/gofiber/fiber)
-2. [fiber recipes - GitHub](https://github.com/gofiber/recipes)
-3. [Go - installation](https://golang.org/doc/install)
-4. [Go - Brew Formulae](https://formulae.brew.sh/formula/go)
-5. [Go - strings package](https://golang.org/pkg/strings/)
-6. [Go - log package](https://golang.org/pkg/log/)
+1. [Completed project](https://github.com/okeeffed/hello-fiber)
+2. [fiber - GitHub](https://github.com/gofiber/fiber)
+3. [fiber recipes - GitHub](https://github.com/gofiber/recipes)
+4. [Go - installation](https://golang.org/doc/install)
+5. [Go - Brew Formulae](https://formulae.brew.sh/formula/go)
+6. [Go - strings package](https://golang.org/pkg/strings/)
+7. [Go - log package](https://golang.org/pkg/log/)
+
+_Image credit: [Franck V.](https://unsplash.com/@franckinjapan)_
