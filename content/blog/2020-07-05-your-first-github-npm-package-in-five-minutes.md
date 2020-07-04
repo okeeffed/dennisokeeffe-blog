@@ -116,3 +116,5 @@ The important part from all of this is to ensure that you have correctly configu
 1. [Example repo](https://github.com/Codertocat/hello-world-npm)
 2. [About GitHub Packages](https://docs.github.com/en/packages/publishing-and-managing-packages/about-github-packages)
 3. [Setting up an Personal Access Token](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token)
+
+_Image credit: [Morning Brew](https://unsplash.com/@morningbrew)_
