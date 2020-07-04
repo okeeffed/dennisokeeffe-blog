@@ -1,7 +1,7 @@
 ---
 title: Dipping Your Feet Into Golang Servers With Fiber
 description: In this entry into Fiber, we will cover installation of Fiber, as well as the basics of GET + POST requests, handling errors and returning JSON.
-date: "2020-07-02"
+date: "2020-07-04"
 ---
 
 In this entry into Fiber, we will cover installation of Fiber, as well as the basics of GET + POST requests, handling errors and returning JSON.
