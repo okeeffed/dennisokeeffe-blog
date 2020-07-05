@@ -27,12 +27,12 @@ My language learning journey so far has looked like so:
 4. When starting my current job at Culture Amp, I’ve had to at times write in Ruby, Elixir, Elm, ReasonML and Kotlin. This is also probably a great time to state that none of these are my strong point, but certainly have been a requirement during my short tenure.
 5. I took personal interest in learning Golang and Rust because, let’s face it, Rust is super awesome and Golang was approachable and a great alternative for some web server work I was doing in my personal projects.
 
-The above does not even include other DSLs or supersets of languages (ie TypeScript) that I’ve had to learn along the way.
+The above does not include other DSLs or supersets of languages (ie TypeScript) that I’ve had to learn along the way.
 
 To stop anyone from feeling like an imposter, I feel there are some important things to also disclose at this point:
 
 1. I am not some coding wizard. My strength in each language varies greatly. Some are still incredible weak in my opinion, but had a requirement for a particular project or to get something done short-term.
-2. I truly believe in the “use it or lose it” reality. I may have spent a significant amount of time in a language like Objective-C early on, but if you asked me to write a “Hello, World!” example for now, the first thing I would do is Google or go back to my notes. Yes, if you’ve learned it before you can pick up quickly again, but memory is fallible and no one is spending every waking hour practicing languages they no longer use — especially when life has so many nicer things to offer.
+2. I truly believe in the "use it or lose it" reality. I may have spent a significant amount of time in a language like Objective-C early on, but if you asked me to write a "Hello, World!" example for now, the first thing I would do is Google or go back to my notes. Yes, if you’ve learned it before you can pick up quickly again, but memory is fallible and no one is spending every waking hour practicing languages they no longer use — especially when life has so many nicer things to offer.
 
 At first, I started from someone flailing about trying to learn a language. Now I am someone who now follows a very specific pattern to wrapping my head around a language.
 
@@ -44,7 +44,7 @@ This first tip is simply a principle that is at the forefront of my paradigm whe
 
 > The Pareto principle (also known as the 80/20 rule, the law of the vital few, or the principle of factor sparsity) states that, for many events, roughly 80% of the effects come from 20% of the causes.
 
-When it comes to learning languages, I paraphrase that principle to mean “Getting to 20% mastery of a language will equate to 80% of what you wish to use the language for.”
+When it comes to learning languages, I paraphrase that principle to mean "Getting to 20% mastery of a language will equate to 80% of what you wish to use the language for."
 
 This means that you don’t have to become the be-all-and-end-all of a new language. If you wish to become the next expert on the panel, fantastic. There are some I know who are so good at what they do in their field.
 
@@ -75,7 +75,7 @@ While I will not go into them in depth here, it is certainly worthwhile reading 
 
 ## Become familiar with the languages documentation
 
-> “Give me six hours to chop down a tree and I will spend the first four sharpening the ax.”
+> "Give me six hours to chop down a tree and I will spend the first four sharpening the ax."
 
 Abraham Lincoln was quoted for the above, and it is certainly sage advice. Before getting too deep into learning a language, become familiar with the language’s official resources.
 
@@ -83,7 +83,7 @@ Abraham Lincoln was quoted for the above, and it is certainly sage advice. Befor
 
 <figcaption>Official Go docs</figcaption>
 
-Don’t think too hard about the “four hours of six” from the quote — it’s not about spending hours on the documentation. It’s about learning where to go to find more information on the standard library and methods for things such as manipulating strings and arrays.
+Don’t think too hard about the "four hours of six" from the quote — it’s not about spending hours on the documentation. It’s about learning where to go to find more information on the standard library and methods for things such as manipulating strings and arrays.
 
 ![Golang searching for strings](../assets/2020-07-05-search-go-docs.png)
 
@@ -99,7 +99,7 @@ If you are a Mac owner, consider investing in [Dash](https://kapeli.com/dash). I
 
 ## Learn the baseline and practice, practice, practice
 
-When I refer to “the baseline”, I am talking about some of the core ideas that are common to every language:
+When I refer to "the baseline", I am talking about some of the core ideas that are common to every language:
 
 1. Declaring variables and constants
 2. Data Types
@@ -114,7 +114,7 @@ The more tenured you get, the more you start to see common patterns and get comp
 
 I particularly highlight number six to eight. Six and seven are integral to getting up and going at work. You may already understand, but next-to-everything is stored in object/map/array data structures of some kind. Learning how to store these and then apply the language methods to traverse and manipulate these data structures is a huge part of the battle and the previous step of understanding the documentation will help you a lot with this.
 
-As for regular expressions, it can be the most undervalued tool in a programmer’s tool belt. Particular with string identification or replacement. RegExp is an incredible tool (particularly for coding exams) and worthwhile exploring the “how-to RegExp” in your chosen language.
+As for regular expressions, it can be the most undervalued tool in a programmer’s tool belt. Particular with string identification or replacement. RegExp is an incredible tool (particularly for coding exams) and worthwhile exploring the "how-to RegExp" in your chosen language.
 
 To speed up the learning of the baseline, there are two incredible tools I will go to in order to practice: the language REPL (read-evaluate-print-loop) and online resources for practicing algorithms.
 
@@ -255,3 +255,5 @@ I find that these are normally things that others already understand or have inc
 2. [Build you own X - GitHub Repo](https://github.com/danistefanovic/build-your-own-x)
 3. [Wikipedia](https://en.wikipedia.org/wiki/Pareto_principle)
 4. [My developer notes - First Principles](https://docs.dennisokeeffe.com/manual-principles-software-first-principles#coding-first-principles)
+
+_Image credit: [Dlanor S](https://unsplash.com/@dlanor_s)_
