@@ -4,7 +4,7 @@ description: CSS is hard. In fact, I preach day in and day out that it one of th
 date: "2020-07-07"
 ---
 
-CSS is hard. In fact, I preach day in and day out that it one of the more difficult concepts to grasp effectively. Here are 7 tips to help you scale and manage CSS and its alternatives.
+Change my mind: CSS is hard. In fact, I preach day in and day out that scalable CSS is one of the more difficult concepts to grasp effectively. Here are 7 tips to help you scale and manage CSS and its alternatives.
 
 ## 1: Keep Architecture Front Of Mind
 
