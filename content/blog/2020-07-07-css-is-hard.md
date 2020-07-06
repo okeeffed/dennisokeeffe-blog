@@ -326,3 +326,5 @@ Do you have any other tips that you have learned along the way? Share them below
 11. [Sass](https://sass-lang.com/)
 12. [Less](http://lesscss.org/)
 13. [Post-CSS](https://github.com/postcss/postcss)
+
+_Image credit: [Jerry Wang](https://unsplash.com/@jerry_318)_
