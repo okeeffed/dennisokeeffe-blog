@@ -106,3 +106,4 @@ Here is your update from across the web for the week of 2020-07-05.
 - **The Fourth of July**: [https://www.popehat.com/2020/07/04/the-fourth-of-july-rerun/](https://www.popehat.com/2020/07/04/the-fourth-of-july-rerun/)
 
 _Developer Roundup is a weekly roundup blog. Stay tuned for more info on the project. Follow me on Twitter [@dennisokeeffe92](https://twitter.com/dennisokeeffe92)._
+_Image credit: [Goran Ivos](https://unsplash.com/@goran_ivos)_

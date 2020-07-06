@@ -22,7 +22,21 @@ const IMG_HEIGHT = 420
 const writeImageToDisk = (title, base64Data) =>
   fs.writeFileSync(title, base64Data, "base64")
 
+/**
+ * Generates the text SVG that is composed onto
+ * the heading image.
+ *
+ * @param {*} text
+ * @returns
+ */
 const generateText = text => {
+  /**
+   * Close to help generate each line of text
+   * when it becomes too long.
+   *
+   * @param {*} textBlock
+   * @param {*} index
+   */
   const generateTextBlock = (textBlock, index) => `<text x="10" y="${70 *
     index}" font-size="58" fill="#fff" font-family="Open Sans" font-weight="700">
     ${textBlock}
@@ -73,14 +87,19 @@ const sharpResize = async uri =>
       .modulate({
         brightness: 0.7, // increase lightness by a factor of 2
       })
-      .blur(5)
+      .blur(3)
       .composite([{ input: textedSVG, top: 20, left: 20 }])
       .toFile("./temp/temp-sharp.png")
       .then(info => resolve(info))
       .catch(err => reject(err))
   })
 
-// returns base64
+/**
+ * Download image from the provided URL.
+ *
+ * @param {*} url
+ * @returns
+ */
 const downloadImage = async url => {
   try {
     // Get image URL first
@@ -142,14 +161,27 @@ const getBlogPostTitle = () => {
   return blog.match(/title\:(.+)/g)[0].substr(7)
 }
 
-const getBlogName = blogPath => {
+/**
+ * Grabs the file name ie "content/blog/new-blog.md"
+ * returns "new-blog"
+ *
+ * @param {*} blogPath
+ * @returns
+ */
+const getBlogFileName = blogPath => {
   const pathArr = blogPath.split("/")
   const blogFile = pathArr[pathArr.length - 1]
   return blogFile.split(".")[0]
 }
 
+/**
+ * Appends the credit for the author from
+ * Unsplash to the article.
+ *
+ * @param {*} blogPath
+ * @param {*} imageMetadata
+ */
 const addAuthorToBlogPost = (blogPath, imageMetadata) => {
-  // get blog
   let blog = fs.readFileSync(blogPath, "utf-8")
   const photoCredit = `_Image credit: [${imageMetadata.user.name}](${imageMetadata.user.links.html})_`
 
@@ -164,9 +196,11 @@ const addAuthorToBlogPost = (blogPath, imageMetadata) => {
 
 const main = async () => {
   try {
+    // expect blog path to be first argv._ value from CLI
     const [blogPath] = argv._
     console.log("Generating image for:", blogPath)
 
+    // optionally allow search query for Unsplash
     const query = argv.query ? argv.query : "code"
 
     const image = await getUnsplashImage(query)
@@ -177,17 +211,25 @@ const main = async () => {
       imageMetadata.links.download_location
     )
 
+    // write the temporary download to disk
+    // before allow sharp to resize.
     const uri = "./temp/temp-unsplash.png"
     writeImageToDisk(uri, bufferData)
     await sharpResize(uri)
 
-    const blogName = getBlogName(blogPath)
+    // for --icons flag passed, combine all the
+    // icons to compose onto downloaded image
     const b64Img = await combineAllImages()
+
+    // write the new image with text + icons
+    // back to disk as the content main image
+    const blogName = getBlogFileName(blogPath)
     writeImageToDisk(
       `./content/assets/${blogName}-main-image.png`,
       b64Img.replace(/data:image\/png;base64/, "")
     )
 
+    // finally, credit the author in the blog
     addAuthorToBlogPost(blogPath, imageMetadata)
   } catch (err) {
     console.error(err)
