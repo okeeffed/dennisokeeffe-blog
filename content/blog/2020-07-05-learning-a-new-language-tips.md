@@ -1,5 +1,5 @@
 ---
-title: The 9-Step Plan For Becoming Dangeous In Any Language
+title: The 9-Step Plan To Becoming Dangeous In Any Language
 description: Learn the lessons that I had to find out the hard way when it came to learning languages over and over and over...
 date: "2020-07-05"
 ---
