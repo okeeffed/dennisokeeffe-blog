@@ -374,3 +374,5 @@ As always, these small projects kickstart the bigger applications, so I hope you
 2. [Gin - GitHub](https://github.com/gin-gonic/gin)
 3. [Go Servers with Fiber Blog Post](https://dev.to/okeeffed/dipping-your-feet-into-servers-with-golang-fiber-4kop)
 4. [AWS CDK reference](https://docs.aws.amazon.com/cdk/latest/guide/reference.html)
+
+_Image credit: [Markus Spiske](https://unsplash.com/@markusspiske)_

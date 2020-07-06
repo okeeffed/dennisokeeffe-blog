@@ -12,33 +12,69 @@ const unsplash = new Unsplash({
   accessKey: process.env.UNSPLASH_ACCESS_KEY,
   secret: process.env.UNSPLASH_SECRET_KEY,
 })
+const openSans = require("./open-sans")
 
 global.fetch = fetch
 
-const IMG_WIDTH = 800
-const IMG_HEIGHT = 600
-
-// date helper
-function formatDate() {
-  var d = new Date(),
-    month = "" + (d.getMonth() + 1),
-    day = "" + d.getDate(),
-    year = d.getFullYear()
-
-  if (month.length < 2) month = "0" + month
-  if (day.length < 2) day = "0" + day
-
-  return [year, month, day].join("-")
-}
+const IMG_WIDTH = 1000
+const IMG_HEIGHT = 420
 
 const writeImageToDisk = (title, base64Data) =>
   fs.writeFileSync(title, base64Data, "base64")
 
+const generateText = text => {
+  const generateTextBlock = (textBlock, index) => `<text x="10" y="${70 *
+    index}" font-size="58" fill="#fff" font-family="Open Sans" font-weight="700">
+    ${textBlock}
+  </text>`
+
+  const textArr = text.split(" ")
+  let finalTextSvg = ""
+  let textBlock = ""
+  let start = true
+  let index = 1
+
+  while (textArr.length > 0) {
+    const newText = textArr.shift()
+    if (`${textBlock} ${newText}`.length > 26) {
+      finalTextSvg += generateTextBlock(textBlock, index)
+      start = true
+      textBlock = ""
+      index++
+    }
+
+    if (start) {
+      textBlock += newText
+      start = false
+    } else {
+      textBlock += ` ${newText}`
+    }
+  }
+
+  if (textBlock.length) {
+    finalTextSvg += generateTextBlock(textBlock, index)
+  }
+
+  return finalTextSvg
+}
+
 const sharpResize = async uri =>
   new Promise((resolve, reject) => {
+    const textedSVG = Buffer.from(
+      `<svg>
+      <style>${openSans}</style>
+     <rect x="0" y="0" width="700" height="260" fill="none" />
+     ${generateText(getBlogPostTitle())}
+   </svg>`
+    )
+
     sharp(uri)
       .resize({ width: IMG_WIDTH, height: IMG_HEIGHT })
-      .gamma(1)
+      .modulate({
+        brightness: 0.7, // increase lightness by a factor of 2
+      })
+      .blur(5)
+      .composite([{ input: textedSVG, top: 20, left: 20 }])
       .toFile("./temp/temp-sharp.png")
       .then(info => resolve(info))
       .catch(err => reject(err))
@@ -73,30 +109,16 @@ const getUnsplashImage = query =>
     query,
   })
 
-// const calculateXDisplacement = (index, arrLen) => {
-//   const iconWidth = 100
-//   const iconSeperation = 20
-//   const centerImgDisplacement = arrLen % 2 === 0 ?  :
-// }
-
-// Hack displacements for now.
-// Can have up to 5 icons.
-const displacements = [
-  [],
-  [350],
-  [290, 410],
-  [230, 350, 470],
-  [170, 290, 410, 530],
-  [110, 230, 350, 470, 590],
-]
-
 const combineAllImages = () => {
   const icons = argv.icons ? argv.icons.split(",") : []
-  const displacement = displacements[icons.length]
 
   console.log("icons", icons)
   const iconsToMerge = icons.map((icon, index) => {
-    return { src: `./icons/${icon}.png`, x: displacement[index], y: 250 }
+    let displacement = index * 100 + index * 20
+
+    if (displacement === 0) displacement = 20
+
+    return { src: `./icons/${icon}.png`, x: displacement, y: IMG_HEIGHT - 120 }
   })
 
   console.log(iconsToMerge)
@@ -112,6 +134,12 @@ const combineAllImages = () => {
       Image: Image,
     }
   )
+}
+
+const getBlogPostTitle = () => {
+  const [blogPath] = argv._
+  let blog = fs.readFileSync(blogPath, "utf-8")
+  return blog.match(/title\:(.+)/g)[0].substr(7)
 }
 
 const getBlogName = blogPath => {
