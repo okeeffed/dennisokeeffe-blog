@@ -46,13 +46,21 @@ const main = async () => {
       /\.\.\/assets\/(.+)\)/g,
       "https://github.com/okeeffed/dennisokeeffe-blog/blob/master/content/assets/$1?raw=true)"
     )
-  const blogUrl = blogPostFilePath.replace(`${BASE_DIR}/`, "").split(".")[0]
+  const blogFilePathFromRoot = blogPostFilePath
+    .replace(`${BASE_DIR}/`, "")
+    .split(".")[0]
   const title = blog.split("\n")[1].replace("title: ", "")
-  const canonicalUrl = `https://blog.dennisokeeffe.com/${blogUrl.replace(
+  const canonicalUrl = `https://blog.dennisokeeffe.com/${blogFilePathFromRoot.replace(
     /content\//,
     ""
   )}/`
-  const mainImage = `https://github.com/okeeffed/dennisokeeffe-blog/blob/master/content/assets/${blogUrl}-main-image?raw=true)`
+
+  const mainImage = `https://github.com/okeeffed/dennisokeeffe-blog/blob/master/content/assets/${blogFilePathFromRoot.replace(
+    /content\/blog\//g,
+    ""
+  )}-main-image.png?raw=true`
+
+  console.log("GitHub Main Image URL path:", mainImage)
 
   blogToUpload += `\n\n_Originally posted on my [blog](${canonicalUrl}). Follow me on Twitter for more hidden gems [@dennisokeeffe92](https://twitter.com/dennisokeeffe92)._`
 
