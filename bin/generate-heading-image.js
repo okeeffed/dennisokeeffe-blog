@@ -87,8 +87,8 @@ const sharpResize = async uri =>
       .modulate({
         brightness: 0.7, // increase lightness by a factor of 2
       })
-      .blur(3)
-      .composite([{ input: textedSVG, top: 20, left: 20 }])
+      // .blur(3)
+      .composite([{ input: textedSVG, top: 20, left: 40 }])
       .toFile("./temp/temp-sharp.png")
       .then(info => resolve(info))
       .catch(err => reject(err))
@@ -133,9 +133,9 @@ const combineAllImages = () => {
 
   console.log("icons", icons)
   const iconsToMerge = icons.map((icon, index) => {
-    let displacement = index * 100 + index * 20
+    let displacement = index * 100 + index * 20 + 20
 
-    if (displacement === 0) displacement = 20
+    if (displacement < 40) displacement = 40
 
     return { src: `./icons/${icon}.png`, x: displacement, y: IMG_HEIGHT - 120 }
   })
