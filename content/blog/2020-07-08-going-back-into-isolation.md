@@ -78,6 +78,6 @@ If you have suggestions on what has gotten you through lockdown over the year th
 
 > This is more of an epilogue, but for what it is worth: I 100% understand the why behind the lockdown. You can play your part to helping the cause in the greater community but still be worn down by the reality of spending so much time alone. Regardless of how introverted you may be, humans are not designed to be cooped up in a bedroom for six months! **I am just looking for ways to be alone but not lonely.**
 
-_Image credit: [Nathan McBride](https://unsplash.com/@nathan_mcb)_
+_Image credit: [Richard Ciraulo](https://unsplash.com/@rc_scout)_
 
 _Originally posted on my [blog](https://blog.dennisokeeffe.com/blog/2020-07-08-going-back-into-isolation/). Follow me on Twitter for more hidden gems [@dennisokeeffe92](https://twitter.com/dennisokeeffe92)._
