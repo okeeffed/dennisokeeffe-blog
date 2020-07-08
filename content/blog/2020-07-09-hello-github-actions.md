@@ -1,7 +1,7 @@
 ---
-title: Your First GitHub Action with Docker and Nodejs!
+title: Your First GitHub Action with Docker
 date: "2020-07-09"
-description: Run through the basics to get your first Docker up and running
+description: Run through the basics to get your first Docker GitHub Action up and running
 ---
 
 In today's short post, we're going to run through how to get a basic Docker container up in running in GitHub actions and learn how to use GitHub Secrets along the way!
