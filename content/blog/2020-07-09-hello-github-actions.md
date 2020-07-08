@@ -180,3 +180,5 @@ Today, we made a simple GitHub action that uses the power of Docker containers a
 2. [Docker hub - Debian](https://hub.docker.com/_/debian)
 3. [actions/checkout](https://github.com/actions/checkout)
 4. [Completed project](okeeffed/hello-github-actions)
+
+_Image credit: [Who’s Denilo ?](https://unsplash.com/@whoisdenilo)_
