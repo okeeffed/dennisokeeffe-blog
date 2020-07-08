@@ -60,7 +60,8 @@ const main = async () => {
     const { data: mediumRes } = await postArticle(
       title,
       blogToUpload,
-      canonicalUrl
+      canonicalUrl,
+      tags
     )
     console.log("Posted to Medium!", mediumRes.data.url)
   } catch (err) {
