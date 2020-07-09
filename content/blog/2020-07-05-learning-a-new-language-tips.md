@@ -11,7 +11,7 @@ There are many reasons to learning a new language, which include (but are not li
 1. You are beginning to program.
 2. You have a personal interest in a new language.
 3. Work or study requires you to learn a new language.
-4. You wish to build within a new technology that is best supported in another language.
+4. To build with technology best supported in another language.
 
 In today's post, we're going to go through some of the empirical lessons I have learned from continuously being thrown into the art of language learning.
 
@@ -75,9 +75,9 @@ While I will not go into them in-depth here, it is worthwhile reading into them 
 
 ## Become familiar with the languages documentation
 
-> "Give me six hours to chop down a tree and I will spend the first four sharpening the axe."
+> "Give me six hours to chop down a tree and I will spend the first four sharpening the axe." -- Abraham Lincoln.
 
-Abraham Lincoln has been attributed for the above and it is certainly sage advice. Before getting too deep into learning a language, become familiar with the language’s official resources.
+Abraham Lincoln spoke about preparation. Before getting too deep into learning a language, become familiar with the language’s official resources.
 
 ![Golang official docs](../assets/2020-07-05-go-docs.png)
 
@@ -235,7 +235,7 @@ Learning how to write a CLI tool truly is a gateway into more complex work.
 
 Easily the most underrated skills while I was at university. They legitimately spent less than five minutes on this in my introduction to programming class and had some ridiculous example of writing a simple `.txt` file.
 
-Little did I know, years later it would become the source of almost every promotion I have ever gotten. Being able to parse, manipulate and re-write files will open your capabilities to no-code/low-code solutions and just straight-up royalty levels of respect.
+Years later it would become the source of (almost) every promotion I have had. Being able to parse, manipulate and re-write files will open your capabilities to no-code/low-code solutions and just straight-up royalty levels of respect.
 
 ### Build a web server
 

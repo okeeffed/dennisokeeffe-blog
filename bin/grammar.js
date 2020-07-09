@@ -95,10 +95,14 @@ const main = async () => {
       const results = await free.analyse(text)
       highlightAlerts(text, results.alerts)
 
-      allAlerts.push(results.alerts)
+      allAlerts.push(...results.alerts)
     } catch (err) {
-      console.log(`ALERT ${alertCounter}: ${err.message}`)
+      console.log(chalk.bgRed(`ALERT ${alertCounter}: ${err.message}`))
       console.log(currentChunk)
+      allAlerts.push({
+        title: err.message,
+        categoryHuman: "Runtime error",
+      })
 
       alertCounter++
     }
