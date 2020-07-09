@@ -2,6 +2,8 @@ require("dotenv").config()
 const fs = require("fs")
 const axios = require("axios")
 const argv = require("yargs-parser")(process.argv.slice(2))
+const { Octokit } = require("@octokit/rest")
+const { Base64 } = require("js-base64")
 
 const postArticle = (
   title,
@@ -47,7 +49,24 @@ const postArticle = (
  */
 const codeRegex = /^`{3}([a-z]*)\s([.\s\S]+?)`{3}/gm
 
-const 
+const octokit = new Octokit({
+  auth: process.env.GITHUB_ACCESS_TOKEN,
+})
+
+const createGist = async (filename, content) => {
+  const params = {
+    files: {
+      [filename]: {
+        content,
+      },
+    },
+    public: true,
+  }
+
+  const { data } = await octokit.gists.create(params)
+  console.log(`Gist uploaded: ${data.html_url}`)
+  return data
+}
 
 const BASE_DIR = "content/blog/"
 
@@ -71,19 +90,38 @@ const main = async () => {
     ""
   )}/`
 
-  blogToUpload += `\n\n_Originally posted on my [blog](${canonicalUrl}). Follow me on Twitter for more hidden gems [@dennisokeeffe92](https://twitter.com/dennisokeeffe92)._`
+  blogToUpload += `\n\n_Originally posted on my [blog](${canonicalUrl})._`
 
   try {
     console.log("Attempting to post...", title)
-    
-    
 
-    // const { data: mediumRes } = await postArticle(
-    //   title,
-    //   blogToUpload,
-    //   canonicalUrl,
-    //   tags
-    // )
+    const matches = blog.match(codeRegex)
+    console.log(matches)
+
+    for (const match of matches) {
+      const codeBlockArr = match.split("\n")
+      const fileExt = codeBlockArr.shift().slice(3)
+      codeBlockArr.pop()
+      const content = codeBlockArr.join("\n")
+
+      const gistFileName = `${blogUrl}-${Math.floor(
+        Math.random() * 10000
+      )}.${fileExt}`.replace(/\//g, "-")
+      console.log(gistFileName)
+      console.log(content)
+      const data = await createGist(gistFileName, content)
+      const embed = `<script src="https://gist.github.com/okeeffed/${data.id}.js"></script>`
+      blogToUpload = blogToUpload.replace(match, embed)
+    }
+
+    console.log(blogToUpload)
+
+    const { data: mediumRes } = await postArticle(
+      title,
+      blogToUpload,
+      canonicalUrl,
+      tags
+    )
     console.log("Posted to Medium!", mediumRes.data.url)
   } catch (err) {
     console.log(err)

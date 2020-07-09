@@ -45,6 +45,7 @@
     "typography-theme-wordpress-2016": "^0.16.19"
   },
   "devDependencies": {
+    "@octokit/rest": "^18.0.0",
     "@stewartmcgown/grammarly-api": "^1.1.2",
     "axios": "^0.19.2",
     "canvas": "^2.6.1",
