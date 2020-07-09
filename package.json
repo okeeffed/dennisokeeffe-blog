@@ -45,14 +45,17 @@
     "typography-theme-wordpress-2016": "^0.16.19"
   },
   "devDependencies": {
+    "@stewartmcgown/grammarly-api": "^1.1.2",
     "axios": "^0.19.2",
     "canvas": "^2.6.1",
+    "html-to-text": "^5.1.1",
     "lodash.startcase": "^4.4.0",
     "merge-images": "^2.0.0",
     "node-fetch": "^2.6.0",
     "prettier": "^1.17.0",
     "recursive-readdir": "^2.2.2",
     "sharp": "^0.25.4",
+    "showdown": "^1.9.1",
     "unsplash-js": "^6.0.0",
     "yargs-parser": "^18.1.3"
   },

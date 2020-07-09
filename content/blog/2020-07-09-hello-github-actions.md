@@ -1,5 +1,5 @@
 ---
-title: Your First GitHub Action with Docker
+title: Docker + GitHub Actions = Your Next Productivity Superpower
 date: "2020-07-09"
 description: Run through the basics to get your first Docker GitHub Action up and running
 ---

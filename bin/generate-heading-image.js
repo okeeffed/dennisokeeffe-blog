@@ -16,8 +16,8 @@ const openSans = require("./open-sans")
 
 global.fetch = fetch
 
-const IMG_WIDTH = 1200
-const IMG_HEIGHT = 630
+const IMG_WIDTH = 1000
+const IMG_HEIGHT = 600
 
 const writeImageToDisk = (title, base64Data) =>
   fs.writeFileSync(title, base64Data, "base64")

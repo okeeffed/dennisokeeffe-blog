@@ -30,6 +30,25 @@ const postArticle = (
     }
   )
 
+/**
+ * Matches markdown code blocks/
+ * @example
+ * ```rb
+ * # Will match this
+ * value = "assignment"
+ * ```
+ *
+ * Won't match this
+ *
+ * ```md
+ * # Will match this
+ * Testing
+ * ```
+ */
+const codeRegex = /^`{3}([a-z]*)\s([.\s\S]+?)`{3}/gm
+
+const 
+
 const BASE_DIR = "content/blog/"
 
 const main = async () => {
@@ -56,13 +75,15 @@ const main = async () => {
 
   try {
     console.log("Attempting to post...", title)
-    // SKIPPING FOR NOW UNTIL I CAN FIND THE AUTHOR ID
-    const { data: mediumRes } = await postArticle(
-      title,
-      blogToUpload,
-      canonicalUrl,
-      tags
-    )
+    
+    
+
+    // const { data: mediumRes } = await postArticle(
+    //   title,
+    //   blogToUpload,
+    //   canonicalUrl,
+    //   tags
+    // )
     console.log("Posted to Medium!", mediumRes.data.url)
   } catch (err) {
     console.log(err)
