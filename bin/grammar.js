@@ -59,25 +59,65 @@ ${hasTitle ? warning("[ACTION]:") : ""} ${title ? title : ""} ${
 //     highlightEnd: 110,
 //   },
 // ]
+const chunkArr = arr => {
+  let chunk = 5
+  let chunkedArr = []
+  for (let i = 0, j = arr.length; i < j; i += chunk) {
+    chunkedArr.push(arr.slice(i, i + chunk))
+  }
+
+  return chunkedArr
+}
 
 const main = async () => {
   const [blogPostFilePath] = argv._
   const blog = fs.readFileSync(blogPostFilePath, "utf-8")
+  const blogArr = blog.split("\n")
+  const blogTextArr = blogArr.map((line, index) => {
+    if (index > 4) {
+      return line.trim()
+    }
 
+    if (line.includes("description:")) {
+      return line.replace("description:", "").trim()
+    }
+
+    if (line.includes("title:")) {
+      return line.replace("title:", "").trim()
+    }
+
+    return "\n"
+  })
+
+  const chunkedArr = chunkArr(blogTextArr)
   const converter = new showdown.Converter()
-  const html = converter.makeHtml(blog)
-  const text = htmlToText.fromString(html)
-
   const free = new Grammarly()
-  const results = await free.analyse(text)
-  console.log(results)
-  highlightAlerts(blog, results.alerts)
+  const allAlerts = []
 
-  const hasAlerts = results.alerts.length !== 0
+  for (const piece of chunkedArr) {
+    const currentChunk = piece.join(" ")
+    const html = converter.makeHtml(currentChunk)
+    const text = htmlToText
+      .fromString(html)
+      .replace(/\[(.+)\]/gi, "")
+      .replace(/\[(.+)\]\((.+)\)/gi, "")
+      .replace(/>/gi, "")
+      .replace(/…/gi, "")
+
+    const results = await free.analyse(text)
+    highlightAlerts(text, results.alerts)
+
+    allAlerts.push(results.alerts)
+  }
+
+  const hasAlerts = allAlerts.length !== 0
   if (!hasAlerts) {
     const msg = `No alerts found for file ${blogPostFilePath}`
     console.log(chalk.green(msg))
+  } else {
+    console.log(chalk.bgRed(`Total alerts found: ${allAlerts.length}`))
   }
+
   process.exit()
 }
 
