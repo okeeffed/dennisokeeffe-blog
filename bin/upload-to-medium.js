@@ -90,13 +90,18 @@ const main = async () => {
     ""
   )}/`
 
+  // filename by itself
+  const blogFileName = blogUrl.replace("content/blog/", "")
+
+  blogToUpload =
+    `![Heading image](https://github.com/okeeffed/dennisokeeffe-blog/blob/master/content/assets/${blogFileName}-main-image.png?raw=true)\n\n` +
+    blogToUpload
   blogToUpload += `\n\n_Originally posted on my [blog](${canonicalUrl})._`
 
   try {
     console.log("Attempting to post...", title)
 
     const matches = blog.match(codeRegex)
-    console.log(matches)
 
     for (const match of matches) {
       const codeBlockArr = match.split("\n")
@@ -110,7 +115,7 @@ const main = async () => {
       console.log(gistFileName)
       console.log(content)
       const data = await createGist(gistFileName, content)
-      const embed = `<script src="https://gist.github.com/okeeffed/${data.id}.js"></script>`
+      const embed = `https://gist.github.com/okeeffed/${data.id}.js`
       blogToUpload = blogToUpload.replace(match, embed)
     }
 
