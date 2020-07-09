@@ -1,5 +1,5 @@
 ---
-title: The 9-Step Plan To Becoming Dangeous In Any Language
+title: The 9-Step Plan To Becoming Dangerous In Any Language
 description: Learn the lessons that I had to find out the hard way when it came to learning languages over and over and over...
 date: "2020-07-05"
 ---
@@ -8,16 +8,16 @@ Regardless of tenure, learning a new language is akin to climbing a new mountain
 
 There are many reasons to learning a new language, which include (but are not limited to):
 
-1. You are starting out in programming.
+1. You are beginning to program.
 2. You have a personal interest in a new language.
 3. Work or study requires you to learn a new language.
-4. You wish to build within a new technology that is required or best supported in another language.
+4. You wish to build within a new technology that is best supported in another language.
 
 In today's post, we're going to go through some of the empirical lessons I have learned from continuously being thrown into the art of language learning.
 
 ## What are my credentials for being an expert on this?
 
-I certainly do not consider myself an expert in this domain, nor do I consider myself to be equally strong in all the languages I have shipped to production. I simply just had to learn a myriad of languages for a number of reasons that I feel can be very relatable to others.
+I certainly do not consider myself an expert in this domain, nor am I equally strong in all the languages I have shipped to production. I simply just had to learn a myriad of programming languages for differing reasons that I feel can be very relatable to others.
 
 My language learning journey so far has looked like so:
 
@@ -71,13 +71,13 @@ Some of the principles to think about [from my developer notes website](https://
 11. Least Astonishment Principle - Naming should come as no surprise to what it does
 12. Law of Demeter - Divide responsibility between classes
 
-While I will not go into them in depth here, it is certainly worthwhile reading into them and also challenging them yourself.
+While I will not go into them in-depth here, it is worthwhile reading into them and also challenging them yourself.
 
 ## Become familiar with the languages documentation
 
-> "Give me six hours to chop down a tree and I will spend the first four sharpening the ax."
+> "Give me six hours to chop down a tree and I will spend the first four sharpening the axe."
 
-Abraham Lincoln was quoted for the above, and it is certainly sage advice. Before getting too deep into learning a language, become familiar with the language’s official resources.
+Abraham Lincoln has been attributed for the above and it is certainly sage advice. Before getting too deep into learning a language, become familiar with the language’s official resources.
 
 ![Golang official docs](../assets/2020-07-05-go-docs.png)
 
@@ -235,7 +235,7 @@ Learning how to write a CLI tool truly is a gateway into more complex work.
 
 Easily the most underrated skills while I was at university. They legitimately spent less than five minutes on this in my introduction to programming class and had some ridiculous example of writing a simple `.txt` file.
 
-Little did I know that all these years later it would become the source of almost every promotion I have ever gotten. Being able to parse, manipulate and re-write files will open your capabilities to no-code/low-code solutions and just straight-up royalty levels of respect.
+Little did I know, years later it would become the source of almost every promotion I have ever gotten. Being able to parse, manipulate and re-write files will open your capabilities to no-code/low-code solutions and just straight-up royalty levels of respect.
 
 ### Build a web server
 

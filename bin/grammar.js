@@ -97,12 +97,14 @@ const main = async () => {
 
       allAlerts.push(results.alerts)
     } catch (err) {
-      console.log(err)
+      console.log(`ALERT ${alertCounter}: ${err.message}`)
       console.log(currentChunk)
+
+      alertCounter++
     }
   }
 
-  const hasAlerts = allAlerts.length !== 0
+  const hasAlerts = allAlerts.length > 0
   if (!hasAlerts) {
     const msg = `No alerts found for file ${blogPostFilePath}`
     console.log(chalk.green(msg))
