@@ -6,15 +6,12 @@ const fs = require("fs")
 var showdown = require("showdown")
 const htmlToText = require("html-to-text")
 
-const example = `When we have shuffled off this mortal coil,
-Must give us pause - their's the respect
-That makes calamity of so long life.`
-
 const warning = text => chalk.yellow(chalk.bold(text))
 const error = text => chalk.bgRed(chalk.bold(text))
 
+let alertCounter = 1
 const highlightAlerts = (text, alerts) => {
-  alerts.map((alert, index) => {
+  alerts.map(alert => {
     const {
       highlightBegin,
       highlightEnd,
@@ -33,7 +30,7 @@ const highlightAlerts = (text, alerts) => {
 
     const log = `
 ${error(
-  `ALERT ${index + 1}: ${categoryHuman}`
+  `ALERT ${alertCounter}: ${categoryHuman}`
 )} (${highlightBegin}:${highlightEnd})
 ${hasTitle ? warning("[ACTION]:") : ""} ${title ? title : ""} ${
       minicardTitle ? minicardTitle : ""
@@ -42,25 +39,12 @@ ${hasTitle ? warning("[ACTION]:") : ""} ${title ? title : ""} ${
 ...${preSlice}${chalk.red(slice)}${postSlice}...
     `
     console.log(log)
+    alertCounter += 1
   })
 }
 
-// const alerts = [
-//   {
-//     title: "Possibly confused <i>there</i> and <i>their</i>",
-//     minicardTitle: "Replace the word",
-//     highlightBegin: 65,
-//     highlightEnd: 72,
-//     categoryHuman: "Commonly Confused Words",
-//   },
-//   {
-//     categoryHuman: "Incorrect Phrasing",
-//     highlightBegin: 108,
-//     highlightEnd: 110,
-//   },
-// ]
 const chunkArr = arr => {
-  let chunk = 5
+  let chunk = 10
   let chunkedArr = []
   for (let i = 0, j = arr.length; i < j; i += chunk) {
     chunkedArr.push(arr.slice(i, i + chunk))
@@ -71,7 +55,14 @@ const chunkArr = arr => {
 
 const main = async () => {
   const [blogPostFilePath] = argv._
-  const blog = fs.readFileSync(blogPostFilePath, "utf-8")
+  const blog = fs
+    .readFileSync(blogPostFilePath, "utf-8")
+    .replace(/<.+>[\s\S]+<\/.+>/gm, "")
+    .replace(/\[(.+)\]/gi, "")
+    .replace(/\[(.+)\]\((.+)\)/gi, "")
+    .replace(/>/gi, "")
+    .replace(/…/gi, "")
+
   const blogArr = blog.split("\n")
   const blogTextArr = blogArr.map((line, index) => {
     if (index > 4) {
@@ -95,19 +86,20 @@ const main = async () => {
   const allAlerts = []
 
   for (const piece of chunkedArr) {
-    const currentChunk = piece.join(" ")
-    const html = converter.makeHtml(currentChunk)
-    const text = htmlToText
-      .fromString(html)
-      .replace(/\[(.+)\]/gi, "")
-      .replace(/\[(.+)\]\((.+)\)/gi, "")
-      .replace(/>/gi, "")
-      .replace(/…/gi, "")
+    let currentChunk
+    try {
+      currentChunk = piece.join("\n")
+      const html = converter.makeHtml(currentChunk)
+      const text = htmlToText.fromString(html)
 
-    const results = await free.analyse(text)
-    highlightAlerts(text, results.alerts)
+      const results = await free.analyse(text)
+      highlightAlerts(text, results.alerts)
 
-    allAlerts.push(results.alerts)
+      allAlerts.push(results.alerts)
+    } catch (err) {
+      console.log(err)
+      console.log(currentChunk)
+    }
   }
 
   const hasAlerts = allAlerts.length !== 0
