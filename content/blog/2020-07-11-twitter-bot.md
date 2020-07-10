@@ -34,6 +34,8 @@ In that same dashboard, head to `Projects & Apps > Your Project > Your App` and 
 
 This is important to allow us to Tweet with the credentials from above.
 
+![Read + Write Permissions](../assets/2020-07-11-read-write-permissions.png)
+
 ## Step Four: Build the application
 
 We will keep things short and simple for now to get our first Tweet out! We are going to use the [Twit](https://github.com/ttezel/twit) package to be our medium through which we post and [Dotenv](https://github.com/motdotla/dotenv) to load our environment variables at runtime from our local (so we can safely Git ignore them).
