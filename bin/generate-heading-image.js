@@ -38,7 +38,8 @@ const generateText = text => {
    * @param {*} index
    */
   const generateTextBlock = (textBlock, index) => `<text x="10" y="${70 *
-    index}" font-size="58" fill="#fff" font-family="Open Sans" font-weight="700">
+    index +
+    40}" font-size="58" fill="#fff" font-family="Open Sans" font-weight="700">
     ${textBlock}
   </text>`
 
@@ -133,11 +134,11 @@ const combineAllImages = () => {
 
   console.log("icons", icons)
   const iconsToMerge = icons.map((icon, index) => {
-    let displacement = index * 100 + index * 20 + 40
+    let displacement = index * 100 + index * 30 + 80
 
-    if (displacement < 60) displacement = 60
+    if (displacement < 80) displacement = 80
 
-    return { src: `./icons/${icon}.png`, x: displacement, y: IMG_HEIGHT - 160 }
+    return { src: `./icons/${icon}.png`, x: displacement, y: IMG_HEIGHT - 200 }
   })
 
   console.log(iconsToMerge)

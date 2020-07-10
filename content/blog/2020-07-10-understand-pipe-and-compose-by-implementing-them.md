@@ -614,4 +614,4 @@ Next time, we will take this curse head out and come out victorious!
 4. [Completed project](https://github.com/okeeffed/build-your-own-pipe-compose)
 5. [4 properties of functional programming](https://docs.dennisokeeffe.com/manual-functional-programming-hardcore-fp-in-java-script-v2#properties-of-fp)
 
-_Image credit: [Patrick Hendry](https://unsplash.com/@worldsbetweenlines)_
+_Image credit: [Fabian Jung](https://unsplash.com/@errior)_
