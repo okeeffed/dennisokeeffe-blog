@@ -119,8 +119,6 @@ const main = async () => {
       blogToUpload = blogToUpload.replace(match, embed)
     }
 
-    console.log(blogToUpload)
-
     const { data: mediumRes } = await postArticle(
       title,
       blogToUpload,
