@@ -126,11 +126,7 @@ What we are doing in `index.js` is fairly straight forward, but let's break it d
 
 > It is worth noting that `post` returns a promise, hence why we make `main` an `async` function and use `await` when calling to post
 
-That is it! Let's now see the bot in action.
-
-## Step 5: Run the bot
-
-Let's now run `node index.js`. If successful, you should get the following back:
+That is it! Let's now run `node index.js`. If successful, you should get the following back:
 
 ```s
 > node index.js
