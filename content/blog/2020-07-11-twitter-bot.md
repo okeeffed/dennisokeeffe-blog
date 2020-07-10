@@ -156,3 +156,5 @@ Congratulations! You can now post remotely and avoid all the negative vibes that
 4. [Dotenv](https://github.com/motdotla/dotenv)
 5. [Completed project](https://github.com/okeeffed/hello-twitter-bot)
 6. [Twitter Docs - statuses/update](https://developer.twitter.com/en/docs/tweets/post-and-engage/api-reference/post-statuses-update)
+
+_Image credit: [freestocks](https://unsplash.com/@freestocks)_
