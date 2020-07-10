@@ -10,7 +10,7 @@ Challenges are expected. We are in a trade that requires **persistence in the ar
 
 In today's post, I am going to attempt to _gently ease you_ into some core functional programming concepts by implementing two common utility functions: **pipe** and **compose**.
 
-This post has no requirements other than an understanding of JavaScript and basic arithmetic, however it is recommend that you understand how `reduce` works.
+This post has no requirements other than an understanding of JavaScript and basic arithmetic. However, it is recommended that you understand how `reduce` works.
 
 ## To monad or not to monad
 
@@ -20,13 +20,13 @@ Now is the time to reference **Lady Monadgreen’s curse** which was brought int
 
 > _"Once you understand monads, you immediately become incapable of explaining them to anyone else"_
 
-You may or may not have about monads yet. I am going to heed to words of the curse and declare before starting that **we will not be speaking about monads in this post.**
+You may or may not have heard about monads yet. I am going to heed to words of the curse and declare before starting that **we will not be speaking about monads in this post.**
 
 It is a post for another time, but what I will say about them (and all the other quirky functional programming terms) is this: They are aptly named because of their roots in mathematics and [Set Theory](https://plato.stanford.edu/entries/set-theory/) and you will naturally come to understand them by building a core foundation.
 
 There. I said it. No crazy concepts. No monads, no beta reduction, no alpha equivalence. For now, they are all buzzwords. Let's get down to the basics.
 
-## Our first love addition
+## Our first love, addition
 
 Let's go back to primary school mathematics and tell the tale of **addition.**
 
@@ -40,7 +40,7 @@ So far, we haven't broken any new ground. This is all common knowledge, and in f
 
 ## Talking through the properties of functional programming
 
-Addition is fantastic introduction into the some of the core properties of functional programming as it exhibits them in a way that it easy to understand.
+**Addition** is a fantastic introduction into some of the core properties of functional programming as it exhibits them in a way that is easy to understand.
 
 There are **four important properties** of functional programming:
 
@@ -55,9 +55,9 @@ Let's explore these properties with our addition example and the **power of lang
 
 "To associate". A quick Google into the origins of "associate" give us this:
 
-> _"...as a verb in the sense 'join with in a common purpose'"_
+> _"...as a verb in the sense 'join within a common purpose'"_
 
-Using the history and meaning behind words can help open up our understanding to its application in programming and mathematics. It amazes me how apt the naming used in these fields are and we should thank those who came before us for such great attention to detail.
+Using the history and meaning behind words can help open up our understanding of its application in programming and mathematics. It amazes me how apt the naming used in these fields are and we should thank those who came before us for such great attention to detail.
 
 When we speak about addition being **associative**, we mean that we can "group" and "associate" variables with the addition operation together.
 
@@ -90,7 +90,7 @@ Even if you are not familiar with hearing the term **"associative law"**, you ha
 
 ### Commutative
 
-Go back to our origins of term, **commutative** derives from "commute" or "to move around".
+Going back to our origins of the term, **commutative** derives from "commute" or "to move around".
 
 From its origins in late Middle English:
 
@@ -119,9 +119,9 @@ add(1, 2) === add(2, 1)
 
 Simple as pie! The order doesn't matter for the operation when things are commutative.
 
-> Author's note: I can not make pie, ergo I do not understand that saying.
+> Author's note: I can not make a pie, ergo I do not understand that saying.
 
-For an example of something **that is not commutative**, take **division**. `1 / 2 != 2 / 1`. Division is a good counter example for a number of functional laws.
+For an example of something **that is not commutative**, take **division**. `1 / 2 != 2 / 1`. Division is a good counter-example for a number of functional laws.
 
 ### Identity
 
@@ -162,7 +162,7 @@ If you said "one", then you are a true miracle maker! In all seriousness though,
 
 ### Distributive
 
-Admittedly, the **distributive property** is the one that requires fractionally more brain power than the others, but you will completely understand what it is about in action.
+Admittedly, the **distributive property** is the one that requires fractionally more brainpower than the others, but you will completely understand what it is about in action.
 
 As for the definition:
 
@@ -174,7 +174,7 @@ That sentence was more than a few words, so let's simplify it into a way we can 
 
 <figcaption>2a. The Distributive Property</figcaption>
 
-The left and right hand side are equivalent, and we've done this by abstracting the `x` out and multiplying the `y` and `z` together.
+The left and right-hand side are equivalent, and we've done this by abstracting the `x` out and multiplying the `y` and `z` together.
 
 ![Distributive Property with Numbers](../assets/2020-07-10-distributive-numbers.png)
 
@@ -192,7 +192,7 @@ In programming, we have the following definition for currying from our pal [Wiki
 
 > _"...currying is the technique of converting a function that takes multiple arguments into a sequence of functions that each take a single argument."_
 
-Our `add` function before took multiple arguments. The aim is for a us to turn this into a "sequence of functions that each take a single argument".
+Our `add` function before took multiple arguments. The aim is for us to turn this into a "sequence of functions that each take a single argument".
 
 This looks like the following:
 
@@ -394,7 +394,7 @@ module.exports = {
 The important part is our `pipe` function. It looks pretty crazy right now! Let's step through what it is doing:
 
 1. Declaring the variable `pipe` which is a function
-2. When you call `pipe`, it takes any number of function arguments. The `...fns` here using the operator `...` to enable us to take an **indefinite number of arguments**. We could call `pipe(addTwo)`, `pipe(addTwo, addTen)` or ``pipe(addTwo, addTen, addTenMillion)`and all would be valid as it takes each argument and adds it to an array`fn`. For those given examples, it would set`fn`to`[addTwo]`,`[addTwo, addTen]`and`[addTwo, addTen, addTenMillion]`respectively. As`pipe` is a curried function, it returns another function.
+2. When you call `pipe`, it takes any number of function arguments. The `...fns` here using the operator `...` to enable us to take an **indefinite number of arguments**. We could call `pipe(addTwo)`, `pipe(addTwo, addTen)` or `pipe(addTwo, addTen, addTenMillion)`and all would be valid as it takes each argument and adds it to an array `fn`. For those given examples, it would set `fn` to `[addTwo]`, `[addTwo, addTen]` and `[addTwo, addTen, addTenMillion]` respectively. As `pipe` is a curried function, it returns another function.
 3. This function given back from pipe can then be called with argument `data`. The data in this instance will be our base number value that we will pass through the pipe.
 4. Finally, after completing our partial application, it will run through the array of functions `fns` and call the function on the **accumulated value** `acc`, starting with the value of `data`.
 
