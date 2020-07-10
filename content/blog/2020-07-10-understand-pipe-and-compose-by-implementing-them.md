@@ -6,7 +6,7 @@ description: Understanding core functional programming concepts by implementing 
 
 Your first dive into functional programming can be **humbling**. If you are familiar with object-oriented programming or any of the similar derivatives, then looking into different paradigms requires a reset of thinking and easing into foundational concepts.
 
-This is to be expected. We are in a trade that requires **persistence in the art of learning.**
+Challenges are expected. We are in a trade that requires **persistence in the art of learning.**
 
 In today's post, I am going to attempt to _gently ease you_ into some core functional programming concepts by implementing two common utility functions: **pipe** and **compose**.
 
@@ -36,7 +36,7 @@ In fact, we can simplify the right-hand side down further and say that `1 + 2 + 
 
 We didn't have to add the `1 + 2`, we also could have had `1 + 2 + 3 = 1 + 5` instead by add `2 + 3` from the right-hand side. We can bring simplify this down most to be `1 + 2 + 3 = 6`.
 
-This is all common knowledge, and in fact, we probably would have skipped the middle stages that I spoke of and simplified straight to the answer 6. Have you stopped the think about _why_ this is the case?
+So far, we haven't broken any new ground. This is all common knowledge, and in fact, we probably would have skipped the middle stages that I spoke of and simplified straight to the answer 6. Have you stopped the think about _why_ this is the case?
 
 ## Talking through the properties of functional programming
 
@@ -309,9 +309,11 @@ module.exports = {
 }
 ```
 
-Here, we are using the idea of partial application to partially apply 2, 10 and 10 million respectively. This locks in the fact that if we were to use the `addTwo` function name to add the remaining argument, it would **always deteriministically add 2 to the argument passed.**
+Here, we are using the idea of partial application to apply 2, 10 and 10 million respectively. This locks in the fact that if we were to use the `addTwo` function name to add the remaining argument, it would **always deterministically add 2 to the argument.**
 
-Let me say that again, if we were to use the `addTwo` function name to add the remaining argument, it would **always deteriministically add 2 to the argument passed.** This is the **key takeaway** from the concept of partial application.
+_Let me say that again._
+
+If we were to use the `addTwo` function name to add the remaining argument, it would **always deterministically add 2 to the argument.** This is the **key takeaway** from the concept of partial application.
 
 Let's update our test suite in `index.test.js` again:
 
@@ -491,7 +493,7 @@ const addTwelveCompose = compose(
 
 That's right! We simply use of Array's [reduceRight](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/ReduceRight) prototype method. That's it!
 
-In fact, we could pass the same arguments in the same order to both `pipe` and `compose` and get the same answer thanks to our four properties of functional programming that we covered in the beginning!
+We could pass the same arguments in the same order to both `pipe` and `compose` and get the same answer thanks to our four properties of functional programming that we covered in the beginning!
 
 ## Demoing applications with strings
 
