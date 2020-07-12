@@ -10,18 +10,18 @@ _It can also be very tedious._
 
 Over the weekend, I began playing with the idea about how I could build forms without needing to write any JSX. I wanted to take a format (like JSON) that could be produced by anyone and use that to generate out the form with validation.
 
-What are the benefits for doing this?
+What are the benefits of doing this?
 
 1. Re-useability: The ability to **take from one project to another and reproduce the form output**.
 2. Compose-ability: It enables configurations to be **combined with ease** ie multiple config files being merged for more complex forms.
-3. Upgradeability: It **centralises** the point where I can make adjustments in the future.
+3. Upgradeability: It **centralizes** the point where I can make adjustments in the future.
 4. Flexibility: It is easy to provide JSON format. The endgame is to be very meta and build a form _that itself builds forms_.
 
-_As a fair warning, this project is uses my personal (but currently private) design system to create the files._
+_As a fair warning, this project uses my personal (but currently private) design system to create the files._
 
 While the output itself will be custom components, the approach to doing so is translatable to anything thing you want. This includes using the general HTML tags of `form`, `input`, etc.
 
-**This tutorial is a lot more rough-around-the-edges and scrappy than my others.** There is much I could do to clean this up, but my hope is that this will show you how I begin projects by being scrappy and validating my goals. I have made adjustments to the code since.
+**This tutorial is a lot more rough-around-the-edges and scrappy than my others.** There is much I could do to clean this up, but I hope that this will show you how I begin projects by being scrappy and validating my goals. I have made adjustments to the code since.
 
 ## Prerequisites
 
@@ -29,7 +29,7 @@ We are going to be using [Deno](https://deno.land/) and [Snowpack](https://www.s
 
 **_Spoiler alert: both great._**
 
-Check the [installation guide](https://deno.land/#installation) for Deno to setup for this project.
+Check the [installation guide](https://deno.land/#installation) for Deno to set up for this project as it required, but Mac users can use the trusty Brew install.
 
 ## Setting up a TypeScript React project with Snowpack
 
@@ -49,15 +49,15 @@ Perfect. Let's move onto generating the template.
 
 ## The game plan
 
-You may have seen my previous post on [building your own code generator in JavaScript](https://blog.dennisokeeffe.com/blog/2020-06-30-javascript-code-generation/). Generally, I do use that approach or use [Hygen](https://github.com/jondot/hygen), but when quickly mocking up "will this work?" scenarios, I opted just use the power of template strings.
+You may have seen my previous post on [building your own code generator in JavaScript](https://blog.dennisokeeffe.com/blog/2020-06-30-javascript-code-generation/). Generally, I do use that approach or use [Hygen](https://github.com/jondot/hygen), but when quickly mocking up "will this work?" scenarios, I opted to use the power of template strings.
 
 **So the plan is this:**
 
 1. Learn how to read and write files with Deno.
 2. Write a reuseable template string that I can test out (for building the forms).
 3. Have this template string build out using my personal Design System components.
-4. Have it also build out some form validation using [Yup](https://github.com/jquense/yup).
-5. Come up with a reuseable JSON schema (which can be subject to change).
+4. Have it also build out form validation using [Yup](https://github.com/jquense/yup).
+5. Come up with a re-useable JSON schema (which can be subject to change).
 
 Let's get started with a short "Hello, World!" CLI with Deno.
 
@@ -72,7 +72,7 @@ I knew what I wanted to be able to do:
 1. Parse arguments given from the command line to provide the config path.
 2. Read that config and use it.
 
-From prior experience, I had an inkling on what to Google for (file readers, command line parsing, etc in Deno) so I went to work and found the `parse` module and built in `readFileSync` from the `std` library were what I needed.
+From prior experience, I had an inkling on what to Google for (file readers, command line parsing, etc in Deno) so I went to work and found the `parse` module and built-in `readFileSync` from the `std` library were what I needed.
 
 Let's make a script file and see it in action:
 
@@ -113,7 +113,7 @@ Now we can run the following:
 { "hello": "world" }
 ```
 
-The `--allow-read` flag gives Deno read permissions during runtime to allow use to read `data/basic-form.json`.
+The `--allow-read` flag gives Deno read permissions during runtime to allow us to read `data/basic-form.json`.
 
 As for `argv`, the values of `_` begin **after** running the program with `deno run --allow-read bin/generate-form.ts`, so our argument `data/basic-form.json` becomes the first index of `_`, hence the `argv._[0]` being parse to the `Deno.readFileSync` line.
 
@@ -155,7 +155,7 @@ Here, I decided that I would have a top-level **name** property for the form and
 
 As for the structure of each element, I decided that they need an `id`, `name`, `type` and `required`, but anything else there can be optionally used to help create the validations and other metadata.
 
-The types here I opted with relate directly to a component I have in my design system and map like what follows:
+The types here relate directly to a component I have in my design system and map the following:
 
 1. text - `<TextInput />`
 2. textarea - `<TextArea />`
@@ -170,7 +170,7 @@ Between these six, I have most of what I need for my forms.
 
 The following relates to how I ended up writing out the form. As there can be a lot of code, I will paste them in order of what is in the final file and explain a little on each.
 
-If you would like, follow along as I add the code bit-by-bit, but I will leave the final code there are the end too.
+If you would like, follow along as I add the code bit-by-bit, but I will leave the final code at the end too.
 
 ### The imports
 
@@ -185,7 +185,7 @@ import {
 
 I want to use the `name` field to help generate components, so I added in `camelCase` from Deno's `case` module to help alter the casing when required.
 
-I also adding in the `prettier` modules to help with formatting the files afterwards. We are going to use string interpolation, so it will never be that pretty.
+I also adding in the `prettier` modules to help with formatting the files afterward. We are going to use string interpolation, so it will never be that pretty.
 
 ## Parsing the file
 
@@ -239,7 +239,7 @@ enum FormType {
 }
 ```
 
-This expects you to understand TypeScript. In general, I basically create the **FieldType** to match my "type" decisions explained early
+This expects you to understand TypeScript. In general, I create the **FieldType** to match my "type" decisions explained early
 
 I decided on an initial **Config** option that would house my different arrays of strings required for string interpolation.
 
@@ -383,13 +383,13 @@ export default ${config.name.replace(/\s/g, "")};
 
 As mentioned, I wanted to start the form with string interpolation. A lot of this was identifying the points where I could repeat code (ie the elements, the component name, etc) and abstracted them so I could generate the strings and interpolate them all into one.
 
-> It's worth noting that you definitely don't need to copy `.replace(/\s/g, ""` everywhere like I did. Again, it was simply to get things up and going. All this code is prior to refinement.
+> It's worth noting that you don't need to copy `.replace(/\s/g, ""` everywhere like I did. Again, it was simply to get things up and going. All this code is before refinement.
 
 You can read through, but the gist of it is string manipulation based on the JSON files. The types I have above for them `Config`, `FormElement` should help understand the properties available to each argument.
 
-These generators create a custom name for my component, add in the components within the JSX, add in validation and are prepped to set up things that work outside of [React Hook Form](https://react-hook-form.com/).
+These generators create a custom name for my component, add in the components within the JSX, add validation, and are prepped to set up things that work outside of [React Hook Form](https://react-hook-form.com/).
 
-> I'm not going to delve too deep into React Hook Form, but it was the library that I opted to use. Why? I just went looking through the different options and felt it was the simplest to implement and had good performance (controlled input sometimes causes me headaches).
+> I'm not going to delve too deep into React Hook Form, but it was the library that I opted to use. Why? I just went looking through the different options and felt it was the simplest to implement and had performance perfs (controlled input sometimes causes me headaches).
 
 ## Running the build config
 
@@ -470,7 +470,7 @@ If we hit save, our local environment will reload (incredibly fast thanks to Sno
 
 > If you stopped the Snowpack server before, just run `yarn start` again from the CLI.
 
-Because of how we have set the form with validations and by passing the **onSubmit** prop to show use the data, we can now play around with it and see that our code is working as expected.
+With the auto-generated form, validations, and the **onSubmit** prop to show use the data, we can now play around with it and see that our code is working as expected.
 
 Victory!
 
@@ -484,7 +484,7 @@ I made some changes later to introduce more complex JSON files that started addi
 
 <figcaption>More complex example</figcaption>
 
-Unlike my other tutorials, this is a rough-around-the-edges example of getting things up and going and how you can to! I'll leave you with the final code and resources so I can begin my work week!
+Unlike my other tutorials, this is a rough-around-the-edges example of getting things up and going and how you can too! I'll leave you with the final code and resources so I can begin my work week!
 
 ## Final code
 
