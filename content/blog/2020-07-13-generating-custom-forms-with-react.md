@@ -1,6 +1,6 @@
 ---
 title: BYO Form Builder with Deno, React and JSON
-date: "2020-07-12"
+date: "2020-07-13"
 description: See how we can auto-generate fully validated forms using React, Snowpack, YAML and a bit of grit
 ---
 
@@ -703,3 +703,5 @@ buildConfig()
 9. [Build your own JS generator](https://blog.dennisokeeffe.com/blog/2020-06-30-javascript-code-generation/)
 10. [Hygen template generator](https://github.com/jondot/hygen)
 11. [Yup validation](https://github.com/jquense/yup)
+
+_Image credit: [Mikita Yo](https://unsplash.com/@mikitayo)_
