@@ -454,3 +454,5 @@ Great success! That is all for today, I am already late for standup!
 5. [Yargs Parser](https://github.com/yargs/yargs-parser)
 6. [Screenshots with Puppeteer - Blog Post](https://blog.dennisokeeffe.com/blog/2020-07-01-screenshot-anything-with-puppeteer/)
 7. [Intro Yargs Parser - Blog Post](https://blog.dennisokeeffe.com/blog/yargs-parser/)
+
+_Image credit: [Bekky Bekks](https://unsplash.com/@bekky_bekks)_
