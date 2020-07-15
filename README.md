@@ -18,7 +18,7 @@ Storing them here because I am bad at writing notes everywhere and never finding
 - [ ] Netlify CMS Backend
 - [ ] Raspberry Pi + AWS CDK
 - [ ] Top 10 NPM Packages I've used
-- [ ] EJS Template Rendering
+- [x] EJS Template Rendering
 - [ ] ETL from OLTP to OLAP
 - [ ] Event source piping from one database to another
 - [ ] SQS SNS AWS CDK

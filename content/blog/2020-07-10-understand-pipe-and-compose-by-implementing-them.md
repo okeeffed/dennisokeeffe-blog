@@ -213,7 +213,7 @@ add(2)(10) // 12
 
 > For the sake of completeness, doing the reverse and taking a function from the `curriedAdd` back to the form of `add` above is the process of **uncurrying**.
 
-The above looks like of weird? Why would we ever want to write `add(x)(y)`? Running the curried function like so is equivalent to running `add(x, y)` with the uncurried version, but it gives us the powerful ability to **partially apply** values to functions and gives us some powerful tools for determinism.
+The above looks kind of weird? Why would we ever want to write `add(x)(y)`? Running the curried function like so is equivalent to running `add(x, y)` with the uncurried version, but it gives us the powerful ability to **partially apply** values to functions and gives us some powerful tools for determinism.
 
 Before we step into the power of partial application, I think it is time to start preparing our final voyage towards the goal of this tutorial.
 
@@ -309,7 +309,7 @@ module.exports = {
 }
 ```
 
-Here, we are using the idea of partial application to apply 2, 10 and 10 million respectively. This locks in the fact that if we were to use the `addTwo` function name to add the remaining argument, it would **always deterministically add 2 to the argument.**
+Here, we are using the idea of partial application to apply 2, 10, and 10 million respectively. This locks in the fact that if we were to use the `addTwo` function name to add the remaining argument, it would **always deterministically add 2 to the argument.**
 
 _Let me say that again._
 
@@ -348,11 +348,11 @@ describe("curried add function", () => {
 })
 ```
 
-In the new three tests, we are setting just some arbitrary numbers to check that each of those functions operate as expected.
+In the new three tests, we are setting just some arbitrary numbers to check that each of those functions will operate as expected.
 
 Cool! _We have managed to partially apply arguments to curried functions that returned a deterministic function that we could then apply another number to._ **What a mouthful.**
 
-At this point, I cannot stress how important that concept of partial application will be to functional programming. It may not look like much just yet, but hopefully I can convince you about how great it can be!
+At this point, I cannot stress how important the concept of partial application will be to functional programming. It may not look like much just yet, but hopefully I can convince you about how great it can be!
 
 Stick with me, we are on the home stretch! Let's take what we have applied and see the power of things coming together.
 
@@ -360,9 +360,9 @@ Stick with me, we are on the home stretch! Let's take what we have applied and s
 
 Now that we have been currying our `add` function and partially applying values, we are at a point when testing is deterministic and our functions are so damn clear on what they do and very difficult to misuse (queue fact that there is no type safety).
 
-Let's say we now want to write a function that can add twelve. What do we do now? Well, one thing we could do is follow our process like before of running `const addTwelve = add(12)`, or we could begin to look at the power of function programming and start applying the laws we learned at the beginning to create new, already-tested functions that can robustly give us confidence!
+Let's say we now want to write a function that can add twelve. What do we do now? Well, one thing we could do is follow our process like before of running `const addTwelve = add(12)`, or we could begin to look at the power of functional programming and start applying the laws we learned at the beginning to create new, already-tested functions that can robustly give us confidence!
 
-Given that we have a `addTwo` and `addTen` function, and - if math is still math - we know through our laws that `addTwo(addTen(5))` would run `2 + 10 + 5` which gives us seventeen, but what happens if we don't want to write that junk each time?
+Given that we have an `addTwo` and `addTen` function, and - if math is still math - we know through our laws that `addTwo(addTen(5))` would run `2 + 10 + 5` which gives us seventeen, but what happens if we don't want to write that junk each time?
 
 _In comes "pipe" and "compose"._
 
@@ -395,7 +395,7 @@ The important part is our `pipe` function. It looks pretty crazy right now! Let'
 
 1. Declaring the variable `pipe` which is a function
 2. When you call `pipe`, it takes any number of function arguments. The `...fns` here using the operator `...` to enable us to take an **indefinite number of arguments**. We could call `pipe(addTwo)`, `pipe(addTwo, addTen)` or `pipe(addTwo, addTen, addTenMillion)`and all would be valid as it takes each argument and adds it to an array `fn`. For those given examples, it would set `fn` to `[addTwo]`, `[addTwo, addTen]` and `[addTwo, addTen, addTenMillion]` respectively. As `pipe` is a curried function, it returns another function.
-3. This function given back from pipe can then be called with argument `data`. The data in this instance will be our base number value that we will pass through the pipe.
+3. This function given back from `pipe` can then be called with argument `data`. The data in this instance will be our base number value that we will pass through the pipe.
 4. Finally, after completing our partial application, it will run through the array of functions `fns` and call the function on the **accumulated value** `acc`, starting with the value of `data`.
 
 _That is a lot of information._ But fear not, our use of this function below can show you this in action.
@@ -469,7 +469,7 @@ test("expects addThirtySix to add 36 to each number", () => {
 })
 ```
 
-**That. Is. Incredible.** While we have been using simple arithmetic so far, try to imagine the possibilities of applying functions on a certain data type and begin making these incredible powerful pipelines!
+**That. Is. Incredible.** While we have been using simple arithmetic so far, try to imagine the possibilities of applying functions on a certain data type and begin making these incredibly powerful pipelines!
 
 _So how do we build our own compose function?_ Remember how I said that `pipe` is left-to-right while `compose` is right-to-left? Well...
 
@@ -499,7 +499,7 @@ We could pass the same arguments in the same order to both `pipe` and `compose` 
 
 Are you sick of talking arithmetic yet? I sure am. I wanted to start showing you the power of the functions by creating small, deterministic functions and applying them in the real world.
 
-Strings are a great place to do this, as we manipulate these all the time, however you should note that the concepts can applying to other types as well (which is where you begin delving into the world of functional types like your monads etc).
+Strings are a great place to do this, as we manipulate these all the time, however, you should note that the concepts can applying to other types as well (which is where you begin delving into the world of functional types like your monads, etc).
 
 For now, let's add a few functions to our `index.js` file. I'm not going to explain too much about these functions, but just know that we expect to take a string, run some form of manipulation and return a string.
 
@@ -540,7 +540,7 @@ Simply by running either left-to-right or right-to-left, we have ended up with v
 
 While the example above may be trivial, I use composition all the time to do things like group similar Regex replacement functions to make them incredibly readable.
 
-In fact, I used them this week to help our with converting three hundred Less files to Sass in our codebase!
+I used them this week to help with converting our three hundred Less files to Sass in our codebase!
 
 ```js
 // This is a snippet of the code to make things
@@ -592,7 +592,7 @@ for (const lessFile of lessFiles) {
 
 ## Conclusion
 
-We've covered the four core principles at the heart of functional programming, then followed the trail of understanding currying, partial application and finally created our own simple examples of `pipe` and `compose` to see them in action!
+We've covered the four core principles at the heart of functional programming, then followed the trail of understanding currying, partial application, and finally created our own simple examples of `pipe` and `compose` to see them in action!
 
 **This one was a big effort!**
 
