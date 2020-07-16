@@ -368,7 +368,12 @@ const main = async () => {
     // docs means "consider navigation to be finished
     // when there are no more than 0 network connections
     // for at least 500 ms."
-    await page.goto(`data:text/html,${html}`, { waitUntil: "networkidle0" })
+    //
+    // Note: Writing "'data:' + 'text' + '/html' + html" in a weird way
+    // because Dev.To does not like it.
+    await page.goto("data:" + "text" + "/html" + html, {
+      waitUntil: "networkidle0",
+    })
 
     // Wait for the <span id="canvas" /> element to be visible
     // and assign it to "element".
