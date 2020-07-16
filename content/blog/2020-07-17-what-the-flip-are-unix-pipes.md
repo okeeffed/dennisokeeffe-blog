@@ -170,3 +170,5 @@ I have linked a bunch of great resources below that relate to more information o
 8. [Named Pipe - Wikipedia](https://en.wikipedia.org/wiki/Named_pipe)
 9. [Wait Group - Golang](https://stackoverflow.com/questions/18207772/how-to-wait-for-all-goroutines-to-finish-without-using-time-sleep)
 10. [Piping in Unix or Linux](https://www.geeksforgeeks.org/piping-in-unix-or-linux/)
+
+_Image credit: [Timothy L Brock](https://unsplash.com/@timothylbrock)_
