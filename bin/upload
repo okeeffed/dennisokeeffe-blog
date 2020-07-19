@@ -1,4 +1,4 @@
 #!/bin/bash
-# Usage: bin/upload path/to/blog.md --tags=tag,tag,tag
-node bin/upload-to-devto.js $1 $2
-node bin/upload-to-medium.js $1 $2
+# Usage: bin/upload path/to/blog.md
+node bin/upload-to-devto.js $1
+node bin/upload-to-medium.js $1

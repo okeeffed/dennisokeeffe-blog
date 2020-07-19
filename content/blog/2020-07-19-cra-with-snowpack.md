@@ -9,9 +9,9 @@ Bundlers have been the standard in web development over recent years, but as you
 
 Snowpack is build tool that addresses this issue by serving an unbundled application. They have a [great blog post](https://www.snowpack.dev/posts/2020-05-26-snowpack-2-0-release/) explaining how they got to the version 2 release.
 
-In my own work, I have been getting unbelieably frustrated with build times and have been very keen to explore Snowpack. At first, I played around with their [Create Snowpack App](https://github.com/pikapkg/create-snowpack-app) starter, but want to know how I could run with [Create React App](https://github.com/facebook/create-react-app) and add Snowpack instead.
+In my own work, I have been getting unbelievably frustrated with build times and have been very keen to explore Snowpack. At first, I played around with their [Create Snowpack App](https://github.com/pikapkg/create-snowpack-app) starter, but want to know how I could run with [Create React App](https://github.com/facebook/create-react-app) and add Snowpack instead.
 
-There really hasn't been many posts availble on how to do this, so I decided to go it on my own with some trial and error. Here are the short steps that you can take to start developing in O(1) build times with a fresh Create React App project!
+There really hasn't been many posts available on how to do this, so I decided to go it on my own with some trial and error. Here are the short steps that you can take to start developing in O(1) build times with a fresh Create React App project!
 
 > Note: This tutorial ran with `create-react-app@3.4.1` and `snowpack@2.6.4`.
 
