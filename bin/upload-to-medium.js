@@ -72,8 +72,6 @@ const BASE_DIR = "content/blog/"
 
 const main = async () => {
   const [blogPostFilePath] = argv._
-  const tags = argv.tags.split(",")
-
   const blog = fs.readFileSync(blogPostFilePath, "utf-8")
   let blogToUpload = blog
     .split("\n")
@@ -97,6 +95,12 @@ const main = async () => {
     `![Heading image](https://github.com/okeeffed/dennisokeeffe-blog/blob/master/content/assets/${blogFileName}-main-image.png?raw=true)\n\n` +
     blogToUpload
   blogToUpload += `\n\n_Originally posted on my [blog](${canonicalUrl})._`
+
+  const [tagMeta] = blog.match(/tags:(.+)/gi)
+  const tags = tagMeta
+    .slice(6)
+    .split(",")
+    .map(str => str.trim())
 
   try {
     console.log("Attempting to post...", title)

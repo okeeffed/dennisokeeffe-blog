@@ -35,9 +35,13 @@ const BASE_DIR = "content/blog/"
 
 const main = async () => {
   const [blogPostFilePath] = argv._
-  const tags = argv.tags.split(",")
 
-  const blog = fs.readFileSync(blogPostFilePath, "utf-8")
+  const blogSrc = fs.readFileSync(blogPostFilePath, "utf-8")
+  const blog = blogSrc.replace(
+    /\!\[(.+)\]\((.+)\)/gim,
+    "![$1]($2)\n<figcaption>$1</figcaption>"
+  )
+
   let blogToUpload = blog
     .split("\n")
     .slice(6)
@@ -59,6 +63,12 @@ const main = async () => {
     /content\/blog\//g,
     ""
   )}-main-image.png?raw=true`
+
+  const [tagMeta] = blog.match(/tags:(.+)/gi)
+  const tags = tagMeta
+    .slice(6)
+    .split(",")
+    .map(str => str.trim())
 
   console.log("GitHub Main Image URL path:", mainImage)
 
