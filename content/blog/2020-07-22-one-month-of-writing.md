@@ -146,3 +146,5 @@ Slowing down to write a blog post has also meant understanding more about a topi
 It has also been great to get the feedback from others to help me on my own journey.
 
 I am very much looking forward to persevere and continue sharing, even though this may mean slowing down the posts-per-month!
+
+_Image credit: [Pascal Debrunner](https://unsplash.com/@debrupas)_
