@@ -2,6 +2,7 @@
 title: Using the AWS CDK to send a serverless Slack message
 description: Follow along to send a simple message to Slack by using the AWS SDK to trigger a JavaScript Lambda function on a timed cron job that has NPM dependencies required.
 date: "2020-06-22"
+tags: AWS CDK, Lambda, Slack, TypeScript
 ---
 
 In this particular tutorial, I am sharing how I used the AWS SDK to send a basic Slack message using a cron job.
@@ -18,7 +19,7 @@ In order to follow along, you'll should have the following:
 
 In a new file, we need to setup the npm package:
 
-```bash
+```s
 # initialise with base settings
 npm init -y
 npm i @aws-cdk/aws-events @aws-cdk/aws-events-targets @aws-cdk/aws-lambda @aws-cdk/aws-s3-assets @aws-cdk/core dotenv
@@ -31,7 +32,7 @@ These dependencies are all essentially used for the CloudFormation file synthesi
 
 Create a `.gitignore` file and add the following:
 
-```bash
+```s
 cdk.out/
 node_modules/
 .env
@@ -43,7 +44,7 @@ This will keep out the pesky secrets we don't want stored in Git.
 
 You can initialise with your preferred settings, however this is a pretty handy one you can add after creating a `tsconfig.json` file:
 
-```typescript
+```json
 {
   "compilerOptions": {
     "target": "ES2018",
@@ -70,7 +71,7 @@ You can initialise with your preferred settings, however this is a pretty handy 
 
 Create a simple `index.ts` file and add the following code:
 
-```typescript
+```ts
 import events = require("@aws-cdk/aws-events")
 import targets = require("@aws-cdk/aws-events-targets")
 import lambda = require("@aws-cdk/aws-lambda")
@@ -125,7 +126,7 @@ So how does it work? We are simply importing all the required CDK packages to cr
 
 The main lambda function code comes from here:
 
-```typescript
+```ts
 const lambdaFn = new lambda.Function(this, "LambdaCronJobExample", {
   code: lambda.Code.fromBucket(myLambdaAsset.bucket, myLambdaAsset.s3ObjectKey),
   timeout: cdk.Duration.seconds(300),
@@ -141,7 +142,7 @@ In the second argument, the `code` property takes a few options, but here we are
 
 The lambda code itself is added from this code snippet:
 
-```typescript
+```ts
 // The following JavaScript example defines an directory
 // asset which is archived as a .zip file and uploaded to
 // S3 during deployment.
@@ -156,7 +157,7 @@ We are telling the CDK here to bundle the `lambda` folder in the root of our pro
 
 To set up the cron job, we have the following code:
 
-```javascript
+```ts
 // Run every day, every minute (UTC time)
 // See https://docs.aws.amazon.com/lambda/latest/dg/tutorial-scheduled-events-schedule-expressions.html
 const rule = new events.Rule(this, "Rule", {
@@ -199,7 +200,7 @@ touch slack-message.js
 
 Add the following code to that `slack-message.js` file:
 
-```javascript
+```js
 const axios = require("axios")
 
 /**
@@ -253,7 +254,7 @@ The name of the export also aligns to the `handler: "slack-message.handler"` pro
 
 We are now ready to run the CDK!
 
-```bash
+```s
 npm install -g aws-cdk # if you have not already installed aws-cdk globally
 npm install
 npm run build # convert the infra TS file
@@ -263,7 +264,7 @@ Once the above is done, we can synthesize, deploy or destory using the `cdk` com
 
 You can run `cdk help` for more information, but basically what we will want to do is run the following:
 
-```bash
+```s
 cdk synth # synthesise the file
 cdk deploy
 ```
@@ -296,3 +297,5 @@ A list of further reading or resources referenced throughout the post.
 10. [Setup AWS Credentials](https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/setup-credentials.html)
 11. [Slack Webhook Documentation](https://api.slack.com/messaging/webhooks)
 12. [Project repo for okeeffed/lambda-cron-cdk-example](https://github.com/okeeffed/lambda-cron-cdk-example)
+
+_Image credit: [Caspar Camille Rubin](https://unsplash.com/@casparrubin)_

@@ -92,3 +92,5 @@ Hopefully these can now assist you too for the next time you need to contribute 
 10. [Australian Government Design System](https://designsystem.gov.au/)
 11. [GOV.UK Design System](https://design-system.service.gov.uk/)
 12. [US Gov Design System](https://designsystem.digital.gov/)
+
+_Image credit: [Balázs Kétyi](https://unsplash.com/@balazsketyi)_
