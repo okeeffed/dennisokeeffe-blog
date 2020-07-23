@@ -13,13 +13,13 @@ const sharpResize = async uri =>
         fit: "contain",
         background: { r: 0, g: 0, b: 0, alpha: 0 },
       })
-      .toFile(`./icons/${uri}`)
+      .toFile(`./icons/${uri.split(".")[0]}.png`)
       .then(info => resolve(info))
       .catch(err => reject(err))
   })
 
 const main = async () => {
-  const icons = await recursive("icon-src", ["!*.png"])
+  const icons = await recursive("icon-src")
 
   for (const icon of icons) {
     const pathArr = icon.split("/")

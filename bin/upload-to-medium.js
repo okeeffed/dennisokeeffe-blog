@@ -107,20 +107,22 @@ const main = async () => {
 
     const matches = blog.match(codeRegex)
 
-    for (const match of matches) {
-      const codeBlockArr = match.split("\n")
-      const fileExt = codeBlockArr.shift().slice(3)
-      codeBlockArr.pop()
-      const content = codeBlockArr.join("\n")
+    if (matches) {
+      for (const match of matches) {
+        const codeBlockArr = match.split("\n")
+        const fileExt = codeBlockArr.shift().slice(3)
+        codeBlockArr.pop()
+        const content = codeBlockArr.join("\n")
 
-      const gistFileName = `${blogUrl}-${Math.floor(
-        Math.random() * 10000
-      )}.${fileExt}`.replace(/\//g, "-")
-      console.log(gistFileName)
-      console.log(content)
-      const data = await createGist(gistFileName, content)
-      const embed = `https://gist.github.com/okeeffed/${data.id}.js`
-      blogToUpload = blogToUpload.replace(match, embed)
+        const gistFileName = `${blogUrl}-${Math.floor(
+          Math.random() * 10000
+        )}.${fileExt}`.replace(/\//g, "-")
+        console.log(gistFileName)
+        console.log(content)
+        const data = await createGist(gistFileName, content)
+        const embed = `https://gist.github.com/okeeffed/${data.id}.js`
+        blogToUpload = blogToUpload.replace(match, embed)
+      }
     }
 
     const { data: mediumRes } = await postArticle(
