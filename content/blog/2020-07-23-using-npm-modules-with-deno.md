@@ -65,3 +65,5 @@ inactive
 Rinse and repeat for any ESM packages you can find on the Skypack CDN. Happy coding!
 
 P.S. this is easily my shortest post to date. If you prefer these quick tips, let me know and I will do more as I go along through my work day.
+
+_Image credit: [Brian McGowan](https://unsplash.com/@sushioutlaw)_
