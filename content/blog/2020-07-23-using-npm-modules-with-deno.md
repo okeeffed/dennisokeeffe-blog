@@ -2,7 +2,7 @@
 title: How To Use NPM ES Modules With Deno
 description: Discover how the Skypack CDN can help use your favourite modules with Deno
 date: "2020-07-23"
-tags: deno, pika, xstate
+tags: deno, beginner, tutorial, codenewbie
 ---
 
 [Deno](https://deno.land/) has the ability to consume ES modules. Thanks to this, we can utilise Pika's [Skypack CDN](https://www.skypack.dev/) to install and run any of our favourite NPM packages on the CDN that support ES modules!
