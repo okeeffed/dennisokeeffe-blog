@@ -260,3 +260,5 @@ Congratulations, you now have access to your Tailwind theme values across your R
 2. [React Select - Custom Styles](https://react-select.com/home#custom-styles)
 3. [Tailwind - Referencing in JavaScript](https://tailwindcss.com/docs/configuration/#referencing-in-javascript)
 4. [React Context API](https://reactjs.org/docs/context.html)
+
+_Image credit: [Ibrahim Asad](https://unsplash.com/@asadphoto)_
