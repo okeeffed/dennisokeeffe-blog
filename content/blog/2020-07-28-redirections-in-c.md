@@ -158,6 +158,8 @@ In this case, we do the following:
 
 Hooray! Redirection to stdin is a success (and no segmentation faults).
 
+I will likely redo this exercise in Rust and Golang this week to show the how-to.
+
 ## Resources
 
 1. [Computer Systems A Programmer's Perspective - Page 944](https://www.amazon.com.au/Computer-Systems-Programmers-Perspective-Global/dp/1292101768/)
@@ -169,3 +171,5 @@ Hooray! Redirection to stdin is a success (and no segmentation faults).
 7. [CS 702 Operating Systems - redirect and pipes](http://www.cs.loyola.edu/~jglenn/702/S2005/Examples/dup2.html)
 8. [TutorialsPoint - Redirection](https://www.tutorialspoint.com/unix/unix-io-redirections.htm)
 9. [Redirection - Wikipedia](<https://en.wikipedia.org/wiki/Redirection_(computing)#:~:text=In%20computing%2C%20redirection%20is%20a,streams%20to%20user%2Dspecified%20locations.>)
+
+_Image credit: [Michael Kubler](https://unsplash.com/@kublermdk)_
