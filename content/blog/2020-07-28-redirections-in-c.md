@@ -2,7 +2,7 @@
 title: Unix Redirection In C
 description: Explore how redirection works in C
 date: "2020-07-28"
-tags: C, tutorial, unix
+tags: c, tutorial, unix, posix
 ---
 
 This short post is a recount of an exploration into redirection in the C language.
