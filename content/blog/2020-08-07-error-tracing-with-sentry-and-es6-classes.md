@@ -315,6 +315,8 @@ This means that the following:
 }
 ```
 
+`denyList.some` iterates through our Regex array and if any regex matches, it will return "true" - this helps us identify from our list which data to redact.
+
 Let's run `node index.js` again and confirm this in Sentry.
 
 ![Redacted info](../assets/2020-08-07-redacted-information.png)
@@ -336,3 +338,5 @@ Today, we went with the idea of a "block" list. If you want a stronger alternati
 3. [Sentry - Capturing Events](https://docs.sentry.io/error-reporting/capturing/)
 4. [Sentry - Breadcrumbs](https://docs.sentry.io/enriching-error-data/breadcrumbs/)
 5. [Super and Extends in JavaScript - Medium](https://medium.com/beginners-guide-to-mobile-web-development/super-and-extends-in-javascript-es6-understanding-the-tough-parts-6120372d3420)
+
+_Image credit: [Ali Saadat](https://unsplash.com/@camsaadat)_
