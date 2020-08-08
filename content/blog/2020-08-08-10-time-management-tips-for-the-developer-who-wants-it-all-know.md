@@ -182,3 +182,5 @@ To the developers starting out who want to know every area and technology under 
 3. How can I set myself up for the long-term?
 
 Ask yourself these questions. To the developers I know who have had the most success in life (and I am talking about balance here over career progression), they have learned how to become "perseverant" developers, not "now" developers.
+
+_Image credit: [Sonja Langford](https://unsplash.com/@sonjalangford)_
