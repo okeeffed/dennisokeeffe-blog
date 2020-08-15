@@ -111,3 +111,5 @@ export class LambdaCronStack extends cdk.Stack {
 2. [AWS CDK Get Secret example](https://docs.aws.amazon.com/cdk/latest/guide/get_secrets_manager_value.html)
 3. [AWS CDK Docs](https://docs.aws.amazon.com/cdk/api/latest/docs/aws-secretsmanager-readme.html#create-a-new-secret-in-a-stack)
 4. [AWS CLI](https://aws.amazon.com/cli/)
+
+_Image credit: [Emiel Maters](https://unsplash.com/@emielmaters)_
