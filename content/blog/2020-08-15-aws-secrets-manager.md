@@ -11,7 +11,7 @@ This short overview will create/retrieve a secret from the AWS Secrets Manager a
 
 ## The secrets manager from the CLI
 
-Ensure that you have the [aws-cli] installed.
+Ensure that you have the [aws-cli](https://aws.amazon.com/cli/) installed.
 
 We're going to add values for `example/secretKey` and `example/secretToken`. For us to reference later in the example CDK usage.
 
@@ -110,3 +110,4 @@ export class LambdaCronStack extends cdk.Stack {
 1. [AWS Secrets User Guide](https://docs.aws.amazon.com/secretsmanager/latest/userguide/tutorials_basic.html)
 2. [AWS CDK Get Secret example](https://docs.aws.amazon.com/cdk/latest/guide/get_secrets_manager_value.html)
 3. [AWS CDK Docs](https://docs.aws.amazon.com/cdk/api/latest/docs/aws-secretsmanager-readme.html#create-a-new-secret-in-a-stack)
+4. [AWS CLI](https://aws.amazon.com/cli/)
