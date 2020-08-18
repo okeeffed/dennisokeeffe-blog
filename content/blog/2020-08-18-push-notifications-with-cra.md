@@ -1,5 +1,5 @@
 ---
-title: Prompting New File Updates Through The Service Worker With Create-React-App
+title: Prompting New App Versions With The Service Worker And Create-React-App
 description: Look at how we can work around one of the Service Worker's biggest misunderstanding
 date: "2020-08-18"
 tags: react,typescript,javascript
@@ -145,3 +145,5 @@ As a final note, this is supported in most major browsers but with the caveat th
 2. [Service Worker API](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API)
 3. [Service Worker Post Message](https://googlechrome.github.io/samples/service-worker/post-message/)
 4. [Service Worker Waiting Compatibility](https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerRegistration/waiting)
+
+_Image credit: [Clément H](https://unsplash.com/@clemhlrdt)_
