@@ -1,5 +1,5 @@
 ---
-title: 52 Mental Models That Help You Tick
+title: 56 Mental Models That Help You Tick
 description: Explore a tool kit of models that you can apply to your own work day
 date: "2020-09-03"
 tags: productivity,career
@@ -7,7 +7,7 @@ tags: productivity,career
 
 Life is relentless. Our days can be any variant of monotony, routine, adventure, the unexpected and everything in between. How we deal with change or maintain consistency is something we constantly must work on for the rest of our days, but there are ways to help manage it and bring out our best.
 
-Whether it comes to health, code, career, human interaction, downtime or personal introspection, mental models help you to slow down, re-frame and make decisions grounded in good practice. Here are 52 mental models and concepts that have come to the rescue in my own life time and time again that may help you in your own time of need.
+Whether it comes to health, code, career, human interaction, downtime or personal introspection, mental models help you to slow down, re-frame and make decisions grounded in good practice. Here are 56 mental models and concepts that have come to the rescue in my own life time and time again that may help you in your own time of need.
 
 ## Control What You Can, Manage What You Can't
 
@@ -219,10 +219,30 @@ Half the battle is showing up. Whether it is work, class or life: just get there
 
 Just ship the damn thing.
 
+## Feedback Loop From Hell
+
+Taken from Mark Manson's "The Subtle Art Of Not Giving A F\*ck", the feedback loop from hell refers to negative spirals that occur from negative re-enforcement and momentum.
+
+Being able to acknowledge and understand when you are in it is the first step to working your way out.
+
+## Strength Through Diversity
+
+Understand that opening up to learning more, expanding your horizons and becoming more wholesome is one of the most powerful ways to get the bigger picture.
+
+## Connect The Dots
+
+Another mantra famously spoken by Steve Jobs. As you work toward your goals and reflect back on achievements, you will be able to connect the dots that lead you to where you are today.
+
+## Have Many Tools Ready For The Right Job
+
+This is an interesting one as it sounds as if it contradicts the idea of "it is not about the tools, it is about the person who uses the tools."
+
+My math professor, on the other hand, would speak to the idea that you could use different methods to get towards the same answer, but there were times where one approach was a better choice based on the scenario. I use this a lot when thinking about code and tradeoffs. The more you open yourself up to learning about more approaches and programming paradigms, the better equipped you are to making the best decision when choosing the "tools" for the project.
+
 ## Conclusion
 
-These are 52 of the principles that I try to keep ingrained in my day and work towards upholding. They speak a lot to the character I strive to maintain.
+These are 56 of the principles that I try to keep ingrained in my day and work towards upholding. They speak a lot to the character I strive to maintain.
 
 Have you got other principles in your own life that have paid dividends? Feel free to share!
 
-_Image credit: [Jared Rice](https://unsplash.com/@jareddrice)_
+_Image credit: [Adrian Swancar](https://unsplash.com/@a_d_s_w)_
