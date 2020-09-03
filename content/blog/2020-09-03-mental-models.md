@@ -224,3 +224,5 @@ Just ship the damn thing.
 These are 52 of the principles that I try to keep ingrained in my day and work towards upholding. They speak a lot to the character I strive to maintain.
 
 Have you got other principles in your own life that have paid dividends? Feel free to share!
+
+_Image credit: [Jared Rice](https://unsplash.com/@jareddrice)_
