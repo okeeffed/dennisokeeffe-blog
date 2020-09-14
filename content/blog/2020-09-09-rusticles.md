@@ -21,7 +21,7 @@ Rusticles, a weekly curation for all things Rust in one centralised place. Here 
 - **Axel Navarro**: [Rust and the hidden cargo clippy](https://dev.to/cloudx/rust-and-the-hidden-cargo-clippy-2a2e)
 - **Tomek Poniatowicz**: [Juniper - fast & type-safe GraphQL Servers in Rust](https://dev.to/graphqleditor/juniper-fast-type-safe-graphql-servers-in-rust-3jfc)
 - **Bruno Oliveira**: [Rust - understanding traits 1](https://dev.to/brunooliveira/rust-understanding-traits-1-45md)
-- **NiMA 🤖🧠⛓️**: [Hack the Rainbow 🌈 - ETH<>NEAR Bridge Hackathon - $50K+ prizes 🔥](https://dev.to/insidenima/hack-the-rainbow-eth-near-bridge-hackathon-50k-prizes-ia5)
+- **NiMA 🤖🧠⛓️**: [Hack the Rainbow 🌈 - ETH NEAR Bridge Hackathon - \$50K+ prizes 🔥](https://dev.to/insidenima/hack-the-rainbow-eth-near-bridge-hackathon-50k-prizes-ia5)
 - **Thomas Gotwig**: [Publish a simple executable from Rust on Chocolatey 🍫](https://dev.to/tgotwig/publish-a-simple-executable-from-rust-on-chocolatey-2pbl)
 - **Imaculate**: [That's so Rusty: Mutables](https://dev.to/imaculate3/that-s-so-rusty-mutables-5b40)
 - **Daniel Persson**: [Using rust jni to call an external rust library in java](https://dev.to/kalaspuffar/using-rust-jni-to-call-an-external-rust-library-in-java-2od7)
