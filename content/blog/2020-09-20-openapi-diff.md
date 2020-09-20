@@ -252,3 +252,5 @@ Amazing! Since we are exiting with a non-zero code, we can start pulling things 
 ## Resources And Further Reading
 
 1. [OpenAPI diff](https://bitbucket.org/atlassian/openapi-diff)
+
+_Image credit: [Laura Chouette](https://unsplash.com/@laurachouette)_

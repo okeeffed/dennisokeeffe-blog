@@ -428,3 +428,5 @@ Hooray! We can cut a lot of fluff with these helpers.
 ## Resources And Further Reading
 
 1. [QuickType](https://github.com/quicktype/quicktype)
+
+_Image credit: [Alessio Rinella](https://unsplash.com/@rinhello)_

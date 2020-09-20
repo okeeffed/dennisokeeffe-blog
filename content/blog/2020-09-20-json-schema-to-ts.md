@@ -186,3 +186,5 @@ Great success! We now have a type for our schema that we can import in.
 
 1. [jsonschema - GitHub](https://github.com/tdegrunt/jsonschema)
 2. [JSON Schema - Structuring A Complex Schema](https://json-schema.org/understanding-json-schema/structuring.html)
+
+_Image credit: [Tony Pham](https://unsplash.com/@tonyphamvn)_

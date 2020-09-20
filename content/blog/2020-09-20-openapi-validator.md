@@ -199,3 +199,5 @@ Success! Now we have a way to validate our OpenAPI schema.
 ## Resources and Further Reading
 
 1. [OpenAPI Validator](https://github.com/kogosoftwarellc/open-api/tree/master/packages/openapi-schema-validator)
+
+_Image credit: [Markos Mant](https://unsplash.com/@markos_mant)_
