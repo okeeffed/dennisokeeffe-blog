@@ -228,3 +228,5 @@ I am really hoping this gives _inspires_ (I use the term loosely) to stop postin
 3. [Twit - GitHub](https://github.com/ttezel/twit)
 4. [esbuild-node-tsc - GitHub](https://github.com/a7ul/esbuild-node-tsc)
 5. [DayJS - GitHub](https://github.com/iamkun/dayjs)
+
+_Image credit: [Patrick Perkins](https://unsplash.com/@stay_in_touch)_
