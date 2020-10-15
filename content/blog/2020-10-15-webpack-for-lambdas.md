@@ -1,8 +1,8 @@
 ---
-title: Webpack 5 Builds for AWS Lambda with TypeScript
+title: Webpack 5 Builds for AWS Lambda Functions with TypeScript
 description: Using Webpack 5 to build lambdas for AWS deployments
 date: "2020-10-15"
-tags: typescript,javascript,webpack,lambda,aws
+tags: typescript,webpack,lambda,aws
 ---
 
 In a previous post, I wrote about [self-destructing tweets](https://blog.dennisokeeffe.com/blog/2020-10-05-self-destructing-tweets/) which runs as an AWS Lambda function every night at midnight.
@@ -167,6 +167,12 @@ Given that we are not using Node Externals which avoids bundling node modules, t
 
 That means that the output in `dist/index.js` which run our project without node modules installed, which is perfect for AWS Lambda!
 
+## Running A Build
+
+A `"build": "webpack"` to your `"scripts"` key in the `package.json` file and you are ready to roll!
+
+Run `npm run build`, let Webpack work its magic and then see the single-file output in `dist/index.js`.
+
 ## Testing Your Projects
 
 I use [lambda-local](https://github.com/ashiina/lambda-local) for testing the build before deployment with the AWS CDK. It targets Nodejs, which is perfect for your TypeScript/JavaScript projects!
@@ -182,3 +188,5 @@ This post focused purely on the build process. As mentioned in the intro, some o
 1. [Self-Destructing Tweets](https://blog.dennisokeeffe.com/blog/2020-10-05-self-destructing-tweets/)
 2. [Sending a serverless Slack message](https://blog.dennisokeeffe.com/blog/2020-06-22-cdk-lambda-to-send-slack-message/)
 3. [lambda-local](https://github.com/ashiina/lambda-local)
+
+_Image credit: [Jess Bailey](https://unsplash.com/@jessbaileydesigns)_
