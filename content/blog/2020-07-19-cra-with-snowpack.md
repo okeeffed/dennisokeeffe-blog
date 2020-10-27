@@ -5,6 +5,14 @@ date: "2020-07-19"
 tags: react, webdev, beginners, tutorial
 ---
 
+> Edit (28/10/2020): This tutorial has been updated to work with `npm 7`, `create-react-app@4.0.0` and `snowpack@2.15.1`.
+>
+> You can find the finished project on [GitHub](https://github.com/okeeffed/cra-4-snowpack).
+>
+> Some of the comments made throughout this post may no longer apply with CRA 4. I am updated at the request of others!
+>
+> The post is now a few months old, so lookout for new fresh content with Snowpack that will delve more into running Snowpack with Webpack 5 and TypeScript 4.
+
 Bundlers have been the standard in web development over recent years, but as your application grows in size, so too does the bundle times. This creates issues for developers and costs everyone precious time.
 
 Snowpack is build tool that addresses this issue by serving an unbundled application. They have a [great blog post](https://www.snowpack.dev/posts/2020-05-26-snowpack-2-0-release/) explaining how they got to the version 2 release.
@@ -92,8 +100,10 @@ Mine looked like the following:
 
 Let's add our dev dependencies for the application! This will install Snowpack and some other dependencies I found along the way that look to be required.
 
+> Note: With npm 7, you may need to run this with the `--legacy-peer-deps` flag if the peer dependencies do not resolve as expected.
+
 ```s
-npm i --save-dev \
+npm i --save-dev --legacy-peer-deps \
 @snowpack/app-scripts-react \
 @snowpack/plugin-babel \
 rollup-plugin-node-polyfills \
@@ -134,6 +144,10 @@ module.exports = {
 ```
 
 These options are some that I carried over from the `Create Snowpack App` starter application. The `devOptions` may not be required, although I found the build would fail prior to add `fallback: "public/index.html"` to those options.
+
+## An important update for Create-React-App 4.0
+
+In the CRA 4 `src/App.js` file, you will note does not import React for you. If you wish to use Snowpack, you will need to add import React from 'react' to the top of the file.
 
 ## Running out Application
 
