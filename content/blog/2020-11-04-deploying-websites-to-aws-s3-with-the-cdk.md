@@ -302,3 +302,5 @@ You can see the final, live deploy at [https://nextjs-10-static-example.dennisok
 5. [Getting Your Account ID](https://docs.aws.amazon.com/IAM/latest/UserGuide/console_account-alias.html)
 6. [Final, live website deployment](https://nextjs-10-static-example.dennisokeeffe.com)
 7. [Final code](https://github.com/okeeffed/nextjs-10-static-deployment-with-typescript-aws-cdk)
+
+_Image credit: [Ignat Kushanrev](https://unsplash.com/@ignatkushanrev)_

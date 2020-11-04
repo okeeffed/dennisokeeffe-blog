@@ -82,3 +82,5 @@ If you would like to see how to deploy your website to AWS S3 using the AWS Type
 3. [Deploying NextJS to AWS S3 Using The AWS TypeScript CDK](https://blog.dennisokeeffe.com/blog/2020-11-04-deploying-websites-to-aws-s3-with-the-cdk/)
 4. [Final, live website deployment via the deployment blog](https://nextjs-10-static-example.dennisokeeffe.com)
 5. [Final code](https://github.com/okeeffed/nextjs-10-static-deployment-with-typescript-aws-cdk)
+
+_Image credit: [Isi Parente](https://unsplash.com/@isiparente)_
