@@ -25,7 +25,7 @@ This assumes you have a Next.js 10 project currently hosted on Vercel. If you do
 
 Once that is done, head to your [Vercel dashboard](https://vercel.com/dashboard) and select the project you would like to enable analytics on. I chose the project directly from my previous blog post.
 
-Once on the project page, select **Analytics** from the top row and you will be greeted with a **Enable analytics** button. Don't worry if you're on the free tier; the overview informs us that on the **hobby** tier, you are eligible to ** 1-day retention, 100 maximum data points per day with 100% sample rate**.
+Once on the project page, select **Analytics** from the top row and you will be greeted with a **Enable analytics** button. Don't worry if you're on the free tier; the overview informs us that on the **hobby** tier, you are eligible to **1-day retention, 100 maximum data points per day with 100% sample rate**.
 
 > Note: On the Hobby plan, Analytics can only be enabled on a single Vercel project. Feel free to disable after the tutorial.
 
