@@ -103,3 +103,5 @@ Be sure to check back as I delve further into some of the new options that Verce
 4. [Deploying Next.js 10 With Vercel CLI and the Vercel GitHub Integration](https://blog.dennisokeeffe.com/blog/2020-11-05-deploying-with-vercel-cli/)
 5. [GTMetrix](https://gtmetrix.com)
 6. [Site Reliability Engineering Book](https://landing.google.com/sre/books/)
+
+_Image credit: [National Cancer Institute](https://unsplash.com/@nci)_
