@@ -94,13 +94,11 @@ Run `npm run dev` to start the server and head to the localhost port specific (l
 
 Once you are there, you will see the current locale of English as well as what locales are configured!
 
-![Base page](s)
+![Base page](../assets/2020-11-08-1-localhost.png)
 
-Given what we mentioned previous about the sub-routing, we can now go to `/fr` and `/es` and expect the current locale to change.
+Given what we mentioned previous about the sub-routing, we can now go to `/fr` and `/es` and expect the current locale to change. The below image will be just for the `/fr` route to show our sub-routing works.
 
-![French locale]
-
-![Spanish locale]
+![French locale](../assets/2020-11-08-2-localhost-fr-not-i18n.png)
 
 Amazing! Now that we are done here, we can get to using this with `react-intl`.
 
@@ -122,7 +120,7 @@ export const en = {
 }
 ```
 
-> The structure of these files is up to you, but I am going with a top-level key of the page name for now and identifiers in the string.
+> The structure of these files is up to you, but I am going with a top-level key of the page name for now and identifiers in the string. Places I have worked previous keep this as JSON to upload to places such as [Smartling](https://www.smartling.com/), so you may want to go down an avenue that transforms JSON to the above ES6 format I am using.
 
 Let's copy-paste that across to our Spanish and French files and use some possibly inaccurate Google translations to help us out.
 
@@ -230,20 +228,22 @@ Let's fire up the app with `npm run dev` and see what happens!
 
 If we check `/`, `/fr` and `/es` we get the following respectively:
 
-![Images]
+![English home](../assets/2020-11-08-3-local-en.png)
+
+![French home](../assets/2020-11-08-4-fr.png)
+
+![Spanish home](../assets/2020-11-08-5-es.png)
 
 Success!
 
 As an added bonus to show how the other locale pages would work with the `/alt` route key we put in the locale files, we can create a new file `pages/alt.js` and add something similar:
 
 ```js
-import { useRouter } from "next/router"
 import { useIntl } from "react-intl"
 
 export default function IndexPage(props) {
   const { formatMessage } = useIntl()
   const f = id => formatMessage({ id })
-  const router = useRouter()
 
   return (
     <div>
@@ -255,7 +255,9 @@ export default function IndexPage(props) {
 
 Going to `/fr/alt` and `/es/alt` respectively give us the following:
 
-![more images]
+![Alt image - French](../assets/2020-11-08-6-fr-alt.png)
+
+![Alt image - Spanish](../assets/2020-11-08-7-es-alt.png)
 
 Notice that we have re-used the `hello` key for this page too but we are not getting that clash thanks to how we set up the locales and `pages/_app.js` page? Very handy. I am unsure if that is the best way to lay it out (there may be issues I am yet to run into at scale) but for this demo it works rather nicely.
 
@@ -274,3 +276,6 @@ See the final project (although lacking aesthetics) [here](https://hello-nextjs-
 3. [Completed project](https://hello-nextjs-i18n.vercel.app/)
 4. [Final code](https://github.com/okeeffed/hello-nextjs-i18n)
 5. [react-intl runtime requirements](https://formatjs.io/docs/react-intl/#runtime-requirements)
+6. [Smartling](https://www.smartling.com/)
+
+_Image credit: [Andrew Butler](https://unsplash.com/@drewbutler)_
