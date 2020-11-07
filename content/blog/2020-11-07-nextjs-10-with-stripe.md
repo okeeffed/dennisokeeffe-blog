@@ -30,7 +30,7 @@ Run the following to create a Next.js example app in the folder `with-stripe-typ
 npx create-next-app --example with-stripe-typescript with-stripe-typescript-app
 ```
 
-Change into the newly created directory.
+Change into the newly-created directory.
 
 Optionally, We are going to make some changes to this template for the sake of bringing TypeScript and React things up to version 4 and 17 respectively!
 
@@ -75,7 +75,9 @@ To start the app, run `npm run dev` in the terminal.
 
 Head to **http://localhost:3000** and you'll be faced with the following screen:
 
-![Localhost running](../assets/2020-11-07-1-localhost-nextjs-app.png)
+![Localhost running](https://github.com/okeeffed/dennisokeeffe-blog/blob/master/content/assets/2020-11-07-1-localhost-nextjs-app.png?raw=true)
+
+<figcaption>Localhost running</figcaption>
 
 This page allows us to run three examples:
 
@@ -89,7 +91,7 @@ Let's explore the code for each page.
 
 Checking out the first option with **Donation with Checkout**.
 
-The code for the how this page works can be found at `pages/donate-with-checkout.tsx`.
+The code for how this page works can be found at `pages/donate-with-checkout.tsx`.
 
 ```ts
 import { NextPage } from "next"
@@ -154,9 +156,11 @@ The API call code it uses to authorize the checkout session comes from `pages/ap
 
 If we run through the UI and click on "donate" we can see that in action.
 
-![Stripe Checkout](../assets/2020-11-07-2-stripe-checkout.png)
+![Stripe Checkout](https://github.com/okeeffed/dennisokeeffe-blog/blob/master/content/assets/2020-11-07-2-stripe-checkout.png?raw=true)
 
-Using a [Stripe test card](https://stripe.com/docs/testing) we can pop in `4242 4242 4242 4242` for the card number, any 3 digits for the CVC and any future date for validate the purchase.
+<figcaption>Stripe Checkout</figcaption>
+
+Using a [Stripe test card](https://stripe.com/docs/testing) we can pop in `4242 4242 4242 4242` for the card number, any 3 digits for the CVC and any future date for validating the purchase.
 
 If we check our terminal, we will see some neat confirmation logs for both the Nextjs app logs and webhook logs:
 
@@ -190,7 +194,9 @@ If we check our terminal, we will see some neat confirmation logs for both the N
 
 The UI itself will redirect to `/result` where the response JSON body will be shown.
 
-![Response on result page](../assets/2020-11-07-3-checkout-result.png)
+![Response on result page](https://github.com/okeeffed/dennisokeeffe-blog/blob/master/content/assets/2020-11-07-3-checkout-result.png?raw=true)
+
+<figcaption>Response on result page</figcaption>
 
 ## Donate with Stripe Elements
 
@@ -248,9 +254,13 @@ The API call code it uses to authorize the checkout session comes from `pages/ap
 
 If we fill out the details similar to before with the same test card and click `Donate $x`, you will see that the entire payment process happens on the page as opposed to running through the redirects.
 
-![Elements form](../assets/2020-11-07-4-elements.png)
+![Elements form](https://github.com/okeeffed/dennisokeeffe-blog/blob/master/content/assets/2020-11-07-4-elements.png?raw=true)
 
-![Elements paid](../assets/2020-11-07-5-elements-result.png)
+<figcaption>Elements form</figcaption>
+
+![Elements paid](https://github.com/okeeffed/dennisokeeffe-blog/blob/master/content/assets/2020-11-07-5-elements-result.png?raw=true)
+
+<figcaption>Elements paid</figcaption>
 
 ## Exploring the Shopping Cart
 
@@ -262,17 +272,23 @@ This actually works by using a package called [use-shopping-cart](https://github
 
 This example follows a similar route to the basic checkout example. If you add some items to the cart and checkout, you will be redirected to Stripe Checkout to complete to order and follow a similar redirect path.
 
-![Shopping cart page](../assets/2020-11-07-6-shopping-cart.png)
+![Shopping cart page](https://github.com/okeeffed/dennisokeeffe-blog/blob/master/content/assets/2020-11-07-6-shopping-cart.png?raw=true)
 
-The difference in this cart however, is that your items will show on the checkout page!
+<figcaption>Shopping cart page</figcaption>
 
-![Checkout with shopping cart](../assets/2020-11-07-7-shopping-cart-checkout.png)
+The difference in this cart, however, is that your items will show on the checkout page!
+
+![Checkout with shopping cart](https://github.com/okeeffed/dennisokeeffe-blog/blob/master/content/assets/2020-11-07-7-shopping-cart-checkout.png?raw=true)
+
+<figcaption>Checkout with shopping cart</figcaption>
 
 ## See the payments in the dashboard
 
 If you head to the **Payments** section of your Stripe Dashboard, you will be able to confirm the test payments we made.
 
-![Payments in the dashboard](../assets/2020-11-07-8-payments-stripe-dashboard.png)
+![Payments in the dashboard](https://github.com/okeeffed/dennisokeeffe-blog/blob/master/content/assets/2020-11-07-8-payments-stripe-dashboard.png?raw=true)
+
+<figcaption>Payments in the dashboard</figcaption>
 
 ## Deploying to Vercel
 
@@ -288,9 +304,11 @@ We need to now add our keys to Vercel.
 
 ### Creating the webhook in Stripe
 
-In order to capture webhooks in our production app, we need to create a webhooks URL in the Stripe Dashboard. It will look something like `https://your-url.your-account.vercel.app/api/webhooks`.
+In order to capture webhooks in our production app, we need to create a webhook URL in the Stripe Dashboard. It will look something like `https://your-url.your-account.vercel.app/api/webhooks`.
 
-![Creating a production webhook](../assets/2020-11-07-9-creating-the-webhook.png)
+![Creating a production webhook](https://github.com/okeeffed/dennisokeeffe-blog/blob/master/content/assets/2020-11-07-9-creating-the-webhook.png?raw=true)
+
+<figcaption>Creating a production webhook</figcaption>
 
 Once created in the dashboard, grab the **Signing Secret** and get ready to add this to Vercel.
 
@@ -304,9 +322,13 @@ Once these values have been filled out, run `vercel --prod` from the terminal on
 
 Head to your URL now, run through one of the flows we described during this post and you are done. Congratulations!
 
-![Production Example Payment](../assets/2020-11-07-10-production-success.png)
+![Production Example Payment](https://github.com/okeeffed/dennisokeeffe-blog/blob/master/content/assets/2020-11-07-10-production-success.png?raw=true)
 
-![Production payment on the Stripe Dashboard](../assets/2020-11-07-11-production-payment-on-dashboard.png)
+<figcaption>Production Example Payment</figcaption>
+
+![Production payment on the Stripe Dashboard](https://github.com/okeeffed/dennisokeeffe-blog/blob/master/content/assets/2020-11-07-11-production-payment-on-dashboard.png?raw=true)
+
+<figcaption>Production payment on the Stripe Dashboard</figcaption>
 
 ## Conclusion
 
@@ -328,3 +350,5 @@ Stripe + Vercel = Greatness. Happy hacking!
 8. [Completed Project](https://github.com/okeeffed/with-stripe-typescript-nextjs-app)
 
 _Image credit: [Sam Dan Truong](https://unsplash.com/@sam_truong)_
+
+_Originally posted on my [blog](https://blog.dennisokeeffe.com/blog/2020-11-07-nextjs-10-with-stripe/). Follow me on Twitter for more hidden gems [@dennisokeeffe92](https://twitter.com/dennisokeeffe92)._
