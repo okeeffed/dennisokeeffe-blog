@@ -34,7 +34,7 @@ npm i react-intl --legacy-peer-deps
 touch next.config.js
 ```
 
-> For installing `react-intl` I've used `--legacy-peer-deps` as there was a peer dependency of `^16.3.0` and I was running npm v7.
+> For installing `react-intl` I've used `--legacy-peer-deps` as there was a peer dependency of `react@^16.3.0` and I was running npm v7.
 
 Now that we have some files going, let's get started with some basic content!
 
@@ -56,7 +56,7 @@ module.exports = {
 }
 ```
 
-Here we are going with [sub-path routing](https://nextjs.org/docs/advanced-features/i18n-routing#sub-path-routing), so the tl;dr is that `our-website.com` with be the default locale (English), whereas `our-website.com/fr` and `our-website.com/es` will direct us to the French and Spanish websites respectively.
+Here we are going with [sub-path routing](https://nextjs.org/docs/advanced-features/i18n-routing#sub-path-routing), so the tl;dr is that `our-website.com` will be the default locale (English), whereas `our-website.com/fr` and `our-website.com/es` will direct us to the French and Spanish websites respectively.
 
 Now that we have that out of the way, let's update the `pages/index.js` page!
 
@@ -90,15 +90,19 @@ export default function IndexPage(props) {
 
 With this, we are ready to start our app and see the results.
 
-Run `npm run dev` to start the server and head to the localhost port specific (likely `http://localhost:3000`).
+Run `npm run dev` to start the server and head to the localhost port-specific (likely `http://localhost:3000`).
 
 Once you are there, you will see the current locale of English as well as what locales are configured!
 
-![Base page](../assets/2020-11-08-1-localhost.png)
+![Base page](https://github.com/okeeffed/dennisokeeffe-blog/blob/master/content/assets/2020-11-08-1-localhost.png?raw=true)
 
-Given what we mentioned previous about the sub-routing, we can now go to `/fr` and `/es` and expect the current locale to change. The below image will be just for the `/fr` route to show our sub-routing works.
+<figcaption>Base page</figcaption>
 
-![French locale](../assets/2020-11-08-2-localhost-fr-not-i18n.png)
+Given what we mentioned previously about the sub-routing, we can now go to `/fr` and `/es` and expect the current locale to change. The below image will be just for the `/fr` route to show our sub-routing works.
+
+![French locale](https://github.com/okeeffed/dennisokeeffe-blog/blob/master/content/assets/2020-11-08-2-localhost-fr-not-i18n.png?raw=true)
+
+<figcaption>French locale</figcaption>
 
 Amazing! Now that we are done here, we can get to using this with `react-intl`.
 
@@ -228,11 +232,17 @@ Let's fire up the app with `npm run dev` and see what happens!
 
 If we check `/`, `/fr` and `/es` we get the following respectively:
 
-![English home](../assets/2020-11-08-3-local-en.png)
+![English home](https://github.com/okeeffed/dennisokeeffe-blog/blob/master/content/assets/2020-11-08-3-local-en.png?raw=true)
 
-![French home](../assets/2020-11-08-4-fr.png)
+<figcaption>English home</figcaption>
 
-![Spanish home](../assets/2020-11-08-5-es.png)
+![French home](https://github.com/okeeffed/dennisokeeffe-blog/blob/master/content/assets/2020-11-08-4-fr.png?raw=true)
+
+<figcaption>French home</figcaption>
+
+![Spanish home](https://github.com/okeeffed/dennisokeeffe-blog/blob/master/content/assets/2020-11-08-5-es.png?raw=true)
+
+<figcaption>Spanish home</figcaption>
 
 Success!
 
@@ -255,11 +265,15 @@ export default function IndexPage(props) {
 
 Going to `/fr/alt` and `/es/alt` respectively give us the following:
 
-![Alt image - French](../assets/2020-11-08-6-fr-alt.png)
+![Alt image - French](https://github.com/okeeffed/dennisokeeffe-blog/blob/master/content/assets/2020-11-08-6-fr-alt.png?raw=true)
 
-![Alt image - Spanish](../assets/2020-11-08-7-es-alt.png)
+<figcaption>Alt image - French</figcaption>
 
-Notice that we have re-used the `hello` key for this page too but we are not getting that clash thanks to how we set up the locales and `pages/_app.js` page? Very handy. I am unsure if that is the best way to lay it out (there may be issues I am yet to run into at scale) but for this demo it works rather nicely.
+![Alt image - Spanish](https://github.com/okeeffed/dennisokeeffe-blog/blob/master/content/assets/2020-11-08-7-es-alt.png?raw=true)
+
+<figcaption>Alt image - Spanish</figcaption>
+
+Notice that we have re-used the `hello` key for this page too but we are not getting that clash thanks to how we set up the locales and `pages/_app.js` page? Very handy. I am unsure if that is the best way to lay it out (there may be issues I am yet to run into at scale) but for this demo, it works rather nicely.
 
 > Note: if you are having an error pop up in the terminal about missing Polyfills, refer to the [formatjs documentation](https://formatjs.io/docs/react-intl/#runtime-requirements). The tl;dr is that you need Node v13+ or you can install a package.
 
@@ -279,3 +293,5 @@ See the final project (although lacking aesthetics) [here](https://hello-nextjs-
 6. [Smartling](https://www.smartling.com/)
 
 _Image credit: [Andrew Butler](https://unsplash.com/@drewbutler)_
+
+_Originally posted on my [blog](https://blog.dennisokeeffe.com/blog/2020-11-08-nextjs-intl-with-react-intl/). Follow me on Twitter for more hidden gems [@dennisokeeffe92](https://twitter.com/dennisokeeffe92)._
