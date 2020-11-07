@@ -1,5 +1,5 @@
 ---
-title: Using Stripe With Next.js 10, TypeScript 4, React 17 and Vercel
+title: Taking Stripe Payments With Next.js 10, TypeScript 4, React 17 and Vercel
 description: Learn how to create a test Stripe example, update that example and deploy to Vercel for a Stripe payment gateway, React 17, TypeScript 4 and Next.js 10
 date: "2020-11-07"
 tags: nextjs,stripe,typescript,vercel
@@ -326,3 +326,5 @@ Stripe + Vercel = Greatness. Happy hacking!
 6. [Vercel](https://vercel.com)
 7. [Production URL](https://with-stripe-typescript-app-ten.vercel.app/)
 8. [Completed Project](https://github.com/okeeffed/with-stripe-typescript-nextjs-app)
+
+_Image credit: [Sam Dan Truong](https://unsplash.com/@sam_truong)_
