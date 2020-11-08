@@ -90,7 +90,7 @@ Once loaded, we get a screen that looks like the following:
 
 According to the docs, the caching works as so:
 
-> _"Images are optimized dynamically upon request and stored in the <distDir>/cache/images directory. The optimized image file will be served for subsequent requests until the expiration is reached. When a request is made that matches a cached but expired file, the cached file is deleted before generating a new optimized image and caching the new file._
+> _"Images are optimized dynamically upon request and stored in the `<distDir>/cache/images` directory. The optimized image file will be served for subsequent requests until the expiration is reached. When a request is made that matches a cached but expired file, the cached file is deleted before generating a new optimized image and caching the new file._
 >
 > _"The expiration (or rather Max Age) is defined by the upstream server's Cache-Control header._
 >
