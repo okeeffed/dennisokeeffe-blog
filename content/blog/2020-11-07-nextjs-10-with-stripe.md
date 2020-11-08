@@ -314,7 +314,7 @@ Once created in the dashboard, grab the **Signing Secret** and get ready to add 
 
 ### Adding Environment Variables
 
-There will be a link to the settings for your application given back on terminal (something like **https://vercel.com/<your-account>/<app-name></app-name>/settings**).
+There will be a link to the settings for your application given back on terminal (something like **https://vercel.com/[your-account]/[app-name]/settings**).
 
 Head to this link and select **Environment Variables** from the sidebar. From here, we want to add back in our variables using what we had from `.env.local` in our project, only replace the `STRIPE_WEBHOOK_SECRET` with the actual link we created in the section before.
 
