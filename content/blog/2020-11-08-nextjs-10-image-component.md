@@ -27,7 +27,9 @@ For this particularly exploration, I went to [Unsplash](https://unsplash.com) an
 
 In this case, I went with [Florian Olivo's Jellyfish image](https://unsplash.com/photos/GVe30cQ8CWU).
 
-![Jellyfish](../assets/2020-11-08-1-jellyfish-resized.jpg)
+![Jellyfish](https://github.com/okeeffed/dennisokeeffe-blog/blob/master/content/assets/2020-11-08-1-jellyfish-resized.jpg?raw=true)
+
+<figcaption>Jellyfish</figcaption>
 
 Afterwards, I went to the online tool [Squoosh](https://squoosh.app/) to resize the image at 800x1199 and optimized it with the basic settings.
 
@@ -72,21 +74,27 @@ I deployed this example to [Vercel](https://vercel.com) to see what the results 
 
 When first visiting the production website, I noticed that while the images were loading, there was a nice space kept there for where the image was due to load into:
 
-![First load](../assets/2020-11-09-1-loading-the-page.jpg)
+![First load](https://github.com/okeeffed/dennisokeeffe-blog/blob/master/content/assets/2020-11-09-1-loading-the-page.jpg?raw=true)
 
-This space relates to preventing the [culmulative layout shift](https://web.dev/cls/) which, as mentioned prior, is a core web vital.
+<figcaption>First load</figcaption>
+
+This space relates to preventing the [cumulative layout shift](https://web.dev/cls/) which, as mentioned prior, is a core web vital.
 
 During this first load, the unoptimized image took ~17 seconds to load into the page. This is due to Next.js optimizing the image before loading.
 
 I made the rookie error of not have the `Network` tab open during the first load of the project, so the timing itself is not perfect but here the Network tab of a re-deployment of the project I did later to show a similar experience to my first load:
 
-![Network tab first load](../assets/2020-11-09-2-first-load-network.jpg).
+![Network tab first load](https://github.com/okeeffed/dennisokeeffe-blog/blob/master/content/assets/2020-11-09-2-first-load-network.jpg?raw=true)
+
+<figcaption>Network tab first load</figcaption>.
 
 > Note: You can see that the image here is optimized down from the 4.5MB of the original JPEG and it comes as `webp` format, but that optimized size is far larger than the examples shown later. I cannot speak to why this happened upon re-deploying the project, but given that the image is optimized for the device and browser, I would say it may be due to re-deploying and visiting the project on my MacBook with higher resolution than my monitor.
 
 Once loaded, we get a screen that looks like the following:
 
-![Loaded page](../assets/2020-11-09-3-page-loaded.jpg)
+![Loaded page](https://github.com/okeeffed/dennisokeeffe-blog/blob/master/content/assets/2020-11-09-3-page-loaded.jpg?raw=true)
+
+<figcaption>Loaded page</figcaption>
 
 According to the docs, the caching works as so:
 
@@ -98,11 +106,13 @@ According to the docs, the caching works as so:
 
 So in our case, once the image has been optimized during a call, it is cached and subsequent requests will load our required image wickedly fast! Here was the network for my original deployment on reload:
 
-![Network on reloads](../assets/2020-11-09-4-loaded-network.jpg)
+![Network on reloads](https://github.com/okeeffed/dennisokeeffe-blog/blob/master/content/assets/2020-11-09-4-loaded-network.jpg?raw=true)
+
+<figcaption>Network on reloads</figcaption>
 
 ## In conclusion
 
-Today's post was about seeing Next.js image optimization in action using a unoptimized and optimized source image on a live deployment.
+Today's post was about seeing Next.js image optimization in action using an unoptimized and optimized source image on a live deployment.
 
 While this is only a surface-deep look, it is incredible to see what you get out of the box with Next.js 10 image optimization and it is certainly a great step in the right direction for helping developers.
 
@@ -114,7 +124,9 @@ I've been keen to see other solutions in this space since coming across the [rea
 2. [Florian Olivo - Jellyfish image](https://unsplash.com/photos/GVe30cQ8CWU?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
 3. [Squoosh](https://squoosh.app/)
 4. [Next.js Image Example](https://github.com/vercel/next.js/tree/canary/examples/image-component)
-5. [Culmulative Layout Shift](https://web.dev/cls/)
+5. [Cumulative Layout Shift](https://web.dev/cls/)
 6. [react-ideal-image package](https://github.com/stereobooster/react-ideal-image)
 
 _Image credit: [bmarcel](https://unsplash.com/@bmarcel)_
+
+_Originally posted on my [blog](https://blog.dennisokeeffe.com/blog/2020-11-08-nextjs-10-image-component/). Follow me on Twitter for more hidden gems [@dennisokeeffe92](https://twitter.com/dennisokeeffe92)._
