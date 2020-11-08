@@ -116,3 +116,5 @@ I've been keen to see other solutions in this space since coming across the [rea
 4. [Next.js Image Example](https://github.com/vercel/next.js/tree/canary/examples/image-component)
 5. [Culmulative Layout Shift](https://web.dev/cls/)
 6. [react-ideal-image package](https://github.com/stereobooster/react-ideal-image)
+
+_Image credit: [bmarcel](https://unsplash.com/@bmarcel)_
