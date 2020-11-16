@@ -209,3 +209,5 @@ You can [try out the project](https://nextjs-simple-auth.vercel.app/) being host
 2. [Code repo](https://github.com/okeeffed/nextjs-simple-auth)
 3. [Next.js Auth](https://next-auth.js.org/)
 4. [Next.js Auth - credentials](https://next-auth.js.org/providers/credentials)
+
+_Image credit: [Chris Yang](https://unsplash.com/@chrisyangchrisfilm)_
