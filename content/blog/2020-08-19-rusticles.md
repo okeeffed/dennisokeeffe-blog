@@ -1,5 +1,5 @@
 ---
-title: Rusticles #5 - Wed Aug 19 2020
+title: Rusticles 5 - Wed Aug 19 2020
 description: Rusty runes for the last week in Rust
 date: "2020-08-19"
 ---

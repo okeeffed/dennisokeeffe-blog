@@ -1,5 +1,5 @@
 ---
-title: Gopher Gold #9 - Wed Sep 02 2020
+title: Gopher Gold 9 - Wed Sep 02 2020
 description: Weekly nuggets of Golang Gold
 date: "2020-09-02"
 cover_image: https://dev-to-uploads.s3.amazonaws.com/i/qs7o2ag8vzo0uborgc7v.png
@@ -46,10 +46,10 @@ Go Weekly, a weekly curation for all things Go in one centralised place. Here is
 
 ## Trending Go Repositories This Week On Github
 
-- **cloudreve/Cloudreve** (Go): [🌩支持多家云存储的云盘系统 (A project helps you build your own cloud in minutes)](https://github.com/cloudreve/Cloudreve)
+- **cloudreve/Cloudreve** (Go): [🌩 支持多家云存储的云盘系统 (A project helps you build your own cloud in minutes)](https://github.com/cloudreve/Cloudreve)
 - **betty200744/ultimate-go** (Go): [This repo contains my notes on working with Go and computer systems.](https://github.com/betty200744/ultimate-go)
 - **aws/aws-controllers-k8s** (Go): [AWS Controllers for Kubernetes (ACK) is a project enabling you to manage AWS services from Kubernetes](https://github.com/aws/aws-controllers-k8s)
-- **tal-tech/go-zero** (Go): [go-zero是一个集成了各种工程实践的web和rpc框架。通过弹性设计保障了大并发服务端的稳定性，经受了充分的实战检验。包含极简的API定义和生成工具，可以一键生成Go, iOS, Android, Dart, TypeScript, JavaScript代码，并可直接运行。](https://github.com/tal-tech/go-zero)
+- **tal-tech/go-zero** (Go): [go-zero 是一个集成了各种工程实践的 web 和 rpc 框架。通过弹性设计保障了大并发服务端的稳定性，经受了充分的实战检验。包含极简的 API 定义和生成工具，可以一键生成 Go, iOS, Android, Dart, TypeScript, JavaScript 代码，并可直接运行。](https://github.com/tal-tech/go-zero)
 - **jaegertracing/jaeger** (Go): [CNCF Jaeger, a Distributed Tracing Platform](https://github.com/jaegertracing/jaeger)
 - **hoanhan101/ultimate-go** (Go): [The Ultimate Go Study Guide](https://github.com/hoanhan101/ultimate-go)
 - **halfrost/LeetCode-Go** (Go): [✅ Solutions to LeetCode by Go, 100% test coverage, runtime beats 100% / LeetCode 题解](https://github.com/halfrost/LeetCode-Go)
@@ -67,7 +67,7 @@ Go Weekly, a weekly curation for all things Go in one centralised place. Here is
 - **hashicorp/terraform** (Go): [Terraform enables you to safely and predictably create, change, and improve infrastructure. It is an open source tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.](https://github.com/hashicorp/terraform)
 - **etcd-io/etcd** (Go): [Distributed reliable key-value store for the most critical data of a distributed system](https://github.com/etcd-io/etcd)
 - **filecoin-project/lotus** (Go): [Implementation of the Filecoin protocol, written in Go](https://github.com/filecoin-project/lotus)
-- **zu1k/proxypool** (Go): [自动抓取tg频道、订阅地址、公开互联网上的ss、ssr、vmess、trojan节点信息，聚合去重后提供节点列表，每15分钟更新](https://github.com/zu1k/proxypool)
+- **zu1k/proxypool** (Go): [自动抓取 tg 频道、订阅地址、公开互联网上的 ss、ssr、vmess、trojan 节点信息，聚合去重后提供节点列表，每 15 分钟更新](https://github.com/zu1k/proxypool)
 - **kubernetes-sigs/kubebuilder** (Go): [Kubebuilder - SDK for building Kubernetes APIs using CRDs](https://github.com/kubernetes-sigs/kubebuilder)
 - **inancgumus/learngo** (Go): [1000+ Hand-Crafted Go Examples, Exercises, and Quizzes](https://github.com/inancgumus/learngo)
 - **rancher/k3s** (Go): [Lightweight Kubernetes](https://github.com/rancher/k3s)
@@ -94,11 +94,11 @@ Go Weekly, a weekly curation for all things Go in one centralised place. Here is
 - [How do you name your interfaces?](https://forum.golangbridge.org/t/how-do-you-name-your-interfaces/20330)
 - [Some query regarding my code to deal with io.Reader in golang](https://forum.golangbridge.org/t/some-query-regarding-my-code-to-deal-with-io-reader-in-golang/20361)
 - [How is func printCounts running ten times ?please explain](https://forum.golangbridge.org/t/how-is-func-printcounts-running-ten-times-please-explain/20398)
-- [Still trying to wrap my head around how to use and covert */&whatever?](https://forum.golangbridge.org/t/still-trying-to-wrap-my-head-around-how-to-use-and-covert-whatever/20368)
+- [Still trying to wrap my head around how to use and covert \*/&whatever?](https://forum.golangbridge.org/t/still-trying-to-wrap-my-head-around-how-to-use-and-covert-whatever/20368)
 - [Help understanding this](https://forum.golangbridge.org/t/help-understanding-this/20389)
 - [Exe file doesn´t open](https://forum.golangbridge.org/t/exe-file-doesn-t-open/20367)
 - [Callback in Golang, I'm trying to pass a function square (callback) and then a number to a function where the function square will return square of any number but it shows an error, 'function body missing'](https://forum.golangbridge.org/t/callback-in-golang-im-trying-to-pass-a-function-square-callback-and-then-a-number-to-a-function-where-the-function-square-will-return-square-of-any-number-but-it-shows-an-error-function-body-missing/20395)
-- [[idiomatic Go] tree.Find(val int) should return (Node, error) VS (Nod, bool) VS (*Node)?](https://forum.golangbridge.org/t/idiomatic-go-tree-find-val-int-should-return-node-error-vs-nod-bool-vs-node/20371)
+- [[idiomatic Go] tree.Find(val int) should return (Node, error) VS (Nod, bool) VS (\*Node)?](https://forum.golangbridge.org/t/idiomatic-go-tree-find-val-int-should-return-node-error-vs-nod-bool-vs-node/20371)
 - [Can we pause go routines until input is given by the user and then run multiple go routines concurrently?](https://forum.golangbridge.org/t/can-we-pause-go-routines-until-input-is-given-by-the-user-and-then-run-multiple-go-routines-concurrently/20390)
 - [Database Insert records from struct](https://forum.golangbridge.org/t/database-insert-records-from-struct/20335)
 - [How to upload file to internet](https://forum.golangbridge.org/t/how-to-upload-file-to-internet/20353)
@@ -113,7 +113,7 @@ Go Weekly, a weekly curation for all things Go in one centralised place. Here is
 - [How to use package from subdirectory?](https://forum.golangbridge.org/t/how-to-use-package-from-subdirectory/20374)
 - [[Golang micro services] "delete notification email" functionality - in a separate micro service?](https://forum.golangbridge.org/t/golang-micro-services-delete-notification-email-functionality-in-a-separate-micro-service/20358)
 - [I don't understand this. Explain?](https://forum.golangbridge.org/t/i-dont-understand-this-explain/20415)
-- [Errormissing destination name hr_id in *main.Hr (sqlx)](https://forum.golangbridge.org/t/errormissing-destination-name-hr-id-in-main-hr-sqlx/20307)
+- [Errormissing destination name hr_id in \*main.Hr (sqlx)](https://forum.golangbridge.org/t/errormissing-destination-name-hr-id-in-main-hr-sqlx/20307)
 - [Use SpaceVim as go IDE](https://forum.golangbridge.org/t/use-spacevim-as-go-ide/20345)
 - [Is using the framework ideal solution to develop slack like project?](https://forum.golangbridge.org/t/is-using-the-framework-ideal-solution-to-develop-slack-like-project/20311)
 - [How can i modify custom logger wrapper to print actual error line no](https://forum.golangbridge.org/t/how-can-i-modify-custom-logger-wrapper-to-print-actual-error-line-no/20363)

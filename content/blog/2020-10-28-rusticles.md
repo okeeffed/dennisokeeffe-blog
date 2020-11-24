@@ -1,5 +1,5 @@
 ---
-title: Rusticles #17 - Wed Oct 28 2020
+title: Rusticles 17 - Wed Oct 28 2020
 description: Rusty runes for the last week in Rust
 date: "2020-10-28"
 ---
@@ -39,7 +39,7 @@ Rusticles weekly curation for Wed Oct 28 2020.
 - **Nivethan**: [A Web App in Rust - 12 Passwords](https://dev.to/krowemoh/a-web-app-in-rust-12-passwords-113n)
 - **Nivethan**: [A Web App in Rust - 03 Complex Templates](https://dev.to/krowemoh/a-web-app-in-rust-03-complex-templates-35e2)
 - **Nivethan**: [A Web App in Rust - 13 Connection Pooling](https://dev.to/krowemoh/a-web-app-in-rust-13-connection-pooling-3c9c)
-- **Dan**: [Build a  "todo list" backend with AssemblyLift 🚀🔒](https://dev.to/dotxlem/build-a-todo-list-backend-with-assemblylift-1ak3)
+- **Dan**: [Build a "todo list" backend with AssemblyLift 🚀🔒](https://dev.to/dotxlem/build-a-todo-list-backend-with-assemblylift-1ak3)
 - **Nivethan**: [A Web App in Rust - 04 Forms](https://dev.to/krowemoh/a-web-app-in-rust-04-forms-3aif)
 - **Sivakumar SIVAPRAKASAM**: [Data Structures & Algorithms using Rust: Find Numbers with Even Number of Digits](https://dev.to/ssivakumar77/data-structures-algorithms-using-rust-find-numbers-with-even-number-of-digits-3j9a)
 - **Keji Oyekunle**: [A Weekend and take home assessment](https://dev.to/teakg/a-weekend-and-take-home-assessment-4dhp)

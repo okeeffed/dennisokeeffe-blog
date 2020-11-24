@@ -1,5 +1,5 @@
 ---
-title: Rusticles #13 - Wed Sep 30 2020
+title: Rusticles 13 - Wed Sep 30 2020
 description: Rusty runes for the last week in Rust
 date: "2020-09-30"
 ---
@@ -15,7 +15,7 @@ Rusticles weekly curation for Wed Sep 30 2020.
 
 ## Rust Articles This Week On Dev.To
 
-- **alabulei1**: [Face Detection in Node.js  with Rust and WebAssembly](https://dev.to/alabulei1/high-performance-and-safe-ai-as-a-service-in-node-js-43lg)
+- **alabulei1**: [Face Detection in Node.js with Rust and WebAssembly](https://dev.to/alabulei1/high-performance-and-safe-ai-as-a-service-in-node-js-43lg)
 - **Keita Nonaka**: [Rust: Crate Trends](https://dev.to/gumichocopengin8/rust-crate-trends-4ome)
 - **Nicky Meuleman**: [Rust: let vs const](https://dev.to/nickymeuleman/rust-let-vs-const-1pcp)
 - **rachelle palmer**: [I Built the Most Mediocre Rust App Ever](https://dev.to/techbelle/i-built-the-most-mediocre-rust-app-ever-20jm)
@@ -52,6 +52,6 @@ Rusticles weekly curation for Wed Sep 30 2020.
 - **rust-windowing/winit** (Rust): [Window handling library in pure Rust](https://github.com/rust-windowing/winit)
 - **clap-rs/clap** (Rust): [A full featured, fast Command Line Argument Parser for Rust](https://github.com/clap-rs/clap)
 - **sharkdp/bat** (Rust): [A cat(1) clone with wings.](https://github.com/sharkdp/bat)
-- **WeBankBlockchain/WeDPR-Lab-Core** (Rust): [Core libraries of WeDPR instant scenario-focused solutions for privacy-inspired business; WeDPR即时可用场景式隐私保护高效解决方案核心算法组件](https://github.com/WeBankBlockchain/WeDPR-Lab-Core)
+- **WeBankBlockchain/WeDPR-Lab-Core** (Rust): [Core libraries of WeDPR instant scenario-focused solutions for privacy-inspired business; WeDPR 即时可用场景式隐私保护高效解决方案核心算法组件](https://github.com/WeBankBlockchain/WeDPR-Lab-Core)
 
 _Rusticles is a weekly roundup for all things Rust! If you have more suggestions for resources, submit them below! Follow me on Twitter for more projects [@dennisokeeffe92](https://twitter.com/dennisokeeffe92)._

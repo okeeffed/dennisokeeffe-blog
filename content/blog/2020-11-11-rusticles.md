@@ -1,5 +1,5 @@
 ---
-title: Rusticles #19 - Wed Nov 11 2020
+title: Rusticles 19 - Wed Nov 11 2020
 description: Rusty runes for the last week in Rust
 date: "2020-11-11"
 ---
@@ -22,7 +22,7 @@ Rusticles weekly curation for Wed Nov 11 2020.
 - **lechat**: [How to debug Rust program](https://dev.to/lechatthecat/how-to-debug-rust-program-1c4i)
 - **Nivethan**: [A Gemini Client in Rust - 01 The Specification](https://dev.to/krowemoh/a-gemini-client-in-rust-01-the-specification-20gn)
 - **Alexander Liesenfeld**: [Rust HTTP Testing with httpmock](https://dev.to/alexliesenfeld/rust-http-testing-with-httpmock-2mi0)
-- **Ian Pride**: [Advice for building a cross-platform  RUST gui](https://dev.to/thefluxapex/advice-for-building-a-cross-platform-rust-gui-34m7)
+- **Ian Pride**: [Advice for building a cross-platform RUST gui](https://dev.to/thefluxapex/advice-for-building-a-cross-platform-rust-gui-34m7)
 - **Stefanos Kouroupis**: [Orchestration in Rust](https://dev.to/elasticrash/orchestration-in-rust-549b)
 - **Nivethan**: [A Gemini Client in Rust - 11 Saving Gemini Pages](https://dev.to/krowemoh/a-gemini-client-in-rust-11-saving-gemini-pages-3lik)
 - **Nivethan**: [A Gemini Client in Rust - 09 Pagination](https://dev.to/krowemoh/a-gemini-client-in-rust-09-pagination-2l6o)

@@ -1,5 +1,5 @@
 ---
-title: Rusticles #6 - Wed Aug 26 2020
+title: Rusticles 6 - Wed Aug 26 2020
 description: Rusty runes for the last week in Rust
 date: "2020-08-26"
 ---
@@ -27,7 +27,7 @@ Rusticles, a weekly curation for all things Rust in one centralised place. Here 
 - **Petr Janik**: [GitHub action for multi-project Rust repository](https://dev.to/petr7555/github-action-for-multi-project-rust-repository-28d5)
 - **T.J. Telan**: [#showdevLet’s build a single binary gRPC server-client with Rust in 2020 - Part 1](https://dev.to/tjtelan/let-s-build-a-single-binary-grpc-server-client-with-rust-in-2020-part-1-3cnk)
 - **Peter Nehrer**: [A Story of Rusty Containers, Queues, and the Role of Assumed Identity](https://dev.to/pnehrer/a-story-of-rusty-containers-queues-and-the-role-of-assumed-identity-kl2)
-- **井山梃子歴史館**: [cargo nix-installを作るぞ](https://dev.to/__pandaman64__/cargo-nix-install-3mg9)
+- **井山梃子歴史館**: [cargo nix-install を作るぞ](https://dev.to/__pandaman64__/cargo-nix-install-3mg9)
 - **Austin Tindle**: [A JavaScript Developer's Cheatsheet for Rust](https://dev.to/tindleaj/a-javascript-developer-s-cheatsheet-for-rust-2fm1)
 
 ## Trending Rust Repositories This Week On Github

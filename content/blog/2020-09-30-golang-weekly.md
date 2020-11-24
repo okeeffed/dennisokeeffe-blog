@@ -1,5 +1,5 @@
 ---
-title: Gopher Gold #13 - Wed Sep 30 2020
+title: Gopher Gold 13 - Wed Sep 30 2020
 description: Weekly nuggets of Golang Gold
 date: "2020-09-30"
 cover_image: https://dev-to-uploads.s3.amazonaws.com/i/qs7o2ag8vzo0uborgc7v.png
@@ -63,17 +63,17 @@ Gopher Gold weekly curation for Wed Sep 30 2020.
 - **schollz/croc** (Go): [Easily and securely send things from one computer to another 🐊 📦](https://github.com/schollz/croc)
 - **nakabonne/ali** (Go): [Generate HTTP load and plot the results in real-time](https://github.com/nakabonne/ali)
 - **dapr/dapr** (Go): [Dapr is a portable, event-driven, runtime for building distributed applications across cloud and edge.](https://github.com/dapr/dapr)
-- **flipped-aurora/gin-vue-admin** (Go): [基于gin+vue搭建的后台管理系统框架，集成jwt鉴权，权限管理，动态路由，分页封装，多点登录拦截，资源权限，上传下载，代码生成器，表单生成器等基础功能，五分钟一套CURD前后端代码包含数据库的快感你不要体验一下吗~,更多功能正在开发中，欢迎issue和pr~](https://github.com/flipped-aurora/gin-vue-admin)
+- **flipped-aurora/gin-vue-admin** (Go): [基于 gin+vue 搭建的后台管理系统框架，集成 jwt 鉴权，权限管理，动态路由，分页封装，多点登录拦截，资源权限，上传下载，代码生成器，表单生成器等基础功能，五分钟一套 CURD 前后端代码包含数据库的快感你不要体验一下吗~,更多功能正在开发中，欢迎 issue 和 pr~](https://github.com/flipped-aurora/gin-vue-admin)
 - **denverquane/amongusdiscord** (Go): [Discord Bot to automute Among Us players at round transitions, in conjunction with denverquane/amonguscapture](https://github.com/denverquane/amongusdiscord)
 - **kubeedge/kubeedge** (Go): [Kubernetes Native Edge Computing Framework (project under CNCF)](https://github.com/kubeedge/kubeedge)
-- **wenjianzhang/go-admin** (Go): [基于Gin + Vue + Element UI的前后端分离权限管理系统脚手架（包含了：基础用户管理功能，jwt鉴权，代码生成器，RBAC资源控制，表单构建等）文档：http://doc.zhangwj.com/go-admin-site/ Demo： http://www.zhangwj.com/#/login](https://github.com/wenjianzhang/go-admin)
+- **wenjianzhang/go-admin** (Go): [基于 Gin + Vue + Element UI 的前后端分离权限管理系统脚手架（包含了：基础用户管理功能，jwt 鉴权，代码生成器，RBAC 资源控制，表单构建等）文档：http://doc.zhangwj.com/go-admin-site/ Demo： http://www.zhangwj.com/#/login](https://github.com/wenjianzhang/go-admin)
 - **fatedier/frp** (Go): [A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.](https://github.com/fatedier/frp)
 - **ipfs/go-ipfs** (Go): [IPFS implementation in Go](https://github.com/ipfs/go-ipfs)
 - **kubernetes/kubernetes** (Go): [Production-Grade Container Scheduling and Management](https://github.com/kubernetes/kubernetes)
-- **ehang-io/nps** (Go): [一款轻量级、高性能、功能强大的内网穿透代理服务器。支持tcp、udp、socks5、http等几乎所有流量转发，可用来访问内网网站、本地支付接口调试、ssh访问、远程桌面，内网dns解析、内网socks5代理等等……，并带有功能强大的web管理端。a lightweight, high-performance, powerful intranet penetration proxy server, with a powerful web management terminal.](https://github.com/ehang-io/nps)
+- **ehang-io/nps** (Go): [一款轻量级、高性能、功能强大的内网穿透代理服务器。支持 tcp、udp、socks5、http 等几乎所有流量转发，可用来访问内网网站、本地支付接口调试、ssh 访问、远程桌面，内网 dns 解析、内网 socks5 代理等等……，并带有功能强大的 web 管理端。a lightweight, high-performance, powerful intranet penetration proxy server, with a powerful web management terminal.](https://github.com/ehang-io/nps)
 - **unknwon/the-way-to-go_ZH_CN** (Go): [《The Way to Go》中文译本，中文正式名《Go 入门指南》](https://github.com/unknwon/the-way-to-go_ZH_CN)
 - **grpc-ecosystem/grpc-gateway** (Go): [gRPC to JSON proxy generator following the gRPC HTTP spec](https://github.com/grpc-ecosystem/grpc-gateway)
-- **getlantern/lantern** (Go): [Lantern官方版本下载 蓝灯 翻墙 代理 科学上网 外网 加速器 梯子 路由 lantern proxy vpn censorship-circumvention censorship gfw accelerator](https://github.com/getlantern/lantern)
+- **getlantern/lantern** (Go): [Lantern 官方版本下载 蓝灯 翻墙 代理 科学上网 外网 加速器 梯子 路由 lantern proxy vpn censorship-circumvention censorship gfw accelerator](https://github.com/getlantern/lantern)
 - **kataras/iris** (Go): [The fastest HTTP/2 Go Web Framework. AWS Lambda, gRPC, MVC, Unique Router, Websockets, Sessions, Test suite, Dependency Injection and more. A true successor of expressjs and laravel | 谢谢 https://github.com/kataras/iris/issues/1329 |](https://github.com/kataras/iris)
 - **containers/podman** (Go): [Podman: A tool for managing OCI containers and pods](https://github.com/containers/podman)
 - **micro/go-micro** (Go): [A Go standard library for microservices](https://github.com/micro/go-micro)

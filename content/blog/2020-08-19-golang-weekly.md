@@ -1,5 +1,5 @@
 ---
-title: Gopher Gold #5 - Wed Aug 19 2020
+title: Gopher Gold 5 - Wed Aug 19 2020
 description: Weekly nuggets of Golang Gold
 date: "2020-08-19"
 cover_image: https://dev-to-uploads.s3.amazonaws.com/i/qs7o2ag8vzo0uborgc7v.png
@@ -53,11 +53,11 @@ Go Weekly, a weekly curation for all things Go in one centralised place. Here is
 - **facebook/ent** (Go): [An entity framework for Go](https://github.com/facebook/ent)
 - **micro/micro** (Go): [Micro is a framework for cloud native development](https://github.com/micro/micro)
 - **v2ray/v2ray-core** (Go): [A platform for building proxies to bypass network restrictions.](https://github.com/v2ray/v2ray-core)
-- **talkgo/night** (Go): [Weekly Go Online Meetup via Zoom and Bilibili｜Go 夜读｜由 SIG 成员维护｜通过 zoom 在线直播的方式分享 Go 相关的技术话题，每天大家在微信/telegram/Slack 上及时沟通交流编程技术话题。](https://github.com/talkgo/night)
+- **talkgo/night** (Go): [Weekly Go Online Meetup via Zoom and Bilibili ｜ Go 夜读｜由 SIG 成员维护｜通过 zoom 在线直播的方式分享 Go 相关的技术话题，每天大家在微信/telegram/Slack 上及时沟通交流编程技术话题。](https://github.com/talkgo/night)
 - **containers/podman** (Go): [Podman: A tool for managing OCI containers and pods](https://github.com/containers/podman)
 - **iawia002/annie** (Go): [👾 Fast, simple and clean video downloader](https://github.com/iawia002/annie)
 - **cortexproject/cortex** (Go): [A horizontally scalable, highly available, multi-tenant, long term Prometheus.](https://github.com/cortexproject/cortex)
-- **Mrs4s/go-cqhttp** (Go): [cqhttp的golang实现，轻量、原生跨平台.](https://github.com/Mrs4s/go-cqhttp)
+- **Mrs4s/go-cqhttp** (Go): [cqhttp 的 golang 实现，轻量、原生跨平台.](https://github.com/Mrs4s/go-cqhttp)
 - **gwuhaolin/livego** (Go): [live video streaming server in golang](https://github.com/gwuhaolin/livego)
 - **wagoodman/dive** (Go): [A tool for exploring each layer in a docker image](https://github.com/wagoodman/dive)
 - **avelino/awesome-go** (Go): [A curated list of awesome Go frameworks, libraries and software](https://github.com/avelino/awesome-go)

@@ -1,5 +1,5 @@
 ---
-title: Gopher Gold #18 - Wed Nov 04 2020
+title: Gopher Gold 18 - Wed Nov 04 2020
 description: Weekly nuggets of Golang Gold
 date: "2020-11-04"
 cover_image: https://dev-to-uploads.s3.amazonaws.com/i/qs7o2ag8vzo0uborgc7v.png
@@ -38,7 +38,7 @@ Gopher Gold weekly curation for Wed Nov 04 2020.
 - **kitabisa/teler** (Go): [Real-time HTTP Intrusion Detection](https://github.com/kitabisa/teler)
 - **iawia002/annie** (Go): [👾 Fast, simple and clean video downloader](https://github.com/iawia002/annie)
 - **avelino/awesome-go** (Go): [A curated list of awesome Go frameworks, libraries and software](https://github.com/avelino/awesome-go)
-- **getlantern/lantern** (Go): [Lantern官方版本下载 蓝灯 翻墙 代理 科学上网 外网 加速器 梯子 路由 lantern proxy vpn censorship-circumvention censorship gfw accelerator](https://github.com/getlantern/lantern)
+- **getlantern/lantern** (Go): [Lantern 官方版本下载 蓝灯 翻墙 代理 科学上网 外网 加速器 梯子 路由 lantern proxy vpn censorship-circumvention censorship gfw accelerator](https://github.com/getlantern/lantern)
 - **grafana/loki** (Go): [Like Prometheus, but for logs.](https://github.com/grafana/loki)
 - **OpenDiablo2/OpenDiablo2** (Go): [An open source re-implementation of Diablo 2](https://github.com/OpenDiablo2/OpenDiablo2)
 - **Dreamacro/clash** (Go): [A rule-based tunnel in Go.](https://github.com/Dreamacro/clash)

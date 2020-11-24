@@ -1,5 +1,5 @@
 ---
-title: Gopher Gold #14 - Wed Oct 07 2020
+title: Gopher Gold 14 - Wed Oct 07 2020
 description: Weekly nuggets of Golang Gold
 date: "2020-10-07"
 cover_image: https://dev-to-uploads.s3.amazonaws.com/i/qs7o2ag8vzo0uborgc7v.png
@@ -57,7 +57,7 @@ Gopher Gold weekly curation for Wed Oct 07 2020.
 - **hashicorp/nomad** (Go): [Nomad is an easy-to-use, flexible, and performant workload orchestrator that can deploy a mix of microservice, batch, containerized, and non-containerized applications. Nomad is easy to operate and scale and has native Consul and Vault integrations.](https://github.com/hashicorp/nomad)
 - **nakabonne/ali** (Go): [Generate HTTP load and plot the results in real-time](https://github.com/nakabonne/ali)
 - **dstotijn/hetty** (Go): [Hetty is an HTTP toolkit for security research. It aims to become an open source alternative to commercial software like Burp Suite Pro, with powerful features tailored to the needs of the infosec and bug bounty community.](https://github.com/dstotijn/hetty)
-- **p4gefau1t/trojan-go** (Go): [Go实现的Trojan代理，支持多路复用/路由功能/CDN中转/Shadowsocks混淆插件，多平台，无依赖。A Trojan proxy written in Go. An unidentifiable mechanism that helps you bypass GFW. https://p4gefau1t.github.io/trojan-go/](https://github.com/p4gefau1t/trojan-go)
+- **p4gefau1t/trojan-go** (Go): [Go 实现的 Trojan 代理，支持多路复用/路由功能/CDN 中转/Shadowsocks 混淆插件，多平台，无依赖。A Trojan proxy written in Go. An unidentifiable mechanism that helps you bypass GFW. https://p4gefau1t.github.io/trojan-go/](https://github.com/p4gefau1t/trojan-go)
 - **kubernetes-sigs/kubebuilder** (Go): [Kubebuilder - SDK for building Kubernetes APIs using CRDs](https://github.com/kubernetes-sigs/kubebuilder)
 - **cortexproject/cortex** (Go): [A horizontally scalable, highly available, multi-tenant, long term Prometheus.](https://github.com/cortexproject/cortex)
 - **denverquane/amongusdiscord** (Go): [Discord Bot to automute Among Us players at round transitions, in conjunction with https://github.com/denverquane/amonguscapture](https://github.com/denverquane/amongusdiscord)
@@ -69,7 +69,7 @@ Gopher Gold weekly curation for Wed Oct 07 2020.
 - **GoogleCloudPlatform/spark-on-k8s-operator** (Go): [Kubernetes operator for managing the lifecycle of Apache Spark applications on Kubernetes.](https://github.com/GoogleCloudPlatform/spark-on-k8s-operator)
 - **concourse/concourse** (Go): [Concourse is a container-based continuous thing-doer written in Go and Elm.](https://github.com/concourse/concourse)
 - **fission/fission** (Go): [Fast and Simple Serverless Functions for Kubernetes](https://github.com/fission/fission)
-- **liamg/gitjacker** (Go): [🔪  Leak git repositories from misconfigured websites](https://github.com/liamg/gitjacker)
+- **liamg/gitjacker** (Go): [🔪 Leak git repositories from misconfigured websites](https://github.com/liamg/gitjacker)
 - **treeverse/lakeFS** (Go): [An open source platform that delivers resilience and manageability to object-storage based data lakes](https://github.com/treeverse/lakeFS)
 - **vmware-tanzu/velero** (Go): [Backup and migrate Kubernetes applications and their persistent volumes](https://github.com/vmware-tanzu/velero)
 - **kubernetes/enhancements** (Go): [Enhancements tracking repo for Kubernetes](https://github.com/kubernetes/enhancements)

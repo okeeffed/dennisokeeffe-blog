@@ -1,5 +1,5 @@
 ---
-title: Gopher Gold #15 - Wed Oct 14 2020
+title: Gopher Gold 15 - Wed Oct 14 2020
 description: Weekly nuggets of Golang Gold
 date: "2020-10-14"
 cover_image: https://dev-to-uploads.s3.amazonaws.com/i/qs7o2ag8vzo0uborgc7v.png
@@ -39,14 +39,14 @@ Gopher Gold weekly curation for Wed Oct 14 2020.
 
 - **v2fly/v2ray-core** (Go): [A platform for building proxies to bypass network restrictions.](https://github.com/v2fly/v2ray-core)
 - **lanyulei/ferry** (Go): [本系统是集工单统计、任务钩子、权限管理、灵活配置流程与模版等等于一身的开源工单系统，当然也可以称之为工作流引擎。 致力于减少跨部门之间的沟通，自动任务的执行，提升工作效率与工作质量，减少不必要的工作量与人为出错率。](https://github.com/lanyulei/ferry)
-- **go-admin-team/go-admin** (Go): [基于Gin + Vue + Element UI的前后端分离权限管理系统脚手架（包含了：基础用户管理功能，jwt鉴权，代码生成器，RBAC资源控制，表单构建等）分分钟构建自己的中后台项目；文档：http://doc.zhangwj.com/go-admin-site/ Demo： http://www.zhangwj.com/#/login](https://github.com/go-admin-team/go-admin)
-- **p4gefau1t/trojan-go** (Go): [Go实现的Trojan代理，支持多路复用/路由功能/CDN中转/Shadowsocks混淆插件，多平台，无依赖。A Trojan proxy written in Go. An unidentifiable mechanism that helps you bypass GFW. https://p4gefau1t.github.io/trojan-go/](https://github.com/p4gefau1t/trojan-go)
+- **go-admin-team/go-admin** (Go): [基于 Gin + Vue + Element UI 的前后端分离权限管理系统脚手架（包含了：基础用户管理功能，jwt 鉴权，代码生成器，RBAC 资源控制，表单构建等）分分钟构建自己的中后台项目；文档：http://doc.zhangwj.com/go-admin-site/ Demo： http://www.zhangwj.com/#/login](https://github.com/go-admin-team/go-admin)
+- **p4gefau1t/trojan-go** (Go): [Go 实现的 Trojan 代理，支持多路复用/路由功能/CDN 中转/Shadowsocks 混淆插件，多平台，无依赖。A Trojan proxy written in Go. An unidentifiable mechanism that helps you bypass GFW. https://p4gefau1t.github.io/trojan-go/](https://github.com/p4gefau1t/trojan-go)
 - **tal-tech/go-zero** (Go): [go-zero is a web and rpc framework written in Go. It's born to ensure the stability of the busy sites with resilient design. Builtin goctl greatly improves the development productivity.](https://github.com/tal-tech/go-zero)
 - **xelaj/mtproto** (Go): [Full-native go implementation of Telegram API](https://github.com/xelaj/mtproto)
 - **gohugoio/hugo** (Go): [The world’s fastest framework for building websites.](https://github.com/gohugoio/hugo)
 - **terraform-providers/terraform-provider-azurerm** (Go): [Terraform provider for Azure Resource Manager](https://github.com/terraform-providers/terraform-provider-azurerm)
 - **chrislusf/seaweedfs** (Go): [SeaweedFS is a distributed object store and file system to store and serve billions of files fast! Object store has O(1) disk seek, transparent cloud integration. Filer supports cross-cluster active-active replication, Kubernetes, POSIX, S3 API, encryption, Erasure Coding for warm storage, FUSE mount, Hadoop, WebDAV.](https://github.com/chrislusf/seaweedfs)
-- **geektutu/7days-golang** (Go): [7 days golang apps from scratch (web framework Gee, distributed cache GeeCache, object relational mapping ORM framework GeeORM, rpc framework GeeRPC etc) 7天用Go动手写/从零实现系列](https://github.com/geektutu/7days-golang)
+- **geektutu/7days-golang** (Go): [7 days golang apps from scratch (web framework Gee, distributed cache GeeCache, object relational mapping ORM framework GeeORM, rpc framework GeeRPC etc) 7 天用 Go 动手写/从零实现系列](https://github.com/geektutu/7days-golang)
 - **gofiber/fiber** (Go): [⚡️ Fiber is an Express inspired web framework written in Go with ☕️](https://github.com/gofiber/fiber)
 - **evanw/esbuild** (Go): [An extremely fast JavaScript bundler and minifier](https://github.com/evanw/esbuild)
 - **rancher/rancher** (Go): [Complete container management platform](https://github.com/rancher/rancher)

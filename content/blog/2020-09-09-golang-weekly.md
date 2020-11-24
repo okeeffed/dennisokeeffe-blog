@@ -1,5 +1,5 @@
 ---
-title: Gopher Gold #10 - Wed Sep 09 2020
+title: Gopher Gold 10 - Wed Sep 09 2020
 description: Weekly nuggets of Golang Gold
 date: "2020-09-09"
 cover_image: https://dev-to-uploads.s3.amazonaws.com/i/qs7o2ag8vzo0uborgc7v.png
@@ -54,7 +54,7 @@ Go Weekly, a weekly curation for all things Go in one centralised place. Here is
 - **ffuf/ffuf** (Go): [Fast web fuzzer written in Go](https://github.com/ffuf/ffuf)
 - **projectdiscovery/nuclei** (Go): [Nuclei is a fast tool for configurable targeted scanning based on templates offering massive extensibility and ease of use.](https://github.com/projectdiscovery/nuclei)
 - **greyireland/algorithm-pattern** (Go): [算法模板，最科学的刷题方式，最快速的刷题路径，你值得拥有~](https://github.com/greyireland/algorithm-pattern)
-- **geektutu/7days-golang** (Go): [7 days golang apps from scratch (web framework Gee, distributed cache GeeCache, object relational mapping ORM framework GeeORM etc) 7天用Go动手写/从零实现系列](https://github.com/geektutu/7days-golang)
+- **geektutu/7days-golang** (Go): [7 days golang apps from scratch (web framework Gee, distributed cache GeeCache, object relational mapping ORM framework GeeORM etc) 7 天用 Go 动手写/从零实现系列](https://github.com/geektutu/7days-golang)
 - **lian/msfs2020-go** (Go): [connect to microsoft flight simulator 2020 using golang](https://github.com/lian/msfs2020-go)
 - **jesseduffield/lazygit** (Go): [simple terminal UI for git commands](https://github.com/jesseduffield/lazygit)
 - **argoproj/argo-cd** (Go): [Declarative continuous deployment for Kubernetes.](https://github.com/argoproj/argo-cd)
@@ -68,7 +68,7 @@ Go Weekly, a weekly curation for all things Go in one centralised place. Here is
 - **prometheus/prometheus** (Go): [The Prometheus monitoring system and time series database.](https://github.com/prometheus/prometheus)
 - **istio/community** (Go): [Istio governance material.](https://github.com/istio/community)
 - **quii/learn-go-with-tests** (Go): [Learn Go with test-driven development](https://github.com/quii/learn-go-with-tests)
-- **overnote/over-golang** (Go): [Golang相关：[进度80%]Go语法、Go并发思想、Go与web开发、Go微服务设施等](https://github.com/overnote/over-golang)
+- **overnote/over-golang** (Go): [Golang 相关：[进度 80%]Go 语法、Go 并发思想、Go 与 web 开发、Go 微服务设施等](https://github.com/overnote/over-golang)
 - **weaveworks/eksctl** (Go): [The official CLI for Amazon EKS](https://github.com/weaveworks/eksctl)
 - **go-gitea/gitea** (Go): [Git with a cup of tea, painless self-hosted git service](https://github.com/go-gitea/gitea)
 - **go-sql-driver/mysql** (Go): [Go MySQL Driver is a MySQL driver for Go's (golang) database/sql package](https://github.com/go-sql-driver/mysql)

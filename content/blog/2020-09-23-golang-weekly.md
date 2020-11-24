@@ -1,5 +1,5 @@
 ---
-title: Gopher Gold #12 - Wed Sep 23 2020
+title: Gopher Gold 12 - Wed Sep 23 2020
 description: Weekly nuggets of Golang Gold
 date: "2020-09-23"
 cover_image: https://dev-to-uploads.s3.amazonaws.com/i/qs7o2ag8vzo0uborgc7v.png
@@ -54,7 +54,7 @@ Go Weekly, a weekly curation for all things Go in one centralised place. Here is
 - **avelino/awesome-go** (Go): [A curated list of awesome Go frameworks, libraries and software](https://github.com/avelino/awesome-go)
 - **gofiber/fiber** (Go): [⚡️ Fiber is an Express inspired web framework written in Go with ☕️](https://github.com/gofiber/fiber)
 - **prometheus/prometheus** (Go): [The Prometheus monitoring system and time series database.](https://github.com/prometheus/prometheus)
-- **ehang-io/nps** (Go): [一款轻量级、高性能、功能强大的内网穿透代理服务器。支持tcp、udp、socks5、http等几乎所有流量转发，可用来访问内网网站、本地支付接口调试、ssh访问、远程桌面，内网dns解析、内网socks5代理等等……，并带有功能强大的web管理端。a lightweight, high-performance, powerful intranet penetration proxy server, with a powerful web management terminal.](https://github.com/ehang-io/nps)
+- **ehang-io/nps** (Go): [一款轻量级、高性能、功能强大的内网穿透代理服务器。支持 tcp、udp、socks5、http 等几乎所有流量转发，可用来访问内网网站、本地支付接口调试、ssh 访问、远程桌面，内网 dns 解析、内网 socks5 代理等等……，并带有功能强大的 web 管理端。a lightweight, high-performance, powerful intranet penetration proxy server, with a powerful web management terminal.](https://github.com/ehang-io/nps)
 - **golang/go** (Go): [The Go programming language](https://github.com/golang/go)
 - **rclone/rclone** (Go): ["rsync for cloud storage" - Google Drive, Amazon Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Cloudfiles, Google Cloud Storage, Yandex Files](https://github.com/rclone/rclone)
 - **jesseduffield/lazygit** (Go): [simple terminal UI for git commands](https://github.com/jesseduffield/lazygit)

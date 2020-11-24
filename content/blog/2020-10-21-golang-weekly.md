@@ -1,5 +1,5 @@
 ---
-title: Gopher Gold #16 - Wed Oct 21 2020
+title: Gopher Gold 16 - Wed Oct 21 2020
 description: Weekly nuggets of Golang Gold
 date: "2020-10-21"
 cover_image: https://dev-to-uploads.s3.amazonaws.com/i/qs7o2ag8vzo0uborgc7v.png
@@ -58,7 +58,7 @@ Gopher Gold weekly curation for Wed Oct 21 2020.
 - **go-gitea/gitea** (Go): [Git with a cup of tea, painless self-hosted git service](https://github.com/go-gitea/gitea)
 - **tal-tech/go-zero** (Go): [go-zero is a web and rpc framework written in Go. It's born to ensure the stability of the busy sites with resilient design. Builtin goctl greatly improves the development productivity.](https://github.com/tal-tech/go-zero)
 - **photoprism/photoprism** (Go): [Personal Photo Management powered by Go and Google TensorFlow](https://github.com/photoprism/photoprism)
-- **go-admin-team/go-admin** (Go): [基于Gin + Vue + Element UI的前后端分离权限管理系统脚手架（包含了：基础用户管理功能，jwt鉴权，代码生成器，RBAC资源控制，表单构建等）分分钟构建自己的中后台项目；文档：http://doc.zhangwj.com/go-admin-site/ Demo： http://www.zhangwj.com/#/login](https://github.com/go-admin-team/go-admin)
+- **go-admin-team/go-admin** (Go): [基于 Gin + Vue + Element UI 的前后端分离权限管理系统脚手架（包含了：基础用户管理功能，jwt 鉴权，代码生成器，RBAC 资源控制，表单构建等）分分钟构建自己的中后台项目；文档：http://doc.zhangwj.com/go-admin-site/ Demo： http://www.zhangwj.com/#/login](https://github.com/go-admin-team/go-admin)
 - **gofiber/fiber** (Go): [⚡️ Fiber is an Express inspired web framework written in Go with ☕️](https://github.com/gofiber/fiber)
 - **asim/go-micro** (Go): [A Go microservices development framework](https://github.com/asim/go-micro)
 - **filecoin-project/lotus** (Go): [Implementation of the Filecoin protocol, written in Go](https://github.com/filecoin-project/lotus)

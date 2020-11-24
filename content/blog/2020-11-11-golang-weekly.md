@@ -1,5 +1,5 @@
 ---
-title: Gopher Gold #19 - Wed Nov 11 2020
+title: Gopher Gold 19 - Wed Nov 11 2020
 description: Weekly nuggets of Golang Gold
 date: "2020-11-11"
 cover_image: https://dev-to-uploads.s3.amazonaws.com/i/qs7o2ag8vzo0uborgc7v.png
@@ -20,7 +20,7 @@ Gopher Gold weekly curation for Wed Nov 11 2020.
 - **Shubham Zanwar**: [Design Patterns: Chain of Responsibility ⛓](https://dev.to/shubhamzanwar/design-patterns-chain-of-responsibility-2c75)
 - **Shaikhul Islam**: [Pointers in Go](https://dev.to/shaikhul/pointers-in-go-54o9)
 - **Bill Chung**: [Profiling go gRPC service with google cloud profiler.](https://dev.to/billchung/profiling-go-grpc-service-with-google-cloud-profiler-13e4)
-- **Bill Chung**: [使用google cloud profiler來對go gRPC server做效能分析](https://dev.to/billchung/google-cloud-profiler-go-grpc-server-4d2f)
+- **Bill Chung**: [使用 google cloud profiler 來對 go gRPC server 做效能分析](https://dev.to/billchung/google-cloud-profiler-go-grpc-server-4d2f)
 - **Jędrzej Szczepaniak**: [DynamoDB with Go #10 - Gotcha with empty slices](https://dev.to/jbszczepaniak/dynamodb-with-go-10-gotcha-with-empty-slices-3fo7)
 - **ExceedTeam**: [How to Hire Senior Golang Developers](https://dev.to/exceedgroup/how-to-hire-senior-golang-developers-2jbo)
 - **Athul Cyriac**: [Building a Search for Static Sites made in Go](https://dev.to/athulcajay/building-a-search-for-static-sites-made-in-go-2139)
@@ -49,14 +49,14 @@ Gopher Gold weekly curation for Wed Nov 11 2020.
 - **saltbo/zpan** (Go): [A self-host cloud disk base on the cloud storage./ 一个基于云存储的网盘系统，用于自建私人网盘或企业网盘。](https://github.com/saltbo/zpan)
 - **gin-gonic/gin** (Go): [Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance -- up to 40 times faster. If you need smashing performance, get yourself some Gin.](https://github.com/gin-gonic/gin)
 - **etcd-io/etcd** (Go): [Distributed reliable key-value store for the most critical data of a distributed system](https://github.com/etcd-io/etcd)
-- **getlantern/lantern** (Go): [Lantern官方版本下载 蓝灯 翻墙 代理 科学上网 外网 加速器 梯子 路由 lantern proxy vpn censorship-circumvention censorship gfw accelerator](https://github.com/getlantern/lantern)
+- **getlantern/lantern** (Go): [Lantern 官方版本下载 蓝灯 翻墙 代理 科学上网 外网 加速器 梯子 路由 lantern proxy vpn censorship-circumvention censorship gfw accelerator](https://github.com/getlantern/lantern)
 - **micro/micro** (Go): [Micro is a platform for cloud native application development](https://github.com/micro/micro)
 - **avelino/awesome-go** (Go): [A curated list of awesome Go frameworks, libraries and software](https://github.com/avelino/awesome-go)
 - **fatedier/frp** (Go): [A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.](https://github.com/fatedier/frp)
 - **influxdata/telegraf** (Go): [The plugin-driven server agent for collecting & reporting metrics.](https://github.com/influxdata/telegraf)
 - **sirupsen/logrus** (Go): [Structured, pluggable logging for Go.](https://github.com/sirupsen/logrus)
 - **moby/moby** (Go): [Moby Project - a collaborative project for the container ecosystem to assemble container-based systems](https://github.com/moby/moby)
-- **zu1k/xray-crack** (Go): [xray社区高级版证书生成，仅供学习研究，正常使用请支持正版](https://github.com/zu1k/xray-crack)
+- **zu1k/xray-crack** (Go): [xray 社区高级版证书生成，仅供学习研究，正常使用请支持正版](https://github.com/zu1k/xray-crack)
 - **filebrowser/filebrowser** (Go): [📂 Web File Browser which can be used as a middleware or standalone app.](https://github.com/filebrowser/filebrowser)
 - **emirpasic/gods** (Go): [GoDS (Go Data Structures). Containers (Sets, Lists, Stacks, Maps, Trees), Sets (HashSet, TreeSet, LinkedHashSet), Lists (ArrayList, SinglyLinkedList, DoublyLinkedList), Stacks (LinkedListStack, ArrayStack), Maps (HashMap, TreeMap, HashBidiMap, TreeBidiMap, LinkedHashMap), Trees (RedBlackTree, AVLTree, BTree, BinaryHeap), Comparators, Iterators, …](https://github.com/emirpasic/gods)
 - **istio/istio** (Go): [Connect, secure, control, and observe services.](https://github.com/istio/istio)

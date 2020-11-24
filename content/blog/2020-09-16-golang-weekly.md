@@ -1,5 +1,5 @@
 ---
-title: Gopher Gold #11 - Wed Sep 16 2020
+title: Gopher Gold 11 - Wed Sep 16 2020
 description: Weekly nuggets of Golang Gold
 date: "2020-09-16"
 cover_image: https://dev-to-uploads.s3.amazonaws.com/i/qs7o2ag8vzo0uborgc7v.png
