@@ -1,5 +1,5 @@
 ---
-title: Rusticles #20 - Wed Nov 18 2020
+title: Rusticles 20 - Wed Nov 18 2020
 description: Rusty runes for the last week in Rust
 date: "2020-11-18"
 ---
@@ -10,7 +10,7 @@ Rusticles weekly curation for Wed Nov 18 2020.
 
 - **K**: [Intro to Yew, a Rust Frontend Framework](https://dev.to/fllstck/intro-to-yew-a-rust-frontend-framework-20hb)
 - **Martin André**: [Get simple IO stats using Rust (throughput, ...)](https://dev.to/martichou/get-simple-io-stats-using-rust-throughput-47m4)
-- **Martin André**: [Rust vs Go - Load testing  webserv (>400k req/s)](https://dev.to/martichou/rust-vs-go-load-testing-400k-req-s-53l)
+- **Martin André**: [Rust vs Go - Load testing webserv (>400k req/s)](https://dev.to/martichou/rust-vs-go-load-testing-400k-req-s-53l)
 - **Davide Del Papa**: [Rocket Tutorial 03: Proper routing](https://dev.to/davidedelpapa/rocket-tutorial-03-proper-routing-4ch3)
 - **manasmithamn**: [missed hacktober challenge this year](https://dev.to/manasmithamn/missed-hacktober-challenge-this-year-26mg)
 - **T.J. Telan**: [Rust in 2021](https://dev.to/tjtelan/rust-in-2021-5p6)

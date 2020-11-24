@@ -1,5 +1,5 @@
 ---
-title: Gopher Gold #20 - Wed Nov 18 2020
+title: Gopher Gold 20 - Wed Nov 18 2020
 description: Weekly nuggets of Golang Gold
 date: "2020-11-18"
 cover_image: https://dev-to-uploads.s3.amazonaws.com/i/qs7o2ag8vzo0uborgc7v.png
@@ -25,7 +25,7 @@ Gopher Gold weekly curation for Wed Nov 18 2020.
 - **Minh-Phuc Tran**: [Go Struct And Stack Data Structure](https://dev.to/phuctm97/2-min-codecamp-golang-struct-and-stack-data-structure-3bmk)
 - **Christopher Kocel**: [Wednesday Links - Edition 2020-11-11 🥟](https://dev.to/0xkkocel/wednesday-links-edition-2020-11-11-47kk)
 - **Ishan Khare**: [Writing a kubernetes controller in Go with kubebuilder](https://dev.to/ishankhare07/writing-a-simple-kubernetes-controller-in-go-with-kubebuilder-ib8)
-- **Martin André**: [Rust vs Go - Load testing  webserv (>400k req/s)](https://dev.to/martichou/rust-vs-go-load-testing-400k-req-s-53l)
+- **Martin André**: [Rust vs Go - Load testing webserv (>400k req/s)](https://dev.to/martichou/rust-vs-go-load-testing-400k-req-s-53l)
 - **Jacob Goodwin**: [08 - Implement Signup in Service and Repository Layers](https://dev.to/jacobsngoodwin/08-implement-signup-in-service-and-repository-layers-4coe)
 - **Shaikhul Islam**: [Testing in Go](https://dev.to/shaikhul/testing-in-go-44ih)
 - **Jędrzej Szczepaniak**: [DynamoDB with Go #11 - Expressions API](https://dev.to/jbszczepaniak/dynamodb-with-go-11-expressions-api-1big)
@@ -49,7 +49,7 @@ Gopher Gold weekly curation for Wed Nov 18 2020.
 - **halfrost/LeetCode-Go** (Go): [✅ Solutions to LeetCode by Go, 100% test coverage, runtime beats 100% / LeetCode 题解](https://github.com/halfrost/LeetCode-Go)
 - **micro/micro** (Go): [Micro is a platform for cloud native application development](https://github.com/micro/micro)
 - **cilium/cilium** (Go): [eBPF-based Networking, Security, and Observability](https://github.com/cilium/cilium)
-- **hteen/apple-store-helper** (Go): [Apple Store iPhone预约助手](https://github.com/hteen/apple-store-helper)
+- **hteen/apple-store-helper** (Go): [Apple Store iPhone 预约助手](https://github.com/hteen/apple-store-helper)
 - **photoprism/photoprism** (Go): [Personal Photo Management powered by Go and Google TensorFlow](https://github.com/photoprism/photoprism)
 - **ethereum/go-ethereum** (Go): [Official Go implementation of the Ethereum protocol](https://github.com/ethereum/go-ethereum)
 - **golang/go** (Go): [The Go programming language](https://github.com/golang/go)
@@ -67,7 +67,7 @@ Gopher Gold weekly curation for Wed Nov 18 2020.
 - **gin-gonic/gin** (Go): [Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance -- up to 40 times faster. If you need smashing performance, get yourself some Gin.](https://github.com/gin-gonic/gin)
 - **AdguardTeam/AdGuardHome** (Go): [Network-wide ads & trackers blocking DNS server](https://github.com/AdguardTeam/AdGuardHome)
 - **tomnomnom/gron** (Go): [Make JSON greppable!](https://github.com/tomnomnom/gron)
-- **senghoo/golang-design-pattern** (Go): [设计模式 Golang实现－《研磨设计模式》读书笔记](https://github.com/senghoo/golang-design-pattern)
+- **senghoo/golang-design-pattern** (Go): [设计模式 Golang 实现－《研磨设计模式》读书笔记](https://github.com/senghoo/golang-design-pattern)
 - **loadimpact/k6** (Go): [A modern load testing tool, using Go and JavaScript - https://k6.io](https://github.com/loadimpact/k6)
 - **Shopify/sarama** (Go): [Sarama is a Go library for Apache Kafka 0.8, and up.](https://github.com/Shopify/sarama)
 - **golang/oauth2** (Go): [Go OAuth2](https://github.com/golang/oauth2)
