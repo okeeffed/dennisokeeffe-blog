@@ -69,6 +69,12 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-google-adsense`,
+      options: {
+        publisherId: `ca-pub-7571254829246127`,
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Dennis O'Keeffe Personal Blog`,
