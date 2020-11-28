@@ -38,7 +38,7 @@ class BlogPostTemplate extends React.Component {
           }}
         />
         <RelatedArticles
-          tags={post.frontmatter.tags.split(",")}
+          tags={post.frontmatter.tags && post.frontmatter.tags.split(",")}
           limit={10}
           title={post.frontmatter.title}
         />
