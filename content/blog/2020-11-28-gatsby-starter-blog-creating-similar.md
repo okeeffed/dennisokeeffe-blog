@@ -40,6 +40,8 @@ Finally, I just copy-pasted the `content/blog/new-beginnings` folder, renamed it
 
 With that, we are ready to start up our development environment running `npm start` and get going!
 
+> Note: once you start with `npm start`, your site should be live on `localhost:8000`. If for whatever reason you have issues where the page constantly reloads (like I did) then an interim solution is to go to `127.0.0.1:8000` instead.
+
 ## The related component
 
 Create a new file `src/components/related.js` and add the following code:
