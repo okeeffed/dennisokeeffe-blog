@@ -5,6 +5,7 @@ import { MDXRenderer } from "gatsby-plugin-mdx"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import RelatedArticles from "../components/related"
 import { rhythm, scale } from "../utils/typography"
 
 class BlogPostTemplate extends React.Component {
@@ -35,6 +36,11 @@ class BlogPostTemplate extends React.Component {
           style={{
             marginBottom: rhythm(1),
           }}
+        />
+        <RelatedArticles
+          tags={post.frontmatter.tags.split(",")}
+          limit={10}
+          title={post.frontmatter.title}
         />
         <Bio />
 
@@ -85,6 +91,7 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        tags
       }
     }
   }
