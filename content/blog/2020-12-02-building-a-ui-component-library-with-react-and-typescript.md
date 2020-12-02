@@ -17,7 +17,7 @@ While these can be minor semantics to me, there are some important differences o
 
 Essentially, we will create a simple, single-component UI Component library as the main demonstration, but the installation of Storybook will enable us to markdown guides to write principles, patterns, tone, etc.
 
-Your willingness to update those guides are (for all intensive purposes) what will take this project from a simple component library to being able to communicate other facets that make up the definition of a "design system" as linked above.
+Your willingness to update those guides are (for all intents and purposes) what will take this project from a simple component library to being able to communicate other facets that make up the definition of a "design system" as linked above.
 
 ## Getting Started
 
