@@ -168,7 +168,7 @@ There is not too much to this, but that is all we need there.
 
 ## Adding to our blog post component
 
-Inside of `src/templates/blog-post.js`, we need to import our component with `import RelatedArticles from "../components/related"` at the top and I've added `<RelatedArticles tags={post.frontmatter.tags.split(",")} limit={10} title={post.frontmatter.title} />` to the render method.
+Inside of `src/templates/blog-post.js`, we need to import our component with `import RelatedArticles from "../components/related"` at the top and I've added `<RelatedArticles tags={post.frontmatter.tags && post.frontmatter.tags.split(",")} limit={10} title={post.frontmatter.title} />` to the render method.
 
 I also need to add one line to the `pageQuery` so that the parent article would now retrieve the tags as well.
 
