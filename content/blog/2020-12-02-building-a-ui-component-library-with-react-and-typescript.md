@@ -1,5 +1,5 @@
 ---
-title: Building A Design System Package With create-react-app, Storybook, TypeScript And React In 15 Minutes
+title: Building A Design System Package With Storybook, TypeScript And React In 15 Minutes
 description: Have you ever wanted to build a UI Component Library with TypeScript and React? This blog post will take you through a straightforward set up that uses the bare minimum to get a working component library that you can re-use across your different React projects.
 date: "2020-12-02"
 tags: react,typescript,tutorial,components
@@ -266,3 +266,5 @@ We have gone from a simple `create-react-app` command to having a TypeScript des
 2. [Your first GitHub npm package in 5 minutes](https://blog.dennisokeeffe.com/blog/2020-07-05-your-first-github-npm-package-in-five-minutes/)
 3. [Finish package on GitHub](https://github.com/okeeffed/ds-pkg-blog-post)
 4. [Example repo of package in use](https://github.com/okeeffed/ds-pkg-in-use)
+
+_Image credit: [Nils Johan Gabrielsen](https://unsplash.com/@nyggen)_
