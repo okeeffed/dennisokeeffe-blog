@@ -9,7 +9,7 @@ When building out a UI Component Library for my own work, I ran into a couple of
 
 Most tutorials I saw for TypeScript component libraries made use of build tools (which at times caused headaches) and my current job took the opposite extreme of publishing the UI component library as TypeScript and relying on individual projects to transpile it to JavaScript directly from the library itself (if you are from my work... you didn't read anything).
 
-This tutorial will show how to create a simple project set up a `create-react-app` project to create components with TypeScript + Storybook, then finally it will demo the that same design system being used as a package in another React project.
+This tutorial will show how to create a simple project set up a `create-react-app` project to create components with TypeScript + Storybook, then finally it will demo that same design system being used as a package in another React project.
 
 ## UI Component Library vs Design System
 
@@ -43,7 +43,7 @@ We will use `rimraf` as a simple pre-build clean to remove our output folder (wh
 
 We are going to add some meta information to our **package.json** file. In my case, I am going to create a private npm package hosted on GitHub.
 
-You can see an [older post on creating GitHub packages](https://blog.dennisokeeffe.com/blog/2020-07-05-your-first-github-npm-package-in-five-minutes/), otherwise publish however you wish to!
+You can see an [older post on creating GitHub packages](https://blog.dennisokeeffe.com/blog/2020-07-05-your-first-github-npm-package-in-five-minutes/), otherwise, publish however you wish to!
 
 ```json
 {
@@ -178,11 +178,11 @@ Once Storybook is up and running, you can head to the localhost port to see a `U
 
 Amazing! We have a work environment to develop our components with.
 
-At this point, I will leave the Storybook part there as this is more of a proof to get up and going and move to publishing the library. There is a lot to Storybook, but check the docs from here on out to build further than the simple set up we have done above.
+At this point, I will leave the Storybook part there as this is more of a conceptual proof and move onto publishing the library. There is a lot to Storybook, but check the docs from here on out to build further than the simple set up we have done above.
 
 ## Publishing the library
 
-Assuming that we are happy with our `Button` and this will make up the sole component of our incredibly versatile component library, so let's move to publishing the package!
+Assuming that we are happy with our `Button` and this will make up the sole component of our incredibly versatile component library, so let's move onto publishing the package!
 
 For myself, I am going to run the following:
 
@@ -254,7 +254,7 @@ Success! We have gone start to finish with our design system setup and having it
 
 ## Conclusion
 
-Today's post is not perfect by all means and it is not all encompassing, but I was very surprised by how few posts there were to get this all done without running into issues.
+Today's post is not perfect by all means and it is not all-encompassing, but I was very surprised by how few posts there were to get this all done without running into issues.
 
 Having a basic, TypeScript-compiled solution has been working great for me as a quick start to getting things working together without too many discrepancies or issues along the way.
 
