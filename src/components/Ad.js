@@ -8,9 +8,11 @@ export const AdUnit = props => {
   }, [currentPath])
   return (
     <div
+      className="ad-parent"
       style={{
         marginLeft: 0,
         marginRight: 0,
+        marginBottom: 24,
       }}
     >
       <ins
