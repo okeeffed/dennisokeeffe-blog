@@ -38,7 +38,7 @@ class BlogPostTemplate extends React.Component {
             marginBottom: rhythm(1),
           }}
         />
-        <AdUnit />
+        <AdUnit currentPath={window.location} />
         <RelatedArticles
           tags={post.frontmatter.tags && post.frontmatter.tags.split(",")}
           limit={10}
