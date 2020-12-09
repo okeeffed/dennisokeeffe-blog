@@ -7,6 +7,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import RelatedArticles from "../components/related"
 import { rhythm, scale } from "../utils/typography"
+import { AdUnit } from "../components/Ad"
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -37,6 +38,7 @@ class BlogPostTemplate extends React.Component {
             marginBottom: rhythm(1),
           }}
         />
+        <AdUnit />
         <RelatedArticles
           tags={post.frontmatter.tags && post.frontmatter.tags.split(",")}
           limit={10}
