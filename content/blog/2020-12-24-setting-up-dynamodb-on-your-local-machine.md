@@ -1,6 +1,6 @@
 ---
-title: Setting up DynamoDB on your local machine
-description: Learn how to play around with DynamoDB locally
+title: Using DynamoDB on your local with NoSQL Workbench
+description: Learn how to play around with DynamoDB locally and use NoSQL Workbench to plan out your work
 date: "2020-12-24"
 ---
 
@@ -132,3 +132,5 @@ This first post on the topic is short and simple, but you can take parts of it a
 
 1. [Setting up DynamoDB on your computer](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.DownloadingAndRunning.html)
 2. [NoSQL Workbench](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/workbench.html)
+
+_Image credit: [Lars Kienle](https://unsplash.com/@larskienle)_
