@@ -2,6 +2,7 @@
 title: Using DynamoDB on your local with NoSQL Workbench
 description: Learn how to play around with DynamoDB locally and use NoSQL Workbench to plan out your work
 date: "2020-12-24"
+tags: dynamodb,aws,tutorial,beginner
 ---
 
 In this post we will set up DynamoDB for local development and learn how to use the provided UI to explore data we work with.
