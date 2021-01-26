@@ -65,9 +65,13 @@ class Layout extends React.Component {
           }}
         >
           <header>{header}</header>
-          <AdUnit currentPath={window.location} />
+          <AdUnit
+            currentPath={typeof window !== `undefined` ? window.location : null}
+          />
           <main>{children}</main>
-          <AdUnit currentPath={window.location} />
+          <AdUnit
+            currentPath={typeof window !== `undefined` ? window.location : null}
+          />
         </div>
         <Footer>
           <a href="https://dennisokeeffe.com">Dennis O'Keeffe</a> ©{" "}
