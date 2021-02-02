@@ -314,3 +314,5 @@ Hooray! We managed to isolate the issue by walking through our code with the VSC
 This is just a light overview of the debugger. There are other cool features like "watching" variables that I did not dive into here.
 
 Although the example was contrived, the same principles apply when tracing other variables in-depth.
+
+_Image credit: [Sigmund](https://unsplash.com/@sigmund)_
