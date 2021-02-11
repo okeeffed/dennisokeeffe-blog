@@ -2,6 +2,7 @@
 title: Intro To Debugging Node.js Applications With VSCode
 description: See how you can get started with the VSCode debugger for Node.js applications
 date: "2021-02-02"
+tags: beginner,nodejs,tutorial,vscode
 ---
 
 VSCode comes jam packed with some incredible tools to help you build your applications.

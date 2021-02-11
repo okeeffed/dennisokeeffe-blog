@@ -70,6 +70,7 @@ yarn-error.log
 
 temp/
 icon-src/
+image-src/
 
 # Ignored posts for now
 content/blog/2020-09-27-no-rules-rules-book-review.md
