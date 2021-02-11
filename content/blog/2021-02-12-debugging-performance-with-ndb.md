@@ -60,11 +60,11 @@ calcFibonacci40()
 calcFibonacci40()
 ```
 
-We are going to run the same calculation to get the Fibonacci number for 40 (102334155). To do so, start up ndb by running `ndb .` in the console at the base directory. You should be faced with the following:
+We are going to run the same calculation to get the Fibonacci number for 40 (102334155). To do so, start-up ndb by running `ndb .` in the console at the base directory. You should be faced with the following:
 
 ![Initial ndb state](../assets/2021-02-12-1-ndb-init.png)
 
-On the left-hand panel under `NPM Scripts`, you will see our `start` script is available. Hovering over it we can see buttons highlight that enable us to "play" or "record" the script. Given that our `start` script will run through the `ndb-example.js` file, we can hit record to see what happens during execution:
+On the left-hand panel under `NPM Scripts`, you will see our `start` script is available. Hovering over it we can see buttons highlight that enables us to "play" or "record" the script. Given that our `start` script will run through the `ndb-example.js` file, we can hit record to see what happens during execution:
 
 ![Running expensive calculation twice](../assets/2021-02-12-2-expensive-calc.png)
 
