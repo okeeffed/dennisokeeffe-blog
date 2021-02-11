@@ -1,14 +1,14 @@
 const sharp = require("sharp")
-const probe = require("probe-image-size")
+const sizeOf = require("image-size")
 const recursive = require("recursive-readdir")
 const fs = require("fs")
-const IMG_WIDTH = 800
+const IMG_WIDTH = 1000
 
 const sharpResize = async (uri, sizeMeta) =>
   new Promise((resolve, reject) => {
     // calculate new height based on fraction
     const fractionReduction = sizeMeta.width / IMG_WIDTH
-    const newHeight = sizeMeta.height / fractionReduction
+    const newHeight = Math.round(sizeMeta.height / fractionReduction)
 
     // resize file
     sharp(`./image-src/${uri}`)
@@ -32,7 +32,7 @@ const main = async () => {
 
     console.log("Resizing:", filename)
     // get size
-    const sizeMeta = await probe(filename)
+    const sizeMeta = sizeOf(`${process.cwd()}/image-src/${filename}`)
     await sharpResize(filename, sizeMeta)
     fs.unlinkSync(icon)
   }

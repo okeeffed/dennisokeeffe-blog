@@ -62,11 +62,11 @@ calcFibonacci40()
 
 We are going to run the same calculation to get the Fibonacci number for 40 (102334155). To do so, start up ndb by running `ndb .` in the console at the base directory. You should be faced with the following:
 
-![Initial ndb state]()
+![Initial ndb state](../assets/2021-02-12-1-ndb-init.png)
 
 On the left-hand panel under `NPM Scripts`, you will see our `start` script is available. Hovering over it we can see buttons highlight that enable us to "play" or "record" the script. Given that our `start` script will run through the `ndb-example.js` file, we can hit record to see what happens during execution:
 
-![Running calculation twice]()
+![Running expensive calculation twice](../assets/2021-02-12-2-expensive-calc.png)
 
 On the profiler, it shows us the two different call stacks under `calcFibonacci40`, with the two largest `expensiveCalc` directly underneath being the two calls that we made from `calcFibonacci40`. Both cost me 1.49 seconds on this hardware each! In fact, as our code is at the moment, if we continually call `calcFibonacci40`, that expensive calculation will always be recalculated!
 
@@ -123,13 +123,13 @@ To add dramatic effect, we are now going to iterate over the function 100 times.
 
 Let's re-record the performance and see what happens.
 
-![Re-recorded version]()
+![Memoized expensive call](../assets/2021-02-12-3-memoized-call-one.png)
 
 Analysing the performance, we see that we still made our expensive calculation (and it still took 1.49 seconds), but we also see in our console that we logged the answer 100 times? What happened?
 
 If we zoom into the very end, we see that `calcFibonacci40` has a direct child of `console.log` at the tail-end of the call!
 
-![Console logging]()
+![Memoized remaining calls](../assets/2021-02-12-4-memoized-remaining-calls.png)
 
 This is our memoisation at work! Since we are continually passing the same argument, our cache is picking this up and we are no longer calling `expensiveCalc` to fetch the answer!
 
@@ -147,3 +147,5 @@ ndb is a great debugging tool to add to your tool belt, particularly when debugg
 
 1. [ndb - Github](https://github.com/GoogleChromeLabs/ndb)
 2. [Memoization in JavaScript](https://scotch.io/tutorials/understanding-memoization-in-javascript)
+
+_Image credit: [Sigmund](https://unsplash.com/@sigmund)_
