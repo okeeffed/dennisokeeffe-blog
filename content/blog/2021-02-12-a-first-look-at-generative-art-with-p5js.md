@@ -223,3 +223,5 @@ My plan is to continue exploring the library over the next few weeks and continu
 
 1. [p5.js - Online Editor](https://editor.p5js.org/motoreta/sketches/nOxdKkeuB)
 2. [p5.js - Getting Started](https://p5js.org/get-started/)
+
+_Image credit: [Alexander Ant](https://unsplash.com/@alexander_ant)_
