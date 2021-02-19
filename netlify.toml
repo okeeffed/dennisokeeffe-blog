@@ -2,5 +2,5 @@
 ID = "blog.dennisokeeffe.com"
 
 [build]
-  command = "yarn build"
+  command = "npm run build"
   publish = "public"
