@@ -72,7 +72,10 @@ const BASE_DIR = "content/blog/"
 
 const main = async () => {
   const [blogPostFilePath] = argv._
-  const blog = fs.readFileSync(blogPostFilePath, "utf-8")
+  const blogSrc = fs.readFileSync(blogPostFilePath, "utf-8")
+  // remove ad tags
+  const blog = blogSrc.replace(/<Ad.?\/>/g, "")
+
   let blogToUpload = blog
     .split("\n")
     .slice(6)

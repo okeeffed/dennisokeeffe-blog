@@ -1,13 +1,20 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
+import { MDXProvider } from "@mdx-js/react"
 import { MDXRenderer } from "gatsby-plugin-mdx"
-
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import RelatedArticles from "../components/related"
 import { rhythm, scale } from "../utils/typography"
 import { AdUnit } from "../components/Ad"
+
+const Ad = () => (
+  <AdUnit
+    currentPath={typeof window !== `undefined` ? window.location : null}
+  />
+)
+const shortcodes = { Ad }
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -32,7 +39,9 @@ class BlogPostTemplate extends React.Component {
         >
           {post.frontmatter.date}
         </p>
-        <MDXRenderer>{post.body}</MDXRenderer>
+        <MDXProvider components={shortcodes}>
+          <MDXRenderer>{post.body}</MDXRenderer>
+        </MDXProvider>
         <hr
           style={{
             marginBottom: rhythm(1),

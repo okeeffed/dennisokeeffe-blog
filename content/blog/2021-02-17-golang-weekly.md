@@ -20,7 +20,7 @@ Gopher Gold weekly curation for Wed Feb 17 2021.
 - **Alex Merced**: [Go, Rust and C++ Side by Side](https://dev.to/alexmercedcoder/go-rust-and-c-side-by-side-4b7d)
 - **cameronldroberts**: [Testing out some features from the Golang 1.16 Beta (Embedded files)](https://dev.to/cameronldroberts/testing-out-some-features-from-the-golang-1-16-beta-embedded-files-2f66)
 - **Honeybadger Staff**: [An Introduction to Go Tooling](https://dev.to/honeybadger/an-introduction-to-go-tooling-3cl8)
-- **Henryk Konsek**: [Go interview task example -  REST API](https://dev.to/hekonsek/go-interview-task-example-rest-api-54ld)
+- **Henryk Konsek**: [Go interview task example - REST API](https://dev.to/hekonsek/go-interview-task-example-rest-api-54ld)
 - **Nicolas Penot**: [Open data storage: Share your data along with your code in a minute!](https://dev.to/siodb/open-data-storage-share-your-data-along-with-your-code-in-a-minute-1ie6)
 - **ArunNKutty**: [Project Structure in GO while building microservices](https://dev.to/arunnkutty/project-structure-in-go-while-building-microservices-hnk)
 - **Ömer Gülen**: [URL shortener to voice for Clubhouse 👋](https://dev.to/omergulen/url-shortener-to-voice-for-clubhouse-4h2g)
@@ -30,6 +30,8 @@ Gopher Gold weekly curation for Wed Feb 17 2021.
 - **Moataz Burhan**: [100DaysOfCode — Day 02](https://dev.to/moatazburhan/100daysofcode-day-02-565a)
 - **Mattias Fjellström**: [Azure functions custom handlers in Go: Logging](https://dev.to/mattiasfjellstrom/azure-functions-custom-handlers-in-go-logging-31bp)
 - **Davide Madrisan**: [A simple Mattermost notifier written in Go](https://dev.to/madrisan/a-simple-mattermost-notifier-written-in-go-281o)
+
+<Ad/>
 
 ## Trending Go Repositories This Week On Github
 
@@ -59,6 +61,8 @@ Gopher Gold weekly curation for Wed Feb 17 2021.
 - **ElrondNetwork/elrond-go** (Go): [⚡ Elrond-GO: The official implementation of the Elrond protocol, written in golang.](https://github.com/ElrondNetwork/elrond-go)
 - **bitnami-labs/sealed-secrets** (Go): [A Kubernetes controller and tool for one-way encrypted Secrets](https://github.com/bitnami-labs/sealed-secrets)
 
+<Ad/>
+
 ## Topics from the Weekly Go Forum
 
 - [Narcissistic number using GO Issue](https://forum.golangbridge.org/t/narcissistic-number-using-go-issue/22368)
@@ -84,7 +88,7 @@ Gopher Gold weekly curation for Wed Feb 17 2021.
 - [Build result in unexpected directory layout](https://forum.golangbridge.org/t/build-result-in-unexpected-directory-layout/22422)
 - [I have problem.........!!!](https://forum.golangbridge.org/t/i-have-problem/22409)
 - [Problem in understanding the syntax](https://forum.golangbridge.org/t/problem-in-understanding-the-syntax/22380)
-- [parameters React.js  to GO/Golang](https://forum.golangbridge.org/t/parameters-react-js-to-go-golang/22413)
+- [parameters React.js to GO/Golang](https://forum.golangbridge.org/t/parameters-react-js-to-go-golang/22413)
 - [How to extract a file in another directory?](https://forum.golangbridge.org/t/how-to-extract-a-file-in-another-directory/22419)
 - [Generate an object file in elf format from a go file.](https://forum.golangbridge.org/t/generate-an-object-file-in-elf-format-from-a-go-file/22391)
 - [How should I interpret this email from job recruiter?](https://forum.golangbridge.org/t/how-should-i-interpret-this-email-from-job-recruiter/22411)
@@ -93,7 +97,7 @@ Gopher Gold weekly curation for Wed Feb 17 2021.
 - [Intermittent issue with Bcrypt package](https://forum.golangbridge.org/t/intermittent-issue-with-bcrypt-package/22397)
 - [Using cgo gives fatal error](https://forum.golangbridge.org/t/using-cgo-gives-fatal-error/22384)
 - [Best repositories for Golang](https://forum.golangbridge.org/t/best-repositories-for-golang/22401)
-- [I am trying really hard to convert Ethereum private keys BIP44 in string format to a type that can (*ecdsa.PrivateKey) be used by rest of the code.](https://forum.golangbridge.org/t/i-am-trying-really-hard-to-convert-ethereum-private-keys-bip44-in-string-format-to-a-type-that-can-ecdsa-privatekey-be-used-by-rest-of-the-code/22407)
+- [I am trying really hard to convert Ethereum private keys BIP44 in string format to a type that can (\*ecdsa.PrivateKey) be used by rest of the code.](https://forum.golangbridge.org/t/i-am-trying-really-hard-to-convert-ethereum-private-keys-bip44-in-string-format-to-a-type-that-can-ecdsa-privatekey-be-used-by-rest-of-the-code/22407)
 - [Runtime: epollwait on fd 3 failed with 9; A Go bug?](https://forum.golangbridge.org/t/runtime-epollwait-on-fd-3-failed-with-9-a-go-bug/22376)
 - [Elastic search query in golang](https://forum.golangbridge.org/t/elastic-search-query-in-golang/22428)
 - [Go testing websockets](https://forum.golangbridge.org/t/go-testing-websockets/22395)

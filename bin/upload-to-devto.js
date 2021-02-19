@@ -43,7 +43,10 @@ const main = async () => {
       "![$1]($2)\n<figcaption>$1</figcaption>"
     )
 
-    let blogToUpload = blog
+    // remove ad tags
+    const blogWithoutAds = blog.replace(/<Ad.?\/>/g, "")
+
+    let blogToUpload = blogWithoutAds
       .split("\n")
       .slice(6)
       .join("\n")
