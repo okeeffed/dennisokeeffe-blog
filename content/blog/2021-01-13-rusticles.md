@@ -6,6 +6,8 @@ date: "2021-01-13"
 
 Rusticles weekly curation for Wed Jan 13 2021.
 
+<Ad />
+
 ## Rust Articles This Week On Dev.To
 
 - **Henry Boisdequin**: [Rust: Initial thoughts](https://dev.to/hb/rust-initial-thoughts-4jka)
@@ -29,6 +31,8 @@ Rusticles weekly curation for Wed Jan 13 2021.
 - **o2sh**: [[Day 3] Touhou-style shoot'em up -- Teki (敵)](https://dev.to/o2sh/day-3-touhou-style-shoot-em-up-teki-2e39)
 - **Christopher Daniel**: [Portfolio - Building the website](https://dev.to/chris_daniel/portfolio-building-the-website-ml0)
 - **Christopher Daniel**: [Portfolio - Key Takes](https://dev.to/chris_daniel/portfolio-key-takes-1lkk)
+
+<Ad />
 
 ## Trending Rust Repositories This Week On Github
 

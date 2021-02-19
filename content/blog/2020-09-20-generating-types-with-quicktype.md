@@ -7,6 +7,8 @@ tags: json,yml,api,nodejs
 
 Building on from previous posts on a spike on JSON Schema, we will continue in this one by looking at an alternative library to the `json-schema-to-typescript` library previously explored.
 
+<Ad />
+
 ## Setting Up
 
 ```s
@@ -39,6 +41,8 @@ For `book.json`, add the following. It will follow a similar JSON schema we've u
   "required": ["author", "title", "publisher"]
 }
 ```
+
+<Ad />
 
 ## Writing out the script
 
@@ -94,6 +98,8 @@ main()
 ```
 
 In the above script, we are going to generate `TypeScript` and `Python` output for the sake of demonstration.
+
+<Ad />
 
 ## Running the generator
 
@@ -424,6 +430,8 @@ def book_to_dict(x: Book) -> Any:
 ```
 
 Hooray! We can cut a lot of fluff with these helpers.
+
+<Ad />
 
 ## Resources And Further Reading
 

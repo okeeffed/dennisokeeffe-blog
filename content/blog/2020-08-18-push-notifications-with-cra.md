@@ -13,6 +13,8 @@ While this can be the default behaviour, you can speed this process up by skippi
 
 In this short tutorial, we will do just that to a Create React App setup.
 
+<Ad />
+
 ## Creating the React App
 
 We will used `npx create-react-app` and install Vercel's `serve` globally to serve our build.
@@ -71,6 +73,8 @@ Now, the next time we reload the app, we will be prompted with a confirm dialog 
 
 There is still the option for the user to deny the change if they wish.
 
+<Ad />
+
 ## Build and serve
 
 Let's get our build up and going:
@@ -83,6 +87,8 @@ serve build
 Now at port 5000 (or whatever you have), you will see the usual CRA basic that has been built.
 
 Let's make some changes and see our prompt in action!
+
+<Ad />
 
 ## Make changes to your React App
 
@@ -138,6 +144,8 @@ Victory!
 Of course, you don't have to use the window dialog. Once that notification comes through, you can do whatever your heart desires to let the user know that they can update their app on reload. In fact, you could be rude and just reload the page on them (although I wouldn't!).
 
 As a final note, this is supported in most major browsers but with the caveat that Safari iOS [does not support this](https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerRegistration/waiting). The trade-off is your to make!
+
+<Ad />
 
 ## Resources and further reading
 

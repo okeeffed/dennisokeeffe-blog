@@ -6,11 +6,15 @@ description: Simple basics on a GET and POST request for Gin in Go.
 
 A simple implementation of the Gin web framework for go.
 
+<Ad />
+
 ## Installation
 
 ```shell
 go get -u github.com/gin-gonic/gin
 ```
+
+<Ad />
 
 ## Hello world
 
@@ -34,6 +38,8 @@ If we now run `go run main.go` we can start the server on port 3000. Either usin
 
 ![GET ping](https://res.cloudinary.com/gitgoodclub/image/upload/v1538628243/getCLI-compressed.png "GET ping")
 ![GET postman](https://res.cloudinary.com/gitgoodclub/image/upload/v1538628243/getPostman-compressed.png "GET Postman")
+
+<Ad />
 
 ## Handling JSON data
 

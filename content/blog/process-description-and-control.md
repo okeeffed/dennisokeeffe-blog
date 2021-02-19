@@ -4,6 +4,8 @@ date: "2019-05-17"
 description: A deeper look into processes under the hood.
 ---
 
+<Ad />
+
 ## Objectives
 
 - How are processes represented and controlled by the OS
@@ -11,12 +13,16 @@ description: A deeper look into processes under the hood.
 - `Data structures` used to manage processes
 - Ways in which the OS uses these data structures to control process execution
 
+<Ad />
+
 ## Operating System
 
 Program that controls the execution of application programs.
 
 - Interface between applications and hardware.
 - Frequently relinquishes control and must depend on the processor to allow it to regain control – events driven
+
+<Ad />
 
 ## System Calls
 
@@ -101,6 +107,8 @@ Process can be uniquely charactized by a number of attributes:
 
 - Most important Data Structure in the OS
 
+<Ad />
+
 ## Process Tables
 
 OS tables must be linked or cross-referenced.
@@ -132,6 +140,8 @@ OS tables must be linked or cross-referenced.
 
 - Multiple events queues - Event # wait -> Event # queue -> event # occurs
 
+<Ad />
+
 ## Switching Processes
 
 - What events trigger a process switch?
@@ -147,6 +157,8 @@ A process switch may occur any time that the OS has gained control from the curr
 | Trap            | Associated with exec of current instruction | Handling of an error or an exception condition |
 | Supervisor call | Explicit request                            | Call to an operating system function           |
 
+<Ad />
+
 ## System Interrupts
 
 ### Interrupt
@@ -159,6 +171,8 @@ A process switch may occur any time that the OS has gained control from the curr
 - An error or exception condition generated within the currently running process
 - OS determines if the condition is fatal - moved to the Exit state and a process switch occurs - action will depend on the nature of the error
 
+<Ad />
+
 ## Change of process state
 
 1. Save context of processor
@@ -168,6 +182,8 @@ A process switch may occur any time that the OS has gained control from the curr
 5. Update PCB of process selected
 6. Update mem management data structures
 7. Restore context of processor to that which existed at the time the selected process was last switched out
+
+<Ad />
 
 ## Process Creation
 
@@ -244,6 +260,8 @@ This indication may be:
 An OS associates a set of priviledges with each process.
 
 A key security issue in the design of any OS is to prevent anything (user or process) from gaining unauthorized priviledges on the system.
+
+<Ad />
 
 ## Summary
 

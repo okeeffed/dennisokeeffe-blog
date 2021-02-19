@@ -7,6 +7,8 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/qs7o2ag8vzo0uborgc7v.png
 
 Gopher Gold weekly curation for Wed Jan 27 2021.
 
+<Ad />
+
 ## Go Articles This Week On Dev.To
 
 - **Loris Cro**: [Zig Makes Go Cross Compilation Just Work](https://dev.to/kristoff_it/zig-makes-go-cross-compilation-just-work-29ho)
@@ -44,6 +46,8 @@ Gopher Gold weekly curation for Wed Jan 27 2021.
 - **Ilya Revenko**: [CLI for Finding Anime By Image](https://dev.to/irevenko/cli-for-finding-anime-by-image-5go8)
 - **Sebastien Armand**: [Building a debugger Go plugin for Roadrunner](https://dev.to/khepin/building-a-debugger-go-plugin-for-roadrunner-2ag)
 
+<Ad />
+
 ## Trending Go Repositories This Week On Github
 
 - **aws/aws-sdk-go-v2** (Go): [AWS SDK for the Go programming language.](https://github.com/aws/aws-sdk-go-v2)
@@ -71,6 +75,8 @@ Gopher Gold weekly curation for Wed Jan 27 2021.
 - **kubernetes/minikube** (Go): [Run Kubernetes locally](https://github.com/kubernetes/minikube)
 - **argoproj/argo-cd** (Go): [Declarative continuous deployment for Kubernetes.](https://github.com/argoproj/argo-cd)
 - **kubernetes/kube-state-metrics** (Go): [Add-on agent to generate and expose cluster-level metrics.](https://github.com/kubernetes/kube-state-metrics)
+
+<Ad />
 
 ## Topics from the Weekly Go Forum
 

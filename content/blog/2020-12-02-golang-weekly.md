@@ -7,11 +7,15 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/qs7o2ag8vzo0uborgc7v.png
 
 Gopher Gold weekly curation for Wed Dec 02 2020.
 
+<Ad />
+
 ## Hot Go Articles This Week On Reddit
 
 - [In-process caching in Go: scaling to 100k requests/second](https://www.reddit.com/r/golang/comments/k0r9xo/inprocess_caching_in_go_scaling_to_100k/) (6 days ago)
 - [Golang <-time.After() is not garbage collected](https://www.reddit.com/r/golang/comments/k1xk52/golang_timeafter_is_not_garbage_collected/) (4 days ago)
 - [Step-by-Step Guide to Use WebSockets in Golang](https://www.reddit.com/r/golang/comments/k1ey2a/stepbystep_guide_to_use_websockets_in_golang/) (5 days ago)
+
+<Ad />
 
 ## Go Articles This Week On Dev.To
 
@@ -45,6 +49,8 @@ Gopher Gold weekly curation for Wed Dec 02 2020.
 - **Uday Yadav**: [Testing simple web server](https://dev.to/dev117uday/testing-simple-web-server-jlh)
 - **handuy**: [Concurrency trong Go: Tạo goroutine (phần 2)](https://dev.to/handuy/concurrency-trong-go-t-o-goroutine-ph-n-2-10kc)
 
+<Ad />
+
 ## Trending Go Repositories This Week On Github
 
 - **tal-tech/go-zero** (Go): [go-zero is a web and rpc framework written in Go. It's born to ensure the stability of the busy sites with resilient design. Builtin goctl greatly improves the development productivity.](https://github.com/tal-tech/go-zero)
@@ -72,6 +78,8 @@ Gopher Gold weekly curation for Wed Dec 02 2020.
 - **derailed/k9s** (Go): [🐶 Kubernetes CLI To Manage Your Clusters In Style!](https://github.com/derailed/k9s)
 - **containrrr/watchtower** (Go): [A process for automating Docker container base image updates.](https://github.com/containrrr/watchtower)
 - **hashicorp/vault** (Go): [A tool for secrets management, encryption as a service, and privileged access management](https://github.com/hashicorp/vault)
+
+<Ad />
 
 ## Topics from the Weekly Go Forum
 

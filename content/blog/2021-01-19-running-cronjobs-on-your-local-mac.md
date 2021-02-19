@@ -9,6 +9,8 @@ Today's post will demonstrate how to have a script automatically run as a cron j
 
 We will demonstrate by automating a simple script to add the word "hello" onto a new line every minute and showing how we can log out `stdout` and `stderr` to a file after each run for our sake.
 
+<Ad />
+
 ## Getting started
 
 We will create a `.scripts` folder at the root using to store our scripts to be used by `crontab` and create a file `hello.sh` to store our script:
@@ -41,6 +43,8 @@ The above simply does the following:
 3. Echo "Finished" to `stdout`.
 
 Will all this out of the way, we can now tell `crontab` to run the script each minute.
+
+<Ad />
 
 ## Setting the script to run in crontab
 
@@ -79,6 +83,8 @@ As for the rest of the line `cd ~/.scripts && ./hello.sh >/tmp/stdout.log 2>/tmp
 
 You can update that line to be whatever you want. What is important is that `~/.scripts/hello.sh` has the correct permissions to execute.
 
+<Ad />
+
 ## The script in action
 
 Once you set the value in the crontab file, exit your editor of choice after saving the file.
@@ -106,6 +112,8 @@ Success! We have successfully set up our first automated crontab job in OSX!
 
 To remove the cron job, simple run `crontab -e` again and remove the job with the editor.
 
+<Ad />
+
 ## Handling issues
 
 This is not an exhaustive list, but two issues I came across was the need to update my editor to reference `/usr/bin/vim` instead of `/usr/bin/vi` and to update my `Security & Privacy` to allow Full Disk Access for iTerm (enable at your own risk).
@@ -121,6 +129,8 @@ As for the Full Disk Access, simply head to `Security and Privacy`, enable chang
 
 ![Security and privacy](../assets/2021-01-19-adding-iterm-permissions.png)
 
+<Ad />
+
 ## Conclusion
 
 The post today is a very beginner-friendly one that does the bare minimum to demonstrate how to get `crontab` working.
@@ -128,6 +138,8 @@ The post today is a very beginner-friendly one that does the bare minimum to dem
 From here, it is up to you to automate what you wish to automate! You can adjust the shell script to run very complex web scrapers in other languages and more!
 
 I personally use it to automate some of my morning preparation with some JavaScript and Python scripts that do some of the morning's heavy lifting and information aggregation for things that I may need to kickstart my morning off on the right foot.
+
+<Ad />
 
 ## Resources and further reading
 

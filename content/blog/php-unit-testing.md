@@ -10,6 +10,8 @@ Ensure `phpunit` is downloaded and add it to your `$PATH`.
 
 From, here run `phpunit.phar path/to/test.php`.
 
+<Ad />
+
 ## Basic example
 
 ### Anagram function to test

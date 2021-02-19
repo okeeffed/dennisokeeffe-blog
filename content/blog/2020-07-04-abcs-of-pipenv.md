@@ -6,6 +6,8 @@ date: "2020-07-04"
 
 In this short entry, we are going to explore Pipenv - a tool that aims to bring the best of the broader package ecosystems into Python.
 
+<Ad />
+
 ## Why Pipenv?
 
 The first two lines on the project sum it up perfectly.
@@ -26,6 +28,8 @@ Some of the other problems that it address is also stated on their GitHub. Word-
 
 The second-point on the `requirements.txt` file may look unfamiliar to new-goers to Python, but that is another way that Python projects have been attempting to streamline the packages used.
 
+<Ad />
+
 ## Installation
 
 There are a number of ways to install `pipenv`:
@@ -44,6 +48,8 @@ pip install pipenv
 ```
 
 You can see more details [here](https://pipenv.pypa.io/en/latest/#install-pipenv-today).
+
+<Ad />
 
 ## Setting up two basic projects to demonstrate
 
@@ -66,6 +72,8 @@ pipenv install --dev ipython
 You can initialise a new Python3 virtual environment by running `pipenv --three`. For Python2, you can run `pipenv --two`.
 
 Once setup, we can run `pipenv install <package>` to install a package that we need. That same call can be run as `pipenv install --dev <package>` for packages we only need to install to help with development (indicated by the `--dev` flag).
+
+<Ad />
 
 ## Running a simple GET requests from iPython
 
@@ -124,6 +132,8 @@ Out [5]: # A lot of HTML text
 
 Amazing! We have successfully managed to install the package into our project and run it through the Python REPL!
 
+<Ad />
+
 ## Pipfile
 
 Once we installed our packages, you would have noticed a `Pipfile` and `Pipfile.lock` was generated.
@@ -148,6 +158,8 @@ python_version = "3.7"
 
 This file is what helps others who are running the project keep it running deterministically. Here is where we lock down the Python version we are using, as well as mention the development and production packages required to run this application. With the `"*"` beside the packages, we are currently telling Pipenv to install the latest. We can update this to lockdown specific versions that we want.
 
+<Ad />
+
 ## Pipfile.lock
 
 If you run `cat Pipefile.lock`, you will see that there is a bunch of JSON with versioning and hash information.
@@ -158,11 +170,15 @@ It helps to avoid the risk of upgrading packages that depend upon each other and
 
 You can use `pipenv lock` to lock the currently installed packages in the project.
 
+<Ad />
+
 ## Conclusion
 
 This has been a short entry into installing packages using `pipenv` and seeing them in action in the interactive environment `iPython`.
 
 Next time, we will go further in-depth into running some cooler projects.
+
+<Ad />
 
 ## Resources and further reading
 

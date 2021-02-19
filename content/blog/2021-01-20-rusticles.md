@@ -6,6 +6,8 @@ date: "2021-01-20"
 
 Rusticles weekly curation for Wed Jan 20 2021.
 
+<Ad />
+
 ## Rust Articles This Week On Dev.To
 
 - **Davide Del Papa**: [Rust GUI: Introduction, a.k.a. the state of Rust GUI libraries (As of January 2021)](https://dev.to/davidedelpapa/rust-gui-introduction-a-k-a-the-state-of-rust-gui-libraries-as-of-january-2021-40gl)
@@ -21,6 +23,8 @@ Rusticles weekly curation for Wed Jan 20 2021.
 - **Markus Ineichen**: [Writing a better Line Iterator  in Rust](https://dev.to/mineichen/writing-a-better-line-iterator-in-rust-443m)
 - **t-o-d**: [Prepare a set of Rust tools that can be used with zsh in zinit](https://dev.to/kamekuremaisuke/prepare-a-set-of-rust-tools-that-can-be-used-with-zsh-in-zinit-49ae)
 - **David MacEachern**: [How understanding software versions can help you get unstuck](https://dev.to/davidmaceachern/how-understanding-sofware-versions-can-help-you-get-unstuck-33k7)
+
+<Ad />
 
 ## Trending Rust Repositories This Week On Github
 

@@ -7,6 +7,8 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/xg2dgz5vcfhp0zqp92hk.png
 
 Here is your update from across the web for the week of 2020-09-27.
 
+<Ad />
+
 ## Trending This Week On Github
 
 - **cli/cli** (Go): [GitHub’s official command line tool](https://github.com/cli/cli)
@@ -34,6 +36,8 @@ Here is your update from across the web for the week of 2020-09-27.
 - **Uniswap/uniswap-interface** (TypeScript): [🦄 An open source interface for the Uniswap protocol](https://github.com/Uniswap/uniswap-interface)
 - **schollz/croc** (Go): [Easily and securely send things from one computer to another 🐊 📦](https://github.com/schollz/croc)
 - **elastic/elasticsearch** (Java): [Open Source, Distributed, RESTful Search Engine](https://github.com/elastic/elasticsearch)
+
+<Ad />
 
 ## Trending This Week On Dev.To
 
@@ -72,6 +76,8 @@ Here is your update from across the web for the week of 2020-09-27.
 - **Sunil Joshi**: [Best Free React Dashboards & Resources for every React Developer](https://dev.to/suniljoshi19/best-free-react-dashboards-resources-for-every-react-developer-4kf5)
 - **Duomly**: [Server-Side Rendering vs Client-Side Rendering](https://dev.to/duomly/server-side-rendering-vs-client-side-rendering-4c5g)
 - **Nick Scialli (he/him)**: [Learn the Basics of Redux by Writing Your Own Version in 30 Lines](https://dev.to/nas5w/learn-the-basics-of-redux-by-writing-your-own-version-in-30-lines-1if3)
+
+<Ad />
 
 ## Trending This Week On Hacker News
 

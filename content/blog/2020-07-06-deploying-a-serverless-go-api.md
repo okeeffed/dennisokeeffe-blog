@@ -12,6 +12,8 @@ Why? There is support from AWS Labs that enables us to deploy Gin. Simple as tha
 
 This tutorial expects that you have Golang installed and the AWS CDK for TypeScript.
 
+<Ad />
+
 ## Setting up the project
 
 Inside of the terminal, we are going to set up a monorepo that contains a `infra` folder for our AWS CDK infrastructure and a `functions` folder to hold our Lambda functions:
@@ -21,6 +23,8 @@ mkdir hello-gin-lambda-aws-cdk
 cd hello-gin-lambda-aws-cdk
 mkdir functions infra
 ```
+
+<Ad />
 
 ## Writing our Go lambda server
 
@@ -104,6 +108,8 @@ Here we are simple starting a server with only one GET route `/ping` which simpl
 
 This API is _**super, super simple**_, but the main focus is to get it up and running!
 
+<Ad />
+
 ## Go Lambda
 
 For us to be able to deploy this, we need to build the Go binary and follow some [guidelines](https://docs.aws.amazon.com/lambda/latest/dg/golang-package.html) on how it needs to be built.
@@ -117,6 +123,8 @@ GOOS=linux GOARCH=amd64 go build -o main main.go
 Inline those environment variables means that they will be environment variables only while executing that line in the terminal.
 
 Once you have run this, our `main` binary output (from the `-o` flag) will be what we need to reference when deploying via the AWS CDK.
+
+<Ad />
 
 ## Deploying our Go Lambda function using the CDK
 
@@ -200,6 +208,8 @@ Finally, add a `infra/cdk.json` file and add this:
 ```
 
 These are all required config for transpiling the TypeScript and running the CDK.
+
+<Ad />
 
 ## Writing the infrastructure code
 
@@ -293,6 +303,8 @@ With this simple code stack, we are ready to deploy!
 
 > Note: As this is a simple stack, I have opted just to keep it all in the one file. For best practices, I recommend checking out the [open CDK](https://github.com/kevinslin/open-cdk) repo if you want to define more structure.
 
+<Ad />
+
 ## Deploying the code
 
 If you are using my `package.json` example I provided above, there will be some scripts we can use to help run:
@@ -360,6 +372,8 @@ REPORT RequestId: 57c62f65-d48d-40bf-a484-39f63169a6ca Duration: 21.35 ms Billed
 
 Congratulations! You have just deployed an incredibly useless serverless Go API! Now you can go forth and start adding your own routes and endpoints and make this simple Ping Pong API do some incredible things.
 
+<Ad />
+
 ## Conclusion
 
 Today's post is a bit of a whirlwind into deploying a Go binary to AWS using the CDK to run a serverless API.
@@ -367,6 +381,8 @@ Today's post is a bit of a whirlwind into deploying a Go binary to AWS using the
 While brief, we have covered **a lot** of ground.
 
 As always, these small projects kickstart the bigger applications, so I hope you are inspired to start running some neat Go lambda functions!
+
+<Ad />
 
 ## Resources and Further Reading
 

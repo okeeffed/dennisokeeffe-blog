@@ -27,6 +27,8 @@ import (
 )
 ```
 
+<Ad />
+
 ## Compare
 
 ```go
@@ -57,6 +59,8 @@ func CompareStrings(a string, b string) int {
 }
 ```
 
+<Ad />
+
 ## Contains
 
 ```go
@@ -81,6 +85,8 @@ func ContainsString(s string, substr string) bool {
 }
 ```
 
+<Ad />
+
 ## Join
 
 ```go
@@ -101,6 +107,8 @@ func JoinString(str []string, de string) string {
 	return strings.Join(str, de)
 }
 ```
+
+<Ad />
 
 ## Split
 
@@ -124,6 +132,8 @@ func SplitString(str string, de string) []string {
 	return strings.Split(str, de)
 }
 ```
+
+<Ad />
 
 ## Lower case a string using Map
 

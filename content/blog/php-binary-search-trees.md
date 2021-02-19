@@ -6,6 +6,8 @@ description: PHP implementation of a Binary Search Tree.
 
 This expects an installation on the system of `phpunit`.
 
+<Ad />
+
 ## Test File
 
 Create `binary-search-tree_test.php`:
@@ -70,6 +72,8 @@ class BinarySearchTreeTest extends PHPUnit\Framework\TestCase
 }
 ```
 
+<Ad />
+
 ## Trees
 
 Create `binary-search-tree.php`:
@@ -107,6 +111,8 @@ class Node {
     }
 }
 ```
+
+<Ad />
 
 ## Running Tests
 

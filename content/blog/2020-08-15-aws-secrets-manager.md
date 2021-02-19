@@ -9,6 +9,8 @@ Secrets such as environment variables are a **must** when working with applicati
 
 This short overview will create/retrieve a secret from the AWS Secrets Manager and show how you can then require it within a CDK stack.
 
+<Ad />
+
 ## The secrets manager from the CLI
 
 Ensure that you have the [aws-cli](https://aws.amazon.com/cli/) installed.
@@ -32,6 +34,8 @@ If you do not note it down, you can always refetch the secret using `describe-se
 # Example to get "example/secretKey" info back
 aws secretsmanager describe-secret --secret-id example/secretKey
 ```
+
+<Ad />
 
 ## CDK Example
 
@@ -104,6 +108,8 @@ export class LambdaCronStack extends cdk.Stack {
   }
 }
 ```
+
+<Ad />
 
 ## Resources and Further Reading
 

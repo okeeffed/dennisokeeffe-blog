@@ -7,6 +7,8 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/xg2dgz5vcfhp0zqp92hk.png
 
 Here is your update from across the web for the week of 2020-08-16.
 
+<Ad />
+
 ## Trending This Week On Github
 
 - **romefrontend/rome** (TypeScript): [The Rome Frontend Toolchain. A linter, compiler, bundler, and more for JavaScript, TypeScript, HTML, Markdown, and CSS.](https://github.com/romefrontend/rome)
@@ -34,6 +36,8 @@ Here is your update from across the web for the week of 2020-08-16.
 - **Azure/azure-quickstart-templates** (PowerShell): [Azure Quickstart Templates](https://github.com/Azure/azure-quickstart-templates)
 - **Sycnex/Windows10Debloater** (PowerShell): [Script to remove Windows 10 bloatware.](https://github.com/Sycnex/Windows10Debloater)
 - **dianping/cat** (Java): [CAT 作为服务端项目基础组件，提供了 Java, C/C++, Node.js, Python, Go 等多语言客户端，已经在美团点评的基础架构中间件框架（MVC框架，RPC框架，数据库框架，缓存框架等，消息队列，配置系统等）深度集成，为美团点评各业务线提供系统丰富的性能指标、健康状况、实时告警等。](https://github.com/dianping/cat)
+
+<Ad />
 
 ## Trending This Week On Dev.To
 
@@ -74,6 +78,8 @@ should know about](https://dev.to/satyampandey24/7-useful-websites-every-front-e
 - **JoelBonetR**: [All you need to know about CI/CD as Web Developer](https://dev.to/joelbonetr/all-you-need-to-know-about-ci-cd-as-web-developer-1e19)
 - **skaytech**: [A Practical Guide to help you stay more Organised & Productive](https://dev.to/skaytech/a-practical-guide-to-help-you-stay-more-organised-productive-3p0g)
 - **Nirbhay Vashisht**: [#discussBurnout as a Developer: Experience, Symptoms, Prevention and Cure](https://dev.to/nirbhayvashisht/burnout-as-a-developer-experience-symptoms-prevention-and-cure-20e2)
+
+<Ad />
 
 ## Trending This Week On Hacker News
 

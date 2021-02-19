@@ -8,6 +8,8 @@ In this post, I will run through a short project I made using [alfy](https://git
 
 ![End result](../assets/2020-06-23-opening-from-alfred.png)
 
+<Ad />
+
 ## Setting up
 
 If you follow the usage instructions on the [alfy GitHub page](https://github.com/sindresorhus/alfy#usage), step 4 "Go to your new workflow directory" will you get you to the correct place that your code needs to be added in the Alfred workflow.
@@ -46,6 +48,8 @@ const json = require("./data.json")
 That is literally it for the magic that happens with Alfred, but what is the `json` I am importing?
 
 I decided to have a script that generates the latest doc set during my Git pre-push hook from the developer notes repo.
+
+<Ad />
 
 ## Generating the docset list
 
@@ -124,6 +128,8 @@ The above code is not doing anything magical. It follows this process:
 
 That's it! Everytime I make a change in the developer notes, a pre-push Git hook will generate the latest `data.json` file and place it where it needs to go. Easy peasy!
 
+<Ad />
+
 ## Opening the URL
 
 This last part is nice and straight forward - you just need to take the selected input from Alfred and pass it to "Open URL"!
@@ -131,6 +137,8 @@ This last part is nice and straight forward - you just need to take the selected
 ![Open at URL workflow](../assets/2020-06-23-dev-notes-open-url.png)
 
 Now I can peruse my notes locally from wherever I want!
+
+<Ad />
 
 ## In use
 
@@ -141,6 +149,8 @@ Searching through Alfred looks like so...
 ...and selecting the document will open up my browser at the page.
 
 ![Opening at the website](../assets/2020-06-23-opening-at-the-page.png)
+
+<Ad />
 
 ## Resources and Further Reading
 

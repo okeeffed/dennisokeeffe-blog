@@ -13,6 +13,8 @@ This tutorial expects that you have a [Sentry](https://sentry.io/) account set u
 
 It also expects you are running a version of Node that supports ES6 classes. I am running `12.16.1` in this project.
 
+<Ad />
+
 ## Getting started
 
 Let's set up a new Nodejs project and install some deps.
@@ -36,6 +38,8 @@ Throw in the files we don't wish to store in Git.
 node_modules/
 ```
 
+<Ad />
+
 ## Setting up Sentry
 
 While this won't go into details, we want to set up a new Nodejs project in our Sentry account.
@@ -49,6 +53,8 @@ SENTRY_ENDPOINT=<replace-with-your-url-here>
 ```
 
 We are now ready to set up our custom error!
+
+<Ad />
 
 ## SentryError.js
 
@@ -107,6 +113,8 @@ The first thing we do in the constructor is call `super(errMessage)`, which is u
 Afterwards, we are essentially setting a breadcrumb and telling Sentry to capture an exception. You can read more about these on the [Sentry docs](https://docs.sentry.io/error-reporting/capturing/) but the tl;dr is that these calls will populate our telemetry data on Sentry.
 
 With this alone, we are ready to roll!
+
+<Ad />
 
 ## Testing out our new error
 
@@ -170,6 +178,8 @@ If we look at the basic settings, we can see that our **breadcrumb** was logged 
 Those logs came from our `catch` block. If we change from "App only" to "Raw" you can see our stack trace also shows up in the **exception**:
 
 ![Exception error](../assets/2020-08-07-full-error.png)
+
+<Ad />
 
 ## Handling sensitive information
 
@@ -323,6 +333,8 @@ Let's run `node index.js` again and confirm this in Sentry.
 
 Victory!
 
+<Ad />
+
 ## Conclusion
 
 Today, we used ES6 classes to extend error. If anyone wants the "Why would you do that vs just extending the prototype?", my answer is that it is mainly preference.
@@ -330,6 +342,8 @@ Today, we used ES6 classes to extend error. If anyone wants the "Why would you d
 I find classes in this case to be more readable and a better developer experience, but note that there is a cost if doing this in the web for transpiling back to ES5.
 
 Today, we went with the idea of a "block" list. If you want a stronger alternative, go with the idea of an "allow" list where a property **must be allowed** before it will show up on Sentry.
+
+<Ad />
 
 ## Resources and Further Reading
 

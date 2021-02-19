@@ -4,6 +4,8 @@ date: "2018-09-11"
 description: Python Spiral Matrices with unit testing.
 ---
 
+<Ad />
+
 ## Test file
 
 Create file `spiral_matrix_test.py`:
@@ -30,6 +32,8 @@ class GeneralMatrixTest(unittest.TestCase):
 if __name__ == '__main__':
     unittest.main()
 ```
+
+<Ad />
 
 ## Spiral Matrix
 
@@ -93,6 +97,8 @@ def create(dim):
         startCol = startCol + 1
     return mat
 ```
+
+<Ad />
 
 ## Running tests
 

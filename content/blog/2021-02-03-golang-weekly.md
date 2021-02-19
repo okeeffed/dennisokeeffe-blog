@@ -7,6 +7,8 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/qs7o2ag8vzo0uborgc7v.png
 
 Gopher Gold weekly curation for Wed Feb 03 2021.
 
+<Ad />
+
 ## Go Articles This Week On Dev.To
 
 - **swyx**: [Errors Are Not Exceptions](https://dev.to/swyx/errors-are-not-exceptional-1g0b)
@@ -36,6 +38,8 @@ Gopher Gold weekly curation for Wed Feb 03 2021.
 - **Tsuyoshi Ushio**: [Enabling KEDA debugging](https://dev.to/tsuyoshiushio/enabling-keda-debugging-3h13)
 - **Marlos Rodriguez**: [Guía de Crear una API con Go Fiber de 0](https://dev.to/marlosrodriguez/guia-de-crear-una-api-con-go-fiber-de-0-1b2p)
 
+<Ad />
+
 ## Trending Go Repositories This Week On Github
 
 - **wagoodman/dive** (Go): [A tool for exploring each layer in a docker image](https://github.com/wagoodman/dive)
@@ -63,6 +67,8 @@ Gopher Gold weekly curation for Wed Feb 03 2021.
 - **nektos/act** (Go): [Run your GitHub Actions locally 🚀](https://github.com/nektos/act)
 - **hashicorp/vault** (Go): [A tool for secrets management, encryption as a service, and privileged access management](https://github.com/hashicorp/vault)
 - **cdk-team/CDK** (Go): [CDK is an open-sourced container penetration toolkit, offering stable exploitation in different slimmed containers without any OS dependency. It comes with penetration tools and many powerful PoCs/EXPs helps you to escape container and takeover K8s cluster easily.](https://github.com/cdk-team/CDK)
+
+<Ad />
 
 ## Topics from the Weekly Go Forum
 

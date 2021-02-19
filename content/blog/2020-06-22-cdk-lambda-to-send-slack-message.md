@@ -15,6 +15,8 @@ In order to follow along, you'll should have the following:
 2. A [Slack webhook](https://api.slack.com/messaging/webhooks) to use
 3. Basic familiarity with [npm](https://www.npmjs.com/)
 
+<Ad />
+
 ## Setting up the infra dependencies
 
 In a new file, we need to setup the npm package:
@@ -28,6 +30,8 @@ npm i --save-dev typescript @types/node @types/dotenv
 
 These dependencies are all essentially used for the CloudFormation file synthesis, with the addition of `dotenv` so that we can add in any secrets we want locally and not store it on git.
 
+<Ad />
+
 ## Gitignore file
 
 Create a `.gitignore` file and add the following:
@@ -39,6 +43,8 @@ node_modules/
 ```
 
 This will keep out the pesky secrets we don't want stored in Git.
+
+<Ad />
 
 ## Setting up TypeScript
 
@@ -66,6 +72,8 @@ You can initialise with your preferred settings, however this is a pretty handy 
   }
 }
 ```
+
+<Ad />
 
 ## Setting up the infrastructure code
 
@@ -180,6 +188,8 @@ Create the `.env` file and add that webhook:
 SLACK_CHANNEL=https://hooks.slack.com/services/whatever/your/webhook/url/is
 ```
 
+<Ad />
+
 ## Creating the Lambda function
 
 Create a new `lambda` folder to use. Then, change into that folder an initialise a new `npm` project and add `axios`.
@@ -250,6 +260,8 @@ The `exports.handler` is our function that we want Lambda to invoke when it has 
 
 The name of the export also aligns to the `handler: "slack-message.handler"` property in our CDK setup (it basically goes `file.exportedFunctionWeWantToInvoke`).
 
+<Ad />
+
 ## Running the CDK
 
 We are now ready to run the CDK!
@@ -280,6 +292,8 @@ Congratulations! You can now run `cdk destroy` to teardown the AWS resources (un
 This can be reapplied for you to do whatever Cron jobs you would like! Life is fantastic. Happy coding!
 
 See the completed project on [GitHub](https://github.com/okeeffed/lambda-cron-cdk-example).
+
+<Ad />
 
 ## Resources and Further Reading
 

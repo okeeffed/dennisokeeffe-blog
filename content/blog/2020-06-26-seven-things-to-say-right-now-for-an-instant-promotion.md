@@ -12,6 +12,8 @@ In this edition of Tech Lead Tips, I am going to give you ten things that you ne
 
 > Hot tip: Do not share these tips. Sharing knowledge is a surefire way for your colleagues to leapfrog your career as they are all lifetime subscribers of Tech Lead Tips.
 
+<Ad />
+
 ## Artificial Intelligence
 
 Starting with the mother of all bamboozling, nothing will get you promoted faster than dropping a few AI acronyms in your meetings. This umbrella has term has stolen the hearts and imaginations of people the world over.
@@ -19,6 +21,8 @@ Starting with the mother of all bamboozling, nothing will get you promoted faste
 Are there benefits to learning and applying these technologies within your company? Sure. But that takes time. Start reaping the benefits now and leave the learning for others who wait years to be promoted.
 
 > Hot tip: There is a strong correlation between saying "AI" in project kickoffs and your product manager advocating for you during performance reviews.
+
+<Ad />
 
 ## Nanofrontends
 
@@ -38,6 +42,8 @@ Stand out from the crowd and start introducing nanofrontends today.
 
 > Hot tip: Bigger is not always better. Start using picofrontends in 2021.
 
+<Ad />
+
 ## No Code/Low Code
 
 What is the best way to make friends with programmers? Start preaching that their job is no longer needed.
@@ -47,6 +53,8 @@ People will tell you that No Code/Low Code will open you to "focusing on the mor
 > Hot tip: You can not work a job if you do not have a job.
 
 Only those who can see the future are permitted to live in it. Be on the winning side as a thought leader in your company and start preaching the No Code revolution today.
+
+<Ad />
 
 ## Index
 
@@ -62,6 +70,8 @@ If anyone starts questioning your knowledge on databases, link them to this [Ube
 
 No one will not be able to question you when you are higher on the hierachy, because everyone knows that titles mean everything.
 
+<Ad />
+
 ## Event Stroking
 
 There is nothing more important when it comes to being a developer than working in technologies that begin with "event".
@@ -74,11 +84,15 @@ To get that extra promotion, be sure to start combining event with other English
 
 > Hot tip: 10x Engineers started the "event-word" combinations to 10x their career.
 
+<Ad />
+
 ## 10x Engineer
 
 Self-explanatory.
 
 > Hot tip: Never explain things. Explaining things opens you up to mistakes.
+
+<Ad />
 
 ## Closed-Source
 

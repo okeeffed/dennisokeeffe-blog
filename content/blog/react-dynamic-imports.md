@@ -4,6 +4,8 @@ date: "2018-09-12"
 description: See example code for dynamically importing a React Component.
 ---
 
+<Ad />
+
 ## Example Code
 
 The key action happens by using React's `componentDidMount` lifecycle method and component state, although the application of when to import can be used anywhere when required.

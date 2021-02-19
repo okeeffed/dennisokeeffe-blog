@@ -7,9 +7,13 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/qs7o2ag8vzo0uborgc7v.png
 
 Gopher Gold weekly curation for Wed Nov 11 2020.
 
+<Ad />
+
 ## Hot Go Articles This Week On Reddit
 
 - [Rust vs Go](https://www.reddit.com/r/golang/comments/jp4kvp/rust_vs_go/) (4 days ago)
+
+<Ad />
 
 ## Go Articles This Week On Dev.To
 
@@ -33,6 +37,8 @@ Gopher Gold weekly curation for Wed Nov 11 2020.
 - **Asim Aslam**: [Micro 3.0 (M3O) is a platform for cloud native development](https://dev.to/micro/micro-3-0-m3o-is-a-platform-for-cloud-native-development-49on)
 - **Leon N**: [Updating Google Sheets using Golang.](https://dev.to/afrocoder/playing-with-google-sheets-api-using-golang-14en)
 - **Mario Carrion**: [Complex Pipelines in Go (Part 1): Introduction](https://dev.to/MarioCarrion/complex-pipelines-in-go-part-1-introduction-32bo)
+
+<Ad />
 
 ## Trending Go Repositories This Week On Github
 
@@ -61,6 +67,8 @@ Gopher Gold weekly curation for Wed Nov 11 2020.
 - **emirpasic/gods** (Go): [GoDS (Go Data Structures). Containers (Sets, Lists, Stacks, Maps, Trees), Sets (HashSet, TreeSet, LinkedHashSet), Lists (ArrayList, SinglyLinkedList, DoublyLinkedList), Stacks (LinkedListStack, ArrayStack), Maps (HashMap, TreeMap, HashBidiMap, TreeBidiMap, LinkedHashMap), Trees (RedBlackTree, AVLTree, BTree, BinaryHeap), Comparators, Iterators, …](https://github.com/emirpasic/gods)
 - **istio/istio** (Go): [Connect, secure, control, and observe services.](https://github.com/istio/istio)
 - **hantmac/Mastering_Go_ZH_CN** (Go): [《Mastering GO》中文译本，《玩转 GO》。](https://github.com/hantmac/Mastering_Go_ZH_CN)
+
+<Ad />
 
 ## Topics from the Weekly Go Forum
 

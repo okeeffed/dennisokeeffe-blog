@@ -6,12 +6,16 @@ date: "2020-10-14"
 
 Rusticles weekly curation for Wed Oct 14 2020.
 
+<Ad />
+
 ## Hot Rust Articles This Week On Reddit
 
 - [Announcing Rust 1.47.0](https://www.reddit.com/r/rust/comments/j7d49v/announcing_rust_1470/) (5 days ago)
 - [Memory Safe ‘curl’ for a More Secure Internet](https://www.reddit.com/r/rust/comments/j7yegb/memory_safe_curl_for_a_more_secure_internet/) (4 days ago)
 - [Rust after the honeymoon](https://www.reddit.com/r/rust/comments/j99o0t/rust_after_the_honeymoon/) (2 days ago)
 - [Proving that 1 + 1 = 2 in Rust](https://www.reddit.com/r/rust/comments/j9nnpv/proving_that_1_1_2_in_rust/) (1 day ago)
+
+<Ad />
 
 ## Rust Articles This Week On Dev.To
 
@@ -34,6 +38,8 @@ Rusticles weekly curation for Wed Oct 14 2020.
 - **Christoph Grabo**: [Rust 2021](https://dev.to/asaaki/rust-2021-4cn)
 - **Sven Assmann**: [🎉 🚀 🍺 New release of Terminal Recorder - t-rec](https://dev.to/5422m4n/new-release-of-terminal-recorder-t-rec-36g0)
 - **open-trade**: [RustDesk: My first Rust application, a remote desktop software](https://dev.to/opentrade/rustdesk-my-first-rust-application-gme)
+
+<Ad />
 
 ## Trending Rust Repositories This Week On Github
 

@@ -6,11 +6,15 @@ date: "2020-10-07"
 
 Rusticles weekly curation for Wed Oct 07 2020.
 
+<Ad />
+
 ## Hot Rust Articles This Week On Reddit
 
 - [Mesa Developers Discuss The Possibility Of Rust Graphics Driver Code](https://www.reddit.com/r/rust/comments/j3tzvf/mesa_developers_discuss_the_possibility_of_rust/) (4 days ago)
 - [A WIP gcc codegen for Rust](https://www.reddit.com/r/rust/comments/j3l9g3/a_wip_gcc_codegen_for_rust/) (5 days ago)
 - [Announcing the Portable SIMD Project Group | Inside Rust Blog](https://www.reddit.com/r/rust/comments/j2p44j/announcing_the_portable_simd_project_group_inside/) (6 days ago)
+
+<Ad />
 
 ## Rust Articles This Week On Dev.To
 
@@ -21,6 +25,8 @@ Rusticles weekly curation for Wed Oct 07 2020.
 - **Sivakumar SIVAPRAKASAM**: [Rust Collections: DSL Operations on Sets](https://dev.to/ssivakumar77/rust-collections-dsl-operations-on-sets-2c8i)
 - **T.J. Telan**: [A first-timer's perspective to Digital Ocean's Hacktoberfest 2020](https://dev.to/tjtelan/a-first-timer-s-perspective-to-digital-ocean-s-hacktoberfest-2020-18on)
 - **Sivakumar SIVAPRAKASAM**: [Rust Collections: DSL Operations on Sequences](https://dev.to/ssivakumar77/rust-collections-dsl-operations-on-sequences-2386)
+
+<Ad />
 
 ## Trending Rust Repositories This Week On Github
 

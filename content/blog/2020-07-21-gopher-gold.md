@@ -7,6 +7,8 @@ tags: go
 
 Go Weekly, a weekly curation for all things Go in one centralised place. Here is your curation for Tue Jul 21 2020.
 
+<Ad />
+
 ## Hot Go Articles This Week On Reddit
 
 - [Go generics will use square brackets [] not parenthesis ()](https://www.reddit.com/r/golang/comments/hrce8e/go_generics_will_use_square_brackets_not/) (6 days ago)
@@ -14,6 +16,8 @@ Go Weekly, a weekly curation for all things Go in one centralised place. Here is
 - [GoLand 2020.2 hits Beta with experimental support for generics a.k.a. type parameters](https://www.reddit.com/r/golang/comments/hsgx4r/goland_20202_hits_beta_with_experimental_support/) (4 days ago)
 - [Static code analyzer for TODO comments, written in Go](https://www.reddit.com/r/golang/comments/htkvik/static_code_analyzer_for_todo_comments_written_in/) (2 days ago)
 - [Benchmarking gRPC in Rust & Go](https://www.reddit.com/r/golang/comments/hs7rp4/benchmarking_grpc_in_rust_go/) (4 days ago)
+
+<Ad />
 
 ## Go Articles This Week On Dev.To
 
@@ -50,6 +54,8 @@ Go Weekly, a weekly curation for all things Go in one centralised place. Here is
 - **Steve Baros**: [What is the best Stack for Backend ?](https://dev.to/stevebaros/what-is-the-best-stack-for-backend-g3b)
 - **Jurica Kenda**: [Godfatherr](https://dev.to/juricakenda/godfatherr-1bpj)
 
+<Ad />
+
 ## Trending Go Repositories This Week On Github
 
 - **aws/copilot-cli** (Go): [The AWS Copilot CLI is a tool for developers to build, release and operate production ready containerized applications on Amazon ECS and AWS Fargate.](https://github.com/aws/copilot-cli)
@@ -77,6 +83,8 @@ Go Weekly, a weekly curation for all things Go in one centralised place. Here is
 - **wxbool/video-srt-windows** (Go): [这是一个可以识别视频语音自动生成字幕 SRT 文件的开源 Windows-GUI 软件工具。](https://github.com/wxbool/video-srt-windows)
 - **nats-io/nats-server** (Go): [High-Performance server for NATS, the cloud native messaging system.](https://github.com/nats-io/nats-server)
 - **moby/moby** (Go): [Moby Project - a collaborative project for the container ecosystem to assemble container-based systems](https://github.com/moby/moby)
+
+<Ad />
 
 ## Topics from the Weekly Go Forum
 

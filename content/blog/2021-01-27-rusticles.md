@@ -6,6 +6,8 @@ date: "2021-01-27"
 
 Rusticles weekly curation for Wed Jan 27 2021.
 
+<Ad />
+
 ## Rust Articles This Week On Dev.To
 
 - **Dylan Anthony**: [Replacing FastAPI with Rust: Part 4 - A Solution](https://dev.to/dbanty/replacing-fastapi-with-rust-part-4-a-solution-2kf9)
@@ -25,6 +27,8 @@ Rusticles weekly curation for Wed Jan 27 2021.
 - **Kang-min Liu**: [Solving Perl Weekly Challenge 096 -- Reverse Words and Edit distance.](https://dev.to/gugod/solving-perl-weekly-challenge-096-reverse-words-and-edit-distance-42lk)
 - **Jean-Noël**: [Rust : ce langage natif et puissant](https://dev.to/younup/rust-ce-langage-natif-et-puissant-4d8)
 - **Distributed Hunter Trujillo**: [Seeing the Forest through the trees](https://dev.to/cryptoquick/seeing-the-forest-through-the-trees-25md)
+
+<Ad />
 
 ## Trending Rust Repositories This Week On Github
 

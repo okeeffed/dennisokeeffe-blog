@@ -6,6 +6,8 @@ date: "2020-06-22"
 
 This post will show you how to setup Tmuxinator help you run complex local setups. We will run a contrived example first, because running something basic with some Nodejs scripts.
 
+<Ad />
+
 ## Getting started
 
 We need to install bot [Tmux](https://github.com/tmux/tmux) and [Tmuxinator](https://github.com/tmuxinator/tmuxinator) for this setup. I will use Brew, but if you require an alternative, check the documentation.
@@ -16,6 +18,8 @@ brew install tmuxinator
 ```
 
 Now that these are install
+
+<Ad />
 
 ## Example setup
 
@@ -51,6 +55,8 @@ Once we have this file saved, we can use `tmuxinator start example` to get our T
 We can run `tmux kill-session -t example` to now end the session from a terminal pane.
 
 > As for navigation, the default for Tmux is to use `Ctrl + b`, then the action button. For example, to change between panes, you can use `Ctrl + b, arrow-key`. A list of handy tips can be found [here](https://tmuxcheatsheet.com/).
+
+<Ad />
 
 ## Making a slightly-less contrived example
 
@@ -94,11 +100,15 @@ If we run `tmuxinator start example` again, we can see that we successfully mana
 
 This stands in place as a simple example, but you could start to see how this can be used when dealing with multiple microservices or require resources to be run during local development.
 
+<Ad />
+
 ## Conclusion
 
 This has been a very basic example, but it can be extended as much as you would like.
 
 If you are looking for alternatives to help with local development, I also recommend to check out tools such as Foreman or Kubernetes. Each come with their own tradeoffs and use cases, but I will leave it to you to decide the right tool for the job.
+
+<Ad />
 
 ## Resources and Further Reading
 

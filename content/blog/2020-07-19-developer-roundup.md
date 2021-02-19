@@ -6,6 +6,8 @@ date: "2020-07-19"
 
 Here is your update from across the web for the week of 2020-07-19.
 
+<Ad />
+
 ## Trending This Week On Github
 
 - **Dimillian/RedditOS** (Swift): [A SwiftUI Reddit client for macOS Big Sur](https://github.com/Dimillian/RedditOS)
@@ -33,6 +35,8 @@ Here is your update from across the web for the week of 2020-07-19.
 - **smartcontractkit/chainlink** (Go): [node of the decentralized oracle network, bridging on and off-chain computation](https://github.com/smartcontractkit/chainlink)
 - **gothinkster/realworld** (JavaScript): ["The mother of all demo apps" — Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more 🏅](https://github.com/gothinkster/realworld)
 - **protocolbuffers/protobuf** (C++): [Protocol Buffers - Google's data interchange format](https://github.com/protocolbuffers/protobuf)
+
+<Ad />
 
 ## Trending This Week On Dev.To
 
@@ -71,6 +75,8 @@ Here is your update from across the web for the week of 2020-07-19.
 - **Hemant Joshi 😼**: [#showdevMy First Interview, As a Junior Developer🎉](https://dev.to/hemant/my-first-interview-as-a-junior-developer-18f6)
 - **Mahmoud Ashraf Mahmoud**: [Stop repeating work and Start coding your express API 🚀](https://dev.to/uptotec/stop-repeating-work-and-start-coding-your-express-api-39l1)
 - **Michael Hoffmann**: [How I Built A Self-Updating README On My Github Profile](https://dev.to/mokkapps/how-i-built-a-self-updating-readme-on-my-github-profile-418d)
+
+<Ad />
 
 ## Trending This Week On Hacker News
 

@@ -6,6 +6,8 @@ description: An introduction to what EKS is.
 
 This is more of a basic theory section to understand how EKS works.
 
+<Ad />
+
 ## Pricing
 
 USD$0.20 per hours for each EKS cluster you make. That's ~USD$144/month.
@@ -18,6 +20,8 @@ You pay normally for all the other resources related to running your apps:
 - Load balancers
 
 Check online for if pricing ever changes.
+
+<Ad />
 
 ## EKS Control Place
 
@@ -33,6 +37,8 @@ Our local `kubectl` will talk directly to EKS.
 
 - Single tenant (you do not share it with other customers)
 - Made of native AWS component (EC2, ELB, ASG, NLB, VPC)
+
+<Ad />
 
 ## EKS Networking
 

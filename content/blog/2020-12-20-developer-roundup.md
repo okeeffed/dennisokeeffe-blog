@@ -7,6 +7,8 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/xg2dgz5vcfhp0zqp92hk.png
 
 Developer roundup from across the web for the week of 2020-12-20.
 
+<Ad />
+
 ## Trending This Week On Github
 
 - **jwasham/coding-interview-university** : [A complete computer science study plan to become a software engineer.](https://github.com/jwasham/coding-interview-university)
@@ -34,6 +36,8 @@ Developer roundup from across the web for the week of 2020-12-20.
 - **pythonstock/stock** (Python): [stock，股票系统。使用python进行开发。](https://github.com/pythonstock/stock)
 - **trekhleb/javascript-algorithms** (JavaScript): [📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings](https://github.com/trekhleb/javascript-algorithms)
 - **alibaba/easyexcel** (Java): [快速、简单避免OOM的java处理Excel工具](https://github.com/alibaba/easyexcel)
+
+<Ad />
 
 ## Trending This Week On Dev.To
 
@@ -72,6 +76,8 @@ Developer roundup from across the web for the week of 2020-12-20.
 - **Hardik Chopra**: [Cool Extensions for VS Code](https://dev.to/hardikchopra242/cool-extensions-for-vs-code-48jc)
 - **bravemaster619**: [How to use socket.io-client correctly in React app](https://dev.to/bravemaster619/how-to-use-socket-io-client-correctly-in-react-app-o65)
 - **Jaagrav**: [5 APIs to inspire you for your next project](https://dev.to/jaagrav/5-apis-to-inspire-you-for-your-next-project-1g8b)
+
+<Ad />
 
 ## Trending This Week On Hacker News
 

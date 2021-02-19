@@ -6,6 +6,8 @@ date: "2020-06-29"
 
 Here is your update from across the web for the week of 2020-06-29.
 
+<Ad />
+
 ## Trending This Week On Github
 
 - **tg-bomze/Face-Depixelizer** (Jupyter Notebook): [Face Depixelizer based on "PULSE: Self-Supervised Photo Upsampling via Latent Space Exploration of Generative Models" repository.](https://github.com/tg-bomze/Face-Depixelizer)
@@ -33,6 +35,8 @@ Here is your update from across the web for the week of 2020-06-29.
 - **google/jax** (Python): [Composable transformations of Python+NumPy programs: differentiate, vectorize, JIT to GPU/TPU, and more](https://github.com/google/jax)
 - **airbnb/HorizonCalendar** (Swift): [A declarative, performant, iOS calendar UI component that supports use cases ranging from simple date pickers all the way up to fully-featured calendar apps.](https://github.com/airbnb/HorizonCalendar)
 - **xkcoding/spring-boot-demo** (Java): [spring boot demo 是一个用来深度学习并实战 spring boot 的项目，目前总共包含 65 个集成demo，已经完成 53 个。 该项目已成功集成 actuator(监控)、admin(可视化监控)、logback(日志)、aopLog(通过AOP记录web请求日志)、统一异常处理(json级别和页面级别)、freemarker(模板引擎)、thymeleaf(模板引擎)、Beetl(模板引擎)、Enjoy(模板引擎)、JdbcTemplate(通用JDBC操作数据库)、JPA(强大的ORM框架)、mybatis(强大的ORM框架)、通用Mapper(快速操作Mybatis)、PageHelper(通用的Mybatis分页插件)、mybatis-plus(快速操作M…](https://github.com/xkcoding/spring-boot-demo)
+
+<Ad />
 
 ## Trending This Week On Dev.To
 
@@ -71,6 +75,8 @@ Here is your update from across the web for the week of 2020-06-29.
 - **Ben Halpern**: [Everything Addy Osmani Hates About JavaScript](https://dev.to/ben/everything-addy-osmani-hates-about-javascript-5cb)
 - **Muhammad Ali (Nerdjfpb)**: [15 React JS Project Ideas: Beginner to Expert [With Free tutorial]](https://dev.to/nerdjfpb/15-react-js-project-ideas-beginner-to-expert-with-free-tutorial-f41)
 - **Slobodan Stojanović**: [What problems does serverless solve?](https://dev.to/aws-heroes/what-problems-does-serverless-solve-1fg6)
+
+<Ad />
 
 ## Trending This Week On Hacker News
 

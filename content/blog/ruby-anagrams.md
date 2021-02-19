@@ -6,6 +6,8 @@ description: Ruby implementation of comparing two strings to check if they are a
 
 This requires the gem installation of `minitest`.
 
+<Ad />
+
 ## Test file
 
 Create file `anagrams_test.rb`:
@@ -51,6 +53,8 @@ end
 __END__
 ```
 
+<Ad />
+
 ## Anagrams
 
 Create file `anagrams.rb`:
@@ -62,6 +66,8 @@ class Anagrams
     end
 end
 ```
+
+<Ad />
 
 ## Testing
 

@@ -6,6 +6,8 @@ description: PHP implementation of comparing two strings to check if they are an
 
 This expects an installation on the system of `phpunit`.
 
+<Ad />
+
 ## Test File
 
 Create `anagrams_test.php`:
@@ -43,6 +45,8 @@ class AnagramsTest extends PHPUnit\Framework\TestCase
 }
 ```
 
+<Ad />
+
 ## Anagrams
 
 Create `anagrams.php`:
@@ -69,6 +73,8 @@ function anagrams($a, $b)
     return $resA == $resB;
 }
 ```
+
+<Ad />
 
 ## Running Tests
 

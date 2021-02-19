@@ -7,6 +7,8 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/xg2dgz5vcfhp0zqp92hk.png
 
 Developer roundup from across the web for the week of 2020-11-29.
 
+<Ad />
+
 ## Trending This Week On Github
 
 - **alyssaxuu/screenity** (JavaScript): [The most powerful screen recorder & annotation tool for Chrome 🎥](https://github.com/alyssaxuu/screenity)
@@ -34,6 +36,8 @@ Developer roundup from across the web for the week of 2020-11-29.
 - **ethereum-mining/ethminer** (C++): [Ethereum miner with OpenCL, CUDA and stratum support](https://github.com/ethereum-mining/ethminer)
 - **tailwindlabs/tailwindcss** (CSS): [A utility-first CSS framework for rapid UI development.](https://github.com/tailwindlabs/tailwindcss)
 - **facebook/ent** (Go): [An entity framework for Go](https://github.com/facebook/ent)
+
+<Ad />
 
 ## Trending This Week On Dev.To
 
@@ -72,6 +76,8 @@ Developer roundup from across the web for the week of 2020-11-29.
 - **Aaron Wolf**: [11 Reasons I love Linux, and 1 why I don't](https://dev.to/wolfmath/11-reasons-i-love-linux-and-1-why-i-don-t-m1f)
 - **Amy Shackles**: [Why Is {} > [] ?](https://dev.to/amyshackles/why-is-2hkk)
 - **stereobooster**: [Dev.to posts quality](https://dev.to/stereobooster/dev-to-posts-quality-1j8a)
+
+<Ad />
 
 ## Trending This Week On Hacker News
 

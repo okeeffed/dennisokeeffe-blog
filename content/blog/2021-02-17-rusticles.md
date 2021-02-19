@@ -6,6 +6,8 @@ date: "2021-02-17"
 
 Rusticles weekly curation for Wed Feb 17 2021.
 
+<Ad />
+
 ## Rust Articles This Week On Dev.To
 
 - **João Henrique Machado Silva**: [What would SQLite look like if written in Rust? — Part 1](https://dev.to/joaoh82/what-would-sqlite-look-like-if-written-in-rust-part-1-2np4)
@@ -17,6 +19,8 @@ Rusticles weekly curation for Wed Feb 17 2021.
 - **Brandon Minor**: [RSBadges: Create Code Badges in Rust](https://dev.to/tangramvision/rsbadges-create-code-badges-in-rust-2ke0)
 - **Jakub Barszczewski**: [Rust CLI Game of Life tutorial - PART 2](https://dev.to/jbarszczewski/rust-cli-game-of-life-tutorial-part-2-16j3)
 - **YJDoc2**: [Make a Combined Library and Binary Project in Rust](https://dev.to/yjdoc2/make-a-combined-library-and-binary-project-in-rust-d4f)
+
+<Ad />
 
 ## Trending Rust Repositories This Week On Github
 

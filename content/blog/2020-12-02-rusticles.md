@@ -6,12 +6,16 @@ date: "2020-12-02"
 
 Rusticles weekly curation for Wed Dec 02 2020.
 
+<Ad />
+
 ## Hot Rust Articles This Week On Reddit
 
 - [Iced, a cross-platform GUI library — New release featuring canvas interactivity, overlay support, a renderer alternative, and more!](https://www.reddit.com/r/rust/comments/k1hkxq/iced_a_crossplatform_gui_library_new_release/) (5 days ago)
 - [Modern storage is plenty fast. It is the APIs that are bad.](https://www.reddit.com/r/rust/comments/k16j6x/modern_storage_is_plenty_fast_it_is_the_apis_that/) (6 days ago)
 - [Announcing Rustup 1.23.0](https://www.reddit.com/r/rust/comments/k22wbb/announcing_rustup_1230/) (4 days ago)
 - [breadx, a mutex-free, #![forbid(unsafe_code)] implementation of the X Window System Protocol](https://www.reddit.com/r/rust/comments/k4adad/breadx_a_mutexfree_forbidunsafe_code/) (1 day ago)
+
+<Ad />
 
 ## Rust Articles This Week On Dev.To
 
@@ -21,6 +25,8 @@ Rusticles weekly curation for Wed Dec 02 2020.
 - **Steve Pryde**: [Using Selenium with Rust](https://dev.to/stevepryde/using-selenium-with-rust-aca)
 - **Davide Del Papa**: [Rocket Tutorial 04: Data Persistency and Rocket (with MongoDB)](https://dev.to/davidedelpapa/rocket-tutorial-04-data-persistency-and-rocket-with-mongodb-e5j)
 - **Christian Melendez**: [Getting Started with Okteto and Rust](https://dev.to/christianmldz/getting-started-with-okteto-and-rust-24l)
+
+<Ad />
 
 ## Trending Rust Repositories This Week On Github
 

@@ -7,11 +7,15 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/qs7o2ag8vzo0uborgc7v.png
 
 Gopher Gold weekly curation for Wed Sep 30 2020.
 
+<Ad />
+
 ## Hot Go Articles This Week On Reddit
 
 - [I just finished and released v1.0 of my programming language, written entirely in Go! I have no idea how to properly write a language but I gave it my best shot](https://www.reddit.com/r/golang/comments/izgz5w/i_just_finished_and_released_v10_of_my/) (4 days ago)
 - [GoLand 2020.3 Early Access Program Is Starting! Make goroutines dumps, initial support for table tests, upgrades for Testify support and code completion, UI improvements, and more!](https://www.reddit.com/r/golang/comments/izo4nu/goland_20203_early_access_program_is_starting/) (4 days ago)
 - [Wrote an article/tutorial on Concurrency. Beginner Friendly!](https://www.reddit.com/r/golang/comments/j1xij2/wrote_an_articletutorial_on_concurrency_beginner/) (20 hours ago)
+
+<Ad />
 
 ## Go Articles This Week On Dev.To
 
@@ -56,6 +60,8 @@ Gopher Gold weekly curation for Wed Sep 30 2020.
 - **serverlessgolang**: [VirtualBox for Learning a New Language](https://dev.to/serverlessgolang/virtualbox-for-learning-a-new-language-1g6l)
 - **Aman Agrawal**: [Different ways to use environment variables in Golang](https://dev.to/loginradius/different-ways-to-use-environment-variables-in-golang-cg6)
 
+<Ad />
+
 ## Trending Go Repositories This Week On Github
 
 - **ianmarmour/nvidia-clerk** (Go): [A cross-platform go bot that tracks for availability of stock from Nvidia's store and adds a cart to your checkout.](https://github.com/ianmarmour/nvidia-clerk)
@@ -83,6 +89,8 @@ Gopher Gold weekly curation for Wed Sep 30 2020.
 - **prometheus-operator/prometheus-operator** (Go): [Prometheus Operator creates/configures/manages Prometheus clusters atop Kubernetes](https://github.com/prometheus-operator/prometheus-operator)
 - **terraform-providers/terraform-provider-aws** (Go): [Terraform AWS provider](https://github.com/terraform-providers/terraform-provider-aws)
 - **terraform-providers/terraform-provider-azurerm** (Go): [Terraform provider for Azure Resource Manager](https://github.com/terraform-providers/terraform-provider-azurerm)
+
+<Ad />
 
 ## Topics from the Weekly Go Forum
 

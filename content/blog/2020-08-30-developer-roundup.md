@@ -7,6 +7,8 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/xg2dgz5vcfhp0zqp92hk.png
 
 Here is your update from across the web for the week of 2020-08-30.
 
+<Ad />
+
 ## Trending This Week On Github
 
 - **android/compose-samples** (Kotlin): [undefined](https://github.com/android/compose-samples)
@@ -34,6 +36,8 @@ Here is your update from across the web for the week of 2020-08-30.
 - **nalexn/clean-architecture-swiftui** (Swift): [A demo project showcasing the production setup of the SwiftUI app with Clean Architecture](https://github.com/nalexn/clean-architecture-swiftui)
 - **python/mypy** (Python): [Optional static typing for Python 3 and 2 (PEP 484)](https://github.com/python/mypy)
 - **geekxh/hello-algorithm** (Java): [🌍 东半球最酷的学习项目 | 1、我写的三十万字算法图解 2、千本开源电子书 3、100 张思维导图 4、100 篇大厂面经 5、30 个学习专题 🚀 🚀 🚀 右上角点个 star，加入我们万人学习群！English Supported！](https://github.com/geekxh/hello-algorithm)
+
+<Ad />
 
 ## Trending This Week On Dev.To
 
@@ -72,6 +76,8 @@ Here is your update from across the web for the week of 2020-08-30.
 - **abhiprojectz**: [Top web tools collection ever!](https://dev.to/abhiprojectz/top-web-tools-collection-ever-lg9)
 - **Victor de la Fouchardière**: [🍿 Publish your own ESLint / Prettier config for React Projects on NPM 📦](https://dev.to/viclafouch/publish-your-own-eslint-prettier-config-for-react-projects-on-npm-g3p)
 - **Jun Kaneko**: [Understanding React Native Architecture](https://dev.to/goodpic/understanding-react-native-architecture-22hh)
+
+<Ad />
 
 ## Trending This Week On Hacker News
 

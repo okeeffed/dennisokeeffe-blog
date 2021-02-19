@@ -7,6 +7,8 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/xg2dgz5vcfhp0zqp92hk.png
 
 Here is your update from across the web for the week of 2020-09-13.
 
+<Ad />
+
 ## Trending This Week On Github
 
 - **openjdk/jdk** (Java): [JDK main-line development](https://github.com/openjdk/jdk)
@@ -34,6 +36,8 @@ Here is your update from across the web for the week of 2020-09-13.
 - **forezp/SpringCloudLearning** (Java): [《史上最简单的Spring Cloud教程源码》](https://github.com/forezp/SpringCloudLearning)
 - **zhanwen/MathModel** (TeX): [研究生数学建模，本科生数学建模、数学建模竞赛优秀论文，数学建模算法，LaTeX论文模板，算法思维导图，参考书籍，Matlab软件教程，PPT](https://github.com/zhanwen/MathModel)
 - **OpenZeppelin/openzeppelin-contracts** (JavaScript): [OpenZeppelin Contracts is a library for secure smart contract development.](https://github.com/OpenZeppelin/openzeppelin-contracts)
+
+<Ad />
 
 ## Trending This Week On Dev.To
 
@@ -72,6 +76,8 @@ Here is your update from across the web for the week of 2020-09-13.
 - **Ido Shamun**: [My 5 Practical CSS Tips](https://dev.to/dailydotdev/my-5-practical-css-tips-1ilj)
 - **Ishan Bagchi**: [How to write a clean code.](https://dev.to/ishanbagchi/how-to-write-a-clean-code-548m)
 - **Ceora Ford**: [Never Get an Unexpected AWS Bill Again!](https://dev.to/ceeoreo/never-get-an-unexpected-aws-bill-again-5526)
+
+<Ad />
 
 ## Trending This Week On Hacker News
 

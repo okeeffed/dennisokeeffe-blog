@@ -6,6 +6,8 @@ description: The classic FizzBuzz implementation in Ruby with Unit Testing.
 
 This requires the gem installation of `minitest`.
 
+<Ad />
+
 ## Test file
 
 Create file `fizz_buzz_test.rb`:
@@ -50,6 +52,8 @@ end
 __END__
 ```
 
+<Ad />
+
 ## FizzBuzz
 
 Create file `fizz_buzz.rb`:
@@ -70,6 +74,8 @@ class FizzBuzz
     end
 end
 ```
+
+<Ad />
 
 ## Testing
 

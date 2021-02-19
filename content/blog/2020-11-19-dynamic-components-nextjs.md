@@ -11,6 +11,8 @@ Dynamic imports are incredible and can be such an important tool in the toolkit.
 
 In this post I will show you can dynamically create UIs based on React State using dynamic imports, Next.js 10 and React State.
 
+<Ad />
+
 ## Setting up
 
 We will use a simple `create-next-app` for this template.
@@ -24,6 +26,8 @@ mkdir components
 # Make file to house exported components
 touch components/Hello.js
 ```
+
+<Ad />
 
 ## Adding the components to be dynamically exported
 
@@ -44,6 +48,8 @@ export function Goodbye({ name }) {
 ```
 
 The above is simple enough. `<Hello name="world" />` would return `<p>Hello, world!</p>`. Similar for the `Goodbye` component.
+
+<Ad />
 
 ## Updating the index page
 
@@ -100,6 +106,8 @@ We are doing the following here:
 
 I am keeping things incredibly simple above, so the helper closure functions will set the name props for us but you can be more creative in your own work.
 
+<Ad />
+
 ## Seeing the dynamic imports in action
 
 Run `npm run dev` from the command line to start our app in development mode.
@@ -113,6 +121,8 @@ The page itself is pretty bare, but once we start clicking some buttons we can s
 ![After pressing buttons](../assets/2020-11-19-2-after-dynamic-imports.png)
 
 It took us only a few lines, but we can see how components can be required at run time. It is super impressive what you can do with dynamic imports and hopefully you will begin to make the most of using this feature.
+
+<Ad />
 
 ## Resources and further reading
 

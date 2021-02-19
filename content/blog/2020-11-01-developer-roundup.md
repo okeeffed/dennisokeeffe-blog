@@ -7,6 +7,8 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/xg2dgz5vcfhp0zqp92hk.png
 
 Developer roundup from across the web for the week of 2020-11-01.
 
+<Ad />
+
 ## Trending This Week On Github
 
 - **MrS0m30n3/youtube-dl-gui** (Python): [A cross platform front-end GUI of the popular youtube-dl written in wxPython.](https://github.com/MrS0m30n3/youtube-dl-gui)
@@ -34,6 +36,8 @@ Developer roundup from across the web for the week of 2020-11-01.
 - **3b1b/manim** (Python): [Animation engine for explanatory math videos](https://github.com/3b1b/manim)
 - **paritytech/substrate** (Rust): [Substrate: The platform for blockchain innovators](https://github.com/paritytech/substrate)
 - **google-research/google-research** (Jupyter Notebook): [Google Research](https://github.com/google-research/google-research)
+
+<Ad />
 
 ## Trending This Week On Dev.To
 
@@ -73,6 +77,8 @@ Developer roundup from across the web for the week of 2020-11-01.
 - **Skyler Hartle**: [Going from 0 to 11 with REST APIs on Azure Functions](https://dev.to/azure/going-from-0-to-11-with-rest-apis-on-azure-functions-f2n)
 - **Lynne**: [My Online Portfolio](https://dev.to/lynnecodes/my-online-portfolio-436m)
 - **gmlunesa**: [How I developed and deployed my optimized website within a day](https://dev.to/gmlunesa/how-i-developed-and-deployed-my-optimized-website-within-a-day-357l)
+
+<Ad />
 
 ## Trending This Week On Hacker News
 

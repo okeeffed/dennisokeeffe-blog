@@ -7,6 +7,8 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/xg2dgz5vcfhp0zqp92hk.png
 
 Developer roundup from across the web for the week of 2020-11-15.
 
+<Ad />
+
 ## Trending This Week On Github
 
 - **facebookresearch/pifuhd** (Python): [High-Resolution 3D Human Digitization from A Single Image.](https://github.com/facebookresearch/pifuhd)
@@ -34,6 +36,8 @@ Developer roundup from across the web for the week of 2020-11-15.
 - **ish-app/ish** (C): [Linux shell for iOS](https://github.com/ish-app/ish)
 - **iv-org/invidious** (Crystal): [Invidious is an alternative front-end to YouTube](https://github.com/iv-org/invidious)
 - **ethereum/go-ethereum** (Go): [Official Go implementation of the Ethereum protocol](https://github.com/ethereum/go-ethereum)
+
+<Ad />
 
 ## Trending This Week On Dev.To
 
@@ -72,6 +76,8 @@ Developer roundup from across the web for the week of 2020-11-15.
 - **Juan F Gonzalez**: [Level up your Git workflow](https://dev.to/dailydotdev/level-up-your-git-workflow-3jio)
 - **Suraj Vishwakarma**: [5 Color Inspiration Website You Should Bookmark](https://dev.to/surajsrv11/5-color-inspiration-website-you-should-bookmark-37cm)
 - **Aharon Hyman**: [Why I will no longer be using console.log() to check React state updates](https://dev.to/hymanaharon/why-i-will-no-longer-be-using-console-log-to-check-react-state-updates-29el)
+
+<Ad />
 
 ## Trending This Week On Hacker News
 

@@ -7,6 +7,8 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/xg2dgz5vcfhp0zqp92hk.png
 
 Developer roundup from across the web for the week of 2021-01-31.
 
+<Ad />
+
 ## Trending This Week On Github
 
 - **pavlobu/deskreen** (TypeScript): [Deskreen turns any device with a web browser into a secondary screen for your computer](https://github.com/pavlobu/deskreen)
@@ -34,6 +36,8 @@ Developer roundup from across the web for the week of 2021-01-31.
 - **microsoft/DeepSpeed** (Python): [DeepSpeed is a deep learning optimization library that makes distributed training easy, efficient, and effective.](https://github.com/microsoft/DeepSpeed)
 - **qutebrowser/qutebrowser** (Python): [A keyboard-driven, vim-like browser based on PyQt5.](https://github.com/qutebrowser/qutebrowser)
 - **brave/brave-browser** (JavaScript): [Next generation Brave browser for Android, Linux, macOS, Windows.](https://github.com/brave/brave-browser)
+
+<Ad />
 
 ## Trending This Week On Dev.To
 
@@ -87,6 +91,8 @@ Developer roundup from across the web for the week of 2021-01-31.
 - **Eevis (she/her)**: [5 Things I've Learned as a Female Developer](https://dev.to/eevajonnapanula/5-things-i-ve-learned-as-a-female-developer-p19)
 - **Tobias Günther**: [Become a Better Programmer: 5 Essential Methods at a Glance](https://dev.to/gittower/become-a-better-programmer-5-essential-methods-at-a-glance-25bh)
 - **Paymon Wang Lotfi**: [A Complete Guide to Creating a Chrome Extension](https://dev.to/paymon123/a-complete-guide-to-creating-a-chrome-extension-4a87)
+
+<Ad />
 
 ## Trending This Week On Hacker News
 

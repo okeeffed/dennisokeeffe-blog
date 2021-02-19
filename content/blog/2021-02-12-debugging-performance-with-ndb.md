@@ -11,6 +11,8 @@ It enables some of the best features of Chrome DevTools to become an ally when d
 
 In a previous blog post, we went through debugging through VSCode. In this post, I will show how the profiler from ndb can help you identify and address bottlenecks where possible.
 
+<Ad />
+
 ## Getting started
 
 Install ndb globally, initialise a new project and create a new file for the example:
@@ -36,6 +38,8 @@ Inside of `package.json`, update the scripts to include a `start` script:
   // ... omitted
 }
 ```
+
+<Ad />
 
 ## Our first example
 
@@ -71,6 +75,8 @@ On the left-hand panel under `NPM Scripts`, you will see our `start` script is a
 On the profiler, it shows us the two different call stacks under `calcFibonacci40`, with the two largest `expensiveCalc` directly underneath being the two calls that we made from `calcFibonacci40`. Both cost me 1.49 seconds on this hardware each! In fact, as our code is at the moment, if we continually call `calcFibonacci40`, that expensive calculation will always be recalculated!
 
 So what can we do? We will memoise the function.
+
+<Ad />
 
 ## Memoizing the function
 
@@ -135,6 +141,8 @@ This is our memoisation at work! Since we are continually passing the same argum
 
 We can actually see the while the first call took 1.49 seconds, the remaining 99 calls took a total of 14.69ms! As far as performance goes, this is a great success!
 
+<Ad />
+
 ## Summary
 
 In today's post, we installed ndb and used to help profile and pinpoint expensive calculations.
@@ -142,6 +150,8 @@ In today's post, we installed ndb and used to help profile and pinpoint expensiv
 Finally, we ended by memoizing the function and visually seeing our improvements!
 
 ndb is a great debugging tool to add to your tool belt, particularly when debugging performance and memory issues.
+
+<Ad />
 
 ## Resources and further reading
 

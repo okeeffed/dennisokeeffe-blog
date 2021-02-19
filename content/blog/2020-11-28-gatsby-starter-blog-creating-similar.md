@@ -13,6 +13,8 @@ This post requires that you have globally installed the `gatsby` CLI tool.
 
 I will walk through the solution using the [Gatsby Starter Blog(https://github.com/gatsbyjs/gatsby-starter-blog) template.
 
+<Ad />
+
 ## Getting started
 
 Use the Gatsby command provided from the [quick start docs](https://github.com/gatsbyjs/gatsby-starter-blog) to get a basic repo up and running:
@@ -23,6 +25,8 @@ gatsby new blog-with-similar-section https://github.com/gatsbyjs/gatsby-starter-
 ```
 
 This will add a new Gatsby starter to the `blog-with-similar-section` folder.
+
+<Ad />
 
 ## Preparing the articles for the new related articles component
 
@@ -41,6 +45,8 @@ Finally, I just copy-pasted the `content/blog/new-beginnings` folder, renamed it
 With that, we are ready to start up our development environment running `npm start` and get going!
 
 > Note: once you start with `npm start`, your site should be live on `localhost:8000`. If for whatever reason you have issues where the page constantly reloads (like I did) then an interim solution is to go to `127.0.0.1:8000` instead.
+
+<Ad />
 
 ## The related component
 
@@ -166,6 +172,8 @@ This component does the following:
 
 There is not too much to this, but that is all we need there.
 
+<Ad />
+
 ## Adding to our blog post component
 
 Inside of `src/templates/blog-post.js`, we need to import our component with `import RelatedArticles from "../components/related"` at the top and I've added `<RelatedArticles tags={post.frontmatter.tags && post.frontmatter.tags.split(",")} limit={10} title={post.frontmatter.title} />` to the render method.
@@ -218,6 +226,8 @@ export const pageQuery = graphql`
 
 With all of this code in, we can see our results.
 
+<Ad />
+
 ## Viewing the results
 
 If we head to our first "Hello, World!" post, we can now see that we have our related section showing the two posts that share a tag:
@@ -232,11 +242,15 @@ Finally, heading to our unrelated post will show nothing related:
 
 ![Unrelated](../assets/2020-11-28-3-unrelated.jpg)
 
+<Ad />
+
 ## Conclusion
 
 In today's post, we added a quick, pragmatic solution to adding in a "related posts" section to each blog post.
 
 As mentioned in the intro, this is by no means a complete solution, but it is great to add some more "calls-to-action" to your blog page.
+
+<Ad />
 
 ## Resources and further reading
 

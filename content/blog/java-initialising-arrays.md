@@ -12,6 +12,8 @@ int[] declareArr; // declaration
 int[] withValues = { n.data }; // shorthand init with values
 ```
 
+<Ad />
+
 ## Push, pop, shift, unshift
 
 This requires the use of `List` and `ArrayList`

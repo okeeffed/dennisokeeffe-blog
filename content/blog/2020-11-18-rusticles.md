@@ -6,6 +6,8 @@ date: "2020-11-18"
 
 Rusticles weekly curation for Wed Nov 18 2020.
 
+<Ad />
+
 ## Rust Articles This Week On Dev.To
 
 - **K**: [Intro to Yew, a Rust Frontend Framework](https://dev.to/fllstck/intro-to-yew-a-rust-frontend-framework-20hb)
@@ -14,6 +16,8 @@ Rusticles weekly curation for Wed Nov 18 2020.
 - **Davide Del Papa**: [Rocket Tutorial 03: Proper routing](https://dev.to/davidedelpapa/rocket-tutorial-03-proper-routing-4ch3)
 - **manasmithamn**: [missed hacktober challenge this year](https://dev.to/manasmithamn/missed-hacktober-challenge-this-year-26mg)
 - **T.J. Telan**: [Rust in 2021](https://dev.to/tjtelan/rust-in-2021-5p6)
+
+<Ad />
 
 ## Trending Rust Repositories This Week On Github
 

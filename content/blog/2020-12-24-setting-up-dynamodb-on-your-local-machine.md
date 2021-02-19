@@ -7,6 +7,8 @@ tags: dynamodb,aws,tutorial,beginner
 
 In this post we will set up DynamoDB for local development and learn how to use the provided UI to explore data we work with.
 
+<Ad />
+
 ## Getting started
 
 Create a new project directory to work within.
@@ -39,6 +41,8 @@ I am going to add that line as a script in the `package.json` file:
   }
 }
 ```
+
+<Ad />
 
 ## First look after running DynamoDB
 
@@ -73,11 +77,15 @@ If we run `aws dynamodb list-tables --endpoint-url http://localhost:8000` we wil
 
 Although we currently have no tables, we have success with setting up!
 
+<Ad />
+
 ## Setting up NoSQL Workbench
 
 AWS also provides a app **NoSQL Workbench** that can operate as a GUI for us to use.
 
 To try it, head to the [NoSQL Workbench installation page](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/workbench.html) and download the application for your system.
+
+<Ad />
 
 ## Adding a Table via the NoSQL Workbench
 
@@ -92,6 +100,8 @@ Now if we run `aws dynamodb list-tables --endpoint-url http://localhost:8000` we
   "TableNames": ["Forum", "Reply", "Thread"]
 }
 ```
+
+<Ad />
 
 ## Running queries with the NoSQL Workbench
 
@@ -123,11 +133,15 @@ As an added bonus, if you select **Generate code**, NoSQL Workbench will even ge
 
 From here, we can plan out our tables and run CRUD operations to test these from within the NoSQL Workbench and our local DynamoDB instance!
 
+<Ad />
+
 ## Conclusion
 
 To recap today's short post, we set up a simple way to run DynamoDB locally from a simple project and then explored the NoSQL Workbench and did a basic **GetItem** request to show how we can connect up our local DynamoDB.
 
 This first post on the topic is short and simple, but you can take parts of it and elaborate ie set global commands to run DynamoDB from anywhere.
+
+<Ad />
 
 ## Resources and Further Reading
 

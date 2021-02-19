@@ -12,11 +12,15 @@ In this entry into Fiber, we will cover installation of Fiber, as well as the ba
 
 It expects that you Golang installed and understand the basics of running Go applications.
 
+<Ad />
+
 ## Installing Fiber
 
 ```s
 go get -u github.com/gofiber/fiber
 ```
+
+<Ad />
 
 ## Running our Hello World
 
@@ -66,6 +70,8 @@ Hello, World 👋!%
 
 We are in business!
 
+<Ad />
+
 ## Using POST requests
 
 Let's add our first basic POST request! In this example, we want to simply pass some data and send it back.
@@ -99,6 +105,8 @@ hello=world%
 ```
 
 Peaches! We get back what we send as expected.
+
+<Ad />
 
 ## Binding the request body to a struct
 
@@ -219,6 +227,8 @@ _____ / /_  / / __ \/ _ \/ ___/   PORT   3000       CORES 8
 
 Nice! Things are up and running!
 
+<Ad />
+
 ## Returning JSON
 
 In the last example today, let's unmarshall the values, edit them a little bit and then return them back as JSON!
@@ -310,6 +320,8 @@ Note: Unnecessary use of -X or --request, POST is already inferred.
 
 There are some intering points that come from here. For starters, apparently I've been using `-X` unnecessarily my whole life (oops). Secondly, we can see that the `Content-Type` we get back with our called it already set to be `application/json` thanks to the `c.JSON` method!
 
+<Ad />
+
 ## Wrap Up
 
 In today's post, we went through the basics with the Fiber library for getting setup, basic GET and POST requests, plus how to handle POST data and return JSON.
@@ -317,6 +329,8 @@ In today's post, we went through the basics with the Fiber library for getting s
 Between this information, you are already in a great position to start building out some wickedly cool APIs. Bring in any other Go knowledge you already have and the world is your oyster!
 
 We'll continue using Fiber in the following blog posts and start getting into handling things like deployments and connecting to databases!
+
+<Ad />
 
 ## Final code
 
@@ -393,6 +407,8 @@ func main() {
   app.Listen(3000)
 }
 ```
+
+<Ad />
 
 ## Resources and Further Reading
 

@@ -6,17 +6,23 @@ description: The tl;dr reminder of how Reselect works for Redux state memoizatio
 
 Quick and dirty implementation of `reselect`. This assumes you already have the requirements for Redux installed and in operation.
 
+<Ad />
+
 ## Links
 
 This link below is a great reference for indepth if you need more than a friendly reminder.
 
 [Dan Parker - Medium article](https://medium.com/@parkerdan/react-reselect-and-redux-b34017f8194c)
 
+<Ad />
+
 ## Installing Reselect
 
 ```bash
 yarn install reselect
 ```
+
+<Ad />
 
 ## Basic Implementation
 

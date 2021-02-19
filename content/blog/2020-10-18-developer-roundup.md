@@ -7,6 +7,8 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/xg2dgz5vcfhp0zqp92hk.png
 
 Developer roundup from across the web for the week of 2020-10-18.
 
+<Ad />
+
 ## Trending This Week On Github
 
 - **v2fly/v2ray-core** (Go): [A platform for building proxies to bypass network restrictions.](https://github.com/v2fly/v2ray-core)
@@ -33,6 +35,8 @@ Developer roundup from across the web for the week of 2020-10-18.
 - **iluwatar/java-design-patterns** (Java): [Design patterns implemented in Java](https://github.com/iluwatar/java-design-patterns)
 - **yuanguangxin/LeetCode** (Java): [LeetCode刷题记录与面试整理](https://github.com/yuanguangxin/LeetCode)
 - **filecoin-project/lotus** (Go): [Implementation of the Filecoin protocol, written in Go](https://github.com/filecoin-project/lotus)
+
+<Ad />
 
 ## Trending This Week On Dev.To
 
@@ -71,6 +75,8 @@ Developer roundup from across the web for the week of 2020-10-18.
 - **Letícia Silva**: [Github Profile: Como fazer?](https://dev.to/dii_lua/github-profile-como-fazer-54o0)
 - **Madza**: [What are your favorite coding challenge sites?](https://dev.to/madza/what-are-your-favorite-coding-challenge-sites-4hlp)
 - **Sylwia Vargas**: [I hit ⚡️ 15k ⚡️ commits through Open Source contributions and it broke Github.](https://dev.to/sylwiavargas/i-hit-15k-commits-through-open-source-contributions-here-s-what-happened-50al)
+
+<Ad />
 
 ## Trending This Week On Hacker News
 

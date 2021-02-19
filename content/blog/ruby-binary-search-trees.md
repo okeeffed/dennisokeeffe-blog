@@ -6,6 +6,8 @@ description: Ruby implementation of a Binary Search Tree.
 
 This requires the gem installation of `minitest`.
 
+<Ad />
+
 ## Test file
 
 Create file `binary_search_trees_test.rb`:
@@ -61,6 +63,8 @@ end
 __END__
 ```
 
+<Ad />
+
 ## BST Implementation
 
 Create file `binary_search_trees.rb`:
@@ -99,6 +103,8 @@ class Node
     end
 end
 ```
+
+<Ad />
 
 ## Testing
 

@@ -12,6 +12,8 @@ The expectations are that you have both Python 3 and `pip3` installed and have y
 
 > The following comes in part from my [documentation website](https://docs.dennisokeeffe.com/manual-stripe-flask-stripe-configuration).
 
+<Ad />
+
 ## Getting Started
 
 ```shell
@@ -23,6 +25,8 @@ pip3 install -U python-dotenv
 touch .env server.py
 ```
 
+<Ad />
+
 ## Setting up .env
 
 Fetch your keys from Stripe and replace the following in the file:
@@ -30,6 +34,8 @@ Fetch your keys from Stripe and replace the following in the file:
 ```shell
 SK_TEST_KEY=sk... # replace sk...
 ```
+
+<Ad />
 
 ## Writing server.py
 
@@ -77,6 +83,8 @@ The above:
 2. Sets the Stripe API key.
 3. Sets a route `/api/charge` that only takes the `POST` method and creates a charge based on the amount we pass.
 
+<Ad />
+
 ## Running the server
 
 `python3 server.py` will start the server on port 5000.
@@ -93,6 +101,8 @@ curl --header "Content-Type: application/json" \
 ```
 
 ![Stripe Dashboard](../assets/2020-06-26-stripe-dashboard.png)
+
+<Ad />
 
 ## Resources and Further Reading
 

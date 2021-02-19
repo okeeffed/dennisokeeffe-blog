@@ -6,6 +6,8 @@ date: "2020-08-02"
 
 Here is your update from across the web for the week of 2020-08-02.
 
+<Ad />
+
 ## Trending This Week On Github
 
 - **shreyashankar/gpt3-sandbox** (JavaScript): [The goal of this project is to enable users to create cool web demos using the newly released OpenAI GPT-3 API with just a few lines of Python.](https://github.com/shreyashankar/gpt3-sandbox)
@@ -32,6 +34,8 @@ Here is your update from across the web for the week of 2020-08-02.
 - **ageron/handson-ml2** (Jupyter Notebook): [A series of Jupyter notebooks that walk you through the fundamentals of Machine Learning and Deep Learning in Python using Scikit-Learn, Keras and TensorFlow 2.](https://github.com/ageron/handson-ml2)
 - **winterbe/java8-tutorial** (Java): [Modern Java - A Guide to Java 8](https://github.com/winterbe/java8-tutorial)
 - **nlohmann/json** (C++): [JSON for Modern C++](https://github.com/nlohmann/json)
+
+<Ad />
 
 ## Trending This Week On Dev.To
 
@@ -70,6 +74,8 @@ Here is your update from across the web for the week of 2020-08-02.
 - **Liviu Lupei**: [12 Extremely Useful Tips for Building a Startup](https://dev.to/liviufromendtest/12-extremely-useful-tips-for-building-a-startup-530i)
 - **lindelof**: [Awesome Web Effect](https://dev.to/lindelof/awesome-web-effect-4598)
 - **Silvia Bogdan**: [#discussHow do you get over bad days?](https://dev.to/cilvako/how-do-you-get-over-bad-days-4mo0)
+
+<Ad />
 
 ## Trending This Week On Hacker News
 

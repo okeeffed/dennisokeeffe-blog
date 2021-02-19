@@ -7,6 +7,8 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/qs7o2ag8vzo0uborgc7v.png
 
 Go Weekly, a weekly curation for all things Go in one centralised place. Here is your curation for Wed Aug 19 2020.
 
+<Ad />
+
 ## Hot Go Articles This Week On Reddit
 
 - [Proposal: Register-based Go calling convention](https://www.reddit.com/r/golang/comments/i8x4xe/proposal_registerbased_go_calling_convention/) (5 days ago)
@@ -14,6 +16,8 @@ Go Weekly, a weekly curation for all things Go in one centralised place. Here is
 - [Create versatile Microservices in Golang - part 1 of 10 part series](https://www.reddit.com/r/golang/comments/iap0gv/create_versatile_microservices_in_golang_part_1/) (2 days ago)
 - [Just released v1.9.0 of glab (a GitLab Cli tool written in golang) with new cool features including WATCHING A RUNNING PIPELINE AND VIEWING A JOB'S TRACE/LOG DIRECTLY FROM YOUR CLI.](https://www.reddit.com/r/golang/comments/ib3rhe/just_released_v190_of_glab_a_gitlab_cli_tool/) (2 days ago)
 - [airscan: Go package to scan paper documents 📄 from a scanner 🖨️ via the network 🕸️ using the Apple AirScan (eSCL) protocol](https://www.reddit.com/r/golang/comments/iascmx/airscan_go_package_to_scan_paper_documents_from_a/) (2 days ago)
+
+<Ad />
 
 ## Go Articles This Week On Dev.To
 
@@ -42,6 +46,8 @@ Go Weekly, a weekly curation for all things Go in one centralised place. Here is
 - **Mohammed Al Ashaal**: [using jQuery-like syntax to scrap websites](https://dev.to/alash3al/using-jquery-like-syntax-to-scrap-websites-db8)
 - **Alestor Aldous**: [So Should I Go For Node Js Or Golang ??](https://dev.to/alestor123/so-should-i-go-for-node-js-or-golang-1l4b)
 
+<Ad />
+
 ## Trending Go Repositories This Week On Github
 
 - **pingcap/tidb** (Go): [TiDB is an open source distributed HTAP database compatible with the MySQL protocol](https://github.com/pingcap/tidb)
@@ -69,6 +75,8 @@ Go Weekly, a weekly curation for all things Go in one centralised place. Here is
 - **moby/moby** (Go): [Moby Project - a collaborative project for the container ecosystem to assemble container-based systems](https://github.com/moby/moby)
 - **asaskevich/govalidator** (Go): [[Go] Package of validators and sanitizers for strings, numerics, slices and structs](https://github.com/asaskevich/govalidator)
 - **rancher/k3s** (Go): [Lightweight Kubernetes](https://github.com/rancher/k3s)
+
+<Ad />
 
 ## Topics from the Weekly Go Forum
 

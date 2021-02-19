@@ -8,6 +8,8 @@ This should cover things like logging, tracing etc.
 
 [This article is a great reference.](https://medium.freecodecamp.org/how-you-can-improve-your-workflow-using-the-javascript-console-bdd7823a9472)
 
+<Ad />
+
 ## Logging
 
 ### Console logging in the browser
@@ -32,6 +34,8 @@ We have a few methods we can use with `console` to help us be more proficient on
 1.  When going through a process across files and functions, attempt to use group to log the process.
 2.  Assertions may also become handy when `if/else` logic is involved for logging purposes.
 3.  Ensure these logs only show when running in a certain environment (ie not in production mode).
+
+<Ad />
 
 ## Practical usage
 
@@ -162,6 +166,8 @@ export default ComponentALLandingFive
 **Note:** In the below gif, the "analytics" logs come from the Emitter module class.
 
 ![Example in action](https://res.cloudinary.com/gitgoodclub/image/upload/v1539219876/gifAnalytics.gif)
+
+<Ad />
 
 ## Other tips and gotchas
 

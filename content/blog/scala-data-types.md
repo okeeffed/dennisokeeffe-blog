@@ -8,6 +8,8 @@ The presumes you have Scala installed on the local system.
 
 This is just the basics on declaring variables in Scala and what data types are available.
 
+<Ad />
+
 ## Declaring Variables
 
 Create file `src/main/scala/Playground.scala` with the following.
@@ -33,6 +35,8 @@ object Playground extends App {
 ```
 
 This still works as the compiler infers the type to be an `Int`.
+
+<Ad />
 
 ## Declaring various types
 

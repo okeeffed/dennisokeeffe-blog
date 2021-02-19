@@ -11,6 +11,8 @@ This means standards set across different languages that are flexible, extensibl
 
 A few of my upcoming posts will looking into some of my spikes that I am doing to as investigation, starting with the `json-schema-to-typescript` library.
 
+<Ad />
+
 ## JSON Schema
 
 What is JSON Schema? Here is a definition from the [JSON Schema Org site](https://json-schema.org/understanding-json-schema/index.html):
@@ -18,6 +20,8 @@ What is JSON Schema? Here is a definition from the [JSON Schema Org site](https:
 > JSON Schema is a powerful tool for validating the structure of JSON data.
 
 The hope is that I can use tooling for JSON schema and [Open API](https://www.openapis.org/) to help with structuring micro-services and providing "cheap" contract testing.
+
+<Ad />
 
 ## Setting up the project
 
@@ -32,6 +36,8 @@ yarn add json-schema-to-typescript jsonschema
 # setup files we will use
 touch index.js book.json
 ```
+
+<Ad />
 
 ## Compiling From Source
 
@@ -73,6 +79,8 @@ main()
 
 This will be all the code we need for our example.
 
+<Ad />
+
 ## The JSON Schema file
 
 For this part, let's model a basic book and a collection. We need to add some schema info the the `book.json` file.
@@ -111,6 +119,8 @@ I won't go too deep into the modelling itself with JSON schema, but these are th
 }
 ```
 
+<Ad />
+
 ## The Book JSON
 
 Let's add some info to our basic `example.json` file that we can test against:
@@ -127,6 +137,8 @@ Let's add some info to our basic `example.json` file that we can test against:
   "publisher": "Real Publisher (definitely not fake)"
 }
 ```
+
+<Ad />
 
 ## Running Our Creation
 
@@ -181,6 +193,8 @@ export interface User {
 ```
 
 Great success! We now have a type for our schema that we can import in.
+
+<Ad />
 
 ## Resources and Further Reading
 

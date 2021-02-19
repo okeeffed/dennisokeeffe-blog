@@ -25,6 +25,8 @@ Hello!
 
 As mentioned by our pal Wikipedia, we can use the `dup2` system call in C to manage a similar thing!
 
+<Ad />
+
 ## A simple example
 
 In our first example, we are going to write a simple example of two variables that open a `foobar.txt` that iterates character by character.
@@ -94,6 +96,8 @@ To explain further what is going on:
 4. Eventually, we read `fd1` once and then we redirect`fd1` to `fd2`.
 5. We read `fd2` one last time, but after redirection the value now reads "o".
 
+<Ad />
+
 ## A more readable example
 
 The above can seem hard to comprehend - it is better playing around with this stuff in C. This example, I decided to use `scanf` to read in from stdin in the second example, because I feel like the example was a little clearer for me.
@@ -159,6 +163,8 @@ In this case, we do the following:
 Hooray! Redirection to stdin is a success (and no segmentation faults).
 
 I will likely redo this exercise in Rust and Golang this week to show the how-to.
+
+<Ad />
 
 ## Resources
 

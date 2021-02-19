@@ -6,6 +6,8 @@ description: Go implementation of a Binary Search Tree.
 
 Binary Search Tree implementation with Golang.
 
+<Ad />
+
 ## Setting up the test
 
 Set up `binary_search_trees_test.go` with the following file to test inserts, retrievals and validations:
@@ -115,6 +117,8 @@ func TestBSTValidate(t *testing.T) {
 }
 ```
 
+<Ad />
+
 ## Binary Search Tree implementation
 
 ```go
@@ -179,6 +183,8 @@ func (n *Node) validate(min *int, max *int) bool {
 	return true
 }
 ```
+
+<Ad />
 
 ## Running Tests
 

@@ -6,6 +6,8 @@ description: What do you do when your content becomes super long?
 
 Have you ever run into the issue of grids breaking when content input is too long? While there are a number of solutions to restraining height on elements, one that I like comes in [Shave from the Dollar Shave Club](https://github.com/dollarshaveclub/shave).
 
+<Ad />
+
 ## Installation
 
 ```bash
@@ -14,6 +16,8 @@ npm install --save shave
 # or yarn
 yarn add shave
 ```
+
+<Ad />
 
 ## Usage
 
@@ -28,6 +32,8 @@ const selector = ".shave"
 const height = 70
 shave(selector, height)
 ```
+
+<Ad />
 
 ## Before vs after
 

@@ -6,6 +6,8 @@ description: Ruby implementation of a basic unidirectional Linked List.
 
 This requires the gem installation of `minitest`.
 
+<Ad />
+
 ## Test file
 
 Create file `linked_list_test.rb`:
@@ -56,6 +58,8 @@ end
 
 __END__
 ```
+
+<Ad />
 
 ## Linked List
 
@@ -112,6 +116,8 @@ class Node
     end
 end
 ```
+
+<Ad />
 
 ## Testing
 

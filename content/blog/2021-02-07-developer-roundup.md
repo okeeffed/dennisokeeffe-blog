@@ -7,6 +7,8 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/xg2dgz5vcfhp0zqp92hk.png
 
 Developer roundup from across the web for the week of 2021-02-07.
 
+<Ad />
+
 ## Trending This Week On Github
 
 - **greatsuspender/thegreatsuspender** (JavaScript): [A chrome extension for suspending all tabs to free up memory](https://github.com/greatsuspender/thegreatsuspender)
@@ -34,6 +36,8 @@ Developer roundup from across the web for the week of 2021-02-07.
 - **aamini/introtodeeplearning** (Jupyter Notebook): [Lab Materials for MIT 6.S191: Introduction to Deep Learning](https://github.com/aamini/introtodeeplearning)
 - **explosion/spaCy** (Python): [💫 Industrial-strength Natural Language Processing (NLP) in Python](https://github.com/explosion/spaCy)
 - **chartjs/Chart.js** (JavaScript): [Simple HTML5 Charts using the `<canvas>` tag](https://github.com/chartjs/Chart.js)
+
+<Ad />
 
 ## Trending This Week On Dev.To
 
@@ -88,6 +92,8 @@ Developer roundup from across the web for the week of 2021-02-07.
 - **UpsilonIT**: [How We Developed an Online Music Player with TypeScript](https://dev.to/upsilon_it/how-we-developed-an-online-music-player-with-typescript-2o9n)
 - **Rupak Dey**: [Prep For Interviews Like a PRO!](https://dev.to/deyrupak/prep-for-interviews-like-a-pro-gko)
 - **Jordan Brennan**: [5 Reasons Why Front-end Is So Hard](https://dev.to/jfbrennan/5-reasons-why-front-end-is-so-hard-2b92)
+
+<Ad />
 
 ## Trending This Week On Hacker News
 

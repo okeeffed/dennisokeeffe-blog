@@ -7,6 +7,8 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/xg2dgz5vcfhp0zqp92hk.png
 
 Developer roundup from across the web for the week of 2020-11-08.
 
+<Ad />
+
 ## Trending This Week On Github
 
 - **GitSquared/edex-ui** (JavaScript): [A cross-platform, customizable science fiction terminal emulator with advanced monitoring & touchscreen support.](https://github.com/GitSquared/edex-ui)
@@ -34,6 +36,8 @@ Developer roundup from across the web for the week of 2020-11-08.
 - **ErickWendel/semana-javascript-expert01** (JavaScript): [Exemplos de código da primeira semana Javascript Expert](https://github.com/ErickWendel/semana-javascript-expert01)
 - **chinese-poetry/chinese-poetry** (JavaScript): [The most comprehensive database of Chinese poetry 🧶最全中华古诗词数据库, 唐宋两朝近一万四千古诗人, 接近5.5万首唐诗加26万宋诗. 两宋时期1564位词人，21050首词。 阿里招 Python P6/P7 上海张江, gaojunqi@outlook.com](https://github.com/chinese-poetry/chinese-poetry)
 - **xingshaocheng/architect-awesome** : [后端架构师技术图谱](https://github.com/xingshaocheng/architect-awesome)
+
+<Ad />
 
 ## Trending This Week On Dev.To
 
@@ -72,6 +76,8 @@ Developer roundup from across the web for the week of 2020-11-08.
 - **Arek Nawo**: [All CSS units compared & explained!](https://dev.to/areknawo/all-css-units-compared-explained-cn2)
 - **Zell Liew 🤗**: [Understanding JavaScript Prototype](https://dev.to/zellwk/understanding-javascript-prototype-5187)
 - **lindelof**: [6 very interesting and creative javascript libraries](https://dev.to/lindelof/6-very-interesting-and-creative-javascript-libraries-2dok)
+
+<Ad />
 
 ## Trending This Week On Hacker News
 

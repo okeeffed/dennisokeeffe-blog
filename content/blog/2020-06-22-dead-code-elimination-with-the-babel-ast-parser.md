@@ -8,6 +8,8 @@ This post is a recount on a script I wrote to remove twenty thousand lines of un
 
 It assumes that you have some understanding on Abstract Syntax Trees (AST) prior.
 
+<Ad />
+
 ## Understanding the targets
 
 Whenever I am doing any form of AST manipulation/work, I always head to the [AST Explorer](https://astexplorer.net) first to add some code and play around.
@@ -25,6 +27,8 @@ const example = require("../path/to/file")
 So posting a few of these iterations, I was able to determine how the Babel parser interprets the syntax to help me with the script.
 
 ![Exploring syntax in the AST explorer](../assets/2020-06-23-ast-explorer-one.png)
+
+<Ad />
 
 ## Using the Babel parser
 
@@ -106,6 +110,8 @@ const parseFileASTTree = file =>
   )
 ```
 
+<Ad />
+
 ## Keeping score of unused files
 
 What I also needed to figure out what how to keep track of what files have/haven't been used in some way. This part wasn't so bad - I essentially have an object keep track of the files used and the count of times they had been used.
@@ -139,6 +145,8 @@ const setFileRef = (file, pathway) => {
   }
 }
 ```
+
+<Ad />
 
 ## Putting it all together
 
@@ -237,6 +245,8 @@ main()
 
 Finally, I would have helper functions to log out important information, with `logFileWithNoReferences` logging out any files that ultimately did not have any references.
 
+<Ad />
+
 ## Running the script
 
 While there are some elements that have been simplified for this example, the working case gave the following output:
@@ -249,11 +259,15 @@ The image above is a shortened version of the output **after** the removal of th
 
 Success! The PR with the changes was up, and we felt much lighter after the merge.
 
+<Ad />
+
 ## Improvements
 
 The script itself wanted to check if the file was used at all. In some cases, a file would be used but only one time. This could be fixed by setting a specific delta to help you identify if a file was important from a test file or not.
 
 The other improvement is simply to automate the removal process instead of just logging. This is just a matter of adding in extra lines to have the `fs` module remove those files for you.
+
+<Ad />
 
 ## Resources and Further Reading
 

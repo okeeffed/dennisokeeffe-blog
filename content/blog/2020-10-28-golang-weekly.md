@@ -7,11 +7,15 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/qs7o2ag8vzo0uborgc7v.png
 
 Gopher Gold weekly curation for Wed Oct 28 2020.
 
+<Ad />
+
 ## Hot Go Articles This Week On Reddit
 
 - [A Go unikernel running on x86 bare metal](https://www.reddit.com/r/golang/comments/jfuusy/a_go_unikernel_running_on_x86_bare_metal/) (6 days ago)
 - [When Too Much Concurrency Slows You Down (Golang)](https://www.reddit.com/r/golang/comments/jfi21j/when_too_much_concurrency_slows_you_down_golang/) (6 days ago)
 - [distribyted/distribyted: Torrent client with on-demand file downloading as a filesystem in Go](https://www.reddit.com/r/golang/comments/ji9zcb/distribyteddistribyted_torrent_client_with/) (2 days ago)
+
+<Ad />
 
 ## Go Articles This Week On Dev.To
 
@@ -46,6 +50,8 @@ Gopher Gold weekly curation for Wed Oct 28 2020.
 - **Mike Levan**: [So happy that I get to help others...](https://dev.to/thenjdevopsguy/so-happy-that-i-get-to-help-others-5962)
 - **Thomas Joly**: [Bot 2048 - Create an artificial player for 2048](https://dev.to/lunatikub/bot-2048-create-an-artificial-player-for-2048-d46)
 
+<Ad />
+
 ## Trending Go Repositories This Week On Github
 
 - **crowdsecurity/crowdsec** (Go): [Crowdsec - An open-source, lightweight agent to detect and respond to bad behaviours. It also automatically benefits from our global community-wide IP reputation database.](https://github.com/crowdsecurity/crowdsec)
@@ -73,6 +79,8 @@ Gopher Gold weekly curation for Wed Oct 28 2020.
 - **robfig/cron** (Go): [a cron library for go](https://github.com/robfig/cron)
 - **gofiber/recipes** (Go): [📁 Examples for 🚀 Fiber](https://github.com/gofiber/recipes)
 - **grafana/loki** (Go): [Like Prometheus, but for logs.](https://github.com/grafana/loki)
+
+<Ad />
 
 ## Topics from the Weekly Go Forum
 

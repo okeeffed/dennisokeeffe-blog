@@ -4,6 +4,8 @@ date: "2018-07-04"
 description: The classic FizzBuzz implementation in Java with Unit Testing.
 ---
 
+<Ad />
+
 ## Gradle setup
 
 For our `build.gradle` file:
@@ -27,6 +29,8 @@ test {
     }
 }
 ```
+
+<Ad />
 
 ## Setting up the Tests
 
@@ -62,6 +66,8 @@ public class FizzBuzzTest {
 }
 ```
 
+<Ad />
+
 ## src/main/java/FizzBuzz.java
 
 For our main Java file running FizzBuzz:
@@ -81,6 +87,8 @@ class FizzBuzz {
     }
 }
 ```
+
+<Ad />
 
 ## Running tests
 

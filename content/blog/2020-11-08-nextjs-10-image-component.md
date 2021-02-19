@@ -11,6 +11,8 @@ Next.js released an optimised [image component](https://nextjs.org/docs/basic-fe
 
 In this post, we're going to explore and play around with this new component to see it in action.
 
+<Ad />
+
 ## Getting Started
 
 We will use `create-next-app` build out the project:
@@ -20,6 +22,8 @@ We will use `create-next-app` build out the project:
 npx create-next-app hello-nextjs-image-component
 cd hello-nextjs-image-component
 ```
+
+<Ad />
 
 ## Selecting an image
 
@@ -34,6 +38,8 @@ In this case, I went with [Florian Olivo's Jellyfish image](https://unsplash.com
 Afterwards, I went to the online tool [Squoosh](https://squoosh.app/) to resize the image at 800x1199 and optimized it with the basic settings.
 
 This created an optimized version of the image at 78KB, while the original, unoptimized version was 4.5MB.
+
+<Ad />
 
 ## Updating the homepage to put in both version
 
@@ -69,6 +75,8 @@ export default Home
 Essentially, that was all I need for playing around with it!
 
 I deployed this example to [Vercel](https://vercel.com) to see what the results may be.
+
+<Ad />
 
 ## Exploring the results
 
@@ -110,6 +118,8 @@ So in our case, once the image has been optimized during a call, it is cached an
 
 <figcaption>Network on reloads</figcaption>
 
+<Ad />
+
 ## In conclusion
 
 Today's post was about seeing Next.js image optimization in action using an unoptimized and optimized source image on a live deployment.
@@ -117,6 +127,8 @@ Today's post was about seeing Next.js image optimization in action using an unop
 While this is only a surface-deep look, it is incredible to see what you get out of the box with Next.js 10 image optimization and it is certainly a great step in the right direction for helping developers.
 
 I've been keen to see other solutions in this space since coming across the [react-ideal-image package](https://github.com/stereobooster/react-ideal-image) a couple of years ago and this is definitely one of those solutions that stands a head above.
+
+<Ad />
 
 ## Resources and further reading
 

@@ -7,6 +7,8 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/qs7o2ag8vzo0uborgc7v.png
 
 Gopher Gold weekly curation for Wed Feb 10 2021.
 
+<Ad />
+
 ## Go Articles This Week On Dev.To
 
 - **Royal Bhati**: [Go project layout](https://dev.to/royal_bhati/package-layout-for-a-go-web-app-4oea)
@@ -38,6 +40,8 @@ Gopher Gold weekly curation for Wed Feb 10 2021.
 - **Matthew Connelly**: [Comparing Array-Based Stacks in C and Go](https://dev.to/mattconn/comparing-array-based-stacks-in-c-and-go-5e83)
 - **Gunstein Vatnar**: [Send and receive payments with the stellar cryptocurrency](https://dev.to/gunstein/send-and-receive-payments-with-the-stellar-cryptocurrency-4ne8)
 
+<Ad />
+
 ## Trending Go Repositories This Week On Github
 
 - **achannarasappa/ticker** (Go): [Terminal stock ticker with live updates and position tracking](https://github.com/achannarasappa/ticker)
@@ -65,6 +69,8 @@ Gopher Gold weekly curation for Wed Feb 10 2021.
 - **loadimpact/k6** (Go): [A modern load testing tool, using Go and JavaScript - https://k6.io](https://github.com/loadimpact/k6)
 - **accurics/terrascan** (Go): [Detect compliance and security violations across Infrastructure as Code to mitigate risk before provisioning cloud native infrastructure.](https://github.com/accurics/terrascan)
 - **dapr/dapr** (Go): [Dapr is a portable, event-driven, runtime for building distributed applications across cloud and edge.](https://github.com/dapr/dapr)
+
+<Ad />
 
 ## Topics from the Weekly Go Forum
 

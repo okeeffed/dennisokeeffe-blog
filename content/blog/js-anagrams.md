@@ -6,6 +6,8 @@ description: JavaScript implementation of comparing two strings to check if they
 
 This blog assumes a global install of `mocha`, although that can also be installed locally. `chai` is also required as the assertion library - install as a dev dependency.
 
+<Ad />
+
 ## Writing tests
 
 In `anagrams.mocha.js`:
@@ -43,6 +45,8 @@ describe("check lowercase of two strings are anagrams", function() {
 })
 ```
 
+<Ad />
+
 ## Anagrams
 
 In `index.js`.
@@ -62,6 +66,8 @@ module.exports = {
   anagram,
 }
 ```
+
+<Ad />
 
 ## Testing
 

@@ -4,6 +4,8 @@ date: "2019-06-28"
 description: Weekly roundup for June 28th 2019
 ---
 
+<Ad />
+
 ## Trending This Week On Github
 
 - **libra / libra** (Rust): [Libra’s mission is to enable a simple global currency and financial infrastructure that empowers billions of people.](https://github.com/libra/libra)
@@ -15,6 +17,8 @@ description: Weekly roundup for June 28th 2019
 - **tensorflow / tfjs-models** (TypeScript): [Pretrained models for TensorFlow.js](https://github.com/tensorflow/tfjs-models)
 - **zephyrproject-rtos / zephyr** (C): [Primary Git Repository for the Zephyr Project. Zephyr is a new generation, scalable, optimized, secure RTOS for multiple hardware architectures.](https://github.com/zephyrproject-rtos/zephyr)
 - **princewen / tensorflow_practice** (Python): [tensorflow 实战练习，包括强化学习、推荐系统、nlp 等](https://github.com/princewen/tensorflow_practice)
+
+<Ad />
 
 ## Trending This Week On Dev.To
 
@@ -28,6 +32,8 @@ description: Weekly roundup for June 28th 2019
 - **jsmanifest・Jun 21**: [Here Are 7 Ways Higher Order Functions Can Improve Your Life](https://dev.to/jsmanifest/here-are-7-ways-higher-order-functions-can-improve-your-life-1j)
 - **Francesco Leardini・Jun 23**: [A gentle introduction to Progressive Web Apps - Step 1](https://dev.to/paco_ita/a-gentle-introduction-to-progressive-web-apps-step-1-24da)
 - **Shubheksha Jalan・Jun 24**: [A few things I wish I knew before I started working as a software engineer](https://dev.to/shubheksha/a-few-things-i-wish-i-knew-before-i-started-working-as-a-software-engineer-3kd2)
+
+<Ad />
 
 ## Trending This Week In Hacker News
 

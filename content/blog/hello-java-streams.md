@@ -11,6 +11,8 @@ This example will just give a short on how to stream to very basic lists:
 1. Sorting an integer list.
 2. Filter and uppercase a string list and return it as a filtered list.
 
+<Ad />
+
 ## Setting up the JUnit tests
 
 We will use two simple JUnit tests to ensure we get what we want.
@@ -46,6 +48,8 @@ In our first test, we are simply giving an `input` integer list that we want and
 
 The same is true of the second test where we want to compare to string lists for our favoured result.
 
+<Ad />
+
 ## build.gradle
 
 We'll use a `build.gradle` setup to be able to run our tests:
@@ -69,6 +73,8 @@ test {
     }
 }
 ```
+
+<Ad />
 
 ## HelloStreams class
 
@@ -96,6 +102,8 @@ class HelloStreams {
 `sum` simply turns the input list into a stream, converts the values to ints and returns the sum.
 
 `filterStream` converts out input list into a stream, will filter for values that only contain "a", then uppercase those results and collect them and convert them back into a list using the `Collectors` stream utility.
+
+<Ad />
 
 ## Testing
 

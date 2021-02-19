@@ -7,6 +7,8 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/qs7o2ag8vzo0uborgc7v.png
 
 Gopher Gold weekly curation for Wed Jan 13 2021.
 
+<Ad />
+
 ## Go Articles This Week On Dev.To
 
 - **Stanley Nguyen**: [Going Places: How I used Golang for literally every part of an IoT system](https://dev.to/stanleynguyen/going-places-how-i-used-golang-for-literally-every-part-of-an-iot-system-19fm)
@@ -46,6 +48,8 @@ Gopher Gold weekly curation for Wed Jan 13 2021.
 - **Mario Carrion**: [(n)vi(m): Go plugins](https://dev.to/mariocarrion/n-vi-m-go-plugins-5aa8)
 - **MrViK**: [Following slippery processes](https://dev.to/__mrvik__/following-slippery-processes-6)
 
+<Ad />
+
 ## Trending Go Repositories This Week On Github
 
 - **ztino/helloworld** (Go): [Hello，MT](https://github.com/ztino/helloworld)
@@ -73,6 +77,8 @@ Gopher Gold weekly curation for Wed Jan 13 2021.
 - **argoproj/argo** (Go): [Argo Workflows: Get stuff done with Kubernetes.](https://github.com/argoproj/argo)
 - **mattermost/mattermost-server** (Go): [Open source Slack-alternative in Golang and React - Mattermost](https://github.com/mattermost/mattermost-server)
 - **GoogleCloudPlatform/spark-on-k8s-operator** (Go): [Kubernetes operator for managing the lifecycle of Apache Spark applications on Kubernetes.](https://github.com/GoogleCloudPlatform/spark-on-k8s-operator)
+
+<Ad />
 
 ## Topics from the Weekly Go Forum
 

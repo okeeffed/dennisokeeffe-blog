@@ -6,12 +6,16 @@ date: "2021-01-06"
 
 Rusticles weekly curation for Wed Jan 06 2021.
 
+<Ad />
+
 ## Hot Rust Articles This Week On Reddit
 
 - [Rust is the second most used language for Advent of Code, after Python](https://www.reddit.com/r/rust/comments/knyoej/rust_is_the_second_most_used_language_for_advent/) (5 days ago)
 - [Announcing Rust 1.49.0](https://www.reddit.com/r/rust/comments/knr3i6/announcing_rust_1490/) (5 days ago)
 - [Rust is now overall faster than C in benchmarks](https://www.reddit.com/r/rust/comments/kpqmrh/rust_is_now_overall_faster_than_c_in_benchmarks/) (2 days ago)
 - [The more things change...](https://www.reddit.com/r/rust/comments/kn8kqy/the_more_things_change/) (6 days ago)
+
+<Ad />
 
 ## Rust Articles This Week On Dev.To
 
@@ -38,6 +42,8 @@ Rusticles weekly curation for Wed Jan 06 2021.
 - **pintuch**: [Rust - Serde Json By Example](https://dev.to/pintuch/rust-serde-json-by-example-2kkf)
 - **Kevin K.**: [Rust RedBPF Networking (Part 4)](https://dev.to/kbknapp/current-redbpf-networking-di3)
 - **Kevin K.**: [Using Rust with BPF (Part 3)](https://dev.to/kbknapp/enter-rust-1bgj)
+
+<Ad />
 
 ## Trending Rust Repositories This Week On Github
 

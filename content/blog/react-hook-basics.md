@@ -8,6 +8,8 @@ Hooks introduces `State` and `Lifecycle Methods` to function-based components.
 
 Hooks make it really easy to share logic between components.
 
+<Ad />
+
 ## Some Basic Hooks
 
 | Name       | Function                                               |
@@ -17,6 +19,8 @@ Hooks make it really easy to share logic between components.
 | useContext | Allow use of context system                            |
 | useRef     | Allow func component to use ref system                 |
 | useReducer | Allow func component to store data through a 'reducer' |
+
+<Ad />
 
 ## Before Hooks
 
@@ -38,6 +42,8 @@ export default App extends React.Component {
     }
 }
 ```
+
+<Ad />
 
 ## After Hooks
 
@@ -62,6 +68,8 @@ const App = () => {
 }
 ```
 
+<Ad />
+
 ## Lifecycles with useEffect
 
 `useEffect` allows us to effectively use a combined version of `componentDidMount` and `componentDidUpdate`.
@@ -78,6 +86,8 @@ useEffect(() => {
   console.log("Counter updated!")
 }, [counter])
 ```
+
+<Ad />
 
 ## Code Reuse Example
 

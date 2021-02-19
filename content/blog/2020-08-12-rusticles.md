@@ -6,6 +6,8 @@ date: "2020-08-12"
 
 Rusticles, a weekly curation for all things Rust in one centralised place. Here is your curation for Wed Aug 12 2020.
 
+<Ad />
+
 ## Hot Rust Articles This Week On Reddit
 
 - [Introducing Bevy: a refreshingly simple data-driven game engine and app framework built in Rust](https://www.reddit.com/r/rust/comments/i7bcwu/introducing_bevy_a_refreshingly_simple_datadriven/) (1 day ago)
@@ -14,6 +16,8 @@ Rusticles, a weekly curation for all things Rust in one centralised place. Here 
 - [rustc 1.44.1 is reproducible in Debian](https://www.reddit.com/r/rust/comments/i4ij47/rustc_1441_is_reproducible_in_debian/) (6 days ago)
 - [Surviving Rust async interfaces - fasterthanli.me](https://www.reddit.com/r/rust/comments/i6p35d/surviving_rust_async_interfaces_fasterthanlime/) (2 days ago)
 - [Why QEMU should move from C to Rust](https://www.reddit.com/r/rust/comments/i4rpyc/why_qemu_should_move_from_c_to_rust/) (5 days ago)
+
+<Ad />
 
 ## Rust Articles This Week On Dev.To
 
@@ -31,6 +35,8 @@ Rusticles, a weekly curation for all things Rust in one centralised place. Here 
 - **Harikrishnan Menon**: [Lets build a RedditBot to curate playlist links - III](https://dev.to/delta_maniac/chatting-up-with-youtube-5bk6)
 - **Rick**: [Steve Klabnik Interview: Rust isn’t afraid to be imperfect as long as we ship something useful](https://dev.to/ricknln/steve-klabnik-interview-rust-isn-t-afraid-to-be-imperfect-as-long-as-we-ship-something-useful-2l8o)
 - **Richard de Jesus**: [Aprendendo Rust: 06 - Controles de fluxo](https://dev.to/pehdepano/aprendendo-rust-06-controles-de-fluxo-4mff)
+
+<Ad />
 
 ## Trending Rust Repositories This Week On Github
 

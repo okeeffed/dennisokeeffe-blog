@@ -6,6 +6,8 @@ description: The classic FizzBuzz implementation in Rust with Unit Testing.
 
 A basic implementation of FizzBuzz in Rust.
 
+<Ad />
+
 ## Writing the Code
 
 Execute the tests with:
@@ -43,6 +45,8 @@ To learn more about Rust tests refer to the [online test documentation][rust-tes
 Make sure to read the [Modules](https://doc.rust-lang.org/book/ch07-02-modules-and-use-to-control-scope-and-privacy.html) chapter if you
 haven't already, it will help you with organizing your files.
 
+<Ad />
+
 ## Further improvements
 
 After you have solved the exercise, please consider using the additional utilities, described in the [installation guide](https://exercism.io/tracks/rust/installation), to further refine your final solution.
@@ -52,6 +56,8 @@ To format your solution, inside the solution directory use
 ```bash
 cargo fmt
 ```
+
+<Ad />
 
 ## Cargo.toml
 
@@ -70,6 +76,8 @@ path = "tests/fizz_buzz.rs"
 [dependencies]
 # itoa = "0.4.3"
 ```
+
+<Ad />
 
 ## The test file
 
@@ -100,6 +108,8 @@ fn test_fizz_buzz() {
 }
 ```
 
+<Ad />
+
 ## FizzBuzz
 
 Create `src/libs.rs`:
@@ -117,6 +127,8 @@ pub fn run(i: u32) -> String {
     }
 }
 ```
+
+<Ad />
 
 ## Run the final test
 

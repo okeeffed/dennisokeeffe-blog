@@ -4,6 +4,8 @@ date: "2018-10-22"
 description: Example of adding in Amplify
 ---
 
+<Ad />
+
 ## Links
 
 - https://docs.aws.amazon.com/aws-mobile/latest/developerguide/mobile-hub-web-access-databases.html
@@ -23,6 +25,8 @@ awsmobile user-signin enable --prompt
 awsmobile console
 ```
 
+<Ad />
+
 ## Get
 
 ```
@@ -41,6 +45,8 @@ awsmobile cloud-api invoke ServerlessExampleCRUD GET /ServerlessExample/object/1
   ItemDescription: 'Description',
   userId: 'UNAUTH' }
 ```
+
+<Ad />
 
 ## In code
 

@@ -6,6 +6,8 @@ date: "2021-02-03"
 
 Rusticles weekly curation for Wed Feb 03 2021.
 
+<Ad />
+
 ## Rust Articles This Week On Dev.To
 
 - **jldec**: [Forays from Node to Rust](https://dev.to/jldec/forays-from-node-to-rust-3fk1)
@@ -19,6 +21,8 @@ Rusticles weekly curation for Wed Feb 03 2021.
 - **David Mytton**: [Porting a serverless chatbot from Python to Rust](https://dev.to/console/porting-a-serverless-chatbot-from-python-to-rust-4oe9)
 - **Jeff Mitchell**: [Coding...the journey begins](https://dev.to/sentinel1909/coding-the-journey-begins-513g)
 - **Sofia Winters**: [joyshop, a small shortcut launcher for JoyCon](https://dev.to/sofiawinters/joyshop-a-small-shortcut-launcher-for-joycon-3fc2)
+
+<Ad />
 
 ## Trending Rust Repositories This Week On Github
 

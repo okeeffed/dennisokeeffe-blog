@@ -7,6 +7,8 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/xg2dgz5vcfhp0zqp92hk.png
 
 Developer roundup from across the web for the week of 2020-11-22.
 
+<Ad />
+
 ## Trending This Week On Github
 
 - **microsoft/Bringing-Old-Photos-Back-to-Life** (Python): [Bringing Old Photo Back to Life (CVPR 2020 oral)](https://github.com/microsoft/Bringing-Old-Photos-Back-to-Life)
@@ -34,6 +36,8 @@ Developer roundup from across the web for the week of 2020-11-22.
 - **skylot/jadx** (Java): [Dex to Java decompiler](https://github.com/skylot/jadx)
 - **cefsharp/CefSharp** (C#): [.NET (WPF and Windows Forms) bindings for the Chromium Embedded Framework](https://github.com/cefsharp/CefSharp)
 - **QUANTAXIS/QUANTAXIS** (Python): [QUANTAXIS 支持任务调度 分布式部署的 股票/期货/期权/港股/虚拟货币 数据/回测/模拟/交易/可视化/多账户 纯本地量化解决方案](https://github.com/QUANTAXIS/QUANTAXIS)
+
+<Ad />
 
 ## Trending This Week On Dev.To
 
@@ -72,6 +76,8 @@ Developer roundup from across the web for the week of 2020-11-22.
 - **Jonathan Adly**: [How I learned to code & built a real software product in ~ 6 months](https://dev.to/jonathanadly/how-i-learned-to-code-built-a-real-software-product-in-6-months-3gje)
 - **Soumya Dey**: [Node & Express server, but with TypeScript !](https://dev.to/soumyadey/node-express-server-but-with-typescript-2h6e)
 - **Maggie Appleton**: [Illustrated Notes on Custom React Hooks](https://dev.to/egghead/illustrated-notes-on-custom-react-hooks-5b4a)
+
+<Ad />
 
 ## Trending This Week On Hacker News
 

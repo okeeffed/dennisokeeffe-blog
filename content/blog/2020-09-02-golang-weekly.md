@@ -7,12 +7,16 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/qs7o2ag8vzo0uborgc7v.png
 
 Go Weekly, a weekly curation for all things Go in one centralised place. Here is your curation for Wed Sep 02 2020.
 
+<Ad />
+
 ## Hot Go Articles This Week On Reddit
 
 - [Generics examples by Go Team 🔥️](https://www.reddit.com/r/golang/comments/iiuhc1/generics_examples_by_go_team/) (3 days ago)
 - [Just released go-reddit v1.0.0, a Go library for accessing the Reddit API](https://www.reddit.com/r/golang/comments/igwj4l/just_released_goreddit_v100_a_go_library_for/) (6 days ago)
 - [Using Go at Google](https://www.reddit.com/r/golang/comments/ihppee/using_go_at_google/) (5 days ago)
 - [GORM V2 officially released!](https://www.reddit.com/r/golang/comments/ijlhiw/gorm_v2_officially_released/) (2 days ago)
+
+<Ad />
 
 ## Go Articles This Week On Dev.To
 
@@ -44,6 +48,8 @@ Go Weekly, a weekly curation for all things Go in one centralised place. Here is
 - **mrdeluofficial**: [How to Add a New Folder in Gmail](https://dev.to/mrdeluofficial/how-to-add-a-new-folder-in-gmail-3f7m)
 - **mrdeluofficial**: [How to post new Job on Facebook Timeline](https://dev.to/mrdeluofficial/how-to-post-new-job-on-facebook-timeline-hc1)
 
+<Ad />
+
 ## Trending Go Repositories This Week On Github
 
 - **cloudreve/Cloudreve** (Go): [🌩 支持多家云存储的云盘系统 (A project helps you build your own cloud in minutes)](https://github.com/cloudreve/Cloudreve)
@@ -71,6 +77,8 @@ Go Weekly, a weekly curation for all things Go in one centralised place. Here is
 - **kubernetes-sigs/kubebuilder** (Go): [Kubebuilder - SDK for building Kubernetes APIs using CRDs](https://github.com/kubernetes-sigs/kubebuilder)
 - **inancgumus/learngo** (Go): [1000+ Hand-Crafted Go Examples, Exercises, and Quizzes](https://github.com/inancgumus/learngo)
 - **rancher/k3s** (Go): [Lightweight Kubernetes](https://github.com/rancher/k3s)
+
+<Ad />
 
 ## Topics from the Weekly Go Forum
 

@@ -4,6 +4,8 @@ date: "2019-03-12"
 description: Basic usage and command calls for Redis from the command line.
 ---
 
+<Ad />
+
 ## tl;dr
 
 ### Hash Sets
@@ -34,6 +36,8 @@ redis-server /usr/local/etc/redis.conf
 redis-cli
 ```
 
+<Ad />
+
 ## Command list
 
 | Function             | Command                                                                     |
@@ -43,6 +47,8 @@ redis-cli
 | Uninstall            | brew uninstall redis && rm ~/Library/LaunchAgents/homebrew.mxcl.redis.plist |
 | Info                 | brew info redis                                                             |
 | Run Redis CLI client | redis-cli                                                                   |
+
+<Ad />
 
 ## Redis commands
 

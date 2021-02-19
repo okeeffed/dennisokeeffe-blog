@@ -12,6 +12,8 @@ If you haven't installed, you can follow instructions on how to do so on the [Do
 
 Not enough time/care? See a [completed project here](https://github.com/okeeffed/express-redis-rate-limiting).
 
+<Ad />
+
 ## Setting up Docker
 
 Let's get this out of the way first! We want to pull down the Redis image and start it with port forwarding.
@@ -33,6 +35,8 @@ CONTAINER ID        IMAGE               COMMAND                  CREATED        
 
 Happy days! Let's move forward.
 
+<Ad />
+
 ## Setting up the project
 
 Let's create our project folder, install all the packages and get to work.
@@ -48,6 +52,8 @@ yarn add --dev execa jest
 The package `express-rate-limit` is how we will implment the rate limiting, while `rate-limit-redis` and `redis` will allow us to extent the rate limiting capabilities to be used on Redis and not stored in memory. More on that later.
 
 We are installing developer dependencies `execa` and `jest` for testing purposes. We will use them as a helper of sorts to check the rate limiting from the CLI.
+
+<Ad />
 
 ## Setting up the Express Server
 
@@ -68,6 +74,8 @@ This is a super basic Express app that only has a GET request at route `/`.
 From the terminal, run `node index.js` and you should see `server started`.
 
 From another terminal, run `curl localhost:8000` and you should see our `RESPONSE_SUCCESS` command. Perfect!
+
+<Ad />
 
 ## Adding in the test to help us out
 
@@ -141,6 +149,8 @@ expect(matches.length).toEqual(100)
 
 We are going to use this to ensure we only allow 100 max successful responses during the rate limiting period.
 
+<Ad />
+
 ## Running the test for the first time
 
 Run `yarn test` to get Jest up and going. You should see "2 failed" - uh oh. What is happening here?
@@ -197,6 +207,8 @@ For the first test, we expected on 100 cases of `RESPONSE_SUCCESS` to show up, n
 
 Q: Why did this happen?
 A: Because we have not added rate limiting
+
+<Ad />
 
 ## Adding in InMemory rate limiting
 
@@ -259,6 +271,8 @@ yarn test # In terminal two
 Hang on, now we get success two times? What happen to the rate limiting from our 200 requests?
 
 Without supplying a store for the Express rate limiter, we are using in-memory store. This means anytime the server shuts down, we lose track of the IPs! Even worse, if we have a setup with multiple servers, a rate limit on one server doesn't necessarily mean it is limited on the others!
+
+<Ad />
 
 ## Redis to the Rescue
 
@@ -324,6 +338,8 @@ In the wild, this now means that Express instances that connect the same Redis d
 
 > Note: I said the "same" database here, as we are not going into Redis replicas here. That's a tale for another time friends.
 
+<Ad />
+
 ## Conclusion
 
 I am going to end it there, but we have had some great success.
@@ -338,6 +354,8 @@ docker rm redis-test
 Go forth and rate limit those pesky IPs from your sweet, sweet dog appreciation websites you build on the weekends, pals.
 
 > It is also probably worth reiterating with the tests that they were more of a visual helper - you don't really want a flaky test for the rate limiting that fails intermittent as soon as you are rate limiting and don't get the 100 successful requests. There are solutions for that (changing limit time based on environment etc) but I will leave that one.
+
+<Ad />
 
 ## Resources and Further Reading
 

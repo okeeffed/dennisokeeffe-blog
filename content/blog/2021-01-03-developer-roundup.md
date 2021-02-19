@@ -7,6 +7,8 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/xg2dgz5vcfhp0zqp92hk.png
 
 Developer roundup from across the web for the week of 2021-01-03.
 
+<Ad />
+
 ## Trending This Week On Github
 
 - **huanghyw/jd_seckill** (Python): [undefined](https://github.com/huanghyw/jd_seckill)
@@ -34,6 +36,8 @@ Developer roundup from across the web for the week of 2021-01-03.
 - **photoprism/photoprism** (Go): [Personal Photo Management powered by Go and Google TensorFlow](https://github.com/photoprism/photoprism)
 - **espressif/arduino-esp32** (C): [Arduino core for the ESP32](https://github.com/espressif/arduino-esp32)
 - **eclipse-theia/theia** (TypeScript): [Eclipse Theia is a cloud & desktop IDE framework implemented in TypeScript.](https://github.com/eclipse-theia/theia)
+
+<Ad />
 
 ## Trending This Week On Dev.To
 
@@ -72,6 +76,8 @@ Developer roundup from across the web for the week of 2021-01-03.
 - **Ela Moscicka**: [My journey into software engineering role at Microsoft](https://dev.to/elamoscicka/my-journey-into-software-engineering-role-at-microsoft-35o3)
 - **Idris Idris**: [BEGINNERS' GUIDE TO FLUTTER](https://dev.to/idrisadeyemi01/beginners-guide-to-flutter-16de)
 - **Shaundai Person**: [One Thing That Made My Job Application Stand Out](https://dev.to/shaundai/one-thing-that-made-my-job-application-stand-out-3dik)
+
+<Ad />
 
 ## Trending This Week On Hacker News
 

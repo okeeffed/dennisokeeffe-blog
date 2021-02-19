@@ -7,6 +7,8 @@ tags: deno, beginner, tutorial, codenewbie
 
 [Deno](https://deno.land/) has the ability to consume ES modules. Thanks to this, we can utilise Pika's [Skypack CDN](https://www.skypack.dev/) to install and run any of our favourite NPM packages on the CDN that support ES modules!
 
+<Ad />
+
 ## Installing a module
 
 In our example, we are going to install and run a short `XState` example in Deno. I will write more on XState in future posts, but for now we are using this as an example of "picking an ESM module from Skypack CDN and getting it going".
@@ -14,6 +16,8 @@ In our example, we are going to install and run a short `XState` example in Deno
 First, head to the [Skypack CDN](https://www.skypack.dev/) website and search for your favourite NPM package to see if the corresponding ES module is available.
 
 ![Searching XState on the Skypack CDN website](../assets/2020-07-23-skypack-dev.png)
+
+<Ad />
 
 ## Running an example
 

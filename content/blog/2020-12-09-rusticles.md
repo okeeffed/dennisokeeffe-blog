@@ -6,10 +6,14 @@ date: "2020-12-09"
 
 Rusticles weekly curation for Wed Dec 09 2020.
 
+<Ad />
+
 ## Hot Rust Articles This Week On Reddit
 
 - [I made a tag-based filesystem in Rust!](https://www.reddit.com/r/rust/comments/k5n0fs/i_made_a_tagbased_filesystem_in_rust/) (6 days ago)
 - [Announcing rust-gpu v0.2](https://www.reddit.com/r/rust/comments/k6o7dt/announcing_rustgpu_v02/) (4 days ago)
+
+<Ad />
 
 ## Rust Articles This Week On Dev.To
 
@@ -28,6 +32,8 @@ Rusticles weekly curation for Wed Dec 09 2020.
 - **Henry Barreto**: [My Rust journey: Attributes](https://dev.to/henrybarreto/my-rust-journey-attributes-41hl)
 - **Vee Satayamas**: [The prevention of flipping ids](https://dev.to/veer66/the-prevention-of-flipping-ids-10md)
 - **Heechul Ryu**: [My First *.rs Other Than main.rs](https://dev.to/ryuheechul/my-first-rs-other-than-main-rs-md3)
+
+<Ad />
 
 ## Trending Rust Repositories This Week On Github
 

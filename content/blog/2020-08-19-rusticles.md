@@ -6,6 +6,8 @@ date: "2020-08-19"
 
 Rusticles, a weekly curation for all things Rust in one centralised place. Here is your curation for Wed Aug 19 2020.
 
+<Ad />
+
 ## Hot Rust Articles This Week On Reddit
 
 - [Cranelift can now compile rustc- giving nearly 7x faster compilations than LLVM!](https://www.reddit.com/r/rust/comments/iat25g/cranelift_can_now_compile_rustc_giving_nearly_7x/) (2 days ago)
@@ -14,6 +16,8 @@ Rusticles, a weekly curation for all things Rust in one centralised place. Here 
 - [Veloren, an open-source multiplayer voxel RPG written in Rust, just had its 0.7 release with a tonne of new features!](https://www.reddit.com/r/rust/comments/ib83bl/veloren_an_opensource_multiplayer_voxel_rpg/) (2 days ago)
 - [Frustrated? It's not you, it's Rust.](https://www.reddit.com/r/rust/comments/i9sor7/frustrated_its_not_you_its_rust/) (4 days ago)
 - [Rd: A port of mozilla/rr to the Rust programming language](https://www.reddit.com/r/rust/comments/i8bmgq/rd_a_port_of_mozillarr_to_the_rust_programming/) (6 days ago)
+
+<Ad />
 
 ## Rust Articles This Week On Dev.To
 
@@ -29,6 +33,8 @@ Rusticles, a weekly curation for all things Rust in one centralised place. Here 
 - **Ajinkya Borade**: [Connect car dashboard to Raspberry ?](https://dev.to/ajinkyax/connect-car-dashboard-to-raspberry-4397)
 - **Richard de Jesus**: [Aprendendo Rust: 07 - Regiões da memória usadas pela Rust](https://dev.to/pehdepano/aprendendo-rust-07-regioes-da-memoria-usadas-pela-rust-208k)
 - **Pablo Álvarez Corredera**: [▷ Bevy: Un motor de videojuegos construido en Rust](https://dev.to/rosepac/bevy-un-motor-de-videojuegos-construido-en-rust-27da)
+
+<Ad />
 
 ## Trending Rust Repositories This Week On Github
 

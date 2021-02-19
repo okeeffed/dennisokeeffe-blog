@@ -6,6 +6,8 @@ date: "2020-07-26"
 
 Here is your update from across the web for the week of 2020-07-26.
 
+<Ad />
+
 ## Trending This Week On Github
 
 - **openai/gpt-3** : [GPT-3: Language Models are Few-Shot Learners](https://github.com/openai/gpt-3)
@@ -33,6 +35,8 @@ Here is your update from across the web for the week of 2020-07-26.
 - **AobingJava/JavaFamily** : [【Java面试+Java学习指南】 一份涵盖大部分Java程序员所需要掌握的核心知识。](https://github.com/AobingJava/JavaFamily)
 - **PaddlePaddle/PaddleOCR** (C++): [Awesome OCR toolkits based on PaddlePaddle （8.6M ultra-lightweight pre-trained model, support training and deployment among server, mobile, embeded and IoT devices）](https://github.com/PaddlePaddle/PaddleOCR)
 - **docker/awesome-compose** (HTML): [Awesome Docker Compose samples](https://github.com/docker/awesome-compose)
+
+<Ad />
 
 ## Trending This Week On Dev.To
 
@@ -72,6 +76,8 @@ Here is your update from across the web for the week of 2020-07-26.
 - **Marcelo Barreto**: [An Introduction to Linux](https://dev.to/marcelobarreto/an-introduction-to-the-linux-world-4jkf)
 - **Guy Ntare**: [How to earn more as a Freelancer](https://dev.to/ntare_guy/how-to-earn-more-as-a-freelancer-2p88)
 - **Santhosh Reddy**: [Backend developer roadmap, skills, resources](https://dev.to/santhu210/backend-developer-roadmap-skills-resources-2bpd)
+
+<Ad />
 
 ## Trending This Week On Hacker News
 

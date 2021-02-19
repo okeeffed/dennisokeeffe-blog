@@ -7,6 +7,8 @@ tags: productivity, career, writing
 
 Today marks the one month milestone of active writing! This milestone was one that I had set in mind when beginning on June 20th and I wanted to reflect on some learnings, achievements and earnest thoughts I've had about the future in writing.
 
+<Ad />
+
 ## The Why
 
 This year has brought many challenges with it, but it has also been a great opportunity to take on other challenges and use this time at home to learn and apply more.
@@ -14,6 +16,8 @@ This year has brought many challenges with it, but it has also been a great oppo
 I've always been in awe of those who write. **I have always been consuming great content and applying it to my work, but never truly giving back to the community.** This made the decision to begin writing an easy one with all this newly found free time!
 
 Another contributing factor was inadvertent improvement of my communication soft skills while writing. That's just a delightful bonus.
+
+<Ad />
 
 ## The How
 
@@ -28,6 +32,8 @@ I wrote code to post across to my three websites of choice:
 This code included scripts to modify the markdown based on the platform it was heading to, as well a script to generate the heading images based on the tags, heading and a custom query I could provide. It pulls an image from Unsplash based on this annotates it and then updates the markdown to create the image author. This frees up about a solid 15-20 minutes each morning which has also already saved around 15 hours of my time in just this month alone.
 
 While I am typing away in my code editor, I did add the "spell check" VSCode extension after realising how awful my spelling can be when typing away with proofreading, but I also plan to update this down the track to include grammar and spell checks as part of a Git Hook. I also plan to incorporate a webhook to automate sharing the content to Twitter for me after posting.
+
+<Ad />
 
 ## The Facts
 
@@ -106,6 +112,8 @@ Messages from content curators for these publications also come off as more robo
 
 The fact that I've had 21k+ views on Dev.To and only about 746 on Medium may also say something about Medium's pay wall or the goto for developers in 2020.
 
+<Ad />
+
 ## What Next
 
 ### Writing vs Coding
@@ -136,6 +144,8 @@ It will start simply as blog posts for now, but may become email chains down the
 I want to begin practising my skills on the microphone and reflecting on how I speak in a public forum, so I am hoping to begin taking one of the newsletters each week and speaking on the news coming out from there!
 
 Like the writing, I do not want to spend more time than necessary to publish podcasts, so I will do my best to find a way to automate the mastering and distribution of content.
+
+<Ad />
 
 ## Summary
 

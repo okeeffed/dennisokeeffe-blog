@@ -6,6 +6,8 @@ description: Ruby Spiral Matrices with unit testing.
 
 This requires the gem installation of `minitest`.
 
+<Ad />
+
 ## Test file
 
 Create file `spiral-matrix_test.rb`:
@@ -39,6 +41,8 @@ end
 
 __END__
 ```
+
+<Ad />
 
 ## Spiral Matrix
 
@@ -97,6 +101,8 @@ class SpiralMatrix
     end
 end
 ```
+
+<Ad />
 
 ## Testing
 

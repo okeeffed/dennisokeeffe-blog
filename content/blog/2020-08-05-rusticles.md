@@ -6,9 +6,13 @@ date: "2020-08-05"
 
 Rusticles, a weekly curation for all things Rust in one centralised place. Here is your curation for Wed Aug 05 2020.
 
+<Ad />
+
 ## Updates From The Rust Team
 
 - **[Announcing Rust 1.45.1](https://blog.rust-lang.org/2020/07/30/Rust-1.45.1.html)** - July 30
+
+<Ad />
 
 ## Hot Rust Articles This Week On Reddit
 
@@ -18,6 +22,8 @@ Rusticles, a weekly curation for all things Rust in one centralised place. Here 
 - [Announcing Rust 1.45.2](https://www.reddit.com/r/rust/comments/i2zp72/announcing_rust_1452/) (1 day ago)
 - [Edition 2021 and beyond](https://www.reddit.com/r/rust/comments/i0n78c/edition_2021_and_beyond/) (5 days ago)
 - [Beginner's guide to Error Handling in Rust](https://www.reddit.com/r/rust/comments/i2bv2m/beginners_guide_to_error_handling_in_rust/) (2 days ago)
+
+<Ad />
 
 ## Rust Articles This Week On Dev.To
 
@@ -37,6 +43,8 @@ Rusticles, a weekly curation for all things Rust in one centralised place. Here 
 - **Richard de Jesus**: [Aprendendo Rust: 05 - Funções](https://dev.to/pehdepano/aprendendo-rust-05-funcoes-3j72)
 - **Szymon Gibała**: [Building Rust Web API with Warp and Diesel](https://dev.to/szymongib/building-rust-web-api-with-warp-and-diesel-1d7c)
 - **Francesco Cogno**: [Exploring Azure CosmosDB with Rust - Part 1](https://dev.to/mindflavor/exploring-azure-cosmosdb-with-rust-part-1-1ki7)
+
+<Ad />
 
 ## Trending Rust Repositories This Week On Github
 

@@ -9,6 +9,8 @@ Today we're going to use Tailwind's resolveConfig to write out a JavaScript file
 
 We will create a small application and show it in action by overriding some styles from the [React Select](https://react-select.com/home) library.
 
+<Ad />
+
 ## Setting up
 
 We are going with the basic [Create React App](https://github.com/facebook/create-react-app) template. Let's set that up and install the dependencies for today.
@@ -28,6 +30,8 @@ touch bin/generate-tailwind-theme
 # Add execution permissions
 chmod u+x bin/generate-tailwind-theme
 ```
+
+<Ad />
 
 ## Tailwind Configuration
 
@@ -50,6 +54,8 @@ module.exports = {
 ```
 
 Let's now write our script that will reference this file.
+
+<Ad />
 
 ## Updating our script
 
@@ -95,6 +101,8 @@ Here, we follow these steps:
 
 We can now run this using `bin/generate-tailwind-theme`. If this doesn't work, you may need to check you have the correct permissions and shabang (#!) reference to your Node installation. If this doesn't work, feel free to run `node bin/generate-tailwind-theme` and see what happens.
 
+<Ad />
+
 ## Theme Output
 
 After success, a short look into our `src/theme.js` file should look like the following:
@@ -127,6 +135,8 @@ export default theme
 ```
 
 Awesome! Now we have our theme config that we can use with React Context.
+
+<Ad />
 
 ## Setting up the Provider for our app
 
@@ -170,6 +180,8 @@ The `ThemeContext` that we have created using `createContext` will allow the the
 At the moment, our App will not run (we haven't created our `Select` file!).
 
 We're going to write an adapter file for our `Select` component.
+
+<Ad />
 
 ## Create a Select Adapter
 
@@ -236,6 +248,8 @@ Note, the one quick here are the font family values `theme.fontFamily.sans.join(
 
 > This styling isn't perfect. They are just some styles I was playing around with this morning, but they illustrate the point.
 
+<Ad />
+
 ## Running the app
 
 Let's get our app up and going the normal way:
@@ -253,6 +267,8 @@ We can now see these changes in action. If we head back to our `src/Select.jsx` 
 ![Teal applied](../assets/2020-07-26-teal-applied.png)
 
 Congratulations, you now have access to your Tailwind theme values across your React application!
+
+<Ad />
 
 ## Resources and Further Reading
 

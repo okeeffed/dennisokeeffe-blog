@@ -6,6 +6,8 @@ description: Basic instructions on how to use EKSCTL on the command line.
 
 https://eksctl.io/
 
+<Ad />
+
 ## tl;dr
 
 ### Clusters
@@ -102,6 +104,8 @@ nodeGroups:
 ```
 
 See ![examples/](https://github.com/weaveworks/eksctl/tree/master/examples) directory for more sample config files.
+
+<Ad />
 
 ## Usage
 

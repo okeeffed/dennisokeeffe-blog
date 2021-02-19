@@ -6,6 +6,8 @@ date: "2020-07-07"
 
 Change my mind: CSS is hard. In fact, I preach day in and day out that scalable CSS is one of the more difficult concepts to grasp effectively. Here are 7 tips to help you scale and manage CSS and its alternatives.
 
+<Ad />
+
 ## 1: Keep Architecture Front Of Mind
 
 To be able to scale styling effectively, you need to first think of the grander picture.
@@ -23,6 +25,8 @@ Atomic design is inspired by chemistry and attempts to take things from first pr
 5. Pages
 
 While this post is not a deep dive into that thinking framework (nor others), identifying and isolating smaller components from larger ones such as the pages will go a long way into how you begin to organize your style files and avoid repetitiveness.
+
+<Ad />
 
 ## 2: Where Appropriate, Use Processors
 
@@ -123,6 +127,8 @@ After processing with the autoprefixer:
 As you can see, we no longer have to write rules for variant of browser - **a most troublesome foe indeed.**
 
 Cool - so we've managed to save ourselves some code and are preventing some side-effects with the basic capabilities of pre-processors, but we are still in a bit of a pickle. We can still abuse these powers and end up in a mess. So what can we do next?
+
+<Ad />
 
 ## 3: Find Structures That Work For Your Team
 
@@ -235,6 +241,8 @@ With [OOCSS](https://github.com/stubbornella/oocss/wiki), it brings in the commo
 
 [SMACSS](http://smacss.com/) itself self-proclaims to be more of a style guide than a framework, so placing it in this section may be incorrect, but it certainly leads us to the next important point.
 
+<Ad />
+
 ## 4: Use Style Guides, Linters and Code Formatters
 
 The beauty about web development is that web developers are the first to create amazing resources for their peers to use! You do not need to ~re-invert the wheel~ make the same mistakes as our predecessors.
@@ -251,6 +259,8 @@ Here is a non-exhaustive list to kick start your research into this:
 2. [Dropbox CSS Style Guide](https://github.com/dropbox/css-style-guide)
 3. [Stylelint.io](https://stylelint.io/)
 4. [Prettier.io](https://prettier.io/)
+
+<Ad />
 
 ## 5: Consider Frameworks That Support Compartmentalization
 
@@ -284,6 +294,8 @@ const ComponentB = () => <div className="component"></div>
 
 Thanks to the separation and power of transpilers, the styling applied to both classes can be independent of each other and do not clash. This solves our previous issue around "style bleeding".
 
+<Ad />
+
 ## 6: Consider CSS-in-JS
 
 CSS-in-JS has been a _relatively recent_ technology brought into the web development world.
@@ -294,6 +306,8 @@ Modern libraries such as [styled-components](https://styled-components.com/) and
 
 For those who want to harness these powers but still prefer the final CSS output, checkout alternatives such as [Treat](https://github.com/seek-oss/treat) which enable you to do this.
 
+<Ad />
+
 ## 7: Use Comments
 
 This should be self-explanatory, but I have two requests:
@@ -303,6 +317,8 @@ This should be self-explanatory, but I have two requests:
 
 Comments are powerful for humanizing the code and explaining what is happening in understandable terms. They are not an alibi.
 
+<Ad />
+
 ## Conclusion
 
 These have been seven tips that I have learned along the way to help with my mortal enemy: CSS.
@@ -310,6 +326,8 @@ These have been seven tips that I have learned along the way to help with my mor
 Here is to hoping that these resources help you in your own battle against maintaining styles!
 
 Do you have any other tips that you have learned along the way? Share them below!
+
+<Ad />
 
 ## Resources and Further Reading
 

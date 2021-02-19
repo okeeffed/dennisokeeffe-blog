@@ -8,6 +8,8 @@ This covers the basic actions of applying a push, pop, shift and unshift functio
 
 These functions are incredibly useful for data structure implementations.
 
+<Ad />
+
 ## Push
 
 Using `array_push`:
@@ -42,6 +44,8 @@ $arr = array_merge($arr,array("two","three")); // $arr will now be array("one","
 $count = count($arr); // $count will be 3
 ```
 
+<Ad />
+
 ## Pop
 
 ```php
@@ -50,6 +54,8 @@ $arr = array("one","two","three");
 // $value will be "three" and array's value will now be array("one","two");
 $value = array_pop($arr);
 ```
+
+<Ad />
 
 ## Shift
 
@@ -60,6 +66,8 @@ $arr = array("one","two","three");
 $value = array_shift($arr);
 ```
 
+<Ad />
+
 ## Unshift
 
 ```php
@@ -68,6 +76,8 @@ $arr = array("three","four","five");
 // $count will now be 5 and array will hold one - five
 $count = array_unshift($arr,"one","two");
 ```
+
+<Ad />
 
 ## Example: Basic Tree Implementation
 
@@ -129,6 +139,8 @@ class Node {
     }
 }
 ```
+
+<Ad />
 
 ## Resources + Extra Reading
 

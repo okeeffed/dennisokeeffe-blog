@@ -11,6 +11,8 @@ In my most [recent post](https://blog.dennisokeeffe.com/blog/2020-11-05-deployin
 
 In this post, we will cover how to enable Vercel Analytics on a Vercel hosted Next.js 10 project, then use [GTMetrix](https://gtmetrix.com/) to help send some request from around the globe (using throttling for various speeds) that our analytics can collect (on top of any other potential visits to the site).
 
+<Ad />
+
 ## The "what" of Vercel Analytics
 
 A great way to understand what is on offer is to read through Vercel's [analytics overview](https://vercel.com/docs/analytics/overview#hosted-on-vercel).
@@ -18,6 +20,8 @@ A great way to understand what is on offer is to read through Vercel's [analytic
 It covers things such as pricing, what you get per tier, what frameworks are supported (Next.js 10+, Gatsby 2+) and an overview of each of the metrics that you get and the "why" those metrics are so important to modern web development.
 
 While I will not cover what is in the above overview, I will be exploring some of the data points being ingested and calculated.
+
+<Ad />
 
 ## Enabling Vercel Analytics
 
@@ -36,6 +40,8 @@ Once you are on the analytics tab, you will be greeted with the following modal:
 Select **Enable**, and then Vercel will prompt you to redeploy with your build with analytics enabled. Once, that is done, Vercel will kindly let you know that it is awaiting data:
 
 ![Awaiting data on Vercel Analytics](https://github.com/okeeffed/dennisokeeffe-blog/blob/master/content/assets/2020-11-06-3-vercel-awaiting-data.png?raw=true)
+
+<Ad />
 
 ## Playing around with GTMetrix
 
@@ -60,6 +66,8 @@ I fiddled with the settings and made a number of manual calls to the app with di
 ![GTMetrix Slowest](https://github.com/okeeffed/dennisokeeffe-blog/blob/master/content/assets/2020-11-06-5-gtmetrix-slowest.png?raw=true)
 
 After doing a number of these visits, I decided to call it a night and play the waiting game.
+
+<Ad />
 
 ## Viewing the analytics
 
@@ -87,6 +95,8 @@ The same applies to the analytics you have seen on my dashboard. The p75 metrics
 
 The ability to filter down these percentiles, even on the hobby tier is extremely valuable to getting metrics and insight from real-world users! It will empower you to make the best decisions on what you should or shouldn't focus on based on your demographic.
 
+<Ad />
+
 ## In conclusion
 
 Today's post looked at setting up Vercel Analytics with a Next.js 10 project, followed by emulating some real-world metrics though a page-speed service and finally a high-level look at what data comes back.
@@ -94,6 +104,8 @@ Today's post looked at setting up Vercel Analytics with a Next.js 10 project, fo
 Vercel (and formerly as Zeit) have been building some badass tools and services for years and their platform is top-notch.
 
 Be sure to check back as I delve further into some of the new options that Vercel and Next.js 10 provide in upcoming posts.
+
+<Ad />
 
 ## Resources and further reading
 

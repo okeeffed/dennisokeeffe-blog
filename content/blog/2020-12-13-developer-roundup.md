@@ -7,6 +7,8 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/xg2dgz5vcfhp0zqp92hk.png
 
 Developer roundup from across the web for the week of 2020-12-13.
 
+<Ad />
+
 ## Trending This Week On Github
 
 - **WerWolv/ImHex** (C++): [A Hex Editor for Reverse Engineers, Programmers and people that value their eye sight when working at 3 AM.](https://github.com/WerWolv/ImHex)
@@ -33,6 +35,8 @@ Developer roundup from across the web for the week of 2020-12-13.
 - **aseprite/aseprite** (C++): [Animated sprite editor & pixel art tool (Windows, macOS, Linux)](https://github.com/aseprite/aseprite)
 - **thanos-io/thanos** (Go): [Highly available Prometheus setup with long term storage capabilities. A CNCF Incubating project.](https://github.com/thanos-io/thanos)
 - **cypress-io/cypress** (JavaScript): [Fast, easy and reliable testing for anything that runs in a browser.](https://github.com/cypress-io/cypress)
+
+<Ad />
 
 ## Trending This Week On Dev.To
 
@@ -71,6 +75,8 @@ Developer roundup from across the web for the week of 2020-12-13.
 - **Henry Boisdequin**: [Awesome Cheatsheets from Instagram](https://dev.to/hb/awesome-cheatsheets-from-instagram-47a8)
 - **Chris Bongers**: [Chrome DevTools: Grid Explorer](https://dev.to/dailydevtips1/chrome-devtools-grid-explorer-51cp)
 - **Thu Nghiem**: [Web Developer Roadmap 2021 in 10 minutes](https://dev.to/nghiemthu/web-developer-2010-in-10-minutes-271b)
+
+<Ad />
 
 ## Trending This Week On Hacker News
 

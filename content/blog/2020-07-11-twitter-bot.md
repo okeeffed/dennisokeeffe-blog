@@ -8,11 +8,15 @@ Building a Twitter bot is part of the holy pilgrimage to being a hobbyist develo
 
 Let's take our first steps into how we can make our first Tweet with NodeJS. We will go through a simple four-step process on how to get up and running with your first bot!
 
+<Ad />
+
 ## Step One: Get access
 
 As of writing, it is a requirement to [apply for access](https://developer.twitter.com/en/apply-for-access) for a developer Twitter account. It is nice and straight-forward and requires a couple of minutes to fill out.
 
 This step is only required if you have no yet done this.
+
+<Ad />
 
 ## Step Two: Get tokens
 
@@ -28,6 +32,8 @@ You will also need to generate the `Access Token & Secret`. This an be done unde
 
 Once you have done all that, keep the keys handy and we will build out the bot.
 
+<Ad />
+
 ## Step Three: Add read + write permissions
 
 In that same dashboard, head to `Projects & Apps > Your Project > Your App` and make sure you change your `App permissions` to be `Read and Write`.
@@ -35,6 +41,8 @@ In that same dashboard, head to `Projects & Apps > Your Project > Your App` and 
 This is important to allow us to Tweet with the credentials from above.
 
 ![Read + Write Permissions](../assets/2020-07-11-read-write-permissions.png)
+
+<Ad />
 
 ## Step Four: Build the application
 
@@ -145,6 +153,8 @@ If we now jump onto Twitter, we can see our successes!
 <figcaption>First Twitter bot post</figcaption>
 
 Congratulations! You can now post remotely and avoid all the negative vibes that can comes across from time to time when perusing the Twitterverse!
+
+<Ad />
 
 ## Resources and Further Reading
 

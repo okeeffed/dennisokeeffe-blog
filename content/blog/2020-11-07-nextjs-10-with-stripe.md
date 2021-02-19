@@ -13,11 +13,15 @@ We will use a Stripe + Nextjs starter template, upgrade React to version 17, Typ
 
 _I tell you what, I sure am ready to leave me 9-5 job._
 
+<Ad />
+
 ## Prerequisites and requirements
 
 1. Have a Stripe account.
 2. Have your [API keys](https://support.stripe.com/questions/locate-api-keys-in-the-dashboard#:~:text=Users%20with%20Administrator%20permissions%20can,and%20clicking%20on%20API%20Keys.&text=If%20you%20have%20already%20enabled,one%20or%20more%20hardware%20security%E2%80%A6) ready.
 3. A [Vercel](https://vercel.com) account.
+
+<Ad />
 
 ## Getting started
 
@@ -45,6 +49,8 @@ In my case, this brought TypeScript up to v4.0.5 and React + ReactDOM to v17.0.1
 
 > You could check for the other packages as well (Stripe, etc.) but I will leave them for the sake of working with what is currently there.
 
+<Ad />
+
 ## Preparing the app
 
 Before we go too deep into exploration, we need to add in your [Stripe API Keys](https://dashboard.stripe.com/apikeys). In my case, I will just use the test keys from the dashboard.
@@ -69,6 +75,8 @@ STRIPE_PAYMENT_DESCRIPTION='Software development services'
 STRIPE_WEBHOOK_SECRET=<your-webhook-secret-from-stripe-cli>
 ```
 
+<Ad />
+
 ## Exploring the app
 
 To start the app, run `npm run dev` in the terminal.
@@ -86,6 +94,8 @@ This page allows us to run three examples:
 3. Using the Shopping Cart.
 
 Let's explore the code for each page.
+
+<Ad />
 
 ## Donate with Stripe Checkout
 
@@ -198,6 +208,8 @@ The UI itself will redirect to `/result` where the response JSON body will be sh
 
 <figcaption>Response on result page</figcaption>
 
+<Ad />
+
 ## Donate with Stripe Elements
 
 If we return to the home page and select the `Donate with Elements` option, we will come to a similar donation page but with the difference that we are now using Stripe Elements from the `@stripe/react-stripe-js` package.
@@ -262,6 +274,8 @@ If we fill out the details similar to before with the same test card and click `
 
 <figcaption>Elements paid</figcaption>
 
+<Ad />
+
 ## Exploring the Shopping Cart
 
 As for the final option of **Use Shopping Cart**, you'll see the example gives us a lovely set of options to add items to a cart, then checkout.
@@ -282,6 +296,8 @@ The difference in this cart, however, is that your items will show on the checko
 
 <figcaption>Checkout with shopping cart</figcaption>
 
+<Ad />
+
 ## See the payments in the dashboard
 
 If you head to the **Payments** section of your Stripe Dashboard, you will be able to confirm the test payments we made.
@@ -289,6 +305,8 @@ If you head to the **Payments** section of your Stripe Dashboard, you will be ab
 ![Payments in the dashboard](https://github.com/okeeffed/dennisokeeffe-blog/blob/master/content/assets/2020-11-07-8-payments-stripe-dashboard.png?raw=true)
 
 <figcaption>Payments in the dashboard</figcaption>
+
+<Ad />
 
 ## Deploying to Vercel
 
@@ -330,6 +348,8 @@ Head to your URL now, run through one of the flows we described during this post
 
 <figcaption>Production payment on the Stripe Dashboard</figcaption>
 
+<Ad />
+
 ## Conclusion
 
 In summary, we have looked today at setting up React 17 and TypeScript 4.x in a Nextjs 10 application and event taken it to production using Vercel to host the live website with the ability to accept payments.
@@ -337,6 +357,8 @@ In summary, we have looked today at setting up React 17 and TypeScript 4.x in a 
 Most of these example API routes and implementations from the app can be re-used in the real-world for your own projects.
 
 Stripe + Vercel = Greatness. Happy hacking!
+
+<Ad />
 
 ## Resources and further reading
 

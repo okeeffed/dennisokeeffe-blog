@@ -7,6 +7,8 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/qs7o2ag8vzo0uborgc7v.png
 
 Gopher Gold weekly curation for Wed Oct 07 2020.
 
+<Ad />
+
 ## Hot Go Articles This Week On Reddit
 
 - [Increasing http.Server boilerplate](https://www.reddit.com/r/golang/comments/j3vs2m/increasing_httpserver_boilerplate/) (4 days ago)
@@ -14,6 +16,8 @@ Gopher Gold weekly curation for Wed Oct 07 2020.
 - [Go, WebAssembly, HTTP requests and Promises - A guide to interacting with JS from Go/Wasm](https://www.reddit.com/r/golang/comments/j4lz94/go_webassembly_http_requests_and_promises_a_guide/) (3 days ago)
 - [bit: an experimental git CLI with a powerful interactive prompt and happy defaults](https://www.reddit.com/r/golang/comments/j5wggn/bit_an_experimental_git_cli_with_a_powerful/) (1 day ago)
 - [So, we made MTProto full native implementation on pure go. This is protocol used by Telegram messenger](https://www.reddit.com/r/golang/comments/j5hffz/so_we_made_mtproto_full_native_implementation_on/) (1 day ago)
+
+<Ad />
 
 ## Go Articles This Week On Dev.To
 
@@ -48,6 +52,8 @@ Gopher Gold weekly curation for Wed Oct 07 2020.
 - **Viacheslav Poturaev**: [Reducing indented JSON height in Go](https://dev.to/vearutop/reducing-indented-json-height-in-go-40nd)
 - **Ravindra kumar**: [Book my tab customer care number 7602472247//7544075738//](https://dev.to/ravindr35034522/book-my-tab-customer-care-number-7602472247-7544075738-5717)
 
+<Ad />
+
 ## Trending Go Repositories This Week On Github
 
 - **muesli/duf** (Go): [Disk Usage/Free Utility](https://github.com/muesli/duf)
@@ -75,6 +81,8 @@ Gopher Gold weekly curation for Wed Oct 07 2020.
 - **kubernetes/enhancements** (Go): [Enhancements tracking repo for Kubernetes](https://github.com/kubernetes/enhancements)
 - **gohugoio/hugo** (Go): [The world’s fastest framework for building websites.](https://github.com/gohugoio/hugo)
 - **rakyll/hey** (Go): [HTTP load generator, ApacheBench (ab) replacement, formerly known as rakyll/boom](https://github.com/rakyll/hey)
+
+<Ad />
 
 ## Topics from the Weekly Go Forum
 

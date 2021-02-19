@@ -20,12 +20,16 @@ This tool is written in Golang and requires an understanding of certain concepts
 
 The MVP for this was to just get auto-sized rectangles that would flow from `1..n` with lines between each using a little bit of math.
 
+<Ad />
+
 ## Prerequisites
 
 This post uses concepts that were taken from previous blog posts. Please check them out first to understand how a bunch of the screenshots and argument parsing is working.
 
 1. [Screenshots with Puppeteer - Blog Post](https://blog.dennisokeeffe.com/blog/2020-07-01-screenshot-anything-with-puppeteer/)
 2. [Intro Yargs Parser - Blog Post](https://blog.dennisokeeffe.com/blog/yargs-parser/)
+
+<Ad />
 
 ## Getting started
 
@@ -42,6 +46,8 @@ touch index.js
 The above is what we'll use in the Node script. As for RoughJS itself, we are going to use CDNs for RoughJS to load in the vanilla HTML template. This does mean that our project will only work if connected to the internet.
 
 > There are other ways to use Nodejs and Nodejs canvas locally, but this was for me to get it done quickly. I may cover another post with `node-canvas` another time as it is super handy!
+
+<Ad />
 
 ## Writing the script part by part
 
@@ -103,6 +109,8 @@ If you run `node index.js --help` or `node index.js` with no following arguments
 
 <figcaption>Output from help</figcaption>
 
+<Ad />
+
 ## First attempt as legible parsing
 
 In the help printed, we have an example `rough "First box, no options {} | Second | Third with red fill {fill: 'red'}"`. What's happening here?
@@ -112,6 +120,8 @@ The endgame is to have a command "rough" that I can use anywhere on the local ma
 As for the part within the quotations, that is my attempt to ensure that string becomes the first argument of `argv._` and then I will parse the string to grab out the parts between the pipes `|` and use that to pipe from one text to the next.
 
 The parts within the brackets `{}` will be the options I pass to Rough in order to add in the colours, fills, etc.
+
+<Ad />
 
 ## Adding in the constants and helpers
 
@@ -237,6 +247,8 @@ const generateString = () => {
 
 Phew! That is the complex part out of the way.
 
+<Ad />
+
 ## Adding the script and valid HTML
 
 We now use that `generateString` function to generate out a `script` variable.
@@ -347,6 +359,8 @@ There are two important tags in the `head` which load an `Open Sans` font that I
 </head>
 ```
 
+<Ad />
+
 ## Running this altogether
 
 Finally, the magic. Again, this basically comes from [other blog post] on screenshots with Puppeteer, so I won't explain too much here:
@@ -394,6 +408,8 @@ const main = async () => {
 
 main()
 ```
+
+<Ad />
 
 ## Running
 
@@ -449,6 +465,8 @@ Let's run a couple more to see our success.
 <figcaption>Fourth output</figcaption>
 
 Great success! That is all for today, I am already late for standup!
+
+<Ad />
 
 ## Resources and Further Reading
 

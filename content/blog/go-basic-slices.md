@@ -18,6 +18,8 @@ import (
 package slices
 ```
 
+<Ad />
+
 ## Push
 
 ```go
@@ -40,6 +42,8 @@ func Push(a []int, b int) []int {
 	return append(a, b)
 }
 ```
+
+<Ad />
 
 ## Pop
 
@@ -70,6 +74,8 @@ func Pop(a []int) (int, []int) {
 }
 ```
 
+<Ad />
+
 ## Unshift
 
 ```go
@@ -80,6 +86,8 @@ func Unshift(a []int, b int) []int {
 	return append([]int{b}, a...)
 }
 ```
+
+<Ad />
 
 ## Shift
 

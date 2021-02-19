@@ -6,6 +6,8 @@ description: Java implementation of a basic unidirectional Linked List.
 
 Basic unidirectional linked list in Java.
 
+<Ad />
+
 ## Gradle setup
 
 In `gradle.build`:
@@ -29,6 +31,8 @@ test {
     }
 }
 ```
+
+<Ad />
 
 ## Writing the tests
 
@@ -140,6 +144,8 @@ public class LinkedListTest {
     }
 }
 ```
+
+<Ad />
 
 ## Implementing the Linked List
 

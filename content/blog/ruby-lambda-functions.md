@@ -10,6 +10,8 @@ The Lambda function enforces the number of arguments passed.
 
 In addition, Lambda and Proc functions treat the `return` differently. Lambda will return from the scope of that closure function, whereas Proc will return from the parent scope.
 
+<Ad />
+
 ## Simple Example
 
 ```ruby

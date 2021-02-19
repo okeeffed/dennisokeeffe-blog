@@ -9,6 +9,8 @@ Password protection for deploys can be a costly payment when hosting websites, p
 
 In today's tutorial, I am going to show you how you can set up your own simple authentication protection on these branches using Next.js 10 and Next.js Auth.
 
+<Ad />
+
 ## Getting Started
 
 ```s
@@ -23,6 +25,8 @@ touch "pages/api/auth/[...nextauth].js"
 # We'll also create a private page we a basic example
 touch pages/private.js
 ```
+
+<Ad />
 
 ## Setting up the API
 
@@ -73,6 +77,8 @@ We are going to use `NEXTAUTH_USERNAME` and `NEXTAUTH_PASSWORD` to set up our ba
 
 The above will make a comparison, and if that comparison is correct, we'll return the `user` object which will just be a name of `admin` and ID of `1`.
 
+<Ad />
+
 ## Setting up a private page
 
 In `pages/private.js`, add the following:
@@ -104,6 +110,8 @@ export default function Page() {
 ```
 
 Here we will use the `useSession` hook to determine if we are logged in, while using `signIn` from the `next-auth/client` library to given an option for the user to sign in.
+
+<Ad />
 
 ## Updating pages/index.js and pages/\_app.js
 
@@ -163,6 +171,8 @@ export default function App({ Component, pageProps }) {
 
 That is all we need for the code setup!
 
+<Ad />
+
 ## Setting environment variables
 
 For local development, we can add env vars to the `.env.local` file. Add the following now:
@@ -176,6 +186,8 @@ NEXTAUTH_PASSWORD="#3bgQ]Xu(,GwVH7bLc4gQjR"
 Here we set the username and password required for the auth and the apps URL (here it is just localhost).
 
 Perfect, now we can see things in action!
+
+<Ad />
 
 ## Exploring the website
 
@@ -202,6 +214,8 @@ Writing in our **username** and **password** as we have set it in the environmen
 Success! We have managed to add simple, basic authentication to our Next.js application.
 
 You can [try out the project](https://nextjs-simple-auth.vercel.app/) being hosted on Vercel.
+
+<Ad />
 
 ## Resources and further reading
 

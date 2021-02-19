@@ -7,11 +7,15 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/qs7o2ag8vzo0uborgc7v.png
 
 Go Weekly, a weekly curation for all things Go in one centralised place. Here is your curation for Wed Sep 09 2020.
 
+<Ad />
+
 ## Hot Go Articles This Week On Reddit
 
 - [PayPal Taps Go to Modernize and Scale: In our tightly managed environments where we run Go code, we have seen a CPU reduction of approximately ten percent with cleaner and maintainable code.](https://www.reddit.com/r/golang/comments/ilr81s/paypal_taps_go_to_modernize_and_scale_in_our/) (5 days ago)
 - [I wrote a piece about (lightweight) design patterns in Go, hope anyone finds it useful](https://www.reddit.com/r/golang/comments/iml937/i_wrote_a_piece_about_lightweight_design_patterns/) (4 days ago)
 - [I needed an in-browser Go compiler a while back, but couldn't find one, so I made one. Hopefully someone finds it useful. It's based on github.com/ccbrown/wasm-go-playground and currently Work-In-Progess but functional.](https://www.reddit.com/r/golang/comments/in46lo/i_needed_an_inbrowser_go_compiler_a_while_back/) (3 days ago)
+
+<Ad />
 
 ## Go Articles This Week On Dev.To
 
@@ -45,6 +49,8 @@ Go Weekly, a weekly curation for all things Go in one centralised place. Here is
 - **Alestor Aldous**: [Should I Go For Node or Golang](https://dev.to/alestor123/should-i-go-for-node-or-golang-3d9c)
 - **FabianBG**: [The DDD microservice with GO](https://dev.to/fabianbg/the-ddd-microservice-with-go-5cie)
 
+<Ad />
+
 ## Trending Go Repositories This Week On Github
 
 - **go-gorm/gorm** (Go): [The fantastic ORM library for Golang, aims to be developer friendly](https://github.com/go-gorm/gorm)
@@ -72,6 +78,8 @@ Go Weekly, a weekly curation for all things Go in one centralised place. Here is
 - **weaveworks/eksctl** (Go): [The official CLI for Amazon EKS](https://github.com/weaveworks/eksctl)
 - **go-gitea/gitea** (Go): [Git with a cup of tea, painless self-hosted git service](https://github.com/go-gitea/gitea)
 - **go-sql-driver/mysql** (Go): [Go MySQL Driver is a MySQL driver for Go's (golang) database/sql package](https://github.com/go-sql-driver/mysql)
+
+<Ad />
 
 ## Topics from the Weekly Go Forum
 

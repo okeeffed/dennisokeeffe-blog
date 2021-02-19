@@ -10,6 +10,8 @@ The prerequisites are that you have Docker and the use Nodejs suspects installed
 
 Understanding some basics behind Docker and MySQL is recommended, but not essential to get to the end (famous last words).
 
+<Ad />
+
 ## Setting up MySQL with Docker
 
 ```shell
@@ -82,6 +84,8 @@ yarn add next-auth mysql dotenv
 
 Here, we are just going to use [GitHub OAuth](https://next-auth.js.org/providers/github) for logging in.
 
+<Ad />
+
 ## Setting up Next Auth in the application
 
 Create a file `pages/api/auth/[...nextauth].js`.
@@ -142,6 +146,8 @@ export default () => {
 
 That is all we need to do for the application! We won't start running anything just yet... there are a couple of things we want to get setup first.
 
+<Ad />
+
 ## Setting up ngrok
 
 We are using tunneling to forward our localhost address out to the big, bad world.
@@ -160,6 +166,8 @@ Here a look at my editor once ngrok was up and running in the terminal:
 
 ![ngrok](../assets/2020-06-24-ngrok-running.png)
 
+<Ad />
+
 ## Setting up GitHub OAuth
 
 Follow the guide on how to set up a [GitHub OAuth Application](https://developer.github.com/apps/building-oauth-apps/authorizing-oauth-apps/)
@@ -171,6 +179,8 @@ We will need to grab both the ID and the token given back.
 This is a look at how my setup was for this particular example:
 
 ![GitHub OAuth App](../assets/2020-06-24-github-oauth-app-example.png)
+
+<Ad />
 
 ## Env Variables
 
@@ -186,6 +196,8 @@ SITE=<ngrok-server>
 ```
 
 > For the `DATABASE_URL`, note that we are running on port 6000 as we are forwarding from 3306 on the Docker container to 6000. This ensures you won't clash with any local MySQL application you may have running on your local machine. The `next_auth` is the name of the database we creating in the initial steps.
+
+<Ad />
 
 ## Running Dev
 
@@ -213,6 +225,8 @@ Finally, once the callback runs its normal phase, we will arrive back home.
 
 Notice now that we are now signed in! Hooray!
 
+<Ad />
+
 ## Checking out what changed in MySQL
 
 Given that we opted to use a database to store sessions, we could now attach to the Docker container once again and jump into MySQL.
@@ -231,6 +245,8 @@ Here we can see our info has come across! Easy peasy!
 ![MySQL DB](../assets/2020-06-24-checking-in-docker-mysql-container.png)
 
 This has been a real barebones look at working with MySQL within a Docker container and running a Nextjs app with Next Auth, but there are a bunch of really next OAuth and database options they support - each essentially a similar approach as the above! Jump onto their docs and play around.
+
+<Ad />
 
 ## Resources and Further Reading
 

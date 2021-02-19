@@ -8,6 +8,8 @@ In this quick take, we're going to get you up and running with your first npm pa
 
 It expects you to be _relatively_ familiar with npm and GitHub.
 
+<Ad />
+
 ## Create an Access Token on GitHub
 
 On GitHub (once logged in), click on the top-right dropdown in the toolbar and head to `Settings > Developer > Personal Access Tokens` and create a new access token with:
@@ -29,6 +31,8 @@ $ npm login --registry=https://npm.pkg.github.com
 > Password: YOUR_GITHUB_TOKEN
 > Email: PUBLIC-EMAIL-ADDRESS
 ```
+
+<Ad />
 
 ## Publishing the first package
 
@@ -79,6 +83,8 @@ npm publish
 
 Bingo! We should be ready to roll.
 
+<Ad />
+
 ## Installing the package
 
 Let's start a new Nodejs project.
@@ -110,6 +116,8 @@ Hello World!
 ```
 
 The important part from all of this is to ensure that you have correctly configured `package.json` for your NPM packages.
+
+<Ad />
 
 ## Resources and Further Reading
 

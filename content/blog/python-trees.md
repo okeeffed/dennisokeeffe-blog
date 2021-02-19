@@ -4,6 +4,8 @@ date: "2019-03-11"
 description: Python implementation of a basic node tree and traversal using DFS and BFS.
 ---
 
+<Ad />
+
 ## Test file
 
 Create file `trees_test.py`:
@@ -46,6 +48,8 @@ class TreesTest(unittest.TestCase):
 if __name__ == '__main__':
     unittest.main()
 ```
+
+<Ad />
 
 ## Trees
 
@@ -100,6 +104,8 @@ class Node:
         self.data = data
         self.children = children
 ```
+
+<Ad />
 
 ## Running tests
 

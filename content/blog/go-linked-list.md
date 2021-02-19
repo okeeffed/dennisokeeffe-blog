@@ -6,6 +6,8 @@ description: Go implementation of a basic unidirectional Linked List.
 
 Basic unidirectional linked lists with Golang.
 
+<Ad />
+
 ## Setting up the test
 
 Set up `linked_list_test.go` with the following file:
@@ -211,6 +213,8 @@ func TestInsertNodeAtIndexOfList(t *testing.T) {
 }
 ```
 
+<Ad />
+
 ## Trees implementation
 
 ```go
@@ -390,6 +394,8 @@ func (l *List) insertAt(index int, node *Node) error {
 	return nil
 }
 ```
+
+<Ad />
 
 ## Running Tests
 

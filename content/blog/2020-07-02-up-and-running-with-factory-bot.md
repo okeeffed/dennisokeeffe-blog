@@ -8,6 +8,8 @@ This post is a short getting-up-and-running style of post.
 
 It expects that you have Rails 5 setup and ready to roll.
 
+<Ad />
+
 ## Why Factory Bot?
 
 From the world's most reliable resource [Wikipedia](<https://en.wikipedia.org/wiki/Factory_Bot_(Rails_Testing)>):
@@ -18,6 +20,8 @@ There is more info on the why on the [Why Factories](https://thoughtbot.com/blog
 
 This is simply a quick start to get up and going to test model validation.
 
+<Ad />
+
 ## Quick start
 
 ```s
@@ -25,6 +29,8 @@ rails new <project> -- api
 cd <project>
 gem install rspec factory_bot_rails
 ```
+
+<Ad />
 
 ## Update Gemfile config
 
@@ -38,6 +44,8 @@ end
 ```
 
 Run `bundle install`.
+
+<Ad />
 
 ## Automatic factory definition loading
 
@@ -61,6 +69,8 @@ config.factory_bot.definition_file_paths = ["custom/factories"]
 ```
 
 This will cause factory_bot_rails to automatically load factories in `custom/factories.rb` and `custom/factories/*.rb`.
+
+<Ad />
 
 ## Config
 
@@ -93,6 +103,8 @@ class ActiveSupport::TestCase
 end
 ```
 
+<Ad />
+
 ## Create a model
 
 From the [guides](https://guides.rubyonrails.org/getting_started.html#creating-the-article-model), we are going to generate a new model.
@@ -112,6 +124,8 @@ If successful, the migration should return:
 ==  CreateArticles: migrated (0.0020s) =========================================
 ```
 
+<Ad />
+
 ## Update Ruby
 
 Update `app/models/article.rb` to look like the following:
@@ -122,6 +136,8 @@ class Article < ApplicationRecord
   validates :text, presence: true, length: {minimum: 5}
 end
 ```
+
+<Ad />
 
 ## Add the following to the factories directory
 
@@ -134,6 +150,8 @@ FactoryBot.define do
   end
 end
 ```
+
+<Ad />
 
 ## Add an Rspec for the model
 
@@ -174,6 +192,8 @@ class ArticleTest < ActiveSupport::TestCase
 end
 ```
 
+<Ad />
+
 ## Running the test
 
 ```s
@@ -197,6 +217,8 @@ Run options: --seed 18801
 Finished in 0.001607s, 0.0000 runs/s, 0.0000 assertions/s.
 0 runs, 0 assertions, 0 failures, 0 errors, 0 skips
 ```
+
+<Ad />
 
 ## Resources and Further Reading
 

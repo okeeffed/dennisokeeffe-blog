@@ -6,6 +6,8 @@ date: "2020-06-22"
 
 Here is your update from across the web for the week of 2020-06-22.
 
+<Ad />
+
 ## Trending This Week On Github
 
 - **corona-warn-app/cwa-app-android** (Kotlin): [Native Android app using the Apple/Google exposure notification API.](https://github.com/corona-warn-app/cwa-app-android)
@@ -33,6 +35,8 @@ Here is your update from across the web for the week of 2020-06-22.
 - **john-smilga/javascript-basic-projects** (CSS): [undefined](https://github.com/john-smilga/javascript-basic-projects)
 - **iptv-org/iptv** (JavaScript): [Collection of 8000+ publicly available IPTV channels from all over the world](https://github.com/iptv-org/iptv)
 - **acidanthera/OpenCorePkg** (C): [OpenCore bootloader](https://github.com/acidanthera/OpenCorePkg)
+
+<Ad />
 
 ## Trending This Week On Dev.To
 
@@ -71,6 +75,8 @@ Here is your update from across the web for the week of 2020-06-22.
 - **John Au-Yeung**: [Top Repos to Boost Your JavaScript Knowledge](https://dev.to/aumayeung/top-repos-to-boost-your-javascript-knowledge-2c29)
 - **Ben Halpern**: [#newsWhy People Don't Like When Chrome Messes with URLs](https://dev.to/ben/why-people-don-t-like-when-chrome-messes-with-urls-3f01)
 - **Andrew Stetsenko**: [10 Data-Driven Ways to Use Your Developer Resume to Get Interviews](https://dev.to/stetsenko_me/10-data-driven-ways-to-use-your-developer-resume-to-get-interviews-e3g)
+
+<Ad />
 
 ## Trending This Week On Hacker News
 

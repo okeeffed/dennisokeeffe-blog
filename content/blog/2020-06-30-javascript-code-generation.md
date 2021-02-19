@@ -14,6 +14,8 @@ Any concepts you learn today can be applied to scale.
 
 You should have the usual suspects for a NPM/Yarn project and require a [Nodejs version](https://node.green/) that supports ES6 basics like destructing, arrow functions etc (basically any).
 
+<Ad />
+
 ## Why templates?
 
 There has been much debate about the usage of templates at the places I have worked.
@@ -21,6 +23,8 @@ There has been much debate about the usage of templates at the places I have wor
 One benefit is that you can use them to scaffold the basics for you without the need for basically any manual work - think scaffold new components, routes, SCSS files etc.
 
 Some argue that this can be overkill or not flexible enough, however I have found recently in increasinly large codebases that have been around for a few years, templates have been a great "source of truth" for enforcing particular coding patterns in our codebase and a great way for onboarding new developers into these patterns (and avoid them from copying the old!).
+
+<Ad />
 
 ## Setting things up
 
@@ -33,6 +37,8 @@ yarn add ejs fs-extra yargs-parser
 ```
 
 We are going to use [yargs-parser](https://www.npmjs.com/package/yargs-parser) to parse through our CLI arguments, [fs-extra](https://www.npmjs.com/package/fs-extra) as an extension to Node's internal FS (it comes with some fun extra tidbits that we will use) and we're going to use [ejs](https://www.npmjs.com/package/ejs) to render out our templates!
+
+<Ad />
 
 ## Building our first template
 
@@ -76,6 +82,8 @@ Perfect! We see our two flags add as their own key-value pair and anything else 
 
 We are going to use this to pass arguments to our simple template renderer.
 
+<Ad />
+
 ## Add the ability to read EJS files
 
 Let's add the file `templates/starter/main.ejs` file with the following:
@@ -100,6 +108,8 @@ That, my friends, is the EJS syntax. If we check the [npm README](https://www.np
 Basically, we are running JS logic between the first feature we are using with the second feature resulting in our writing something to the template!
 
 If this doesn't make sense just yet, do not fear. We are above to put it to good use.
+
+<Ad />
 
 ## Converting the template into something useful
 
@@ -221,6 +231,8 @@ Whoa! What's the JS? That's the `str` variable being given back in our callback 
 
 > Note: The spacing in the JS may look weird. I will address this later, but the solution will not be part of this tiny project.
 
+<Ad />
+
 ## Writing the file out
 
 We are going to use our help `fs-extra` module to write this out!
@@ -337,6 +349,8 @@ Hooray! We are the greatest!
 It is important to note that the above has some quirky spacing. This can happen when outputting the templates from EJS, so I always follow up in my own work by using [Prettier.io](https://prettier.io/docs/en/api.html#prettierformatsource--options). I am very, very hungry, so I am not going to add that last tidbit in tonight, but I highly recommend checking it out and trying it for yourself!
 
 While this has been a super, SUPER basic entry into the world of templating, you can run off with this knowledge now and go as crazy as you want! Groovy templateing projects such as [Hygen](https://github.com/jondot/hygen) have used the same methods to a larger extent. Go forth with your witchcrazy and wizardy.
+
+<Ad />
 
 ## Resources and Further Reading
 

@@ -4,6 +4,8 @@ date: "2019-06-01"
 description: A quick overview of a number of programming paradigms and what are some key defining features.
 ---
 
+<Ad />
+
 ## Procedural Program
 
 - The ideas that programs are a sense of functions
@@ -13,6 +15,8 @@ description: A quick overview of a number of programming paradigms and what are 
 - "Imperative" execution
 - Easy to write, difficult to maintain
 - Prone to difficult bugs
+
+<Ad />
 
 ## Object Oriented
 
@@ -24,6 +28,8 @@ description: A quick overview of a number of programming paradigms and what are 
 - Code is still imperative - pro AND con! - Still telling the computer EXACTLY what to do.
 - Can be more verbose
 
+<Ad />
+
 ## Declarative
 
 - Describing what you want to happen, but not telling the computer how to do it
@@ -31,6 +37,8 @@ description: A quick overview of a number of programming paradigms and what are 
 - Data is self-describing
 - As powerful as the interpreter allows
 - As limiting as the interpreter allows - You want build a game in SQL etc.
+
+<Ad />
 
 ## Functional
 
@@ -45,6 +53,8 @@ description: A quick overview of a number of programming paradigms and what are 
 - Cons to think differently
 - Not always the best choice
 - No loops, no control logic - Just telling it what we want to happen
+
+<Ad />
 
 ## Reactive
 

@@ -6,6 +6,8 @@ description: Golang implementation of a basic node tree and traversal using DFS 
 
 DFS and BFS tree implementations with Golang.
 
+<Ad />
+
 ## Setting up the test
 
 Set up `trees_test.go` with the following file:
@@ -96,6 +98,8 @@ func TestDFS(t *testing.T) {
 }
 ```
 
+<Ad />
+
 ## Trees implementation
 
 ```go
@@ -169,6 +173,8 @@ func (t *Tree) dfs() []int {
 	return res
 }
 ```
+
+<Ad />
 
 ## Running Tests
 

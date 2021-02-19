@@ -7,6 +7,8 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/xg2dgz5vcfhp0zqp92hk.png
 
 Here is your update from across the web for the week of 2020-08-23.
 
+<Ad />
+
 ## Trending This Week On Github
 
 - **labuladong/fucking-algorithm** : [刷算法全靠套路，认准 labuladong 就够了！English version supported! Crack LeetCode, not only how, but also why.](https://github.com/labuladong/fucking-algorithm)
@@ -34,6 +36,8 @@ Here is your update from across the web for the week of 2020-08-23.
 - **alibaba/canal** (Java): [阿里巴巴 MySQL binlog 增量订阅&消费组件](https://github.com/alibaba/canal)
 - **tailwindlabs/tailwindcss** (CSS): [A utility-first CSS framework for rapid UI development.](https://github.com/tailwindlabs/tailwindcss)
 - **mingrammer/diagrams** (Python): [🎨 Diagram as Code for prototyping cloud system architectures](https://github.com/mingrammer/diagrams)
+
+<Ad />
 
 ## Trending This Week On Dev.To
 
@@ -72,6 +76,8 @@ Here is your update from across the web for the week of 2020-08-23.
 - **Zaiste**: [My Favorite Privacy Tools in 2020: Be Safer on the Internet!](https://dev.to/zaiste/my-favorite-privacy-tools-in-2020-be-safer-on-the-internet-4dik)
 - **Yogesh Chavan**: [How to generate mock data within seconds using Node.js to use in any application](https://dev.to/myogeshchavan97/how-to-generate-mock-data-within-seconds-using-node-js-2e4l)
 - **Silvia Bogdan**: [Accessibility for the web - introduction to ARIA](https://dev.to/cilvako/accessibility-for-the-web-introduction-to-aria-5h2m)
+
+<Ad />
 
 ## Trending This Week On Hacker News
 

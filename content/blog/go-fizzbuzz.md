@@ -6,6 +6,8 @@ description: The classic FizzBuzz implementation in Golang with Unit Testing.
 
 A basic implementation of the infamous Fizz Buzz with unit testing.
 
+<Ad />
+
 ## Setting up the test
 
 Set up `fizz_buzz_test.go` with the following file:
@@ -65,6 +67,8 @@ func BenchmarkFizzBuzz(b *testing.B) {
 }
 ```
 
+<Ad />
+
 ## Fizz Buzz implementation
 
 We will use the interger-to-ASCII function `itoa` from the `strings` library.
@@ -88,6 +92,8 @@ func FizzBuzz(i int) string {
 	}
 }
 ```
+
+<Ad />
 
 ## Running Tests
 

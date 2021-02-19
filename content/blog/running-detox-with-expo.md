@@ -4,9 +4,13 @@ date: "2019-04-11"
 description: How to setup Detox to run e2e tests for an Expo application.
 ---
 
+<Ad />
+
 ## Links
 
 [Setup guide can be found here](https://github.com/wix/detox/blob/master/docs/Guide.Expo.md)
+
+<Ad />
 
 ## Prereqs
 
@@ -24,6 +28,8 @@ Install detox-cli:
 ```shell
 npm install -g detox-cli
 ```
+
+<Ad />
 
 ## Getting Started
 
@@ -63,6 +69,8 @@ Fetch the IPA file [from here](https://expo.io/tools#client)
 
 Fetch/copy files [from Github](https://github.com/expo/with-detox-tests/tree/master/e2e)
 
+<Ad />
+
 ## Using Detox
 
 A basic example of incorporating some useful detox calls:
@@ -100,9 +108,13 @@ The element can be selected by making the most of using the `testId` — for exa
 </TouchableOpacity>
 ```
 
+<Ad />
+
 ## Running the tests
 
 Finally, to run the test we can run `yarn start` in one terminal and `yarn e2e` on the other to run the `e2e` script. Note that you need to have live reload disabled, so better to also put the app into production mode before running the e2e tests. This can be done from the terminal following the instructions to set production mode.
+
+<Ad />
 
 ## Notes
 

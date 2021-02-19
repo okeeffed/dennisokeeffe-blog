@@ -4,6 +4,8 @@ date: "2019-04-19"
 description: A short look into B-Tree structures, what defines them and some technologies that use them.
 ---
 
+<Ad />
+
 ## What is it?
 
 A self-balancing tree that is a generalisation of a `binary search tree` in that it can have more than two child nodes.
@@ -13,6 +15,8 @@ It maintains sorted data and allows searches, sequential access, insertions, and
 A B-Tree is great to use for read and write operations dealing with large amounts of data and as such is used readily with databases and file systems and normally outside of main memory.
 
 The height of a B-Tree is kept low by keeping the maximum possible number of keys in a node of the tree.
+
+<Ad />
 
 ## Properties of B-Trees
 
@@ -25,6 +29,8 @@ The height of a B-Tree is kept low by keeping the maximum possible number of key
 7. All keys are sorted in increasing order - the child between `k1` and `k2` must contain all keys between those values
 8. B-Trees grow and shrink from the root
 9. Time complexity for search, insert and delete is `O(log(N))`
+
+<Ad />
 
 ## Usage
 

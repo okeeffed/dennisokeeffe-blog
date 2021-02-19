@@ -6,11 +6,15 @@ date: "2020-10-28"
 
 Rusticles weekly curation for Wed Oct 28 2020.
 
+<Ad />
+
 ## Hot Rust Articles This Week On Reddit
 
 - [Introducing rust-gpu v0.1 🐉 · EmbarkStudios/rust-gpu](https://www.reddit.com/r/rust/comments/jg056t/introducing_rustgpu_v01_embarkstudiosrustgpu/) (5 days ago)
 - [Cranelift has just been successfully merged as an optional backend for rustc](https://www.reddit.com/r/rust/comments/jil2rs/cranelift_has_just_been_successfully_merged_as_an/) (1 day ago)
 - [Microsoft is hiring for a position "focused on delivering Rust compiler improvements"](https://www.reddit.com/r/rust/comments/jg11lq/microsoft_is_hiring_for_a_position_focused_on/) (5 days ago)
+
+<Ad />
 
 ## Rust Articles This Week On Dev.To
 
@@ -49,6 +53,8 @@ Rusticles weekly curation for Wed Oct 28 2020.
 - **Henrique Sasaki Yuya**: [Ktra: Your Little Cargo Registry](https://dev.to/moriturus/ktra-your-little-cargo-registry-bo2)
 - **Will**: [nat - the 'ls' replacement you never knew you needed](https://dev.to/willdoescode/nat-the-ls-replacement-you-never-knew-you-needed-2gna)
 - **Sivakumar SIVAPRAKASAM**: [Data Structures & Algorithms using Rust: Remove Duplicates from Sorted Array](https://dev.to/ssivakumar77/data-structures-algorithms-using-rust-remove-duplicates-from-sorted-array-37bb)
+
+<Ad />
 
 ## Trending Rust Repositories This Week On Github
 

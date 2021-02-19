@@ -12,6 +12,8 @@ The expectations are that you have PHP + Composer installed and have your [Strip
 
 > The following comes in part from my [documentation website](https://docs.dennisokeeffe.com/manual-stripe-slim-stripe-configuration).
 
+<Ad />
+
 ## Get Started
 
 Ensure `composer` is installed correctly and run the following. Note that you need to ensure that the downloaded `composer.phar` file from the installation instructions must be in your `$PATH` as `composer`.
@@ -54,6 +56,8 @@ Once completed, change into `src/public` and run `php -S localhost:8080`.
 
 If we now ping `curl localhost:8080` we will see our `Hello world!` response.
 
+<Ad />
+
 ## Setting up .env
 
 Our `.env` file should contain our keys for development. Get these from your Stripe Developer dashboard.
@@ -64,6 +68,8 @@ Add the following to the `.env` file in the root of your project directory:
 SK_TEST_KEY= sk_test...
 PK_TEST_KEY=pk_test...
 ```
+
+<Ad />
 
 ## Making a simple charge with Stripe API
 
@@ -140,6 +146,8 @@ curl --header "Content-Type: application/json" \
 If you now go and check your Stripe dashboard, you will be able to see a charge.
 
 ![Stripe Dashboard](../assets/2020-06-26-stripe-dashboard.png)
+
+<Ad />
 
 ## Resources and Further Reading
 

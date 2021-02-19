@@ -8,6 +8,8 @@ In Unix systems, pipes and redirections are the bridges that join our programs. 
 
 Today's post will explore pipes from their humble beginnings to how we use them in our programs (with example help from Golang).
 
+<Ad />
+
 ## Humble beginnings
 
 Let's start with the humble pipe operator `|`. If you are running a Unix shell, we can explore the pipe operator with some simple examples:
@@ -33,6 +35,8 @@ friends
 
 You get the gist. What gets cool though is that you can create "named pipes" to start piping in some cooler ways.
 
+<Ad />
+
 ## Named pipes
 
 What are "named pipes?". Let's define this with thanks again to our best friend [Wikipedia](https://en.wikipedia.org/wiki/Named_pipe):
@@ -56,6 +60,8 @@ If were now to redirect anything to this named pipe ie `ls > example-pipe`, the 
 In another terminal, we can do that very things by running `cat < example-pipe` to see the output in that terminal. Neat!
 
 ![Getting output from the named pipe](../assets/2020-07-17-named-pipe-output.png)
+
+<Ad />
 
 ## Running the output of a named pipe to Golang
 
@@ -150,6 +156,8 @@ Of course, once we run our terminate signal, we can close the Go program (and yo
 
 Awesome! We've managed to create some named pipes and use content piped into them in our program!
 
+<Ad />
+
 ## Conclusion
 
 This has been a short look at pipes and tying them into our programs. These become very useful when you are building tools to glue others together.
@@ -157,6 +165,8 @@ This has been a short look at pipes and tying them into our programs. These beco
 For example at work, we have a tool that I am about to take ownership of which connects together our developer experience from running our different services to migrations, installations and more. Named pipes is our way of being able to selectively pipe logs from each of those running services into one place to empower the developer experience and ensure that they are not overwhelmed!
 
 I have linked a bunch of great resources below that relate to more information on both the pipes and everything that has been happening on the Golang side of things.
+
+<Ad />
 
 ## Resources and further reading
 

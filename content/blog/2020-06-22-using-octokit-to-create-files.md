@@ -8,6 +8,8 @@ This is a short example to create a new `OUTPUT.md` file in a GitHub repo progra
 
 We are going to use Node's `fs` module to read in a `input.txt` file and use that to write the contents to the repository.
 
+<Ad />
+
 ## Setup
 
 We will run a simple setup for this application.
@@ -22,6 +24,8 @@ touch index.js input.txt .env .gitignore
 
 We are using `dotenv` to set our access token variable and `js-base64` to encode our file contents that we read in from `input.txt`.
 
+<Ad />
+
 ## Git Ignored files
 
 Set your `.gitignore` to the following:
@@ -33,6 +37,8 @@ node_modules/
 
 This will ensure your Personal GitHub Access token won't be accidentally sent up into your repo.
 
+<Ad />
+
 ## Adding the GitHub Access Token
 
 You'll need to ensure that you have create a [Personal Access Token](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) to follow along.
@@ -43,6 +49,8 @@ Once you have that, add it to your `.env` file:
 GITHUB_ACCESS_TOKEN=<access-token-goes-here>
 ```
 
+<Ad />
+
 ## Creating input.txt
 
 Add the following to the `input.txt` file. We will read this in with the Node script.
@@ -52,6 +60,8 @@ Add the following to the `input.txt` file. We will read this in with the Node sc
 
 This needs to be added to the GitHub repo using Octokit.
 ```
+
+<Ad />
 
 ## The Node Script
 
@@ -105,6 +115,8 @@ Secondly, we encode those contents to base64 using the `js-base64` package we in
 
 Finally, we then use Octokit's `createOrUpdateFileContents` function to create the file with that encoded content. You can read more about the required options on the [documentation](https://octokit.github.io/rest.js/v18#repos-create-or-update-file-contents).
 
+<Ad />
+
 ## Running the code
 
 First, we need to push up what we have to the remote repo.
@@ -131,6 +143,8 @@ We can now pull the repo using `git pull` to get the latest file into our local.
 ![Local file after git pull](../assets/2020-06-22-local-file-post-pull.png)
 
 Now you can go forth and set things up to programmatically update your repositories!
+
+<Ad />
 
 ## Resources and Further Reading
 

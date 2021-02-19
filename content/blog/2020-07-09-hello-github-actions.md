@@ -6,6 +6,8 @@ description: Run through the basics to get your first Docker GitHub Action up an
 
 In today's short post, we're going to run through how to get a basic Docker container up in running in GitHub actions and learn how to use GitHub Secrets along the way!
 
+<Ad />
+
 ## Setting up the workflow
 
 First, we need to set up our `.github` folder and the `workflows`. From your project directory root, run the follow:
@@ -48,6 +50,8 @@ From the [repo information](https://github.com/actions/checkout), That action ch
 
 We then run a second action from a `./action-a` directory and tell it to set an environment variable which comes from our secrets! We will set that secret later, but first let's set up our Docker action!
 
+<Ad />
+
 ## Creating our custom Docker action
 
 From the root of the project directory, let's now create a folder `action-a` and some files to add in the actions:
@@ -60,6 +64,8 @@ chmod u+x ./action-a/entrypoint.sh
 ```
 
 Here, we are creating a folder (which we referenced in our workflow), then adding a Dockerfile for GitHub to build from and we are going to make a small Shell script that the action will run. Finally, we are adding user permissions to run the script so we can test it out locally.
+
+<Ad />
 
 ## Setting up the script
 
@@ -95,6 +101,8 @@ Not a lot is happening in this script, but that's okay! We just want to get an a
 
 Save this file and let's move onto the Dockerfile.
 
+<Ad />
+
 ## Setting up the Dockerfile
 
 Here, let's add the following:
@@ -126,6 +134,8 @@ For those who are not familiar with a Dockerfile, this may look a little strange
 
 The expectation is that we can copy what we did above and run our script! The big difference will be that are going to use [GitHub Secrets](https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets#creating-encrypted-secrets-for-a-repository) to manage our `MY_NAME` variable!
 
+<Ad />
+
 ## Adding secrets to the repository
 
 Following along from [GitHub's docs](https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets#creating-encrypted-secrets-for-a-repository), we can head to our GitHub and create a new repository.
@@ -137,6 +147,8 @@ Once that is done, in the new repo we can go to `Settings > Secrets > Add a new 
 <figcaption>Adding secrets to a GitHub repo for okeeffed/hello-github-actions</figcaption>
 
 Perfect! Now is the time to reap what we have sown.
+
+<Ad />
 
 ## Running our action
 
@@ -156,6 +168,8 @@ git push
 
 If we now head to our repository on GitHub and head to the `Actions` tab, we can see our action up and running!
 
+<Ad />
+
 ## Viewing our action
 
 Inside of the action, we can see we have a `Hello world action` and that is runs both the `actions/checkout@v1` and our `action-a` action that we created! Awesome!
@@ -170,9 +184,13 @@ However, we do see the following: `Hello world my name is ***`. That's not `Hell
 
 Did we have to make something like that a secret? Of course not. However doing so in this short example will give you the know how for when you do start building actions that require secret access tokens that you don't want to be leaked out into the world!
 
+<Ad />
+
 ## Conclusion
 
 Today, we made a simple GitHub action that uses the power of Docker containers and GitHub secrets! We can build as many actions as we want into a repository, and it is certainly a powerful feature to begin bringing CI/CD into your repository!
+
+<Ad />
 
 ## Resources and Further Reading
 

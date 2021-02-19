@@ -9,6 +9,8 @@ I have recently begun redecorating my room and a recent addition was a new set o
 
 In today's tutorial, we are going to explore [p5.js](https://p5js.org/) and slowly explore a generated sinusoidal wave to see how we can begin to express the inner artist we never knew we had.
 
+<Ad />
+
 ## Getting Started
 
 For today's tutorial, we are actually going to explore the changing results using the [online playground](https://editor.p5js.org/motoreta/sketches/nOxdKkeuB). Doing so will enable us to add changes as we go and explore together.
@@ -41,6 +43,8 @@ Pressing play on the top left-hand side enables us to see the output.
 In the above with the default code, it instructs the library to create a 600 by 600 canvas in the DOM during the setup, and then during the repeating draw phase that is called on each tick of the frame, the mouse point is found and ellispses are drawn until it reaches `mouseX` and `mouseY` (which is provided by the library during the `draw` phase).
 
 Hopefully you are with me so far, but do not fret. We are going to reset the setup and draw functions to go from the basics and refer to documentation.
+
+<Ad />
 
 ## Setting up a basic Sinusoidal Wave
 
@@ -93,6 +97,8 @@ From here alone, it is worth change the `amplitude` value and change the value o
 ![Changing the frequency](../assets/2021-02-13-4-changing-frequency.png)
 
 ![Changing the offset](../assets/2021-02-13-5-changing-offset.png)
+
+<Ad />
 
 ## Changing the stroke color and amplitude dynamically
 
@@ -151,6 +157,8 @@ We use the `noLoop` function in the `setup` to ensure there is only one call to 
 We are going to use the loop `i` value to help us also dynamically change the stroke alpha as well as the amplitude. The resulting wave it this:
 
 ![Dynamic, squiggly sine wave](../assets/2021-02-13-6-changes-over-time.png)
+
+<Ad />
 
 ## Drawing multiple lines with slight changes
 
@@ -211,6 +219,8 @@ The result is something cooler like this:
 
 ![Multiple sinusoidal waves](../assets/2021-02-13-7-multiple-waves.png)
 
+<Ad />
+
 ## Summary
 
 In conclusion, we just took a small look into using the **p5.js** library to begin drawing some generative art.
@@ -218,6 +228,8 @@ In conclusion, we just took a small look into using the **p5.js** library to beg
 This is day one for me, so I am certainly no expert, but it should be a good enough launch pad for you to start playing around with some of your own modifiers and get things going.
 
 My plan is to continue exploring the library over the next few weeks and continue writing some posts, so hopefully by the end I will have some worthy prints to use as placeholders across my bedroom.
+
+<Ad />
 
 ## Resources and further reading
 

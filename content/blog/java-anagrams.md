@@ -4,6 +4,8 @@ date: "2018-10-22"
 description: Solution in Java.
 ---
 
+<Ad />
+
 ## Gradle setup
 
 For our `build.gradle` file:
@@ -27,6 +29,8 @@ test {
     }
 }
 ```
+
+<Ad />
 
 ## Setting up the Tests
 
@@ -53,6 +57,8 @@ public class AnagramsTest {
 
 ```
 
+<Ad />
+
 ## Anagrams
 
 In `src/main/java/Anagrams.java`:
@@ -60,6 +66,8 @@ In `src/main/java/Anagrams.java`:
 ```java
 // TO FINISH
 ```
+
+<Ad />
 
 ## Running tests
 

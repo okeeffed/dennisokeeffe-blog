@@ -6,11 +6,15 @@ date: "2020-11-11"
 
 Rusticles weekly curation for Wed Nov 11 2020.
 
+<Ad />
+
 ## Hot Rust Articles This Week On Reddit
 
 - [aarch64-unknown-linux-gnu is on track to become a Tier 1 target in Rust 1.49!](https://www.reddit.com/r/rust/comments/jr074o/aarch64unknownlinuxgnu_is_on_track_to_become_a/) (1 day ago)
 - [Why Rust is the Future of Game Development](https://www.reddit.com/r/rust/comments/jqux1s/why_rust_is_the_future_of_game_development/) (1 day ago)
 - [40 Millisencond Bug](https://www.reddit.com/r/rust/comments/jp23jq/40_millisencond_bug/) (4 days ago)
+
+<Ad />
 
 ## Rust Articles This Week On Dev.To
 
@@ -39,6 +43,8 @@ Rusticles weekly curation for Wed Nov 11 2020.
 - **Valentin Radu**: [AWS Lambda + Rust](https://dev.to/rad_val_/aws-lambda-rust-292g)
 - **Nivethan**: [A Gemini Client in Rust - 05 Handling URLs](https://dev.to/krowemoh/a-gemini-client-in-rust-05-handling-urls-59ii)
 - **Nivethan**: [A Gemini Client in Rust - 06 Gemini Statuses](https://dev.to/krowemoh/a-gemini-client-in-rust-06-gemini-statuses-1h5)
+
+<Ad />
 
 ## Trending Rust Repositories This Week On Github
 

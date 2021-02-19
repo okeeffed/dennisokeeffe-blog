@@ -6,6 +6,8 @@ description: Ruby implementation of a basic node tree and traversal using DFS an
 
 This requires the gem installation of `minitest`.
 
+<Ad />
+
 ## Test file
 
 Create file `trees_test.rb`:
@@ -55,6 +57,8 @@ end
 
 __END__
 ```
+
+<Ad />
 
 ## Trees
 
@@ -118,6 +122,8 @@ class Node
     end
 end
 ```
+
+<Ad />
 
 ## Testing
 

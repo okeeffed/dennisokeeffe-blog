@@ -7,6 +7,8 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/qs7o2ag8vzo0uborgc7v.png
 
 Gopher Gold weekly curation for Wed Jan 20 2021.
 
+<Ad />
+
 ## Go Articles This Week On Dev.To
 
 - **TECH SCHOOL**: [How to securely store passwords?](https://dev.to/techschoolguru/how-to-securely-store-passwords-3cg7)
@@ -44,6 +46,8 @@ Gopher Gold weekly curation for Wed Jan 20 2021.
 - **Hector Castro**: [Creating Go Application Releases with GoReleaser](https://dev.to/hector/creating-go-application-releases-with-goreleaser-1hac)
 - **daftyw**: [Go กับ Java ใครเร็วกว่า (แบบ Native)](https://dev.to/daftyw/go-java-native-1f97)
 
+<Ad />
+
 ## Trending Go Repositories This Week On Github
 
 - **juicedata/juicefs** (Go): [JuiceFS is a distributed POSIX file system built on top of Redis and S3.](https://github.com/juicedata/juicefs)
@@ -71,6 +75,8 @@ Gopher Gold weekly curation for Wed Jan 20 2021.
 - **kataras/iris** (Go): [The fastest HTTP/2 Go Web Framework. AWS Lambda, gRPC, MVC, Unique Router, Websockets, Sessions, Test suite, Dependency Injection and more. A true successor of expressjs and laravel | 谢谢 https://github.com/kataras/iris/issues/1329 |](https://github.com/kataras/iris)
 - **go-yaml/yaml** (Go): [YAML support for the Go language.](https://github.com/go-yaml/yaml)
 - **hashicorp/terraform-provider-aws** (Go): [Terraform AWS provider](https://github.com/hashicorp/terraform-provider-aws)
+
+<Ad />
 
 ## Topics from the Weekly Go Forum
 

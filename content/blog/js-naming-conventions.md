@@ -8,6 +8,8 @@ description: Suggestions and guides for naming in JavaScript.
 [verb = required][verb = null][noun = null][preposition = null][noun = null]
 ```
 
+<Ad />
+
 ## Verb examples
 
 - get
@@ -16,6 +18,8 @@ description: Suggestions and guides for naming in JavaScript.
 - throw
 - remove
 
+<Ad />
+
 ## First noun examples
 
 - user
@@ -23,16 +27,22 @@ description: Suggestions and guides for naming in JavaScript.
 - data
 - item
 
+<Ad />
+
 ## Prepositions
 
 - from
 - to
+
+<Ad />
 
 ## Second noun examples
 
 - database
 - table
 - copy
+
+<Ad />
 
 ## In usage
 

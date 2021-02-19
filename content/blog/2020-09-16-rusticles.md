@@ -6,6 +6,8 @@ date: "2020-09-16"
 
 Rusticles, a weekly curation for all things Rust in one centralised place. Here is your curation for Wed Sep 16 2020.
 
+<Ad />
+
 ## Hot Rust Articles This Week On Reddit
 
 - [Clone git faster than git itself with Gitoxide 0.4](https://www.reddit.com/r/rust/comments/ir8mwq/clone_git_faster_than_git_itself_with_gitoxide_04/) (3 days ago)
@@ -13,6 +15,8 @@ Rusticles, a weekly curation for all things Rust in one centralised place. Here 
 - [Blog Post: Rust in 2021](https://www.reddit.com/r/rust/comments/irhj4o/blog_post_rust_in_2021/) (3 days ago)
 - [Announcing Actix-Web v3.0](https://www.reddit.com/r/rust/comments/iqq8k9/announcing_actixweb_v30/) (4 days ago)
 - [Your Language Sucks, It Doesn’t Matter](https://www.reddit.com/r/rust/comments/ismzmm/your_language_sucks_it_doesnt_matter/) (1 day ago)
+
+<Ad />
 
 ## Rust Articles This Week On Dev.To
 
@@ -27,6 +31,8 @@ Rusticles, a weekly curation for all things Rust in one centralised place. Here 
 - **David MacEachern**: [Learning Rust: Collecting Data from an API](https://dev.to/davidmaceachern/learning-rust-collecting-data-from-an-api-2h51)
 - **T.J. Telan**: [#showdevLet’s build a single binary gRPC server-client with Rust in 2020 - Part 4](https://dev.to/tjtelan/let-s-build-a-single-binary-grpc-server-client-with-rust-in-2020-part-4-3k9f)
 - **Dan**: [#showdevAssemblyLift v0.2 preview: RPC-based IO modules](https://dev.to/dotxlem/assemblylift-v0-2-preview-rpc-based-io-modules-2d38)
+
+<Ad />
 
 ## Trending Rust Repositories This Week On Github
 

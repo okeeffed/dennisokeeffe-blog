@@ -15,6 +15,8 @@ There are many reasons to learning a new language, which include (but are not li
 
 In today's post, we're going to go through some of the empirical lessons I have learned from continuously being thrown into the art of language learning.
 
+<Ad />
+
 ## What are my credentials for being an expert on this?
 
 I certainly do not consider myself an expert in this domain, nor am I equally strong in all the languages I have shipped to production. I simply just had to learn a myriad of programming languages for differing reasons that I feel can be very relatable to others.
@@ -38,6 +40,8 @@ At first, I started from someone flailing about trying to learn a language. Now 
 
 Some of these lessons will hopefully go into helping you on your own journey.
 
+<Ad />
+
 ## Wholeheartedly Follow the Pareto Principle
 
 This first tip is simply a principle that is at the forefront of my paradigm when taking on a new language. As explained by our best friend [Wikipedia](https://en.wikipedia.org/wiki/Pareto_principle):
@@ -51,6 +55,8 @@ This means that you don’t have to become the be-all-and-end-all of a new langu
 Personally, I like the mantra "Jack of all trades, master of none, oftentimes better than a master of one". You’ll come to find during your coding journey that not every language can do everything.
 
 > There are two languages I genuinely do think can do so much for you, but I’ll get to that at the end.
+
+<Ad />
 
 ## Keep first principles at the forefront of your mind
 
@@ -72,6 +78,8 @@ Some of the principles to think about [from my developer notes website](https://
 12. Law of Demeter - Divide responsibility between classes
 
 While I will not go into them in-depth here, it is worthwhile reading into them and also challenging them yourself.
+
+<Ad />
 
 ## Become familiar with the languages documentation
 
@@ -96,6 +104,8 @@ If you are a Mac owner, consider investing in [Dash](https://kapeli.com/dash). I
 ![Golang strings in Dash](../assets/2020-07-05-dash.png)
 
 <figcaption>Exploring the Go strings package in Dash</figcaption>
+
+<Ad />
 
 ## Learn the baseline and practice, practice, practice
 
@@ -148,6 +158,8 @@ Exercism enables you to download the coding tests to your local machine, which i
 
 ![Exercism](../assets/2020-07-05-exercism.png)
 
+<Ad />
+
 ## Learn Testing Early and Often
 
 Being able to write effective tests is a universal skill and something where testing paradigms can be brought across from previous languages you are learned. Once you feel comfortable with some of the language basics, you should take this time early in the journey to unit testing for that language.
@@ -166,6 +178,8 @@ At this stage of the journey, you will actually have conquered such a significan
 
 The next step now is such an integral one, but something I also feel is constantly overlooked when it comes to posts such as these.
 
+<Ad />
+
 ## Learn how package management works for your language
 
 Bundler, Cargo, Yarn, NPM, Cocoapods, PipEnv, NuGet, Gradle, Hex. What do all of these have in common? They are all tools that are key for installing and managing packages across the different language ecosystems.
@@ -177,6 +191,8 @@ I will keep this section short, but go discover what tools for package managemen
 The bare minimum is to learn how to install and manage these dependencies, but I would recommend learning how to publish and distribute your own packages while you are here.
 
 I would also highly recommend checking out the resources that lead you to the most popular projects and packages for the language. Thing things like JSON/YML parsing libraries, popular servers, popular utility libraries etc. As a great segway, this brings me to the next point.
+
+<Ad />
 
 ## Check out the Awesome GitHub repo for the language
 
@@ -201,6 +217,8 @@ These links can include (but are not limited to):
 It is a great way to find resources you didn’t know you were looking for, to find projects that you can learn current best practices from and be inspired to start writing your own projects.
 
 Which leads me to the last (and most glorious point):
+
+<Ad />
 
 ## Build your own X
 
@@ -241,6 +259,8 @@ Years later it would become the source of (almost) every promotion I have had. B
 
 This may be the reason you are learning the language in the first place, but regardless it is a key. Even if you are not building a fully-fledged REST web server, being able to write a simple RPC can empower you to remotely run some many scripts and automate so many things remotely that it isn’t funny.
 
+<Ad />
+
 ## Epilogue
 
 The above isn’t the complete list to language mastery — it is simply the pattern that I have followed over the previous years that have come with great success.
@@ -248,6 +268,8 @@ The above isn’t the complete list to language mastery — it is simply the pat
 There are also other important elements that I didn’t cover: find the best books to read, the best online courses etc.
 
 I find that these are normally things that others already understand or have incorporated as part of their journey. I also find that those books and online courses are best approached once you are at a level that you can critically understand and follow along as they dive deeper into a language and specific frameworks.
+
+<Ad />
 
 ## Resources and Further Reading
 

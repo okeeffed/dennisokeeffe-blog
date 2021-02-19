@@ -4,6 +4,8 @@ date: "2018-10-22"
 description: A look at current base principles.
 ---
 
+<Ad />
+
 ## Challenges
 
 ### Current challenges
@@ -50,6 +52,8 @@ A list of challeneges when thinking of naming conventions:
 8.  How can we enforce accessible, high standards for our HTML?
 9.  How can we decouple and standardise things such as grids, animation speeds, iconography etc.?
 
+<Ad />
+
 ## Naming conventions
 
 ### Links
@@ -57,6 +61,8 @@ A list of challeneges when thinking of naming conventions:
 - [Modular Sass](http://thesassway.com/advanced/modular-css-naming-conventions)
 - [RSCSS](http://rscss.io/)
 - [A11y Style Guide](http://a11y-style-guide.com/style-guide/)
+
+<Ad />
 
 ## Types
 
@@ -116,6 +122,8 @@ body:
   footer:# @classname footer - but maybe should be more specific
     # @children
 ```
+
+<Ad />
 
 ## Ordering
 
@@ -181,6 +189,8 @@ body:
     }
 }
 ```
+
+<Ad />
 
 ## Example layout
 

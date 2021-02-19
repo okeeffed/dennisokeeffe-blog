@@ -7,6 +7,8 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/xg2dgz5vcfhp0zqp92hk.png
 
 Here is your update from across the web for the week of 2020-09-06.
 
+<Ad />
+
 ## Trending This Week On Github
 
 - **iggredible/Learn-Vim** : [A book for learning the Vim editor the smart way.](https://github.com/iggredible/Learn-Vim)
@@ -34,6 +36,8 @@ Here is your update from across the web for the week of 2020-09-06.
 - **WeiYe-Jing/datax-web** (Java): [DataX集成可视化页面，选择数据源即可一键生成数据同步任务，支持批量创建RDBMS数据同步任务，集成开源调度系统，支持分布式、增量同步数据、实时查看运行日志、监控执行器资源、KILL运行进程、数据源信息加密等。](https://github.com/WeiYe-Jing/datax-web)
 - **blender/blender** (C): [Official mirror of Blender](https://github.com/blender/blender)
 - **Aircoookie/WLED** (C++): [Control WS2812B and many more types of digital RGB LEDs with an ESP8266 or ESP32 over WiFi!](https://github.com/Aircoookie/WLED)
+
+<Ad />
 
 ## Trending This Week On Dev.To
 
@@ -72,6 +76,8 @@ Here is your update from across the web for the week of 2020-09-06.
 - **Jason Melton**: [Build This Cool Password Checklist with React and CSS](https://dev.to/cooljasonmelton/build-this-cool-password-checklist-with-react-and-css-4j1e)
 - **Chaitanya Chaturvedi**: [Important Git Commands: Git Commands You Must Know](https://dev.to/chaitanya4vedi/important-git-commands-git-commands-you-must-know-272b)
 - **Arek Nawo**: [Top 5 JavaScript secrets](https://dev.to/areknawo/top-5-javascript-secrets-2gp7)
+
+<Ad />
 
 ## Trending This Week On Hacker News
 

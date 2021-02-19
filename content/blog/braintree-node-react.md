@@ -10,6 +10,8 @@ I've been looking for alternatives to Stripe more for comparisons sake to see wh
 
 This is a small hello world into getting up and running with Braintree using Express on the serverside and React on the frontend.
 
+<Ad />
+
 ## Prerequisites
 
 If you are following along, you should sign up for a Sandbox account.
@@ -19,6 +21,8 @@ This tutorial will use create-react-app and a user contributed npm module to abs
 Another useful link comes from [their website for Node.js and JS](https://developers.braintreepayments.com/start/tutorial). Although I will be deterring away from it, it is still a useful reference.
 
 We are going to treat this project as a monorepo for now, so in the root directory we need to create a subdirectory for the frontend and a directory for the server.
+
+<Ad />
 
 ## Building the Express server
 
@@ -164,6 +168,8 @@ We can run `curl http://localhost:5000/braintree` from another terminal to see o
 
 Now we need to set up the clientside.
 
+<Ad />
+
 ## Building the React frontend
 
 ### React Installation
@@ -283,6 +289,8 @@ If we checkout the server terminal, we should be able to see how events went dow
 
 The image above can help us fully understand the process. When our frontend app loads, we make a `GET` request to fetch the token from `/api/braintree/v1/getToken`. This token is required for when that final payment request was made. The `OPTIONS` 204 request we see there secondly is a CORS preflight request made to ensure we are allowed to make the call and finally and `POST` 200 to `/api/braintree/v1/sandbox` is our success response after making the payment.
 
+<Ad />
+
 ## Confirmation
 
 If we now go back to our Sandbox dashboard, we can now see the successful transaction has been recorded!
@@ -290,6 +298,8 @@ If we now go back to our Sandbox dashboard, we can now see the successful transa
 ![Success](https://res.cloudinary.com/gitgoodclub/image/upload/v1538698732/braintreedashboard.png "Success")
 
 Very cool. We just went from 0 to payment in a short amount of time.
+
+<Ad />
 
 ## Next steps
 

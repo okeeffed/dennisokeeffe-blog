@@ -4,6 +4,8 @@ date: "2018-09-22"
 description: See example code on how to debounce trailing and leading events.
 ---
 
+<Ad />
+
 ## Why debounce?
 
 This excerpt from [John Dugan's blog](https://john-dugan.com/javascript-debounce/) provides a succinct reason:
@@ -11,6 +13,8 @@ This excerpt from [John Dugan's blog](https://john-dugan.com/javascript-debounce
 _Debounce functions are included in many JavaScript libraries. The goal behind each implementation is to reduce overhead by preventing a function from being called several times in succession._
 
 Usage in real world examples can prevent code from executing straight away after typing into a text field or preventing multiple attempts at a form submission.
+
+<Ad />
 
 ## Example Code
 

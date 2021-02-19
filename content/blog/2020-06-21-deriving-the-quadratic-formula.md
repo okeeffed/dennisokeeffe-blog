@@ -7,9 +7,13 @@ date: "2020-06-21"
 import 'katex/dist/katex.min.css';
 import { BlockMath } from 'react-katex';
 
+<Ad />
+
 ## Resources
 
 1. [Deriving the Quadratic Formula](https://www.chilimath.com/lessons/intermediate-algebra/derive-quadratic-formula/)
+
+<Ad />
 
 ## Properties of Algebra
 
@@ -52,6 +56,8 @@ The distributive property defines that the product of a single term and a sum or
 ### Multiplicative Inverse Property
 
 <BlockMath math="2 \cdot \frac{1}{2} = 0 = \frac{1}{2} \cdot 2"/>
+
+<Ad />
 
 ## Logarithmic Properties
 

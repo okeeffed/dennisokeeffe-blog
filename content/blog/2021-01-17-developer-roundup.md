@@ -7,6 +7,8 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/xg2dgz5vcfhp0zqp92hk.png
 
 Developer roundup from across the web for the week of 2021-01-17.
 
+<Ad />
+
 ## Trending This Week On Github
 
 - **signalapp/Signal-Android** (Java): [A private messenger for Android.](https://github.com/signalapp/Signal-Android)
@@ -34,6 +36,8 @@ Developer roundup from across the web for the week of 2021-01-17.
 - **johannesjo/super-productivity** (TypeScript): [To-do list & time tracker for programmers and other digital workers with Jira, Github, and Gitlab integration](https://github.com/johannesjo/super-productivity)
 - **telegraf/telegraf** (TypeScript): [Modern Telegram Bot Framework for Node.js](https://github.com/telegraf/telegraf)
 - **MustangYM/WeChatExtension-ForMac** (Objective-C): [Mac微信功能拓展/微信插件/微信小助手(A plugin for Mac WeChat)](https://github.com/MustangYM/WeChatExtension-ForMac)
+
+<Ad />
 
 ## Trending This Week On Dev.To
 
@@ -87,6 +91,8 @@ Developer roundup from across the web for the week of 2021-01-17.
 - **lauracharvey**: [How I went from newbie to dream role in 225 days...](https://dev.to/lauracharvey/how-i-went-from-newbie-to-dream-role-in-225-days-2lal)
 - **Madza**: [Share your portfolio if you want feedback!](https://dev.to/madza/share-your-portfolio-if-you-want-feedback-5k6)
 - **Suzanne Aitchison (she/her)**: [I joined the Forem team!](https://dev.to/s_aitchison/i-joined-the-forem-team-1dh6)
+
+<Ad />
 
 ## Trending This Week On Hacker News
 

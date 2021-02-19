@@ -6,9 +6,13 @@ date: "2020-07-22"
 
 Rusticles, a weekly curation for all things Rust in one centralised place. Here is your curation for Wed Jul 22 2020.
 
+<Ad />
+
 ## Updates From The Rust Team
 
 - **[Announcing Rust 1.45.0](https://blog.rust-lang.org/2020/07/16/Rust-1.45.0.html)** - July 16
+
+<Ad />
 
 ## Hot Rust Articles This Week On Reddit
 
@@ -19,6 +23,8 @@ Rusticles, a weekly curation for all things Rust in one centralised place. Here 
 - [Tokio: new website & new guides](https://www.reddit.com/r/rust/comments/hvalrb/tokio_new_website_new_guides/) (19 hours ago)
 - [Blog Post: Two Beautiful Rust Programs](https://www.reddit.com/r/rust/comments/hrwckz/blog_post_two_beautiful_rust_programs/) (6 days ago)
 - [Booting to 'Hello Rust!' on x86_64](https://www.reddit.com/r/rust/comments/htheec/booting_to_hello_rust_on_x86_64/) (3 days ago)
+
+<Ad />
 
 ## Rust Articles This Week On Dev.To
 
@@ -38,6 +44,8 @@ Rusticles, a weekly curation for all things Rust in one centralised place. Here 
 - **Sergey Todyshev**: [Efficient parsing of JSON record sets in Rust](https://dev.to/sergeyt/efficient-parsing-of-json-record-sets-in-rust-p53)
 - **Dillon Fagan**: [Building a website with Cobalt.rs](https://dev.to/dillonfagan/building-a-website-with-cobalt-rs-2n4n)
 - **Ryan Ratner**: [Watch us at Ditto give you a glimpse of what we do to inspect and improve the performance of SyncKit with iOS and Rust](https://dev.to/rratner/watch-us-at-ditto-give-you-a-glimpse-of-what-we-do-to-inspect-and-improve-the-performance-of-synckit-with-ios-and-rust-5a9b)
+
+<Ad />
 
 ## Trending Rust Repositories This Week On Github
 

@@ -6,6 +6,8 @@ date: "2021-02-10"
 
 Rusticles weekly curation for Wed Feb 10 2021.
 
+<Ad />
+
 ## Rust Articles This Week On Dev.To
 
 - **Henry Barreto**: [Getting started with WebAssembly outside a browser with Rust](https://dev.to/henrybarreto/getting-started-with-webassembly-outside-a-browser-with-rust-19a0)
@@ -15,6 +17,8 @@ Rusticles weekly curation for Wed Feb 10 2021.
 - **Abbas Ogaji**: [Learning Rust : Match Statements](https://dev.to/abbasogaji/learning-rust-match-statements-220l)
 - **rhymu8354**: [Swift vs. Rust -- an Overview of Swift from a Rusty Perspective](https://dev.to/rhymu8354/swift-vs-rust-an-overview-of-swift-from-a-rusty-perspective-18c7)
 - **Mario Carrion**: [Go Tips: WebAssembly and Vugu](https://dev.to/mariocarrion/go-tips-webassembly-and-vugu-eil)
+
+<Ad />
 
 ## Trending Rust Repositories This Week On Github
 

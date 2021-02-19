@@ -4,6 +4,8 @@ date: "2019-05-10"
 description: Creating a D3 word cloud from a base Create React App project.
 ---
 
+<Ad />
+
 ## Initialise CRA App
 
 First of all, initalise the React app:
@@ -12,6 +14,8 @@ First of all, initalise the React app:
 create-react-app d3-wordcloud && cd d3-wordcloud
 ```
 
+<Ad />
+
 ## Install D3 Deps
 
 For this particular case, we want to install a particular set of D3 libs:
@@ -19,6 +23,8 @@ For this particular case, we want to install a particular set of D3 libs:
 ```shell
 yarn add d3-scale d3-cloud d3-selection
 ```
+
+<Ad />
 
 ## Setting Up Our Data Stub
 
@@ -54,6 +60,8 @@ In the `src` directory, let's create `data.json` and add the following data:
 ```
 
 We will import this JSON and pass it down to create the final file.
+
+<Ad />
 
 ## Updating App.js
 
@@ -92,6 +100,8 @@ There are some important steps to note from what we just did:
 3. We add properties `id`, `w`, `h`, `data` and `threshold` - we will explore these properties a little bit later.
 
 If you try running the app at the moment, it will evidently fail given we haven't created the `WordCloud.js` file - so let's do just that.
+
+<Ad />
 
 ## Creating the WordCloud
 

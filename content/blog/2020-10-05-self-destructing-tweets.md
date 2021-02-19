@@ -21,6 +21,8 @@ To start this process, I built a simple Twitter bot that runs on a cron job and 
 
 In this tutorial, I will demonstrate the first part of deleting Tweets.
 
+<Ad />
+
 ## Prerequisites
 
 1. Basic Nodejs understanding.
@@ -28,6 +30,8 @@ In this tutorial, I will demonstrate the first part of deleting Tweets.
 3. Read my post on [Building Your First Twitter Bot With JavaScript](https://blog.dennisokeeffe.com/blog/2020-07-11-twitter-bot/). I will not double over that content.
 4. Read my post on [Using the AWS CDK to invoke a Lambda function during a cron job](https://blog.dennisokeeffe.com/blog/2020-06-22-cdk-lambda-to-send-slack-message/). I will not cover the cron job part today in this tutorial.
 5. Your required credentials for [Twit](https://github.com/ttezel/twit).
+
+<Ad />
 
 ## Getting started
 
@@ -43,6 +47,8 @@ touch src/index.js tsconfig.json nodemon.json .env
 
 In this tutorial, I wanted to try out [esbuild-node-tsc](https://github.com/a7ul/esbuild-node-tsc) that I saw online last week and [DayJS](https://github.com/iamkun/dayjs) as I haven't yet had a chance to try that one out either!
 
+<Ad />
+
 ## Setting up Dotenv
 
 If you followed the prerequisites, you will have your account keys.
@@ -55,6 +61,8 @@ TWITTER_CONSUMER_SECRET=
 TWITTER_ACCESS_TOKEN_KEY=
 TWITTER_ACCESS_TOKEN_SECRET=
 ```
+
+<Ad />
 
 ## Setting up TypeScript, Nodemon.json and Package.json
 
@@ -106,6 +114,8 @@ As for `package.json`, add the following to the scripts key (the rest is omitted
   }
 }
 ```
+
+<Ad />
 
 ## Creating our Twitter helper file
 
@@ -165,6 +175,8 @@ We then have two main functions `getUserTimeline` and `destroyMany` that will ge
 
 Now it is time to write the main script that will make use of these functions.
 
+<Ad />
+
 ## Writing the main script
 
 In `src/index.ts`, add the following:
@@ -207,11 +219,15 @@ Here we are waiting to get the maximum tweet count (200) with out `getUserTimeli
 
 We log out the `manyDestroyed` variable to see which requests were fulfilled and had the tweets deleted.
 
+<Ad />
+
 ## Running the script
 
 To run the script mode, run `npm start` (to run with `nodemon` in watch mode). This will start Nodemon and if successful you will see your tweets older than 7 days beginning to delete!
 
 If you've tweeted more than 200 times, you may need to run the script over again a few times until it is comes back with no more to delete!
+
+<Ad />
 
 ## Conclusion
 
@@ -220,6 +236,8 @@ This was a quick-fire post, but it was an overview of how I wrote a script to st
 Moving on from here, I set up a cron job to run every day at midnight to re-check and delete any other tweets.
 
 I am really hoping this gives _inspires_ (I use the term loosely) to stop posting on Twitter and use it to consume. My next move with Twitter will be to add something that filters tweets on in my feed using some ML/AI.
+
+<Ad />
 
 ## Resources and Further Reading
 

@@ -4,6 +4,8 @@ date: "2019-04-25"
 description: Python implementation of comparing two strings to check if they are anagrams.
 ---
 
+<Ad />
+
 ## Test file
 
 Create file `anagrams_test.py`:
@@ -51,6 +53,8 @@ if __name__ == '__main__':
     unittest.main()
 ```
 
+<Ad />
+
 ## Anagrams
 
 Create file `anagrams.py`.
@@ -90,6 +94,8 @@ def isAnagram(strA, strB):
             return False
     return True
 ```
+
+<Ad />
 
 ## Running tests
 

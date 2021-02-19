@@ -11,6 +11,8 @@ While that post was about the code itself, most of the AWS CDK infrastructure in
 
 Today's post will be a short overview that bridges these together: it shows how I bundled the TypeScript code from the Twitter post with node modules and prepare it for deployment.
 
+<Ad />
+
 ## The Folder Structure
 
 I am making assumptions here. The most "complex" set up I normally have for Lambdas is to write them in TypeScript and use Babel for transpilation.
@@ -41,6 +43,8 @@ Both generally import the main function from another file (here denoted as `func
 
 > Webpack will bundle everything into one file later, so it is fine for me to structure the folder however I see fit.
 
+<Ad />
+
 ## Setting Up Your Own Project
 
 Inside of a fresh npm project that houses a TypeScript lambda, we need to add to required Babel and Webpack dependencies:
@@ -63,6 +67,8 @@ npm i --save-dev \
 
 Once installed, we can set up Babel and TypeScript.
 
+<Ad />
+
 ## Babel Run Command File
 
 Inside of `.babelrc`, add the following:
@@ -84,6 +90,8 @@ Inside of `.babelrc`, add the following:
 ```
 
 For those unfamiliar with Babel, we are telling it to use the `@babel/preset-env` and `@babel/preset-typescript` plugins, and adding some configuration options to the env preset to target Node 12 (which is what normally I target in AWS lambda).
+
+<Ad />
 
 ## Setting Up TypeScript
 
@@ -112,6 +120,8 @@ This part you will need to adjust to flavour, but here is the config that I have
 ```
 
 Given that we are using Webpack, the config above likely doesn't need to be so complex with `outDir` etc, but I will leave it to you to figure out what options you want there.
+
+<Ad />
 
 ## Webpack
 
@@ -167,11 +177,15 @@ Given that we are not using Node Externals which avoids bundling node modules, t
 
 That means that the output in `dist/index.js` which run our project without node modules installed, which is perfect for AWS Lambda!
 
+<Ad />
+
 ## Running A Build
 
 A `"build": "webpack"` to your `"scripts"` key in the `package.json` file and you are ready to roll!
 
 Run `npm run build`, let Webpack work its magic and then see the single-file output in `dist/index.js`.
+
+<Ad />
 
 ## Testing Your Projects
 
@@ -179,9 +193,13 @@ I use [lambda-local](https://github.com/ashiina/lambda-local) for testing the bu
 
 Follow the instructions on the website to install and give it a whirl! If things run smoothly, you can be confident with your deployment.
 
+<Ad />
+
 ## Conclusion
 
 This post focused purely on the build process. As mentioned in the intro, some of my other posts will cover writing lambda functions and the actual AWS CDK deployments.
+
+<Ad />
 
 ## Resources and Further Reading
 

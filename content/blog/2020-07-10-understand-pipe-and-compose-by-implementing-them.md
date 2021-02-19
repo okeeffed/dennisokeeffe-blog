@@ -12,6 +12,8 @@ In today's post, I am going to attempt to _gently ease you_ into some core funct
 
 This post has no requirements other than an understanding of JavaScript and basic arithmetic. However, it is recommended that you understand how `reduce` works.
 
+<Ad />
+
 ## To monad or not to monad
 
 _That is the question._
@@ -26,6 +28,8 @@ It is a post for another time, but what I will say about them (and all the other
 
 There. I said it. No crazy concepts. No monads, no beta reduction, no alpha equivalence. For now, they are all buzzwords. Let's get down to the basics.
 
+<Ad />
+
 ## Our first love, addition
 
 Let's go back to primary school mathematics and tell the tale of **addition.**
@@ -37,6 +41,8 @@ In fact, we can simplify the right-hand side down further and say that `1 + 2 + 
 We didn't have to add the `1 + 2`, we also could have had `1 + 2 + 3 = 1 + 5` instead by add `2 + 3` from the right-hand side. We can bring simplify this down most to be `1 + 2 + 3 = 6`.
 
 So far, we haven't broken any new ground. This is all common knowledge, and in fact, we probably would have skipped the middle stages that I spoke of and simplified straight to the answer 6. Have you stopped the think about _why_ this is the case?
+
+<Ad />
 
 ## Talking through the properties of functional programming
 
@@ -186,6 +192,8 @@ This follows from algebraic principles that we understand through the order of o
 
 Now that we have an understanding of the four base properties, let's switch gears and start talking about our `add` function that we've been using so far.
 
+<Ad />
+
 ## Currying and uncurrying
 
 In programming, we have the following definition for currying from our pal [Wikipedia](https://en.wikipedia.org/wiki/Currying):
@@ -216,6 +224,8 @@ add(2)(10) // 12
 The above looks kind of weird? Why would we ever want to write `add(x)(y)`? Running the curried function like so is equivalent to running `add(x, y)` with the uncurried version, but it gives us the powerful ability to **partially apply** values to functions and gives us some powerful tools for determinism.
 
 Before we step into the power of partial application, I think it is time to start preparing our final voyage towards the goal of this tutorial.
+
+<Ad />
 
 ## Setting up the project
 
@@ -284,6 +294,8 @@ Watch Usage: Press w to show more.
 Great! Math is still math!
 
 Let's understand how partial application work.
+
+<Ad />
 
 ## Partial Application
 
@@ -355,6 +367,8 @@ Cool! _We have managed to partially apply arguments to curried functions that re
 At this point, I cannot stress how important the concept of partial application will be to functional programming. It may not look like much just yet, but hopefully I can convince you about how great it can be!
 
 Stick with me, we are on the home stretch! Let's take what we have applied and see the power of things coming together.
+
+<Ad />
 
 ## Writing your own pipe and compose function
 
@@ -495,6 +509,8 @@ That's right! We simply use of Array's [reduceRight](https://developer.mozilla.o
 
 We could pass the same arguments in the same order to both `pipe` and `compose` and get the same answer thanks to our four properties of functional programming that we covered in the beginning!
 
+<Ad />
+
 ## Demoing applications with strings
 
 Are you sick of talking arithmetic yet? I sure am. I wanted to start showing you the power of the functions by creating small, deterministic functions and applying them in the real world.
@@ -590,6 +606,8 @@ for (const lessFile of lessFiles) {
 }
 ```
 
+<Ad />
+
 ## Conclusion
 
 We've covered the four core principles at the heart of functional programming, then followed the trail of understanding currying, partial application, and finally created our own simple examples of `pipe` and `compose` to see them in action!
@@ -605,6 +623,8 @@ Let's finish by looking back at **Lady Monadgreen’s curse** again.
 > _"Once you understand monads, you immediately become incapable of explaining them to anyone else"_
 
 Next time, we will take this curse head out and come out victorious!
+
+<Ad />
 
 ## Resources and further reading
 

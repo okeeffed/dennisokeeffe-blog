@@ -6,12 +6,16 @@ date: "2020-09-23"
 
 Rusticles, a weekly curation for all things Rust in one centralised place. Here is your curation for Wed Sep 23 2020.
 
+<Ad />
+
 ## Hot Rust Articles This Week On Reddit
 
 - [Bevy 0.2](https://www.reddit.com/r/rust/comments/iw1yyp/bevy_02/) (3 days ago)
 - [My Least Favorite Rust Type](https://www.reddit.com/r/rust/comments/ix751t/my_least_favorite_rust_type/) (1 day ago)
 - [Blog Post: Why Not Rust?](https://www.reddit.com/r/rust/comments/iwij5i/blog_post_why_not_rust/) (2 days ago)
 - [Announcing the Error Handling Project Group | Inside Rust Blog](https://www.reddit.com/r/rust/comments/ivarbs/announcing_the_error_handling_project_group/) (4 days ago)
+
+<Ad />
 
 ## Rust Articles This Week On Dev.To
 
@@ -33,6 +37,8 @@ Rusticles, a weekly curation for all things Rust in one centralised place. Here 
 - **Christopher Kocel**: [Wednesday Links - Edition 2020-09-16](https://dev.to/0xkkocel/wednesday-links-edition-2020-09-16-5h4c)
 - **betakar**: [A whirlwind tour of the Mender client architecture using Rust](https://dev.to/betakar/a-whirlwind-tour-of-the-mender-client-architecture-using-rust-15e6)
 - **Mario Fernández**: [Book Review: The Rust programming language](https://dev.to/sirech/book-review-the-rust-programming-language-5p1)
+
+<Ad />
 
 ## Trending Rust Repositories This Week On Github
 

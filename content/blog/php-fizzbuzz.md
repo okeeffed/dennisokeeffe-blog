@@ -6,6 +6,8 @@ description: The classic FizzBuzz implementation in PHP with Unit Testing.
 
 This expects an installation on the system of `phpunit`.
 
+<Ad />
+
 ## Test File
 
 Create `fizz-buzz_test.php`:
@@ -39,6 +41,8 @@ class FizzBuzzTest extends PHPUnit\Framework\TestCase
 }
 ```
 
+<Ad />
+
 ## FizzBuzz
 
 Create `fizz-buzz.php`:
@@ -60,6 +64,8 @@ function fizzBuzz($i)
     }
 }
 ```
+
+<Ad />
 
 ## Running Tests
 

@@ -7,6 +7,8 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/xg2dgz5vcfhp0zqp92hk.png
 
 Here is your update from across the web for the week of 2020-09-20.
 
+<Ad />
+
 ## Trending This Week On Github
 
 - **cli/cli** (Go): [GitHub’s official command line tool](https://github.com/cli/cli)
@@ -34,6 +36,8 @@ Here is your update from across the web for the week of 2020-09-20.
 - **Uniswap/uniswap-interface** (TypeScript): [🦄 An open source interface for the Uniswap protocol](https://github.com/Uniswap/uniswap-interface)
 - **schollz/croc** (Go): [Easily and securely send things from one computer to another 🐊 📦](https://github.com/schollz/croc)
 - **elastic/elasticsearch** (Java): [Open Source, Distributed, RESTful Search Engine](https://github.com/elastic/elasticsearch)
+
+<Ad />
 
 ## Trending This Week On Dev.To
 
@@ -72,6 +76,8 @@ Here is your update from across the web for the week of 2020-09-20.
 - **rs9110**: [1 line css to center object](https://dev.to/rs9110/1-line-css-to-center-object-i5o)
 - **Bart Zalewski**: [Learn Git good practices!](https://dev.to/bartzalewski/learn-git-good-practices-3jp3)
 - **Sooraj**: [#showdevMake it Rain 🌧 in HTML Canvas](https://dev.to/soorajsnblaze333/make-it-rain-in-html-canvas-1fj0)
+
+<Ad />
 
 ## Trending This Week On Hacker News
 

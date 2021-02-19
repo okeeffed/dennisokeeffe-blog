@@ -12,6 +12,8 @@ The expectations are that you have both Rails installed and have your [Stripe AP
 
 > The following comes in part from my [documentation website](https://docs.dennisokeeffe.com/manual-stripe-rails-stripe-configuration).
 
+<Ad />
+
 ## Getting Started
 
 Assuming you have Rails installed, run the following:
@@ -30,6 +32,8 @@ gem 'stripe'
 
 On the console, run `bundle`.
 
+<Ad />
+
 ## Setting up your environment variables
 
 For your Stripe account, add in your PK and SK test values.
@@ -38,6 +42,8 @@ For your Stripe account, add in your PK and SK test values.
 PK_TEST_KEY=
 SK_TEST_KEY=
 ```
+
+<Ad />
 
 ## Scaffolding the Charges Route
 
@@ -75,6 +81,8 @@ This code will make a charge to Stripe using the JSON body params `amount` and `
 
 If the charge is successful, it will return the charge information as JSON.
 
+<Ad />
+
 ## Updating config/routes.rb
 
 Ensure routes has the following for POST:
@@ -88,6 +96,8 @@ end
 ```
 
 This ensures that we can send a POST request to `http://localhost:PORT/charges/create` when we run the server.
+
+<Ad />
 
 ## Running the code
 
@@ -107,6 +117,8 @@ curl --header "Content-Type: application/json" \
 If you now go and check your Stripe dashboard, you will be able to see a charge.
 
 ![Stripe Dashboard](../assets/2020-06-26-stripe-dashboard.png)
+
+<Ad />
 
 ## Resources and further reading
 

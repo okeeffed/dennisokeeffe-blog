@@ -6,10 +6,14 @@ date: "2020-08-26"
 
 Rusticles, a weekly curation for all things Rust in one centralised place. Here is your curation for Wed Aug 26 2020.
 
+<Ad />
+
 ## Hot Rust Articles This Week On Reddit
 
 - [google/autocxx - calling C++ from Rust in a heavily automated, but safe, fashion](https://www.reddit.com/r/rust/comments/iefeum/googleautocxx_calling_c_from_rust_in_a_heavily/) (3 days ago)
 - [Scaling Bevy](https://www.reddit.com/r/rust/comments/id0qzk/scaling_bevy/) (6 days ago)
+
+<Ad />
 
 ## Rust Articles This Week On Dev.To
 
@@ -29,6 +33,8 @@ Rusticles, a weekly curation for all things Rust in one centralised place. Here 
 - **Peter Nehrer**: [A Story of Rusty Containers, Queues, and the Role of Assumed Identity](https://dev.to/pnehrer/a-story-of-rusty-containers-queues-and-the-role-of-assumed-identity-kl2)
 - **井山梃子歴史館**: [cargo nix-install を作るぞ](https://dev.to/__pandaman64__/cargo-nix-install-3mg9)
 - **Austin Tindle**: [A JavaScript Developer's Cheatsheet for Rust](https://dev.to/tindleaj/a-javascript-developer-s-cheatsheet-for-rust-2fm1)
+
+<Ad />
 
 ## Trending Rust Repositories This Week On Github
 

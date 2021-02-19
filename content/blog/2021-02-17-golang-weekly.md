@@ -7,6 +7,8 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/qs7o2ag8vzo0uborgc7v.png
 
 Gopher Gold weekly curation for Wed Feb 17 2021.
 
+<Ad />
+
 ## Go Articles This Week On Dev.To
 
 - **David Wickes**: [Go Luddites](https://dev.to/gypsydave5/go-luddites-b4i)
@@ -32,6 +34,8 @@ Gopher Gold weekly curation for Wed Feb 17 2021.
 - **Davide Madrisan**: [A simple Mattermost notifier written in Go](https://dev.to/madrisan/a-simple-mattermost-notifier-written-in-go-281o)
 
 <Ad/>
+
+<Ad />
 
 ## Trending Go Repositories This Week On Github
 
@@ -62,6 +66,8 @@ Gopher Gold weekly curation for Wed Feb 17 2021.
 - **bitnami-labs/sealed-secrets** (Go): [A Kubernetes controller and tool for one-way encrypted Secrets](https://github.com/bitnami-labs/sealed-secrets)
 
 <Ad/>
+
+<Ad />
 
 ## Topics from the Weekly Go Forum
 

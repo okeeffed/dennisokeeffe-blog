@@ -7,9 +7,13 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/qs7o2ag8vzo0uborgc7v.png
 
 Go Weekly, a weekly curation for all things Go in one centralised place. Here is your curation for Wed Sep 16 2020.
 
+<Ad />
+
 ## Hot Go Articles This Week On Reddit
 
 - [Go Modules have a v2+ Problem](https://www.reddit.com/r/golang/comments/ipwea6/go_modules_have_a_v2_problem/) (6 days ago)
+
+<Ad />
 
 ## Go Articles This Week On Dev.To
 
@@ -36,6 +40,8 @@ Go Weekly, a weekly curation for all things Go in one centralised place. Here is
 - **Pacharapol Withayasakpunt**: [Maximize (not fullscreen) your cross-platform desktop application](https://dev.to/patarapolw/maximize-not-fullscreen-your-desktop-application-4652)
 - **Emmanuel Galindo**: [Luhn’s algorithm - verify credit cards - GO](https://dev.to/georgexx009/luhn-s-algorithm-verify-credit-cards-go-13h2)
 - **Mike Levan**: [Helpdesk to Developer - Writing Quality Code](https://dev.to/thenjdevopsguy/helpdesk-to-developer-writing-quality-code-42n2)
+
+<Ad />
 
 ## Trending Go Repositories This Week On Github
 
@@ -64,6 +70,8 @@ Go Weekly, a weekly curation for all things Go in one centralised place. Here is
 - **shirou/gopsutil** (Go): [psutil for golang](https://github.com/shirou/gopsutil)
 - **gin-gonic/gin** (Go): [Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance -- up to 40 times faster. If you need smashing performance, get yourself some Gin.](https://github.com/gin-gonic/gin)
 - **hashicorp/nomad** (Go): [Nomad is an easy-to-use, flexible, and performant workload orchestrator that can deploy a mix of microservice, batch, containerized, and non-containerized applications. Nomad is easy to operate and scale and has native Consul and Vault integrations.](https://github.com/hashicorp/nomad)
+
+<Ad />
 
 ## Topics from the Weekly Go Forum
 

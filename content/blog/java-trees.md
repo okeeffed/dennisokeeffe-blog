@@ -6,6 +6,8 @@ description: Solution in Java
 
 This is a basic implementation. The `bfs` and `dfs` methods each return a `List<Integer>` of the data stored in each `Node` to make a comparison in the test.
 
+<Ad />
+
 ## Answer
 
 ```java

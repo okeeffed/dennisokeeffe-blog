@@ -6,6 +6,8 @@ date: "2020-09-09"
 
 Rusticles, a weekly curation for all things Rust in one centralised place. Here is your curation for Wed Sep 09 2020.
 
+<Ad />
+
 ## Hot Rust Articles This Week On Reddit
 
 - [My Rusty PhD thesis is finally done :)](https://www.reddit.com/r/rust/comments/ilwkrl/my_rusty_phd_thesis_is_finally_done/) (5 days ago)
@@ -15,6 +17,8 @@ Rusticles, a weekly curation for all things Rust in one centralised place. Here 
 - [Introducing Rune, a new stack-based dynamic programming language for Rust with async support.](https://www.reddit.com/r/rust/comments/in67d3/introducing_rune_a_new_stackbased_dynamic/) (3 days ago)
 - [Path Trimming In Nightly Rust](https://www.reddit.com/r/rust/comments/imhd1s/path_trimming_in_nightly_rust/) (4 days ago)
 - [Microsoft has implemented some safety rules of Rust in their C++ static analysis tool.](https://www.reddit.com/r/rust/comments/imy9lg/microsoft_has_implemented_some_safety_rules_of/) (3 days ago)
+
+<Ad />
 
 ## Rust Articles This Week On Dev.To
 
@@ -27,6 +31,8 @@ Rusticles, a weekly curation for all things Rust in one centralised place. Here 
 - **Daniel Persson**: [Using rust jni to call an external rust library in java](https://dev.to/kalaspuffar/using-rust-jni-to-call-an-external-rust-library-in-java-2od7)
 - **Marco Ieni**: [Create an amazing Rust GitHub project in no time](https://dev.to/marcoieni/create-an-amazing-rust-github-project-in-no-time-4d4b)
 - **T.J. Telan**: [#showdevLet’s build a single binary gRPC server-client with Rust in 2020 - Part 3](https://dev.to/tjtelan/let-s-build-a-single-binary-grpc-server-client-with-rust-in-2020-part-3-3fo8)
+
+<Ad />
 
 ## Trending Rust Repositories This Week On Github
 

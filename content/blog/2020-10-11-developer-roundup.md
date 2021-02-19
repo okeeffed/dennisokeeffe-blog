@@ -7,6 +7,8 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/xg2dgz5vcfhp0zqp92hk.png
 
 Developer roundup from across the web for the week of 2020-10-11.
 
+<Ad />
+
 ## Trending This Week On Github
 
 - **OpenSouceCode/Hacktoberfest2020** (HTML): [Make your first Pull Request and earn a free tee from GitHub!](https://github.com/OpenSouceCode/Hacktoberfest2020)
@@ -34,6 +36,8 @@ Developer roundup from across the web for the week of 2020-10-11.
 - **google-research/football** (Python): [Check out the new game server:](https://github.com/google-research/football)
 - **tobspr/shapez.io** (JavaScript): [shapez.io is an open source base building game inspired by factorio! Available on web & desktop](https://github.com/tobspr/shapez.io)
 - **plausible/analytics** (Elixir): [Simple and privacy-friendly alternative to Google Analytics](https://github.com/plausible/analytics)
+
+<Ad />
 
 ## Trending This Week On Dev.To
 
@@ -72,6 +76,8 @@ Developer roundup from across the web for the week of 2020-10-11.
 - **Kenan Sejmenović**: [15 Parts of How I Built Food Delivery App, Lessons & Ideas through Laravel and Vue](https://dev.to/keno_sej/15-parts-of-how-i-built-food-delivery-app-lessons-ideas-through-laravel-and-vue-6pp)
 - **Anonymous**: [#todayilearnedWhat exactly does Indexing in a Database do?](https://dev.to/anonymous27916/what-exactly-does-indexing-in-a-database-do-28a3)
 - **Madza**: [#discussWhat salary negotiation tips have you learned?](https://dev.to/madza/what-salary-negotiation-tips-have-you-learned-4ab1)
+
+<Ad />
 
 ## Trending This Week On Hacker News
 

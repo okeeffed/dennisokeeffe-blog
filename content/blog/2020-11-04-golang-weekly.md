@@ -7,6 +7,8 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/qs7o2ag8vzo0uborgc7v.png
 
 Gopher Gold weekly curation for Wed Nov 04 2020.
 
+<Ad />
+
 ## Go Articles This Week On Dev.To
 
 - **Faizan**: [Create a server with PostgreSQL in Go - Part[1/3] of Go Authentication series](https://dev.to/mdfaizan7/create-a-server-with-postgresql-in-go-part-1-3-of-go-authentication-series-3127)
@@ -30,6 +32,8 @@ Gopher Gold weekly curation for Wed Nov 04 2020.
 - **Jacob Goodwin**: [06 - Creating Signup Handler in Gin - Binding Data](https://dev.to/jacobsngoodwin/creating-signup-handler-in-gin-binding-data-3kb5)
 - **Greg Holmes**: [Receive Inbound Sms With Go](https://dev.to/vonagedev/receive-inbound-sms-with-go-106j)
 - **resotto**: [Gochk - Static Dependency Analysis Tool for Go Files](https://dev.to/resotto/gochk-static-dependency-analysis-tool-for-go-files-4m20)
+
+<Ad />
 
 ## Trending Go Repositories This Week On Github
 
@@ -58,6 +62,8 @@ Gopher Gold weekly curation for Wed Nov 04 2020.
 - **kubernetes/kubernetes** (Go): [Production-Grade Container Scheduling and Management](https://github.com/kubernetes/kubernetes)
 - **kkdai/youtube** (Go): [Download Youtube Video in Golang](https://github.com/kkdai/youtube)
 - **distribyted/distribyted** (Go): [📂 ➡️ 📺 🎶 🎮 Torrent client with on-demand file downloading as a filesystem.](https://github.com/distribyted/distribyted)
+
+<Ad />
 
 ## Topics from the Weekly Go Forum
 

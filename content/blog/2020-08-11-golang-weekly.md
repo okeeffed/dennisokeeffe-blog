@@ -7,12 +7,16 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/qs7o2ag8vzo0uborgc7v.png
 
 Go Weekly, a weekly curation for all things Go in one centralised place. Here is your curation for Tue Aug 11 2020.
 
+<Ad />
+
 ## Hot Go Articles This Week On Reddit
 
 - [Go package and CLI to download files 4x faster than cURL and Wget](https://www.reddit.com/r/golang/comments/i5yokn/go_package_and_cli_to_download_files_4x_faster/) (2 days ago)
 - [V1.5 of sqlc released: Compile SQL to type-safe Go](https://www.reddit.com/r/golang/comments/i4iv8o/v15_of_sqlc_released_compile_sql_to_typesafe_go/) (5 days ago)
 - [Olric v0.3.0-beta.1 is out: Distributed cache and in-memory key/value data store. It can be used both as an embedded Go library and as a language-independent service.](https://www.reddit.com/r/golang/comments/i3i6gi/olric_v030beta1_is_out_distributed_cache_and/) (6 days ago)
 - [[Tutorial] How to setup your first Kibana dashboard for your Go application](https://www.reddit.com/r/golang/comments/i6fd9m/tutorial_how_to_setup_your_first_kibana_dashboard/) (2 days ago)
+
+<Ad />
 
 ## Go Articles This Week On Dev.To
 
@@ -41,6 +45,8 @@ Go Weekly, a weekly curation for all things Go in one centralised place. Here is
 - **Marzee Labs**: [How an open mindset can boost the evolution of a continuous development platform](https://dev.to/marzeelabs/how-an-open-mindset-can-boost-the-evolution-of-a-continuous-development-platform-1de4)
 - **Ahmet Turkmen**: [Universal gRPC client demonstration [Evans] 🇬🇧](https://dev.to/mrturkmen/universal-grpc-client-demonstration-evans-bij)
 
+<Ad />
+
 ## Trending Go Repositories This Week On Github
 
 - **douyu/jupiter** (Go): [Jupiter是斗鱼开源的面向服务治理的Golang微服务框架](https://github.com/douyu/jupiter)
@@ -68,6 +74,8 @@ Go Weekly, a weekly curation for all things Go in one centralised place. Here is
 - **mongodb/mongo-go-driver** (Go): [The Go driver for MongoDB](https://github.com/mongodb/mongo-go-driver)
 - **gorilla/websocket** (Go): [A fast, well-tested and widely used WebSocket implementation for Go.](https://github.com/gorilla/websocket)
 - **360EntSecGroup-Skylar/excelize** (Go): [Golang library for reading and writing Microsoft Excel™ (XLSX) files.](https://github.com/360EntSecGroup-Skylar/excelize)
+
+<Ad />
 
 ## Topics from the Weekly Go Forum
 

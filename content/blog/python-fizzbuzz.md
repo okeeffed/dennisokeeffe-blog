@@ -4,6 +4,8 @@ date: "2018-07-15"
 description: The classic FizzBuzz implementation in Python with Unit Testing.
 ---
 
+<Ad />
+
 ## Test file
 
 Create file `fizz_buzz_test.py`:
@@ -42,6 +44,8 @@ if __name__ == '__main__':
     unittest.main()
 ```
 
+<Ad />
+
 ## FizzBuzz
 
 Create file `fizz_buzz.py`.
@@ -57,6 +61,8 @@ def run(arg):
     else:
         return arg
 ```
+
+<Ad />
 
 ## Running tests
 
