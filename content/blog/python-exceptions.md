@@ -13,7 +13,7 @@ except:
     print('Linux function was not executed')
 ```
 
-<Ad />
+
 
 ## Example case
 

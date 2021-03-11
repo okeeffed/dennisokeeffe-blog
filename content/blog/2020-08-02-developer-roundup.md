@@ -6,7 +6,7 @@ date: "2020-08-02"
 
 Here is your update from across the web for the week of 2020-08-02.
 
-<Ad />
+
 
 ## Trending This Week On Github
 
@@ -35,7 +35,7 @@ Here is your update from across the web for the week of 2020-08-02.
 - **winterbe/java8-tutorial** (Java): [Modern Java - A Guide to Java 8](https://github.com/winterbe/java8-tutorial)
 - **nlohmann/json** (C++): [JSON for Modern C++](https://github.com/nlohmann/json)
 
-<Ad />
+
 
 ## Trending This Week On Dev.To
 
@@ -75,7 +75,7 @@ Here is your update from across the web for the week of 2020-08-02.
 - **lindelof**: [Awesome Web Effect](https://dev.to/lindelof/awesome-web-effect-4598)
 - **Silvia Bogdan**: [#discussHow do you get over bad days?](https://dev.to/cilvako/how-do-you-get-over-bad-days-4mo0)
 
-<Ad />
+
 
 ## Trending This Week On Hacker News
 

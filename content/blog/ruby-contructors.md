@@ -6,7 +6,7 @@ description: How to build instances with Ruby.
 
 The important constructor method is the `initialize` method.
 
-<Ad />
+
 
 ## Simple Example
 
@@ -40,7 +40,7 @@ obj1 = Geeks.new()
 obj1.display()
 ```
 
-<Ad />
+
 
 ## Linked List Example
 

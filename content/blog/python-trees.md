@@ -4,7 +4,7 @@ date: "2019-03-11"
 description: Python implementation of a basic node tree and traversal using DFS and BFS.
 ---
 
-<Ad />
+
 
 ## Test file
 
@@ -49,7 +49,7 @@ if __name__ == '__main__':
     unittest.main()
 ```
 
-<Ad />
+
 
 ## Trees
 
@@ -105,7 +105,7 @@ class Node:
         self.children = children
 ```
 
-<Ad />
+
 
 ## Running tests
 

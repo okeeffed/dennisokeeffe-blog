@@ -23,7 +23,7 @@ There is an unruly number of listicles that push unrealistic narratives, but tod
 
 Beginning the most applicable of principles and resulting with the deepest of realities, here are my empirical **10 Time Management Tips for the Developer Who Wants It All Now**.
 
-<Ad />
+
 
 ## Humility and The Dunning-Kruger Effect
 
@@ -59,7 +59,7 @@ _But hang on, is this even a time management tip?_ All that is a precursor to un
 
 Learning is not a race and the earnest reward is intrinsic, not extrinsic. Whenever you feel confident and ready to move on, first remind yourself of the Dunning-Kruger Effect and make an educated decision about your proficiency in the topic of choice.
 
-<Ad />
+
 
 ## A Picture Paints A Thousand Words
 
@@ -83,7 +83,7 @@ Jumping blindly from buzzword to buzzword will leave you without understanding a
 
 A true understanding of this will lead you to better time allocation and management of a "learning pathway".
 
-<Ad />
+
 
 ## Do Not Learn For The Sake Of Learning
 
@@ -97,7 +97,7 @@ Two of the biggest mistakes I made early in my career: learning Python and Ruby 
 
 There really is no better way to put it than that. This in itself leads directly to the next tip.
 
-<Ad />
+
 
 ## 10:1 Output-to-Input
 
@@ -111,7 +111,7 @@ Input has its place. We consume to get an understanding, but too much of doing s
 
 So how did I come up with the "ten hours of work to one hour of input"? That was an arbitrary figure set by myself. Most days I work up to ten hours and I am not always taking in the input (depends on what I am working on), so those numbers for me generally make that up and you will be surprised how often you actually do stick to a 10:1 ratio. The idea is more that you should be spending more time applying what you learn than the time you spending learning it from consumption.
 
-<Ad />
+
 
 ## Use It Or Lose It — Memory Is Fallible
 
@@ -129,7 +129,7 @@ As a personal example, I no longer work exclusively with iOS nor Kubernetes, but
 
 If there is no reason to revisit it every now and then, then you should be justified and letting that knowledge drift away. If something truly does show itself again years later, you can always have the confidence that you will pick it up again the second time much quicker.
 
-<Ad />
+
 
 ## Aspirations and Inspiration
 
@@ -145,7 +145,7 @@ Does this mean you shouldn't spend time finding inspiration in other ways? Of co
 
 If you do start coding and ten minutes later you feel like closing the screen, then that might be your body telling you something else.
 
-<Ad />
+
 
 ## You Don’t Run Marathons Every Day
 
@@ -155,7 +155,7 @@ Effective time management is inclusive of understanding your body's needs and be
 
 To the developer that wants to learn it all now: learn the virtues of patience and perseverance. If you are in it for the long-haul, then you need to know that the best contribution to your effectiveness is to ensure you are at your best.
 
-<Ad />
+
 
 ## Learning How You Operate and Open Communication
 
@@ -171,7 +171,7 @@ Obviously, this isn't everyone. But there are some others who operate like that.
 
 Knowing when I am coming into an "on" or "off" period helps me to effectively plan my hours and allows me to manage my downtime to ensure that I am doing the best I can during whichever period.
 
-<Ad />
+
 
 ## Embrace Imposter Syndrome
 
@@ -191,7 +191,7 @@ Without these pillars of support to help you go into autopilot, then I have some
 
 To be great at time management means to also be great at time delegation, distribution and denial. Find ways to embrace the unknown and let it be a source of awe and inspiration, not one of degradation.
 
-<Ad />
+
 
 ## Perseverance and the Now: A Tale of Two Developers
 

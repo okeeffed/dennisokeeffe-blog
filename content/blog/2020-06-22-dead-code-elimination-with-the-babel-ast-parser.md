@@ -8,7 +8,7 @@ This post is a recount on a script I wrote to remove twenty thousand lines of un
 
 It assumes that you have some understanding on Abstract Syntax Trees (AST) prior.
 
-<Ad />
+
 
 ## Understanding the targets
 
@@ -28,7 +28,7 @@ So posting a few of these iterations, I was able to determine how the Babel pars
 
 ![Exploring syntax in the AST explorer](../assets/2020-06-23-ast-explorer-one.png)
 
-<Ad />
+
 
 ## Using the Babel parser
 
@@ -110,7 +110,7 @@ const parseFileASTTree = file =>
   )
 ```
 
-<Ad />
+
 
 ## Keeping score of unused files
 
@@ -146,7 +146,7 @@ const setFileRef = (file, pathway) => {
 }
 ```
 
-<Ad />
+
 
 ## Putting it all together
 
@@ -245,7 +245,7 @@ main()
 
 Finally, I would have helper functions to log out important information, with `logFileWithNoReferences` logging out any files that ultimately did not have any references.
 
-<Ad />
+
 
 ## Running the script
 
@@ -259,7 +259,7 @@ The image above is a shortened version of the output **after** the removal of th
 
 Success! The PR with the changes was up, and we felt much lighter after the merge.
 
-<Ad />
+
 
 ## Improvements
 
@@ -267,7 +267,7 @@ The script itself wanted to check if the file was used at all. In some cases, a 
 
 The other improvement is simply to automate the removal process instead of just logging. This is just a matter of adding in extra lines to have the `fs` module remove those files for you.
 
-<Ad />
+
 
 ## Resources and Further Reading
 

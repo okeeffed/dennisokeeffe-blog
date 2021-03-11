@@ -7,7 +7,7 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/qs7o2ag8vzo0uborgc7v.png
 
 Go Weekly, a weekly curation for all things Go in one centralised place. Here is your curation for Tue Aug 04 2020.
 
-<Ad />
+
 
 ## Hot Go Articles This Week On Reddit
 
@@ -15,7 +15,7 @@ Go Weekly, a weekly curation for all things Go in one centralised place. Here is
 - [Different approaches to HTTP routing in Go](https://www.reddit.com/r/golang/comments/i0s89s/different_approaches_to_http_routing_in_go/) (4 days ago)
 - [Context should go away for Go 2 (2017)](https://www.reddit.com/r/golang/comments/i0vr6h/context_should_go_away_for_go_2_2017/) (4 days ago)
 
-<Ad />
+
 
 ## Go Articles This Week On Dev.To
 
@@ -44,7 +44,7 @@ Go Weekly, a weekly curation for all things Go in one centralised place. Here is
 - **flowerinthenight**: [An example of a Golang-based monorepo](https://dev.to/flowerinthenight/an-example-of-a-golang-based-monorepo-539g)
 - **Ogundele Olumide**: [Data Structures: Singly-Linked List with Go](https://dev.to/lumexralph/data-structures-singly-linked-list-with-go-24i6)
 
-<Ad />
+
 
 ## Trending Go Repositories This Week On Github
 
@@ -74,7 +74,7 @@ Go Weekly, a weekly curation for all things Go in one centralised place. Here is
 - **ffuf/ffuf** (Go): [Fast web fuzzer written in Go](https://github.com/ffuf/ffuf)
 - **apache/dubbo-go** (Go): [Go Implementation For Apache Dubbo](https://github.com/apache/dubbo-go)
 
-<Ad />
+
 
 ## Topics from the Weekly Go Forum
 

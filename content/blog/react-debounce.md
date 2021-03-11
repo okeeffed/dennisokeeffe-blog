@@ -4,7 +4,7 @@ date: "2018-09-22"
 description: See example code on how to debounce trailing and leading events.
 ---
 
-<Ad />
+
 
 ## Why debounce?
 
@@ -14,7 +14,7 @@ _Debounce functions are included in many JavaScript libraries. The goal behind e
 
 Usage in real world examples can prevent code from executing straight away after typing into a text field or preventing multiple attempts at a form submission.
 
-<Ad />
+
 
 ## Example Code
 

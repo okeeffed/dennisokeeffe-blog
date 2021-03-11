@@ -6,7 +6,7 @@ date: "2020-06-23"
 
 This is a short on how to get up and running with Electron using Parcel and then choosing and updating a JSON file using Electron's dialog API.
 
-<Ad />
+
 
 ## Initialing the project
 
@@ -25,7 +25,7 @@ mkdir src
 touch src/index.js src/App.js electron.js tsconfig.json index.html
 ```
 
-<Ad />
+
 
 ## Creating the entry point
 
@@ -76,7 +76,7 @@ export default App
 
 This is just a basic React app setup.
 
-<Ad />
+
 
 ## Setup up Babel
 
@@ -89,7 +89,7 @@ In the root `.babelrc` file, add the following:
 }
 ```
 
-<Ad />
+
 
 ## Adding Scripts and Homepage
 
@@ -126,7 +126,7 @@ Next, we need to update our **scripts** and **homepage** in `package.json`. I've
 }
 ```
 
-<Ad />
+
 
 ## TypeScript config
 
@@ -141,7 +141,7 @@ To get TypeScript going, Add this to `tsconfig.json` in the root:
 }
 ```
 
-<Ad />
+
 
 ## Setting up the Electron file
 
@@ -193,7 +193,7 @@ We are now ready to start! Tun `yarn start` and to build we run `yarn build` and
 
 ![Hello, World](../assets/2020-06-23-hello-world.png)
 
-<Ad />
+
 
 ## Updating to use Electron's dialog API
 
@@ -274,7 +274,7 @@ In our `handleFileSelect` closure, we are checking for a `jsonPath` result to th
 
 The `handleSaveFile` simply overrides the currently file selected, which we are storing as state `filePath` during the file selection.
 
-<Ad />
+
 
 ## Running the App
 
@@ -296,7 +296,7 @@ If we select it, you can see we have some text to show the JSON with some manipu
 
 Hooray! This has been a short introduction into getting things going, but the world is your oyster from here. This code is readily reuseable for you to quickly put together Electron + React + TypeScript apps for your own needs.
 
-<Ad />
+
 
 ## Resources and Further Reading
 

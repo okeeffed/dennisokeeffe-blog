@@ -4,13 +4,13 @@ date: "2019-06-26"
 description: An overview of network addressing and how to understand concepts like network masking.
 ---
 
-<Ad />
+
 
 ## IPv4
 
 IPv4 address are 32bit with an octet each consisting of 8 bits (hence the 255.255.255.255 limit).
 
-<Ad />
+
 
 ## IPv6
 
@@ -23,7 +23,7 @@ The main advantage of IPv6 over IPv4 is the larger address space.
 
 Each segment is represented by 16 bits.
 
-<Ad />
+
 
 ## Media Access Control (MAC) Address
 
@@ -32,7 +32,7 @@ Each segment is represented by 16 bits.
 - First three sections represent the Organizationally Unique Identifier (OUI) - number deontes the manufacturer and whether this is a `universal` or `local` MAC address.
 - The MAC addresses are mapped to IP addresses through the `Address Resolution Protocol (ARP)`.
 
-<Ad />
+
 
 ## Address Resolution Protocol (ARP)
 
@@ -43,7 +43,7 @@ The device with the `Target` IP would then respond with a Unicast to the origina
 1. Broadcast => who has IP 192.168.1.212? No `Target` MAC address as it is a broadcast
 2. Unicast back => I have the IP 192.168.1.212. Has all `Sender` and `Target` addresses
 
-<Ad />
+
 
 ## Network Masks
 
@@ -94,7 +94,7 @@ Formula is `2^b / n+2` where:
 - b: number of bits in the host portion
 - n: number of hosts per subnet
 
-<Ad />
+
 
 ## CIDR -> Classless Inter-Domain Routing
 

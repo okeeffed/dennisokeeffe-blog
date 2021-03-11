@@ -6,7 +6,7 @@ description: A basic intro to using the Redis chart and installing it with Helm.
 
 Ensure that you have configured Helm first and applied the appropriate RBAC (see Helm Intro for more).
 
-<Ad />
+
 
 ## Installing
 

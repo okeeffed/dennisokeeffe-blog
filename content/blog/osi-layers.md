@@ -6,7 +6,7 @@ description: A quick overview on the seven layers of the Open System Interconnec
 
 A quick and dirty on the seven layers of the OSI Model.
 
-<Ad />
+
 
 ## OSI Layers in Network Traffic
 
@@ -40,7 +40,7 @@ Layers 5-7 are typically managed by the application itself, providing the interf
 
 Data: Data.
 
-<Ad />
+
 
 ## Data in a TCP/IP Example
 

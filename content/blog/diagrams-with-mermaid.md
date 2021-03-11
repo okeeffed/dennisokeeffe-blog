@@ -8,7 +8,7 @@ This is a small intro into building HTML diagrams on the fly.
 
 I really, really want to be able to visualise some stacks I am building on the go down the track, so I thought this would be a very convenient way to explore that.
 
-<Ad />
+
 
 ## Getting started
 
@@ -28,7 +28,7 @@ Once this installs, changed into the folder and either `yarn add mermaid` or `np
 
 In this scenario, I want to also dynamically update the chart, so also add in `yarn add debounce` or `npm install debounce --save` as I will use a `textarea` html element for this which I want to only fire once after being debounced. Check my [blog post on debouncing in React](https://www.dennisokeeffe.com/blog/react-debounce) for more information.
 
-<Ad />
+
 
 ## The code
 
@@ -243,7 +243,7 @@ gantt
 
 ![Gantt](https://res.cloudinary.com/gitgoodclub/image/upload/v1537746497/cjsznl54jbf1qhsxdhfg.png "Gantt chart")
 
-<Ad />
+
 
 ## Next steps
 

@@ -4,7 +4,7 @@ date: "2018-09-22"
 description: Use the incredible Sharp package for Node and build a simple CLI image compression tool.
 ---
 
-<Ad />
+
 
 ## Intro to Sharp
 
@@ -22,7 +22,7 @@ const sharp = require("sharp")
 })()
 ```
 
-<Ad />
+
 
 ## Project
 
@@ -346,7 +346,7 @@ const run = async () => {
 run()
 ```
 
-<Ad />
+
 
 ## Next steps
 

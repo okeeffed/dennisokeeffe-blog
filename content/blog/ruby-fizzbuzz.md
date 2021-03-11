@@ -6,7 +6,7 @@ description: The classic FizzBuzz implementation in Ruby with Unit Testing.
 
 This requires the gem installation of `minitest`.
 
-<Ad />
+
 
 ## Test file
 
@@ -52,7 +52,7 @@ end
 __END__
 ```
 
-<Ad />
+
 
 ## FizzBuzz
 
@@ -75,7 +75,7 @@ class FizzBuzz
 end
 ```
 
-<Ad />
+
 
 ## Testing
 

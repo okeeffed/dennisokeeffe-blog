@@ -4,7 +4,7 @@ date: "2018-09-18"
 description: An introduction to React Context.
 ---
 
-<Ad />
+
 
 ## Basic Introduction
 
@@ -13,7 +13,7 @@ description: An introduction to React Context.
 | Props   | Get data from a parent component to a direct child component   |
 | Context | Gets data from a parent omponent to any nested child component |
 
-<Ad />
+
 
 ## An App with Context
 
@@ -31,7 +31,7 @@ class App extends Component {
 }
 ```
 
-<Ad />
+
 
 ## Getting Data Out of Context
 
@@ -80,7 +80,7 @@ class App extends Component {
 
 The big gotcha with the context is dealing with the value prop given to the provider.
 
-<Ad />
+
 
 ## Alternative Consumption of Data with Consumers
 
@@ -130,7 +130,7 @@ export default class Button extends React.Component {
 }
 ```
 
-<Ad />
+
 
 ## Context vs Redux
 

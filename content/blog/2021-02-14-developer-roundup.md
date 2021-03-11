@@ -7,7 +7,7 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/xg2dgz5vcfhp0zqp92hk.png
 
 Developer roundup from across the web for the week of 2021-02-14.
 
-<Ad />
+
 
 ## Trending This Week On Github
 
@@ -37,7 +37,7 @@ Developer roundup from across the web for the week of 2021-02-14.
 - **kangvcar/InfoSpider** (Python): [INFO-SPIDER 是一个集众多数据源于一身的爬虫工具箱🧰，旨在安全快捷的帮助用户拿回自己的数据，工具代码开源，流程透明。支持数据源包括GitHub、QQ邮箱、网易邮箱、阿里邮箱、新浪邮箱、Hotmail邮箱、Outlook邮箱、京东、淘宝、支付宝、中国移动、中国联通、中国电信、知乎、哔哩哔哩、网易云音乐、QQ好友、QQ群、生成朋友圈相册、浏览器浏览历史、12306、博客园、CSDN博客、开源中国博客、简书。](https://github.com/kangvcar/InfoSpider)
 - **deepmind/deepmind-research** (Jupyter Notebook): [This repository contains implementations and illustrative code to accompany DeepMind publications](https://github.com/deepmind/deepmind-research)
 
-<Ad />
+
 
 ## Trending This Week On Dev.To
 
@@ -93,7 +93,7 @@ Supercharge Your IDE](https://dev.to/iashin/vscode-customization-supercharge-you
 - **Jasterix**: [Don't attend a bootcamp in 2021](https://dev.to/jasterix/don-t-attend-a-bootcamp-in-2021-3l4b)
 - **Arika**: [Destructuring arrays in Javascript](https://dev.to/test555creator/destructuring-arrays-in-javascript-1oa5)
 
-<Ad />
+
 
 ## Trending This Week On Hacker News
 

@@ -6,7 +6,7 @@ date: "2020-06-22"
 
 In this short post, we're going to scrape the website that this blog is hosted on to get all the links and posts back using Nodejs and [Xray](https://github.com/matthewmueller/x-ray).
 
-<Ad />
+
 
 ## Setup
 
@@ -20,7 +20,7 @@ yarn add x-ray
 touch index.js
 ```
 
-<Ad />
+
 
 ## Scraping the website
 
@@ -96,7 +96,7 @@ That's it! Let's run the scraper now using `node index.js`.
 
 Perfect! Now you can take these same shorts tips and apply to anything you need to scrape down the track. Looking for alternatives or to use automation? You should also checkout Puppeteer or Playwright (added to resource links).
 
-<Ad />
+
 
 ## Resources and Further Reading
 

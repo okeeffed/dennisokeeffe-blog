@@ -11,7 +11,7 @@ The post is written using the AWS TypeScript CDK.
 
 > This example is used as a deployment for a static export of a NextJS 10 website. Find the blog post on how to do that [here](https://blog.dennisokeeffe.com/blog/2020-11-04-exporting-static-nextjs-10-websites/). That being said, this post is aimed at pushing any HTML to S3 to use a static website. I simply use the NextJS content to demo the final product and changes in steps required to get it done.
 
-<Ad />
+
 
 ## Getting Started
 
@@ -36,7 +36,7 @@ touch stacks/s3-static-site-with-cloudfront/index.ts
 touch tsconfig.json cdk.json cdk.context.json
 ```
 
-<Ad />
+
 
 ## Updating cdk.json
 
@@ -48,7 +48,7 @@ Add the following the the `cdk.json` file:
 }
 ```
 
-<Ad />
+
 
 ## Setting up context
 
@@ -71,7 +71,7 @@ Ensure that you set the `account` to be a string with the number returned.
 
 For more information on context, see the [AWS docs](https://docs.aws.amazon.com/cdk/latest/guide/context.html).
 
-<Ad />
+
 
 ## Updating the TypeScript Configuration File
 
@@ -104,7 +104,7 @@ In `tsconfig.json`, add the following:
 
 This is a basic TypeScript configuration for the CDK to compile the TypeScript configuration to JavaScript.
 
-<Ad />
+
 
 ## Handling the static site stack
 
@@ -226,7 +226,7 @@ To explain what is happening here:
 
 In my case, I am going to adjust the code above to import `path` and change the `s3deploy.Source.asset('./site-contents')` value to become `s3deploy.Source.asset(path.resolve(__dirname, '../../../next-10-static-export/out'))` (which points to my output directory with the static HTML build assets). This relates to my corresponding blog post on [exporting NextJS 10 static websites](https://blog.dennisokeeffe.com/blog/2020-11-04-exporting-static-nextjs-10-websites/) directly. Note that you will need to add `import path = require('path')` to the top and install `@types/node`.
 
-<Ad />
+
 
 ## Using the StaticSite Stack
 
@@ -260,7 +260,7 @@ If you recall, the constructor for the `StaticSite` reads `constructor(parent: C
 2. The "name" or identifier for the stack.
 3. Props that adhere to our `StaticSiteProps`, so in our case an object that passes the `domainName` and `siteSubDomain`.
 
-<Ad />
+
 
 ## Updating package.json
 
@@ -282,7 +282,7 @@ Before deployment, let's adjust `package.json` for some scripts to help with the
 
 Now we are ready to roll.
 
-<Ad />
+
 
 ## Deploying our site
 
@@ -309,7 +309,7 @@ You can see the final, live deploy at [https://nextjs-10-static-example.dennisok
 
 ![NextJS 10 Static Export on S3](../assets/2020-11-04-final-live-site.png)
 
-<Ad />
+
 
 ## Resources
 

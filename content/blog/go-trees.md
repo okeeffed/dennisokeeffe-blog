@@ -6,7 +6,7 @@ description: Golang implementation of a basic node tree and traversal using DFS 
 
 DFS and BFS tree implementations with Golang.
 
-<Ad />
+
 
 ## Setting up the test
 
@@ -98,7 +98,7 @@ func TestDFS(t *testing.T) {
 }
 ```
 
-<Ad />
+
 
 ## Trees implementation
 
@@ -174,7 +174,7 @@ func (t *Tree) dfs() []int {
 }
 ```
 
-<Ad />
+
 
 ## Running Tests
 

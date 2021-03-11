@@ -6,7 +6,7 @@ description: Golang Spiral Matrices with unit testing.
 
 Base spiral matrix implementation.
 
-<Ad />
+
 
 ## Setting up the test
 
@@ -41,7 +41,7 @@ func TestMatrix(t *testing.T) {
 
 ```
 
-<Ad />
+
 
 ## Spiral Matrix Implementation
 
@@ -98,7 +98,7 @@ func genSpiralMatrix(s int) [][]int {
 }
 ```
 
-<Ad />
+
 
 ## Running Tests
 

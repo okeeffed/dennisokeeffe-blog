@@ -6,7 +6,7 @@ date: "2020-07-26"
 
 Here is your update from across the web for the week of 2020-07-26.
 
-<Ad />
+
 
 ## Trending This Week On Github
 
@@ -36,7 +36,7 @@ Here is your update from across the web for the week of 2020-07-26.
 - **PaddlePaddle/PaddleOCR** (C++): [Awesome OCR toolkits based on PaddlePaddle （8.6M ultra-lightweight pre-trained model, support training and deployment among server, mobile, embeded and IoT devices）](https://github.com/PaddlePaddle/PaddleOCR)
 - **docker/awesome-compose** (HTML): [Awesome Docker Compose samples](https://github.com/docker/awesome-compose)
 
-<Ad />
+
 
 ## Trending This Week On Dev.To
 
@@ -77,7 +77,7 @@ Here is your update from across the web for the week of 2020-07-26.
 - **Guy Ntare**: [How to earn more as a Freelancer](https://dev.to/ntare_guy/how-to-earn-more-as-a-freelancer-2p88)
 - **Santhosh Reddy**: [Backend developer roadmap, skills, resources](https://dev.to/santhu210/backend-developer-roadmap-skills-resources-2bpd)
 
-<Ad />
+
 
 ## Trending This Week On Hacker News
 

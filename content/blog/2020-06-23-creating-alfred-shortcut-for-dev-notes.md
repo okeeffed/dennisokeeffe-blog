@@ -8,7 +8,7 @@ In this post, I will run through a short project I made using [alfy](https://git
 
 ![End result](../assets/2020-06-23-opening-from-alfred.png)
 
-<Ad />
+
 
 ## Setting up
 
@@ -49,7 +49,7 @@ That is literally it for the magic that happens with Alfred, but what is the `js
 
 I decided to have a script that generates the latest doc set during my Git pre-push hook from the developer notes repo.
 
-<Ad />
+
 
 ## Generating the docset list
 
@@ -128,7 +128,7 @@ The above code is not doing anything magical. It follows this process:
 
 That's it! Everytime I make a change in the developer notes, a pre-push Git hook will generate the latest `data.json` file and place it where it needs to go. Easy peasy!
 
-<Ad />
+
 
 ## Opening the URL
 
@@ -138,7 +138,7 @@ This last part is nice and straight forward - you just need to take the selected
 
 Now I can peruse my notes locally from wherever I want!
 
-<Ad />
+
 
 ## In use
 
@@ -150,7 +150,7 @@ Searching through Alfred looks like so...
 
 ![Opening at the website](../assets/2020-06-23-opening-at-the-page.png)
 
-<Ad />
+
 
 ## Resources and Further Reading
 

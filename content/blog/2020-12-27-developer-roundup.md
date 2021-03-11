@@ -7,7 +7,7 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/xg2dgz5vcfhp0zqp92hk.png
 
 Developer roundup from across the web for the week of 2020-12-27.
 
-<Ad />
+
 
 ## Trending This Week On Github
 
@@ -37,7 +37,7 @@ Developer roundup from across the web for the week of 2020-12-27.
 - **doocs/advanced-java** (Java): [😮 互联网 Java 工程师进阶知识完全扫盲：涵盖高并发、分布式、高可用、微服务、海量数据处理等领域知识，后端同学必看，前端同学也可学习](https://github.com/doocs/advanced-java)
 - **DrKLO/Telegram** (C++): [Telegram for Android source](https://github.com/DrKLO/Telegram)
 
-<Ad />
+
 
 ## Trending This Week On Dev.To
 
@@ -78,7 +78,7 @@ Developer roundup from across the web for the week of 2020-12-27.
 - **michael-andreuzza**: [Working on more than 120 free Tailwind V2 Blocks!](https://dev.to/michaelandreuzza/working-on-more-than-120-free-tailwind-v2-blocks-1a7d)
 - **Hardik Chopra**: [Master VS Code + Resources!](https://dev.to/hardikchopra242/master-vs-code-resources-1e4b)
 
-<Ad />
+
 
 ## Trending This Week On Hacker News
 

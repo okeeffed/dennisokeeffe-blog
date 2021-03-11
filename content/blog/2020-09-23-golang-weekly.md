@@ -7,13 +7,13 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/qs7o2ag8vzo0uborgc7v.png
 
 Go Weekly, a weekly curation for all things Go in one centralised place. Here is your curation for Wed Sep 23 2020.
 
-<Ad />
+
 
 ## Hot Go Articles This Week On Reddit
 
 - [gopls v0.5.0](https://www.reddit.com/r/golang/comments/itq7ih/gopls_v050/) (7 days ago)
 
-<Ad />
+
 
 ## Go Articles This Week On Dev.To
 
@@ -39,7 +39,7 @@ Go Weekly, a weekly curation for all things Go in one centralised place. Here is
 - **Mateusz Charytoniuk**: [Using AWS Cognito App Client Secret Hash with Go](https://dev.to/mcharytoniuk/using-aws-cognito-app-client-secret-hash-with-go-8ld)
 - **Narendra Pareek**: [Using MongoDB as Datasource in GoLang](https://dev.to/pareeknarendra/using-mongodb-as-datasource-in-golang-27oh)
 
-<Ad />
+
 
 ## Trending Go Repositories This Week On Github
 
@@ -69,7 +69,7 @@ Go Weekly, a weekly curation for all things Go in one centralised place. Here is
 - **mailhog/MailHog** (Go): [Web and API based SMTP testing](https://github.com/mailhog/MailHog)
 - **hashicorp/terraform** (Go): [Terraform enables you to safely and predictably create, change, and improve infrastructure. It is an open source tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.](https://github.com/hashicorp/terraform)
 
-<Ad />
+
 
 ## Topics from the Weekly Go Forum
 

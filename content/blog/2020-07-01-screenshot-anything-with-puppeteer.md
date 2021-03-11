@@ -16,7 +16,7 @@ The expectations for today's project is that you have the usual suspects for Nod
 
 We are going to install both [Puppeteer](https://github.com/puppeteer/puppeteer) and [Yargs Parser](https://github.com/yargs/yargs-parser). Don't worry if you haven't used them before, prerequisite knowledge is **not required**. However, you may want to check the documentation on each repo for more information or better understanding.
 
-<Ad />
+
 
 ## Initialising the project
 
@@ -34,7 +34,7 @@ We are using [yargs-parser](https://github.com/yargs/yargs-parser) to convert ou
 
 [Puppeteer](https://github.com/puppeteer/puppeteer) will be used to run a headless version of Chrome which we can then use to take a screenshot.
 
-<Ad />
+
 
 ## The code in its full glory
 
@@ -93,7 +93,7 @@ main()
 
 So what's happening here? Let's take it part by part.
 
-<Ad />
+
 
 ## Requiring our npm packages
 
@@ -120,7 +120,7 @@ If we ran `node index.js hello --flag=3 --test friend`, `argv` would equal:
 
 > A few other blog posts I write use Yargs Parser, so I won't go too deep. You can see the original post [here](https://blog.dennisokeeffe.com/blog/yargs-parser/).
 
-<Ad />
+
 
 ## Validating our flags
 
@@ -135,7 +135,7 @@ Here, we are validating that our CLI call has a `--math` flag passed to it.
 
 > Note: We are not validating the math is valid KaTeX itself in tonight's example.
 
-<Ad />
+
 
 ## The HTML string to be used for Puppeteer
 
@@ -173,7 +173,7 @@ This variable will be our `--math` flag value, where we will pass in **valid** L
 
 Let's break the HTML down part-by-part.
 
-<Ad />
+
 
 ## Loading KaTeX
 
@@ -205,7 +205,7 @@ These scripts basically come straight from the [KaTeX starter template](https://
 
 It is pulling in the required JS and stylesheet links from a CDN that we can have load once we run this JavaScript in Puppeteer. This will save us a bunch of hassle and can be a strategy used for anything else you may want to build in future (ie CDN for D3 etc)!
 
-<Ad />
+
 
 ## Upping the font size
 
@@ -219,7 +219,7 @@ It is pulling in the required JS and stylesheet links from a CDN that we can hav
 
 I've added a styles into the HTML to simply up the font size of our output. Nothing special here!
 
-<Ad />
+
 
 ## The important KaTeX HTML
 
@@ -240,7 +240,7 @@ The following is as mentioned earlier (but is the most complex part). As the who
 
 That value `argv.math` will come from our `--math` flag that we will pass from the command line ie `node index.js --math="f(a,b,c) = (a^2+b^2+c^2)^3"`
 
-<Ad />
+
 
 ## Our main function
 
@@ -286,7 +286,7 @@ Easy right? It all comes together in ~50 lines of JavaScript!
 
 We are keeping them all within a `try-catch-finally` block. For those who have not seen the `finally`, it is a block of code that will always execute in the block. It allows us to close the Puppeteer `browser` everytime, regardless of any errors.
 
-<Ad />
+
 
 ## Running the code
 
@@ -334,7 +334,7 @@ node index.js --math="\int_a^bu\frac{d^2v}{dx^2}\,dx=\left.u\frac{dv}{dx}\right|
 
 BAM! We have successfully used Puppeteer to load valid HTML and screenshot some sweet mathematics!
 
-<Ad />
+
 
 ## Conclusion
 
@@ -344,7 +344,7 @@ This example can be used and applied to anything else you want really. I do it f
 
 The final code can be found on my [GitHub](https://github.com/okeeffed/puppeteer-katex)
 
-<Ad />
+
 
 ## Final Code
 
@@ -418,7 +418,7 @@ const main = async () => {
 main()
 ```
 
-<Ad />
+
 
 ## Resources and Further Reading
 

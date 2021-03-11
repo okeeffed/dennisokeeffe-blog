@@ -4,7 +4,7 @@ date: "2018-09-12"
 description: See example code for dynamically importing a React Component.
 ---
 
-<Ad />
+
 
 ## Example Code
 

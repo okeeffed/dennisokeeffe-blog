@@ -7,7 +7,7 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/qs7o2ag8vzo0uborgc7v.png
 
 Gopher Gold weekly curation for Wed Nov 04 2020.
 
-<Ad />
+
 
 ## Go Articles This Week On Dev.To
 
@@ -33,7 +33,7 @@ Gopher Gold weekly curation for Wed Nov 04 2020.
 - **Greg Holmes**: [Receive Inbound Sms With Go](https://dev.to/vonagedev/receive-inbound-sms-with-go-106j)
 - **resotto**: [Gochk - Static Dependency Analysis Tool for Go Files](https://dev.to/resotto/gochk-static-dependency-analysis-tool-for-go-files-4m20)
 
-<Ad />
+
 
 ## Trending Go Repositories This Week On Github
 
@@ -63,7 +63,7 @@ Gopher Gold weekly curation for Wed Nov 04 2020.
 - **kkdai/youtube** (Go): [Download Youtube Video in Golang](https://github.com/kkdai/youtube)
 - **distribyted/distribyted** (Go): [📂 ➡️ 📺 🎶 🎮 Torrent client with on-demand file downloading as a filesystem.](https://github.com/distribyted/distribyted)
 
-<Ad />
+
 
 ## Topics from the Weekly Go Forum
 

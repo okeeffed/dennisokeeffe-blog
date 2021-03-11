@@ -7,7 +7,7 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/xg2dgz5vcfhp0zqp92hk.png
 
 Developer roundup from across the web for the week of 2021-01-10.
 
-<Ad />
+
 
 ## Trending This Week On Github
 
@@ -37,7 +37,7 @@ Developer roundup from across the web for the week of 2021-01-10.
 - **excalidraw/excalidraw** (TypeScript): [Virtual whiteboard for sketching hand-drawn like diagrams](https://github.com/excalidraw/excalidraw)
 - **elunez/eladmin** (Java): [项目基于 Spring Boot 2.1.0 、 Jpa、 Spring Security、redis、Vue的前后端分离的后台管理系统，项目采用分模块开发方式， 权限控制采用 RBAC，支持数据字典与数据权限管理，支持一键生成前后端代码，支持动态路由](https://github.com/elunez/eladmin)
 
-<Ad />
+
 
 ## Trending This Week On Dev.To
 
@@ -93,7 +93,7 @@ Books Recommended By Programmers](https://dev.to/surajsrv11/top-7-programming-bo
 - **Ashvin Kumar Suthar**: [Interactive Menu Bar using JavaScript, SVG & CSS- JSitor](https://dev.to/ashvin777/interactive-menu-bar-using-javascript-svg-css-jsitor-3aji)
 - **Color Tools 🌈**: [Beautiful Colored Gradients](https://dev.to/colortools/beautiful-colored-gradients-3b22)
 
-<Ad />
+
 
 ## Trending This Week On Hacker News
 

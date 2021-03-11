@@ -4,7 +4,7 @@ date: "2019-04-19"
 description: A short look into B-Tree structures, what defines them and some technologies that use them.
 ---
 
-<Ad />
+
 
 ## What is it?
 
@@ -16,7 +16,7 @@ A B-Tree is great to use for read and write operations dealing with large amount
 
 The height of a B-Tree is kept low by keeping the maximum possible number of keys in a node of the tree.
 
-<Ad />
+
 
 ## Properties of B-Trees
 
@@ -30,7 +30,7 @@ The height of a B-Tree is kept low by keeping the maximum possible number of key
 8. B-Trees grow and shrink from the root
 9. Time complexity for search, insert and delete is `O(log(N))`
 
-<Ad />
+
 
 ## Usage
 

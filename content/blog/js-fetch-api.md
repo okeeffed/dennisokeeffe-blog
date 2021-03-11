@@ -6,7 +6,7 @@ description: Looking at usage of the web "fetch" API. This example uses the node
 
 Full disclosure, I normally use `axios` as my library of choice for http fetching. This is in case I get asked this question in the upcoming interviews and they want me to use a native web API.
 
-<Ad />
+
 
 ## Setup
 
@@ -20,7 +20,7 @@ Because we are using node, we need to download the `npm` package that uses the s
 yarn init -y | yarn add node-fetch
 ```
 
-<Ad />
+
 
 ## Usage
 
@@ -93,7 +93,7 @@ run()
 
 With this method, we are returning a `Promise` to begin with but manually running our `try/catch` block with a `resolve/reject` resolution based on failure or success.
 
-<Ad />
+
 
 ## Reference
 

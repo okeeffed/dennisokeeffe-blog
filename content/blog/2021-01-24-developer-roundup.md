@@ -7,7 +7,7 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/xg2dgz5vcfhp0zqp92hk.png
 
 Developer roundup from across the web for the week of 2021-01-24.
 
-<Ad />
+
 
 ## Trending This Week On Github
 
@@ -37,7 +37,7 @@ Developer roundup from across the web for the week of 2021-01-24.
 - **rxhanson/Rectangle** (Swift): [Move and resize windows on macOS with keyboard shortcuts and snap areas](https://github.com/rxhanson/Rectangle)
 - **imgcook/imove** (TypeScript): [Move your mouse, generate code from flow chart](https://github.com/imgcook/imove)
 
-<Ad />
+
 
 ## Trending This Week On Dev.To
 
@@ -92,7 +92,7 @@ Developer roundup from across the web for the week of 2021-01-24.
 - **Codespresso**: [JavaScript Design Patterns - Chapter 1](https://dev.to/codespresso/javascript-design-patterns-chapter-1-41bf)
 - **Rajiv**: [Tooltip using only CSS](https://dev.to/thoughtlessmind/tooltip-using-only-css-2oh4)
 
-<Ad />
+
 
 ## Trending This Week On Hacker News
 

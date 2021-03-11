@@ -6,7 +6,7 @@ date: "2020-09-30"
 
 Rusticles weekly curation for Wed Sep 30 2020.
 
-<Ad />
+
 
 ## Hot Rust Articles This Week On Reddit
 
@@ -15,7 +15,7 @@ Rusticles weekly curation for Wed Sep 30 2020.
 - [My frist project in Rust generates mazes and solves them. I'm sure I've missed a lot of Rust patterns and would love some comments on my code (MIC)](https://www.reddit.com/r/rust/comments/j1xzvu/my_frist_project_in_rust_generates_mazes_and/) (19 hours ago)
 - [Jetbrains is looking for Kotlin + Rust engineers to develop "next-generation IDE platform"](https://www.reddit.com/r/rust/comments/j0rrei/jetbrains_is_looking_for_kotlin_rust_engineers_to/) (2 days ago)
 
-<Ad />
+
 
 ## Rust Articles This Week On Dev.To
 
@@ -30,7 +30,7 @@ Rusticles weekly curation for Wed Sep 30 2020.
 - **Matías Hernández Arellano**: [Overview de algunos modernos lenguajes de programación](https://dev.to/matiasfha/overview-de-algunos-modernos-lenguajes-de-programacion-4j45)
 - **Thomas Cross**: [Is GCP internal network slower than AWS?](https://dev.to/chmoder/is-gcp-internal-network-slower-than-aws-e7g)
 
-<Ad />
+
 
 ## Trending Rust Repositories This Week On Github
 

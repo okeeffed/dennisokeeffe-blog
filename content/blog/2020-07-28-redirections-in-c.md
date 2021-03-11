@@ -25,7 +25,7 @@ Hello!
 
 As mentioned by our pal Wikipedia, we can use the `dup2` system call in C to manage a similar thing!
 
-<Ad />
+
 
 ## A simple example
 
@@ -96,7 +96,7 @@ To explain further what is going on:
 4. Eventually, we read `fd1` once and then we redirect`fd1` to `fd2`.
 5. We read `fd2` one last time, but after redirection the value now reads "o".
 
-<Ad />
+
 
 ## A more readable example
 
@@ -164,7 +164,7 @@ Hooray! Redirection to stdin is a success (and no segmentation faults).
 
 I will likely redo this exercise in Rust and Golang this week to show the how-to.
 
-<Ad />
+
 
 ## Resources
 

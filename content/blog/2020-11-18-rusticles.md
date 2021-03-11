@@ -6,7 +6,7 @@ date: "2020-11-18"
 
 Rusticles weekly curation for Wed Nov 18 2020.
 
-<Ad />
+
 
 ## Rust Articles This Week On Dev.To
 
@@ -17,7 +17,7 @@ Rusticles weekly curation for Wed Nov 18 2020.
 - **manasmithamn**: [missed hacktober challenge this year](https://dev.to/manasmithamn/missed-hacktober-challenge-this-year-26mg)
 - **T.J. Telan**: [Rust in 2021](https://dev.to/tjtelan/rust-in-2021-5p6)
 
-<Ad />
+
 
 ## Trending Rust Repositories This Week On Github
 

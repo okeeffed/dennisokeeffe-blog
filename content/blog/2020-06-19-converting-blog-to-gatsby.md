@@ -15,7 +15,7 @@ To give context, the challenges that I needed to do:
 
 After deciding on Gatsby and Netlify CMS, I followed the steps outline on the [Gatsby site](https://www.gatsbyjs.org/tutorial/blog-netlify-cms-tutorial/). The decision for Netlify CMS came naturally as my [main webstite](https://docs.dennisokeeffe.com) and [notes website](https://docs.dennisokeeffe.com) are both currently being hosted on Netlify.
 
-<Ad />
+
 
 ## Step 1: Copy all the existing posted into new repo
 
@@ -43,7 +43,7 @@ Context
 
 As there were 100 blog posts to port, there a couple of things that I needed to automate this.
 
-<Ad />
+
 
 ## Step 2: Update markdown files to include metadata required for Gatsby template
 
@@ -127,7 +127,7 @@ Context
 
 To get rid of the `# Heading`, we needed to do another edit.
 
-<Ad />
+
 
 ## Step 3: Update markdown files to remove the "h1" headings as it comes from metadata
 
@@ -178,7 +178,7 @@ main()
 
 The only update above is the line to remove the heading with `removeHeading(content)`.
 
-<Ad />
+
 
 ## Step 4: Setup blog.dennisokeeffe.com site on Netlify
 

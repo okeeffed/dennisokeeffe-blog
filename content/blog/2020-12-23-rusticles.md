@@ -6,14 +6,14 @@ date: "2020-12-23"
 
 Rusticles weekly curation for Wed Dec 23 2020.
 
-<Ad />
+
 
 ## Hot Rust Articles This Week On Reddit
 
 - [Bevy 0.4](https://www.reddit.com/r/rust/comments/kge7zy/bevy_04/) (3 days ago)
 - [Rust Survey 2020 Results](https://www.reddit.com/r/rust/comments/kef55s/rust_survey_2020_results/) (6 days ago)
 
-<Ad />
+
 
 ## Rust Articles This Week On Dev.To
 
@@ -30,7 +30,7 @@ Rusticles weekly curation for Wed Dec 23 2020.
 - **Nicolas Rannou**: [WASM in Create-React-App 4 in 5mn (without ejecting)](https://dev.to/nicolasrannou/wasm-in-create-react-app-4-in-5mn-without-ejecting-cf6)
 - **Vee Satayamas**: [I try different formats using Rust's Serde](https://dev.to/veer66/i-try-different-formats-using-rust-s-serde-mlo)
 
-<Ad />
+
 
 ## Trending Rust Repositories This Week On Github
 

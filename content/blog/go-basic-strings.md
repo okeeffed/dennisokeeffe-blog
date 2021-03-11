@@ -27,7 +27,7 @@ import (
 )
 ```
 
-<Ad />
+
 
 ## Compare
 
@@ -59,7 +59,7 @@ func CompareStrings(a string, b string) int {
 }
 ```
 
-<Ad />
+
 
 ## Contains
 
@@ -85,7 +85,7 @@ func ContainsString(s string, substr string) bool {
 }
 ```
 
-<Ad />
+
 
 ## Join
 
@@ -108,7 +108,7 @@ func JoinString(str []string, de string) string {
 }
 ```
 
-<Ad />
+
 
 ## Split
 
@@ -133,7 +133,7 @@ func SplitString(str string, de string) []string {
 }
 ```
 
-<Ad />
+
 
 ## Lower case a string using Map
 

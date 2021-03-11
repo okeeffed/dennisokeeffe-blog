@@ -6,7 +6,7 @@ date: "2020-08-12"
 
 Rusticles, a weekly curation for all things Rust in one centralised place. Here is your curation for Wed Aug 12 2020.
 
-<Ad />
+
 
 ## Hot Rust Articles This Week On Reddit
 
@@ -17,7 +17,7 @@ Rusticles, a weekly curation for all things Rust in one centralised place. Here 
 - [Surviving Rust async interfaces - fasterthanli.me](https://www.reddit.com/r/rust/comments/i6p35d/surviving_rust_async_interfaces_fasterthanlime/) (2 days ago)
 - [Why QEMU should move from C to Rust](https://www.reddit.com/r/rust/comments/i4rpyc/why_qemu_should_move_from_c_to_rust/) (5 days ago)
 
-<Ad />
+
 
 ## Rust Articles This Week On Dev.To
 
@@ -36,7 +36,7 @@ Rusticles, a weekly curation for all things Rust in one centralised place. Here 
 - **Rick**: [Steve Klabnik Interview: Rust isn’t afraid to be imperfect as long as we ship something useful](https://dev.to/ricknln/steve-klabnik-interview-rust-isn-t-afraid-to-be-imperfect-as-long-as-we-ship-something-useful-2l8o)
 - **Richard de Jesus**: [Aprendendo Rust: 06 - Controles de fluxo](https://dev.to/pehdepano/aprendendo-rust-06-controles-de-fluxo-4mff)
 
-<Ad />
+
 
 ## Trending Rust Repositories This Week On Github
 

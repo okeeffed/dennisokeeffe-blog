@@ -12,7 +12,7 @@ In today's post, I am going to attempt to _gently ease you_ into some core funct
 
 This post has no requirements other than an understanding of JavaScript and basic arithmetic. However, it is recommended that you understand how `reduce` works.
 
-<Ad />
+
 
 ## To monad or not to monad
 
@@ -28,7 +28,7 @@ It is a post for another time, but what I will say about them (and all the other
 
 There. I said it. No crazy concepts. No monads, no beta reduction, no alpha equivalence. For now, they are all buzzwords. Let's get down to the basics.
 
-<Ad />
+
 
 ## Our first love, addition
 
@@ -42,7 +42,7 @@ We didn't have to add the `1 + 2`, we also could have had `1 + 2 + 3 = 1 + 5` in
 
 So far, we haven't broken any new ground. This is all common knowledge, and in fact, we probably would have skipped the middle stages that I spoke of and simplified straight to the answer 6. Have you stopped the think about _why_ this is the case?
 
-<Ad />
+
 
 ## Talking through the properties of functional programming
 
@@ -192,7 +192,7 @@ This follows from algebraic principles that we understand through the order of o
 
 Now that we have an understanding of the four base properties, let's switch gears and start talking about our `add` function that we've been using so far.
 
-<Ad />
+
 
 ## Currying and uncurrying
 
@@ -225,7 +225,7 @@ The above looks kind of weird? Why would we ever want to write `add(x)(y)`? Runn
 
 Before we step into the power of partial application, I think it is time to start preparing our final voyage towards the goal of this tutorial.
 
-<Ad />
+
 
 ## Setting up the project
 
@@ -295,7 +295,7 @@ Great! Math is still math!
 
 Let's understand how partial application work.
 
-<Ad />
+
 
 ## Partial Application
 
@@ -368,7 +368,7 @@ At this point, I cannot stress how important the concept of partial application 
 
 Stick with me, we are on the home stretch! Let's take what we have applied and see the power of things coming together.
 
-<Ad />
+
 
 ## Writing your own pipe and compose function
 
@@ -509,7 +509,7 @@ That's right! We simply use of Array's [reduceRight](https://developer.mozilla.o
 
 We could pass the same arguments in the same order to both `pipe` and `compose` and get the same answer thanks to our four properties of functional programming that we covered in the beginning!
 
-<Ad />
+
 
 ## Demoing applications with strings
 
@@ -606,7 +606,7 @@ for (const lessFile of lessFiles) {
 }
 ```
 
-<Ad />
+
 
 ## Conclusion
 
@@ -624,7 +624,7 @@ Let's finish by looking back at **Lady Monadgreen’s curse** again.
 
 Next time, we will take this curse head out and come out victorious!
 
-<Ad />
+
 
 ## Resources and further reading
 

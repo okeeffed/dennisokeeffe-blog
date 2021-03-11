@@ -9,7 +9,7 @@ I have recently begun redecorating my room and a recent addition was a new set o
 
 In today's tutorial, we are going to explore [p5.js](https://p5js.org/) and slowly explore a generated sinusoidal wave to see how we can begin to express the inner artist we never knew we had.
 
-<Ad />
+
 
 ## Getting Started
 
@@ -44,7 +44,7 @@ In the above with the default code, it instructs the library to create a 600 by 
 
 Hopefully you are with me so far, but do not fret. We are going to reset the setup and draw functions to go from the basics and refer to documentation.
 
-<Ad />
+
 
 ## Setting up a basic Sinusoidal Wave
 
@@ -98,7 +98,7 @@ From here alone, it is worth change the `amplitude` value and change the value o
 
 ![Changing the offset](../assets/2021-02-13-5-changing-offset.png)
 
-<Ad />
+
 
 ## Changing the stroke color and amplitude dynamically
 
@@ -158,7 +158,7 @@ We are going to use the loop `i` value to help us also dynamically change the st
 
 ![Dynamic, squiggly sine wave](../assets/2021-02-13-6-changes-over-time.png)
 
-<Ad />
+
 
 ## Drawing multiple lines with slight changes
 
@@ -219,7 +219,7 @@ The result is something cooler like this:
 
 ![Multiple sinusoidal waves](../assets/2021-02-13-7-multiple-waves.png)
 
-<Ad />
+
 
 ## Summary
 
@@ -229,7 +229,7 @@ This is day one for me, so I am certainly no expert, but it should be a good eno
 
 My plan is to continue exploring the library over the next few weeks and continue writing some posts, so hopefully by the end I will have some worthy prints to use as placeholders across my bedroom.
 
-<Ad />
+
 
 ## Resources and further reading
 

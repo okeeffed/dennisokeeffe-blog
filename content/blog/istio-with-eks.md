@@ -6,7 +6,7 @@ description: A basic look at how to add Istio to your EKS cluster.
 
 Reference link https://aws.amazon.com/blogs/opensource/getting-started-istio-eks/
 
-<Ad />
+
 
 ## Architecture
 
@@ -14,7 +14,7 @@ Reference link https://aws.amazon.com/blogs/opensource/getting-started-istio-eks
 
 Istio works by having a small network proxy sit alongside each microservice. This so-called “sidecar” intercepts all of the service’s traffic, and handles it more intelligently than a simple layer 3 network can. Istio uses the Envoy proxy as its sidecar. Envoy was originally written at Lyft and is now a CNCF project. The whole set of sidecars, one per microservice, is called the data plane. The work of the sidecars is coordinated by a small number of central components called the control plane. Control and data plane architectures are very common in distributed systems, from network switches to compute farms.
 
-<Ad />
+
 
 ## Setting up Istio
 
@@ -52,7 +52,7 @@ kubectl label namespace default istio-injection=enabled
 
 Note: This is not the best example of security practice. Check Helm docs for RBAC to show you how to set up securely.
 
-<Ad />
+
 
 ## Running a test application
 
@@ -275,7 +275,7 @@ get service istio-ingressgateway \
 $ export GATEWAY_URL=$INGRESS_HOST:$INGRESS_PORT
 ```
 
-<Ad />
+
 
 ## Layer 7 Routing
 
@@ -423,7 +423,7 @@ spec:
 
 ![Route changes](https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2018/08/22/istio-host-reviews.jpg)
 
-<Ad />
+
 
 ## Teardown
 

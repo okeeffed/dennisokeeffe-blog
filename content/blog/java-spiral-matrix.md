@@ -4,7 +4,7 @@ date: "2019-02-09"
 description: Java Spiral Matrices with unit testing.
 ---
 
-<Ad />
+
 
 ## Writing the tests
 
@@ -31,7 +31,7 @@ public class SpiralMatrixTest {
 }
 ```
 
-<Ad />
+
 
 ## Writing the solution
 

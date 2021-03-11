@@ -6,7 +6,7 @@ date: "2021-01-20"
 
 Rusticles weekly curation for Wed Jan 20 2021.
 
-<Ad />
+
 
 ## Rust Articles This Week On Dev.To
 
@@ -24,7 +24,7 @@ Rusticles weekly curation for Wed Jan 20 2021.
 - **t-o-d**: [Prepare a set of Rust tools that can be used with zsh in zinit](https://dev.to/kamekuremaisuke/prepare-a-set-of-rust-tools-that-can-be-used-with-zsh-in-zinit-49ae)
 - **David MacEachern**: [How understanding software versions can help you get unstuck](https://dev.to/davidmaceachern/how-understanding-sofware-versions-can-help-you-get-unstuck-33k7)
 
-<Ad />
+
 
 ## Trending Rust Repositories This Week On Github
 

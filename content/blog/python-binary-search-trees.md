@@ -4,7 +4,7 @@ date: "2019-03-22"
 description: Python implementation of a Binary Search Tree.
 ---
 
-<Ad />
+
 
 ## Test file
 
@@ -60,7 +60,7 @@ if __name__ == '__main__':
     unittest.main()
 ```
 
-<Ad />
+
 
 ## Trees
 
@@ -118,7 +118,7 @@ class Node:
         return self.isValid(self)
 ```
 
-<Ad />
+
 
 ## Running tests
 

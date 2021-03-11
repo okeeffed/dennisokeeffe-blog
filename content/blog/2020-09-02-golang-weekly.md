@@ -7,7 +7,7 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/qs7o2ag8vzo0uborgc7v.png
 
 Go Weekly, a weekly curation for all things Go in one centralised place. Here is your curation for Wed Sep 02 2020.
 
-<Ad />
+
 
 ## Hot Go Articles This Week On Reddit
 
@@ -16,7 +16,7 @@ Go Weekly, a weekly curation for all things Go in one centralised place. Here is
 - [Using Go at Google](https://www.reddit.com/r/golang/comments/ihppee/using_go_at_google/) (5 days ago)
 - [GORM V2 officially released!](https://www.reddit.com/r/golang/comments/ijlhiw/gorm_v2_officially_released/) (2 days ago)
 
-<Ad />
+
 
 ## Go Articles This Week On Dev.To
 
@@ -48,7 +48,7 @@ Go Weekly, a weekly curation for all things Go in one centralised place. Here is
 - **mrdeluofficial**: [How to Add a New Folder in Gmail](https://dev.to/mrdeluofficial/how-to-add-a-new-folder-in-gmail-3f7m)
 - **mrdeluofficial**: [How to post new Job on Facebook Timeline](https://dev.to/mrdeluofficial/how-to-post-new-job-on-facebook-timeline-hc1)
 
-<Ad />
+
 
 ## Trending Go Repositories This Week On Github
 
@@ -78,7 +78,7 @@ Go Weekly, a weekly curation for all things Go in one centralised place. Here is
 - **inancgumus/learngo** (Go): [1000+ Hand-Crafted Go Examples, Exercises, and Quizzes](https://github.com/inancgumus/learngo)
 - **rancher/k3s** (Go): [Lightweight Kubernetes](https://github.com/rancher/k3s)
 
-<Ad />
+
 
 ## Topics from the Weekly Go Forum
 

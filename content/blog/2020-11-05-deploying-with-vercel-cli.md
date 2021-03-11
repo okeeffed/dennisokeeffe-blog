@@ -17,7 +17,7 @@ Today's post will be about simply reliving the making deployments with Vercel.
 
 The requirements are that you have a Vercel and GitHub account.
 
-<Ad />
+
 
 ## Deploying a Next.js 10 application with the Vercel CLI
 
@@ -53,7 +53,7 @@ If you head to that link, you will see the basic Next.js 10 landing page!
 
 Wow, still just as easy as it was two years ago.
 
-<Ad />
+
 
 ## Deploying with GitHub
 
@@ -90,7 +90,7 @@ You can follow along on the dashboard, but once it is done you will see a new pr
 
 Congratulations, step one to faster projects and deployments is complete!
 
-<Ad />
+
 
 ## Wrapping up
 
@@ -98,7 +98,7 @@ Awesome, so we managed to deploy the basics of a Next.js 10 application using th
 
 Following this blog, I will be running some posts about Next.js 10's new features and doing a deeper dive into them and deploying all the examples to the Vercel website.
 
-<Ad />
+
 
 ## Resources
 

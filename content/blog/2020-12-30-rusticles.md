@@ -6,7 +6,7 @@ date: "2020-12-30"
 
 Rusticles weekly curation for Wed Dec 30 2020.
 
-<Ad />
+
 
 ## Hot Rust Articles This Week On Reddit
 
@@ -15,7 +15,7 @@ Rusticles weekly curation for Wed Dec 30 2020.
 - [Redox OS 0.6.0](https://www.reddit.com/r/rust/comments/kjr949/redox_os_060/) (5 days ago)
 - [Cloudflare uses Rust for parsing Cron expressions](https://www.reddit.com/r/rust/comments/kk2p2z/cloudflare_uses_rust_for_parsing_cron_expressions/) (4 days ago)
 
-<Ad />
+
 
 ## Rust Articles This Week On Dev.To
 
@@ -30,7 +30,7 @@ Rusticles weekly curation for Wed Dec 30 2020.
 - **Rishit Khandelwal**: [How to implement console.log](https://dev.to/rishitkhandelwal/how-to-implement-console-log-2j59)
 - **Yoandy Rodriguez Martinez**: [Pipelines en Rust (I)](https://dev.to/yorodm/pipelines-en-rust-i-573e)
 
-<Ad />
+
 
 ## Trending Rust Repositories This Week On Github
 

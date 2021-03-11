@@ -4,7 +4,7 @@ date: "2018-09-11"
 description: Python Spiral Matrices with unit testing.
 ---
 
-<Ad />
+
 
 ## Test file
 
@@ -33,7 +33,7 @@ if __name__ == '__main__':
     unittest.main()
 ```
 
-<Ad />
+
 
 ## Spiral Matrix
 
@@ -98,7 +98,7 @@ def create(dim):
     return mat
 ```
 
-<Ad />
+
 
 ## Running tests
 

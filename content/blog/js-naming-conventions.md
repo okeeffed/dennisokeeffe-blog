@@ -8,7 +8,7 @@ description: Suggestions and guides for naming in JavaScript.
 [verb = required][verb = null][noun = null][preposition = null][noun = null]
 ```
 
-<Ad />
+
 
 ## Verb examples
 
@@ -18,7 +18,7 @@ description: Suggestions and guides for naming in JavaScript.
 - throw
 - remove
 
-<Ad />
+
 
 ## First noun examples
 
@@ -27,14 +27,14 @@ description: Suggestions and guides for naming in JavaScript.
 - data
 - item
 
-<Ad />
+
 
 ## Prepositions
 
 - from
 - to
 
-<Ad />
+
 
 ## Second noun examples
 
@@ -42,7 +42,7 @@ description: Suggestions and guides for naming in JavaScript.
 - table
 - copy
 
-<Ad />
+
 
 ## In usage
 

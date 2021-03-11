@@ -6,7 +6,7 @@ date: "2020-10-14"
 
 Rusticles weekly curation for Wed Oct 14 2020.
 
-<Ad />
+
 
 ## Hot Rust Articles This Week On Reddit
 
@@ -15,7 +15,7 @@ Rusticles weekly curation for Wed Oct 14 2020.
 - [Rust after the honeymoon](https://www.reddit.com/r/rust/comments/j99o0t/rust_after_the_honeymoon/) (2 days ago)
 - [Proving that 1 + 1 = 2 in Rust](https://www.reddit.com/r/rust/comments/j9nnpv/proving_that_1_1_2_in_rust/) (1 day ago)
 
-<Ad />
+
 
 ## Rust Articles This Week On Dev.To
 
@@ -39,7 +39,7 @@ Rusticles weekly curation for Wed Oct 14 2020.
 - **Sven Assmann**: [🎉 🚀 🍺 New release of Terminal Recorder - t-rec](https://dev.to/5422m4n/new-release-of-terminal-recorder-t-rec-36g0)
 - **open-trade**: [RustDesk: My first Rust application, a remote desktop software](https://dev.to/opentrade/rustdesk-my-first-rust-application-gme)
 
-<Ad />
+
 
 ## Trending Rust Repositories This Week On Github
 

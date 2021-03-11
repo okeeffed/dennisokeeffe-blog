@@ -6,7 +6,7 @@ date: "2021-02-17"
 
 Rusticles weekly curation for Wed Feb 17 2021.
 
-<Ad />
+
 
 ## Rust Articles This Week On Dev.To
 
@@ -20,7 +20,7 @@ Rusticles weekly curation for Wed Feb 17 2021.
 - **Jakub Barszczewski**: [Rust CLI Game of Life tutorial - PART 2](https://dev.to/jbarszczewski/rust-cli-game-of-life-tutorial-part-2-16j3)
 - **YJDoc2**: [Make a Combined Library and Binary Project in Rust](https://dev.to/yjdoc2/make-a-combined-library-and-binary-project-in-rust-d4f)
 
-<Ad />
+
 
 ## Trending Rust Repositories This Week On Github
 

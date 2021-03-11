@@ -7,7 +7,7 @@ tags: go
 
 Go Weekly, a weekly curation for all things Go in one centralised place. Here is your curation for Tue Jul 21 2020.
 
-<Ad />
+
 
 ## Hot Go Articles This Week On Reddit
 
@@ -17,7 +17,7 @@ Go Weekly, a weekly curation for all things Go in one centralised place. Here is
 - [Static code analyzer for TODO comments, written in Go](https://www.reddit.com/r/golang/comments/htkvik/static_code_analyzer_for_todo_comments_written_in/) (2 days ago)
 - [Benchmarking gRPC in Rust & Go](https://www.reddit.com/r/golang/comments/hs7rp4/benchmarking_grpc_in_rust_go/) (4 days ago)
 
-<Ad />
+
 
 ## Go Articles This Week On Dev.To
 
@@ -54,7 +54,7 @@ Go Weekly, a weekly curation for all things Go in one centralised place. Here is
 - **Steve Baros**: [What is the best Stack for Backend ?](https://dev.to/stevebaros/what-is-the-best-stack-for-backend-g3b)
 - **Jurica Kenda**: [Godfatherr](https://dev.to/juricakenda/godfatherr-1bpj)
 
-<Ad />
+
 
 ## Trending Go Repositories This Week On Github
 
@@ -84,7 +84,7 @@ Go Weekly, a weekly curation for all things Go in one centralised place. Here is
 - **nats-io/nats-server** (Go): [High-Performance server for NATS, the cloud native messaging system.](https://github.com/nats-io/nats-server)
 - **moby/moby** (Go): [Moby Project - a collaborative project for the container ecosystem to assemble container-based systems](https://github.com/moby/moby)
 
-<Ad />
+
 
 ## Topics from the Weekly Go Forum
 

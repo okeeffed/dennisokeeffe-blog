@@ -6,7 +6,7 @@ description: The classic FizzBuzz implementation in Golang with Unit Testing.
 
 A basic implementation of the infamous Fizz Buzz with unit testing.
 
-<Ad />
+
 
 ## Setting up the test
 
@@ -67,7 +67,7 @@ func BenchmarkFizzBuzz(b *testing.B) {
 }
 ```
 
-<Ad />
+
 
 ## Fizz Buzz implementation
 
@@ -93,7 +93,7 @@ func FizzBuzz(i int) string {
 }
 ```
 
-<Ad />
+
 
 ## Running Tests
 

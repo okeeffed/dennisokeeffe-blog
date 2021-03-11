@@ -4,7 +4,7 @@ date: "2019-06-10"
 description: A look into the common terms and their definitions when using Apache Kafka.
 ---
 
-<Ad />
+
 
 ## Messages
 
@@ -12,7 +12,7 @@ The base unit of data within Kafka is called a message. You could think of this 
 
 A message can have an optional `key` which again is simply an array of bytes. This key is used when messages are to be writting ot partitions in a more controlled manner.
 
-<Ad />
+
 
 ## Batches
 
@@ -22,7 +22,7 @@ The larger the batch, the more messages per unit of time that can be handled but
 
 Batches are typically compressed for more efficient data transfer and storage at the cost of processing power.
 
-<Ad />
+
 
 ## Schemas
 
@@ -34,13 +34,13 @@ Most Kafka devs favour the use of Apache Avro - a serialization framework origin
 
 It is an imperative to choose a consistent data format.
 
-<Ad />
+
 
 ## Topics
 
 Topics are the categorisation of messages. Thing of this as a database table or folder in a filesystem.
 
-<Ad />
+
 
 ## Partitions
 
@@ -50,13 +50,13 @@ Partitions are also used to provide redundancy and scalability.
 
 Each partition itself can be run from a separate server to enable horizontal scalability and improve performance.
 
-<Ad />
+
 
 ## Streams
 
 `Stream` is often used when discussing data within systems like Kafka. Often a stream is considered to be a single topic of data, irrespective of the number of partitions. This represents a stream of data going from producers to consumers.
 
-<Ad />
+
 
 ## Producers
 
@@ -64,7 +64,7 @@ Producers create new messages. In alternative pub/sub systems, these can also be
 
 There are cases when a producer will direct a message to a particular partition, normally makig use of the message key and a partitioner that will generate a hash of the key and map it to a specific partition to ensure all messages produced with a specific key will map to a specific partition.
 
-<Ad />
+
 
 ## Consumers
 
@@ -72,19 +72,19 @@ Consumers read messages. These can also be referred to as `subscribers` or `read
 
 These guys subscribe to one or more topics and reads messages in order they were produced. Each message in a given partition has a unique offset, and by storing that offset of the last consumed message for each partition in either Zookeeper or Kafka itself, a consumer can stop and restart without losing its place.
 
-<Ad />
+
 
 ## Consumer Group
 
 Consumers work as part of a `consumer group`, which is one of more consumers that work together to consume a topic. This group assures that each partition is only consumed by one member.
 
-<Ad />
+
 
 ## Ownership
 
 This occurs when the mapping a consumer to a partition. In this way, consumers can scale horizontally to consume topics with a large number of messages. Additionally, if a consumer fails then there is redundancy.
 
-<Ad />
+
 
 ## Brokers
 
@@ -92,13 +92,13 @@ A single Kafka server is referred to as a `broker`. The broker receives messages
 
 The broker also service consumers. It respons to fech requests for partionans and respones with messages that have been committed to disk. A single broker could easily handle thousands of partitions and millions of messages per second pending the level of hardware.
 
-<Ad />
+
 
 ## Clusters
 
 Kafka brokers are designed to operate as part of a `cluster`.
 
-<Ad />
+
 
 ## Controller
 
@@ -109,7 +109,7 @@ Within a cluster of brokers, one broker will also function as a cluster `control
 
 A partition is owned by a single broker in the cluster and that broker is called the `leader` of the partition. A partition may be assigned to multiple brokers, which will result in the partition being replaced. This provides redundancy of messages in the partition - such that another broker can take over leadership if there is a broker failure. However, all `consumers` and `producers` operating on that cluster must connect to the leader.
 
-<Ad />
+
 
 ## Retention
 
@@ -117,13 +117,13 @@ This is a key feature of Kafka. Brokers are configured with a default retention 
 
 Retention settings can also be set for individual topics. Example: tracking topic might be retained for days, application metrics only for a few hours.
 
-<Ad />
+
 
 ## Log Compacted Retention
 
 If a topic is configured as `log compacted`, it means Kafka will retain only the last message produced with a particular key. This can be useful for data where only the last update is relevant.
 
-<Ad />
+
 
 ## Multiple Clusters
 

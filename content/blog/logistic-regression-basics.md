@@ -8,13 +8,13 @@ This is a basic look at `Logistic Regression` and implementing an example from a
 
 The performance and reduction of these independent variables to improve the model are not included in this basic overview.
 
-<Ad />
+
 
 ## Note
 
 The original text below includes mathmetical formulas that do not translate into their mathematical expressions on the blog. Some familiarity with Latex will be required to interpret the expressions used.
 
-<Ad />
+
 
 ## Logistic Regression Intuition
 
@@ -41,7 +41,7 @@ If we now take any particular ages along the x axis of `20, 30, 40, 50` etc, we 
 
 After applying to model, we can start drawing conclusions.
 
-<Ad />
+
 
 ## Implementation in Python
 

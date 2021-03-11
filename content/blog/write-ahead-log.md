@@ -8,7 +8,7 @@ In database systems, the write ahead log is used a technique to provide the atom
 
 The WAL is used to log any changes we wish to make to a database prior to making the actual change is made.
 
-<Ad />
+
 
 ## How does this help?
 
@@ -16,7 +16,7 @@ For the case of `b-tree` databases like MySQL, PostgreSQL etc, the modification 
 
 In the case of `lsm-tree` databases such as Cassandra, this log itself IS the main place for storage. The log segments are compacted and garbage-collected in the background.
 
-<Ad />
+
 
 ## How it works
 
@@ -26,7 +26,7 @@ This log itself can be copied to another node to build a replica. The WAL not on
 
 The followers then take this log and rebuild the exact same data structures that can also be found on the leader.
 
-<Ad />
+
 
 ## Disadvantages
 
@@ -38,7 +38,7 @@ The implication here is that if the replication protocol allows a follower to us
 
 Often, the replication protocol does not allow this version mismatch and therefore requires downtime.
 
-<Ad />
+
 
 ## Critical Performance
 
@@ -50,7 +50,7 @@ It is not uncommon with HDD to use a dedicated drive for the WAL to reduce seek 
 
 For the sake of examples, `LevelDB` defaults to not syncing while `Cassandra` defaults to a 10 second periodic sync.
 
-<Ad />
+
 
 ## Decoupling the replication and storage engine
 

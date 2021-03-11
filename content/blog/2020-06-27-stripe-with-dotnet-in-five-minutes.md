@@ -12,7 +12,7 @@ The expectations are that you have both Dotnet installed and have your [Stripe A
 
 > The following comes in part from my [documentation website](https://docs.dennisokeeffe.com/manual-stripe-dotnet-stripe-configuration).
 
-<Ad />
+
 
 ## Adding the library
 
@@ -30,7 +30,7 @@ Microsoft.VisualStudio.Web.CodeGeneration.Design
 dotnet tool install --global dotnet-aspnet-codegenerator
 ```
 
-<Ad />
+
 
 ## Adding a Dotenv file
 
@@ -47,7 +47,7 @@ SK_TEST_KEY=<sk_test_key>
 PK_TEST_KEY=<pk_test_key>
 ```
 
-<Ad />
+
 
 ## Updating your settings file
 
@@ -65,7 +65,7 @@ If you are going to use another method to fetch the variables (ie secrets etc), 
 
 Make sure to check the [docs on passing parameters](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/passing-parameters) to understand how this works.
 
-<Ad />
+
 
 ## Add Stripe config to Startup.cs
 
@@ -85,7 +85,7 @@ public Startup(IConfiguration configuration)
 }
 ```
 
-<Ad />
+
 
 ## Create the Model
 
@@ -103,7 +103,7 @@ namespace ChargeApi.Models
 }
 ```
 
-<Ad />
+
 
 ## Create the Controller
 
@@ -138,7 +138,7 @@ namespace dotnet_stripe.Controllers
 }
 ```
 
-<Ad />
+
 
 ## Sending the request on HTTPie
 
@@ -159,7 +159,7 @@ If you now go and check your Stripe dashboard, you will be able to see a charge.
 
 ![Stripe Dashboard](../assets/2020-06-26-stripe-dashboard.png)
 
-<Ad />
+
 
 ## Resources and Further Ready
 

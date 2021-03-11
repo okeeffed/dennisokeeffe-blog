@@ -4,7 +4,7 @@ date: "2019-04-20"
 description: A look into how threads operate.
 ---
 
-<Ad />
+
 
 ## Processes and Threads
 
@@ -19,13 +19,13 @@ Processes have two characteristics:
 
 These two characteristics are treated independently by modern operating systems: - the unit of dispatching is referred to as a `thread` or lightweight process - the unit of resource ownership is referred to as a `process` or `task`
 
-<Ad />
+
 
 ## Multithreading
 
 The ability of an OS to support multiple, concurrect paths of execution within a single process
 
-<Ad />
+
 
 ## Process
 
@@ -36,7 +36,7 @@ A process is associated with:
 - A virtual address space which holds the process image
 - Protected access to - Processors - Other processes - Files - I/O resources
 
-<Ad />
+
 
 ## Multiple threads in Process
 
@@ -48,7 +48,7 @@ Each thread has:
 - An execution stack
 - Some per-thread static storage for local variables
 
-<Ad />
+
 
 ## Single-Threaded vs multi threaded
 
@@ -57,7 +57,7 @@ Each thread has:
 - Single thread has a `User Stack` and `Kernel Stack`
 - Multithread process has a `User Stack`, `Kernel Stack`, `Thread Control Block` within each thread
 
-<Ad />
+
 
 ## Threads
 
@@ -67,7 +67,7 @@ In OS that supports threads: scheduling and dispatching done on thread basis
 - Several actions that affect all of the threads in a process and that the OS must manage at the process level - Suspending process means all threads of a process - Terminates a process terminates all threads within the process
 - Similar to processes, threads have execution states and may synchronize with one another.
 
-<Ad />
+
 
 ## Thread Execution States
 
@@ -84,7 +84,7 @@ Operations associated with a change in thread state
 - Unblock - moved the the `Ready` queue for execution
 - Finish (thread) - de-allocate register context and stacks
 
-<Ad />
+
 
 ## Thread Synchronization
 
@@ -95,7 +95,7 @@ Necessity to sync activities of all threads and prevent interference between eac
 
 In general, the techniques used for thread sync are the same as those for process sync.
 
-<Ad />
+
 
 ## Types of Threads
 
@@ -103,7 +103,7 @@ In general, the techniques used for thread sync are the same as those for proces
 2. Kernel Level Thread (KLT)
    - also called kernel-supported threads or lightweight threads
 
-<Ad />
+
 
 ## User-Level Threads
 
@@ -115,7 +115,7 @@ The kernel is not aware of the existence of threads
 
 - Only schedule the process as a unit and assigns a single execution state to that process
 
-<Ad />
+
 
 ## Disadvantages of ULT
 
@@ -125,7 +125,7 @@ In a typical OS many system calls are blocking
 
 In a pure ULT strategy, multithreaded applications cannot take advantage of multiprocessing.
 
-<Ad />
+
 
 ## Kernel-Level Threads
 
@@ -137,7 +137,7 @@ Scheduling is done on a thread basis.
 
 Windows is an example of this approach.
 
-<Ad />
+
 
 ## Advantages of KLT
 
@@ -147,7 +147,7 @@ If one thread is blocked, the kernel schedules another thread of the same proces
 
 Kernel routines themselves can be multithreaded.
 
-<Ad />
+
 
 ## Multicore & Multithreading
 
@@ -159,7 +159,7 @@ Threads within the same process can exchange information through their common ad
 - Soft affinity: - dispatcher tries to assign a ready thread to the same processor it last ran on - helps reuse data still in that processor's memory caches from the previous execution of the thread
 - Hard affinity: - an application restricts thread execution to certain processors
 
-<Ad />
+
 
 ## Multicore Challenges
 
@@ -169,7 +169,7 @@ Threads within the same process can exchange information through their common ad
 - Data dependency
 - Testing and debugging
 
-<Ad />
+
 
 ## Linux Threads
 
@@ -186,7 +186,7 @@ Using `clone` gives the application fine-grained control over exactly what is sh
 | `CLONE_SIGHAND` | Signal handlers are shared       |
 | `CLONE_FILES`   | The set of open files are shared |
 
-<Ad />
+
 
 ## Windows Threads
 

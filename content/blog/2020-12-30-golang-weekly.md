@@ -7,7 +7,7 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/qs7o2ag8vzo0uborgc7v.png
 
 Gopher Gold weekly curation for Wed Dec 30 2020.
 
-<Ad />
+
 
 ## Hot Go Articles This Week On Reddit
 
@@ -15,7 +15,7 @@ Gopher Gold weekly curation for Wed Dec 30 2020.
 - [From 343 trillion rows to 144 thousand rows: using indexes in query planning to get more efficient joins in our open source golang SQL query engine](https://www.reddit.com/r/golang/comments/klwni5/from_343_trillion_rows_to_144_thousand_rows_using/) (1 day ago)
 - [Tiny message broker written in Go - nothing serious. Born out of COVID-boredom. Would love your suggestions.](https://www.reddit.com/r/golang/comments/kisutt/tiny_message_broker_written_in_go_nothing_serious/) (6 days ago)
 
-<Ad />
+
 
 ## Go Articles This Week On Dev.To
 
@@ -46,7 +46,7 @@ Gopher Gold weekly curation for Wed Dec 30 2020.
 - **Timo E aus E**: [GCP Cloud Run with Pulumi + Go](https://dev.to/timoe/gcp-cloud-run-with-pulumi-go-fpb)
 - **CoinMonks**: [Build P2SH Address and Spend its Fund in Golang](https://dev.to/coinmonks/build-p2sh-address-and-spend-its-fund-in-golang-37ao)
 
-<Ad />
+
 
 ## Trending Go Repositories This Week On Github
 
@@ -76,7 +76,7 @@ Gopher Gold weekly curation for Wed Dec 30 2020.
 - **asim/go-micro** (Go): [Go Micro is a framework for distributed systems development](https://github.com/asim/go-micro)
 - **golang/go** (Go): [The Go programming language](https://github.com/golang/go)
 
-<Ad />
+
 
 ## Topics from the Weekly Go Forum
 

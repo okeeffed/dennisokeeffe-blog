@@ -11,7 +11,7 @@ One such tool is the built-in debugger. This debugger can make life far easier w
 
 In today's post, we will create an incredibly simple Node.js application to sum two numbers and show how the debugger can be a powerful tool for helper to run through your programs and identify issues.
 
-<Ad />
+
 
 ## Getting started
 
@@ -33,7 +33,7 @@ touch math.js __test__/math.spec.js
 
 Open your new `hello-vscode-nodejs-debugger` folder in VSCode and you will be set to start adding files!
 
-<Ad />
+
 
 ## Setting up math.js and adding a simple test
 
@@ -127,7 +127,7 @@ npm ERR! Test failed.  See above for more details.
 
 Oh no, it seems like `res` was `undefined`! Every person and their dog probably knows where we went wrong, but let's find out the fun way using the VSCode Debugger!
 
-<Ad />
+
 
 ## Running the VSCode Debugger
 
@@ -260,7 +260,7 @@ Step back out of the function now. This will bring us back to our test file.
 
 You will notice our local `res` value is still `undefined` as expected since we did not return a value from `findSumOfTwoNumbers(1, 2);`. Let's just hit the continue option in the debugger now to finish off the script run.
 
-<Ad />
+
 
 ## Fixing our script
 
@@ -318,7 +318,7 @@ Waiting for the debugger to disconnect...
 
 Hooray! We managed to isolate the issue by walking through our code with the VSCode debugger!
 
-<Ad />
+
 
 ## Conclusion
 

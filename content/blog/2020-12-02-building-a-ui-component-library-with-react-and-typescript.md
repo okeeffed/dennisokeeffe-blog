@@ -11,7 +11,7 @@ Most tutorials I saw for TypeScript component libraries made use of build tools 
 
 This tutorial will show how to create a simple project set up a `create-react-app` project to create components with TypeScript + Storybook, then finally it will demo that same design system being used as a package in another React project.
 
-<Ad />
+
 
 ## UI Component Library vs Design System
 
@@ -21,7 +21,7 @@ Essentially, we will create a simple, single-component UI Component library as t
 
 Your willingness to update those guides are (for all intents and purposes) what will take this project from a simple component library to being able to communicate other facets that make up the definition of a "design system" as linked above.
 
-<Ad />
+
 
 ## Getting Started
 
@@ -43,7 +43,7 @@ As we are just going to use TypeScript for the build, I am using `copyfiles` to 
 
 We will use `rimraf` as a simple pre-build clean to remove our output folder (which will be `./lib`).
 
-<Ad />
+
 
 ## Updating our package.json configuration
 
@@ -89,7 +89,7 @@ You can see an [older post on creating GitHub packages](https://blog.dennisokeef
 
 I have also updated the build script to build out a configuration from `tsconfig.json`.
 
-<Ad />
+
 
 ## Updating tsconfig.json
 
@@ -125,7 +125,7 @@ This will ensure any custom types we create will make be emitted during the buil
 
 > Our updated package.json file contains the changes to the "build" script which uses the TypeScript compiler instead of `react-scripts`.
 
-<Ad />
+
 
 ## Our first component via Storybook
 
@@ -149,7 +149,7 @@ export * from "./components"
 
 Our lines in the package.json file for the types, main and module keys will be pointing the created files.
 
-<Ad />
+
 
 ## Workflow with Storybook
 
@@ -167,13 +167,13 @@ import { Button } from "./Button"
   <Button primary={true} label="Hello, button!" />
 </div>
 
-<Ad />
+
 
 ## Usage
 
 Example usage notes.
 
-<Ad />
+
 
 ## Other important heading
 
@@ -196,7 +196,7 @@ Amazing! We have a work environment to develop our components with.
 
 At this point, I will leave the Storybook part there as this is more of a conceptual proof and move onto publishing the library. There is a lot to Storybook, but check the docs from here on out to build further than the simple set up we have done above.
 
-<Ad />
+
 
 ## Publishing the library
 
@@ -213,7 +213,7 @@ This will build the package into the `lib` folder and then publish to GitHub for
 
 > Note: If you are also publishing to GitHub, ensure that you have the repo created on remote. For me, I used the GitHub CLI by running `gh repo create okeeffed/ds-pkg-blog-post --public -y` and then pushing to remote. You will also need to ensure you have setup `.npmrc` up correctly (either in the local project or globally). Please see my above link on creating a GitHub package to do so if you are unfamiliar with publishing packages.
 
-<Ad />
+
 
 ## Trying out the new library
 
@@ -272,7 +272,7 @@ We also get our type suggestions coming through for things such as our props (as
 
 Success! We have gone start to finish with our design system setup and having it work as a type-safe package in another project.
 
-<Ad />
+
 
 ## Conclusion
 
@@ -282,7 +282,7 @@ Having a basic, TypeScript-compiled solution has been working great for me as a 
 
 We have gone from a simple `create-react-app` command to having a TypeScript design system that supports Storybook for both development and documentation, then we pushed and published it as an npm package hosted on GitHub and finally seen it in action in another project - all doable within the space of minutes.
 
-<Ad />
+
 
 ## Resources and further reading
 

@@ -11,7 +11,7 @@ Next.js released an optimised [image component](https://nextjs.org/docs/basic-fe
 
 In this post, we're going to explore and play around with this new component to see it in action.
 
-<Ad />
+
 
 ## Getting Started
 
@@ -23,7 +23,7 @@ npx create-next-app hello-nextjs-image-component
 cd hello-nextjs-image-component
 ```
 
-<Ad />
+
 
 ## Selecting an image
 
@@ -39,7 +39,7 @@ Afterwards, I went to the online tool [Squoosh](https://squoosh.app/) to resize 
 
 This created an optimized version of the image at 78KB, while the original, unoptimized version was 4.5MB.
 
-<Ad />
+
 
 ## Updating the homepage to put in both version
 
@@ -76,7 +76,7 @@ Essentially, that was all I need for playing around with it!
 
 I deployed this example to [Vercel](https://vercel.com) to see what the results may be.
 
-<Ad />
+
 
 ## Exploring the results
 
@@ -118,7 +118,7 @@ So in our case, once the image has been optimized during a call, it is cached an
 
 <figcaption>Network on reloads</figcaption>
 
-<Ad />
+
 
 ## In conclusion
 
@@ -128,7 +128,7 @@ While this is only a surface-deep look, it is incredible to see what you get out
 
 I've been keen to see other solutions in this space since coming across the [react-ideal-image package](https://github.com/stereobooster/react-ideal-image) a couple of years ago and this is definitely one of those solutions that stands a head above.
 
-<Ad />
+
 
 ## Resources and further reading
 

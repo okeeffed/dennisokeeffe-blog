@@ -6,7 +6,7 @@ date: "2020-06-29"
 
 Finding inspiration and ideas for your design system _**shouldn't be so hard**_. Here are **five resources** that set a great foundation and set your design system up for success.
 
-<Ad />
+
 
 ## Style Guides
 
@@ -22,7 +22,7 @@ Style Guides has been one of my primary resources for finding great guides on ac
 
 > At the time of writing, the certificate from Style Guides has been expired (uh-oh!), but hopefully they sort out that mishap sometime soon.
 
-<Ad />
+
 
 ## Design Systems Repo
 
@@ -34,7 +34,7 @@ This website is a great place to come find some inspiration from other sites and
 
 It also collates some great articles in a no-nonsense UI for you to read up on and learn from other peers in the community!
 
-<Ad />
+
 
 ## UI Guideline
 
@@ -46,7 +46,7 @@ The website lists a standardised set of components and compares systems and how 
 
 This has been a debate-ender in places that I have worked and another great resource when planning out your design system.
 
-<Ad />
+
 
 ## Tailwind CSS
 
@@ -58,7 +58,7 @@ As opposed to bringing their own components, it works as a foundation for you to
 
 While I strongly recommend dabbling with Tailwind, their open source code is also a great way to read and be inspired for your own ideas if you do end up working on your own CSS framework.
 
-<Ad />
+
 
 ## Styled System
 
@@ -70,7 +70,7 @@ It has a great outlook on simplicity and uses composition to extend libraries su
 
 If you are leaning towards CSS-in-JS for your next project, checkout the source code on [GitHub](https://github.com/styled-system/styled-system) to be inspired for how you can use JavaScript to help template and extend your components.
 
-<Ad />
+
 
 ## Kaizen Design System
 
@@ -82,7 +82,7 @@ The "guidelines" section and "language" section has been an incredible guide for
 
 Next time you need some tips for copy writing or appropriate usage of components, check it out!
 
-<Ad />
+
 
 ## Conclusion
 
@@ -92,7 +92,7 @@ Hopefully these can now assist you too for the next time you need to contribute 
 
 > As someone big on inclusive websites, I strongly recommend also checking out some of the bonus resources I have attached before for the Government design systems. They are some of the best when it comes to building accessible websites for everyone.
 
-<Ad />
+
 
 ## Resources and Further Reading
 

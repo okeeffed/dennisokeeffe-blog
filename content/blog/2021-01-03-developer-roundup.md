@@ -7,7 +7,7 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/xg2dgz5vcfhp0zqp92hk.png
 
 Developer roundup from across the web for the week of 2021-01-03.
 
-<Ad />
+
 
 ## Trending This Week On Github
 
@@ -37,7 +37,7 @@ Developer roundup from across the web for the week of 2021-01-03.
 - **espressif/arduino-esp32** (C): [Arduino core for the ESP32](https://github.com/espressif/arduino-esp32)
 - **eclipse-theia/theia** (TypeScript): [Eclipse Theia is a cloud & desktop IDE framework implemented in TypeScript.](https://github.com/eclipse-theia/theia)
 
-<Ad />
+
 
 ## Trending This Week On Dev.To
 
@@ -77,7 +77,7 @@ Developer roundup from across the web for the week of 2021-01-03.
 - **Idris Idris**: [BEGINNERS' GUIDE TO FLUTTER](https://dev.to/idrisadeyemi01/beginners-guide-to-flutter-16de)
 - **Shaundai Person**: [One Thing That Made My Job Application Stand Out](https://dev.to/shaundai/one-thing-that-made-my-job-application-stand-out-3dik)
 
-<Ad />
+
 
 ## Trending This Week On Hacker News
 

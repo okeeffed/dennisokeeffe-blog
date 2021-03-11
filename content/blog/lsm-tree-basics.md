@@ -4,7 +4,7 @@ date: "2018-10-22"
 description: Resources for log-structured merge trees.
 ---
 
-<Ad />
+
 
 ## Resources
 

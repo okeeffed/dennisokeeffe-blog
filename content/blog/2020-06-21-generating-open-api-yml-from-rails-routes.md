@@ -10,7 +10,7 @@ As this relates to what could be important information, I am going to redact as 
 
 For context - I am normally writing in JS, Python, Swift, Rust (if I don't need C) or Golang these days. I knew jack shit about Ruby coming into this (other than general basics).
 
-<Ad />
+
 
 ## tl;dr to run
 
@@ -26,7 +26,7 @@ bundle install
 ./bin/run.sh
 ```
 
-<Ad />
+
 
 ## Aims + Outcomes
 
@@ -38,7 +38,7 @@ What I wanted to achieve:
 4. Learning how to write CLIs in Ruby and sussing out the gems.
 5. Just learning Ruby in general. I don't know huge amounts other than the usual suspects and reading docs when I need answers.
 
-<Ad />
+
 
 ## Shortcuts taken
 
@@ -46,7 +46,7 @@ Initially I wanted to take the output of `rails routes` and manipulate it from t
 
 At first, I also wanted to resolve all the controller functions and generate a placeholder for the final important request body to Postman, but I soon realised this wouldn't be so feasible with the file structure and changing approach to code.
 
-<Ad />
+
 
 ## Getting started
 
@@ -57,7 +57,7 @@ To get my head around Rails, I did the following:
 3. Checking out the Rails source code.
 4. Bought and read "Active Rails" (skimmed over after the first few chapters on migrations).
 
-<Ad />
+
 
 ## Converting it down to a more consumable format
 
@@ -90,7 +90,7 @@ POST     /path/to/authorize            doorkeeper/authorizations#create
 # so on and so forth for all 900+ routes
 ```
 
-<Ad />
+
 
 ## Writing the base CLI tool
 
@@ -98,7 +98,7 @@ I did what I always do here and went to `awesome` [GitHub repo for the language]
 
 I generated the `main.rb` file as the app entrypoint and legit only use `Slop` to parse for `-f` or `--file` for a path the `routes.txt` file.
 
-<Ad />
+
 
 ## The workflow with the Result monads
 
@@ -112,7 +112,7 @@ Where possible, I used the `dry-types` and `dry-struct` libraries to learn how t
 
 There are some comments prefixed with `# !` to indicate things that I was a bit unhappy with the decision, but are likely just the result of lack of real-world Ruby experience.
 
-<Ad />
+
 
 ## The aftermath
 
@@ -189,7 +189,7 @@ The above is omitting about 7000 lines. All 900+ route were successfully mapped.
 
 Because there was no easy way to find the models and copy their properties over, any REST verb other than `GET` just received a default JSON body of `id`. This means any call needs to be manually updated when using, but this is actually just so much better than nothing anyway.
 
-<Ad />
+
 
 ## Importing to Postman
 
@@ -213,7 +213,7 @@ As for the requests made, I ended up jumping into the UI and watching the reques
 
 While I didn't get to explore RSpec and the others, I considered this as mission success!
 
-<Ad />
+
 
 ## Outstanding Questions
 

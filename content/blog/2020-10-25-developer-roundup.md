@@ -7,7 +7,7 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/xg2dgz5vcfhp0zqp92hk.png
 
 Developer roundup from across the web for the week of 2020-10-25.
 
-<Ad />
+
 
 ## Trending This Week On Github
 
@@ -37,7 +37,7 @@ Developer roundup from across the web for the week of 2020-10-25.
 - **pedroslopez/whatsapp-web.js** (JavaScript): [A WhatsApp client library for NodeJS that connects through the WhatsApp Web browser app](https://github.com/pedroslopez/whatsapp-web.js)
 - **tootsuite/mastodon** (Ruby): [Your self-hosted, globally interconnected microblogging community](https://github.com/tootsuite/mastodon)
 
-<Ad />
+
 
 ## Trending This Week On Dev.To
 
@@ -77,7 +77,7 @@ Developer roundup from across the web for the week of 2020-10-25.
 - **Nader Dabit**: [Next.js - The Data Story](https://dev.to/dabit3/next-js-the-data-story-2b0d)
 - **Yogesh Chavan**: [An introduction to Async/Await](https://dev.to/myogeshchavan97/an-introduction-to-async-await-41c8)
 
-<Ad />
+
 
 ## Trending This Week On Hacker News
 

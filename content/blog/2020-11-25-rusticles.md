@@ -6,7 +6,7 @@ date: "2020-11-25"
 
 Rusticles weekly curation for Wed Nov 25 2020.
 
-<Ad />
+
 
 ## Hot Rust Articles This Week On Reddit
 
@@ -14,7 +14,7 @@ Rusticles weekly curation for Wed Nov 25 2020.
 - [The story continues: `Vec` now supports custom allocators! :)](https://www.reddit.com/r/rust/comments/jymzdw/the_story_continues_vec_now_supports_custom/) (3 days ago)
 - [Flash Animations Live Forever at the Internet Archive [via ruffle.rs, a Flash emulator written in Rust compiled to WASM]](https://www.reddit.com/r/rust/comments/jxfhnp/flash_animations_live_forever_at_the_internet/) (5 days ago)
 
-<Ad />
+
 
 ## Rust Articles This Week On Dev.To
 
@@ -29,7 +29,7 @@ Rusticles weekly curation for Wed Nov 25 2020.
 - **Pierre Jambet**: [Select Syscall in Rust](https://dev.to/pjam/select-syscall-in-rust-mm)
 - **Pablo Álvarez Corredera**: [▷ El nuevo hogar de Servo](https://dev.to/rosepac/el-nuevo-hogar-de-servo-4of0)
 
-<Ad />
+
 
 ## Trending Rust Repositories This Week On Github
 

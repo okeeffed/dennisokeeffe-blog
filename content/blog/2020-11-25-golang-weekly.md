@@ -7,13 +7,13 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/qs7o2ag8vzo0uborgc7v.png
 
 Gopher Gold weekly curation for Wed Nov 25 2020.
 
-<Ad />
+
 
 ## Hot Go Articles This Week On Reddit
 
 - [Go type parameteres are scheduled for Go1.18, Feb 1 2022 release.](https://www.reddit.com/r/golang/comments/jxudmm/go_type_parameteres_are_scheduled_for_go118_feb_1/) (4 days ago)
 
-<Ad />
+
 
 ## Go Articles This Week On Dev.To
 
@@ -46,7 +46,7 @@ Gopher Gold weekly curation for Wed Nov 25 2020.
 - **Kari**: [Gophers sticker set, need your opinion and support](https://dev.to/slizovakari/gophers-sticker-set-need-your-opinion-and-support-2leg)
 - **Rémi Lavedrine**: [Debug your Go app in a Docker Container](https://dev.to/shostarsson/debug-your-go-app-in-a-docker-container-clf)
 
-<Ad />
+
 
 ## Trending Go Repositories This Week On Github
 
@@ -76,7 +76,7 @@ Gopher Gold weekly curation for Wed Nov 25 2020.
 - **Bios-Marcel/cordless** (Go): [The Discord terminal client you never knew you wanted.](https://github.com/Bios-Marcel/cordless)
 - **kubernetes/kubernetes** (Go): [Production-Grade Container Scheduling and Management](https://github.com/kubernetes/kubernetes)
 
-<Ad />
+
 
 ## Topics from the Weekly Go Forum
 

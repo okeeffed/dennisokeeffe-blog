@@ -8,7 +8,7 @@ The basic gist is to generate a `interface` with the lambda signature, then expl
 
 This will allow you to call the lambda function as a instance method.
 
-<Ad />
+
 
 ## Example
 

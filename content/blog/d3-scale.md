@@ -10,13 +10,13 @@ Admittedly, the learning curve for d3.js can be as steep as they come for a Java
 
 d3-scale itself is an incredible library that can help us reduce code and normalise data to fit a particular domain and range for use anywhere in our code. Allow me to demonstrate this using three examples that make use of `scaleLinear()`, `scaleThreshold()` and `scaleTime()`.
 
-<Ad />
+
 
 ## Before we get started
 
 This blog post takes a few liberties, so I am assuming you are familiar with ES6 syntax and that you have setup an environment that supports ES6+. If you are ready, take a few deep breaths, strap yourself in and run `npm i —save d3-scale`.
 
-<Ad />
+
 
 ## Example 1: Embracing classification
 
@@ -100,7 +100,7 @@ data.map((d, i) => {
 
 **Note:** Both `thScaleRamp(-7)` and `thScaleRamp(107)` are still valid using a threshold scale. While other d3 scales have a `.clamp()` method (you will see later), `scaleThreshold` does not. If you cannot ensure that the data from the source won’t fall outside of the domain, clean the data before running it through the scale.
 
-<Ad />
+
 
 ## Example 2: Embracing polylinearity
 
@@ -191,7 +191,7 @@ data.map(d => console.log(`Poly scale ${d}: ${pScaleRamp(d)}`))
 
 That is definitely a better representation of progress for where we sit along our four phase business plan! Included in the above data set are both 5000 and 50000 to demonstrate that hitting those figures corresponds to a completion point at 25% and 50% - meaning that both phase one and phase one of the four total phases have reached completion!
 
-<Ad />
+
 
 ## Example 3: Embracing the space-time continuum
 
@@ -254,7 +254,7 @@ And there you have it. Mapping points along a progress bar was once daunting, ye
 
 **Note:** Setting your domain using the above is a really bad idea and is used simply for demonstration purposes. Another d3 library (d3-array)[[GitHub - d3/d3-array: Array manipulation, ordering, searching, summarizing, etc.](https://github.com/d3/d3-array) has an excellent array function `extent` that returns the min and max of an array as an array and can passed as the argument for `domain()` . I’ve passed on it given I wish to focus only on `d3-scale` in this post.
 
-<Ad />
+
 
 ## Summary
 

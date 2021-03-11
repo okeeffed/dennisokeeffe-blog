@@ -7,14 +7,14 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/qs7o2ag8vzo0uborgc7v.png
 
 Gopher Gold weekly curation for Wed Dec 09 2020.
 
-<Ad />
+
 
 ## Hot Go Articles This Week On Reddit
 
 - [GoLand 2020.3 is released! Explore the goroutine dumps, try support for table tests and extended support for Testify, find many new code editing features and a new service for collaborative development, and more!](https://www.reddit.com/r/golang/comments/k628iv/goland_20203_is_released_explore_the_goroutine/) (5 days ago)
 - [treemux - as fast as httprouter but with relaxed routing rules](https://www.reddit.com/r/golang/comments/k6j3zv/treemux_as_fast_as_httprouter_but_with_relaxed/) (4 days ago)
 
-<Ad />
+
 
 ## Go Articles This Week On Dev.To
 
@@ -61,7 +61,7 @@ Gopher Gold weekly curation for Wed Dec 09 2020.
 - **Greg Holmes**: [Handle an Incoming Call With Go](https://dev.to/vonagedev/handle-an-incoming-call-with-go-2509)
 - **Clavin June**: [Asymmetric Cryptography: Signing VS Encrypting](https://dev.to/clavinjune/asymmetric-cryptography-signing-vs-encrypting-11i8)
 
-<Ad />
+
 
 ## Trending Go Repositories This Week On Github
 
@@ -91,7 +91,7 @@ Gopher Gold weekly curation for Wed Dec 09 2020.
 - **Dreamacro/clash** (Go): [A rule-based tunnel in Go.](https://github.com/Dreamacro/clash)
 - **syncthing/syncthing** (Go): [Open Source Continuous File Synchronization](https://github.com/syncthing/syncthing)
 
-<Ad />
+
 
 ## Topics from the Weekly Go Forum
 

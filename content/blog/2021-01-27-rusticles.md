@@ -6,7 +6,7 @@ date: "2021-01-27"
 
 Rusticles weekly curation for Wed Jan 27 2021.
 
-<Ad />
+
 
 ## Rust Articles This Week On Dev.To
 
@@ -28,7 +28,7 @@ Rusticles weekly curation for Wed Jan 27 2021.
 - **Jean-Noël**: [Rust : ce langage natif et puissant](https://dev.to/younup/rust-ce-langage-natif-et-puissant-4d8)
 - **Distributed Hunter Trujillo**: [Seeing the Forest through the trees](https://dev.to/cryptoquick/seeing-the-forest-through-the-trees-25md)
 
-<Ad />
+
 
 ## Trending Rust Repositories This Week On Github
 

@@ -7,14 +7,14 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/qs7o2ag8vzo0uborgc7v.png
 
 Gopher Gold weekly curation for Wed Dec 16 2020.
 
-<Ad />
+
 
 ## Hot Go Articles This Week On Reddit
 
 - [I made a list of the best articles, talks, videos and tutorials to learn GO!](https://www.reddit.com/r/golang/comments/kd7r6s/i_made_a_list_of_the_best_articles_talks_videos/) (1 day ago)
 - [Provider “Pattern” in Go according to Clean-Architecture approach.](https://www.reddit.com/r/golang/comments/kcgho0/provider_pattern_in_go_according_to/) (2 days ago)
 
-<Ad />
+
 
 ## Go Articles This Week On Dev.To
 
@@ -58,7 +58,7 @@ Gopher Gold weekly curation for Wed Dec 16 2020.
 - **Edvin**: [DAY 15 - Advent of Code 2020 w/ GoLang](https://dev.to/dizveloper/day-15-advent-of-code-2020-w-golang-jid)
 - **Solace Infotech Pvt. Ltd.**: [How To Effectively Use WebSockets In Golang?](https://dev.to/ltdsolace/how-to-effectively-use-websockets-in-golang-4f82)
 
-<Ad />
+
 
 ## Trending Go Repositories This Week On Github
 
@@ -88,7 +88,7 @@ Gopher Gold weekly curation for Wed Dec 16 2020.
 - **kata-containers/kata-containers** (Go): [Kata Containers version 2.x repository. Kata Containers is an open source project and community working to build a standard implementation of lightweight Virtual Machines (VMs) that feel and perform like containers, but provide the workload isolation and security advantages of VMs. https://katacontainers.io/](https://github.com/kata-containers/kata-containers)
 - **GoogleContainerTools/kaniko** (Go): [Build Container Images In Kubernetes](https://github.com/GoogleContainerTools/kaniko)
 
-<Ad />
+
 
 ## Topics from the Weekly Go Forum
 

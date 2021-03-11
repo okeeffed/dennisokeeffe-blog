@@ -7,7 +7,7 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/qs7o2ag8vzo0uborgc7v.png
 
 Gopher Gold weekly curation for Wed Oct 14 2020.
 
-<Ad />
+
 
 ## Hot Go Articles This Week On Reddit
 
@@ -15,7 +15,7 @@ Gopher Gold weekly curation for Wed Oct 14 2020.
 - [Canada's COVID tracking server is written in go](https://www.reddit.com/r/golang/comments/j9s1gy/canadas_covid_tracking_server_is_written_in_go/) (1 day ago)
 - [Type-safe database client for Postgres, MySQL & SQLite](https://www.reddit.com/r/golang/comments/j7fs49/typesafe_database_client_for_postgres_mysql_sqlite/) (5 days ago)
 
-<Ad />
+
 
 ## Go Articles This Week On Dev.To
 
@@ -39,7 +39,7 @@ Gopher Gold weekly curation for Wed Oct 14 2020.
 - **Athul Cyriac**: [#showdevTelegram Bot with Go and Adguard Statistics](https://dev.to/athulcajay/telegram-bot-with-adguard-data-3pp7)
 - **Caitlin Elfring**: [✊ woke - Check for insensitive language in your source code](https://dev.to/caitlinelfring/woke-check-for-insensitive-language-in-your-source-code-2301)
 
-<Ad />
+
 
 ## Trending Go Repositories This Week On Github
 
@@ -69,7 +69,7 @@ Gopher Gold weekly curation for Wed Oct 14 2020.
 - **tfsec/tfsec** (Go): [🔒🌍 Static analysis powered security scanner for your terraform code](https://github.com/tfsec/tfsec)
 - **kubernetes/kubernetes** (Go): [Production-Grade Container Scheduling and Management](https://github.com/kubernetes/kubernetes)
 
-<Ad />
+
 
 ## Topics from the Weekly Go Forum
 

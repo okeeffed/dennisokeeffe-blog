@@ -7,7 +7,7 @@ tags: react, typescript, tailwind, tutorial
 
 In this morning quick start, we are going to bootstrap a `create-react-app` with Tailwind and see how you can get it all up and running quickly with some state-based styling using `classnames`.
 
-<Ad />
+
 
 ## Installation
 
@@ -24,7 +24,7 @@ cd hello-tailwind
 yarn add tailwindcss classnames @types/classnames
 ```
 
-<Ad />
+
 
 ## Updating package.json
 
@@ -44,7 +44,7 @@ Let's update our scripts to have the following:
 
 `prestart` and `prebuild` scripts will run before any `start` and `build` script that is run. We are telling it to build the `index.css` file and output it to `src/tailwind.output.css`.
 
-<Ad />
+
 
 ## Add Tailwind imports
 
@@ -94,7 +94,7 @@ serviceWorker.unregister()
 
 Now we are ready to run!
 
-<Ad />
+
 
 ## Playing around with App.tsx
 
@@ -129,7 +129,7 @@ These classnames come from the [Tailwind docs](https://tailwindcss.com/docs). Th
 
 > As an added bonus, if you are a VSCode user, check out their [VSCode extension](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) to help autocomplete classnames!
 
-<Ad />
+
 
 ## Updating the App.tsx file to work based on logic
 
@@ -167,7 +167,7 @@ Once we run the app now, if we click the button we will see the background chang
 
 ![Toggled App state](../assets/2020-07-25-toggled-state.png)
 
-<Ad />
+
 
 ## Using classnames
 
@@ -201,7 +201,7 @@ export default App
 
 While this example is trivial, it becomes important for when you are defining variants based on props. We could swap out `toggle` to be logic such as `status === 'error'`, etc. to reflect different possibilities through our application.
 
-<Ad />
+
 
 ## Conclusion
 
@@ -209,7 +209,7 @@ This has been a quick morning coffee and blog post on getting up and running wit
 
 Tailwind has a great reputation and for good reason - I highly recommend using this playground to try out what else it does offer.
 
-<Ad />
+
 
 ## Resources and Further Reading
 

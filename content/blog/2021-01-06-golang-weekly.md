@@ -7,13 +7,13 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/qs7o2ag8vzo0uborgc7v.png
 
 Gopher Gold weekly curation for Wed Jan 06 2021.
 
-<Ad />
+
 
 ## Hot Go Articles This Week On Reddit
 
 - [Expenses: A Simple, Interactive, Command line expense logger built with Go. My first go project!](https://www.reddit.com/r/golang/comments/ko0x3h/expenses_a_simple_interactive_command_line/) (5 days ago)
 
-<Ad />
+
 
 ## Go Articles This Week On Dev.To
 
@@ -58,7 +58,7 @@ Gopher Gold weekly curation for Wed Jan 06 2021.
 - **Odilon Jonathan Kröger**: [AWS Elastic Beanstalk + Go](https://dev.to/odilonjk/aws-elastic-beanstalk-go-2kaf)
 - **ShellRean**: [Golang basic: slice](https://dev.to/shellrean/golang-basic-slice-437k)
 
-<Ad />
+
 
 ## Trending Go Repositories This Week On Github
 
@@ -88,7 +88,7 @@ Gopher Gold weekly curation for Wed Jan 06 2021.
 - **AdguardTeam/AdGuardHome** (Go): [Network-wide ads & trackers blocking DNS server](https://github.com/AdguardTeam/AdGuardHome)
 - **gofiber/fiber** (Go): [⚡️ Express inspired web framework written in Go](https://github.com/gofiber/fiber)
 
-<Ad />
+
 
 ## Topics from the Weekly Go Forum
 

@@ -7,7 +7,7 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/qs7o2ag8vzo0uborgc7v.png
 
 Gopher Gold weekly curation for Wed Jan 20 2021.
 
-<Ad />
+
 
 ## Go Articles This Week On Dev.To
 
@@ -46,7 +46,7 @@ Gopher Gold weekly curation for Wed Jan 20 2021.
 - **Hector Castro**: [Creating Go Application Releases with GoReleaser](https://dev.to/hector/creating-go-application-releases-with-goreleaser-1hac)
 - **daftyw**: [Go กับ Java ใครเร็วกว่า (แบบ Native)](https://dev.to/daftyw/go-java-native-1f97)
 
-<Ad />
+
 
 ## Trending Go Repositories This Week On Github
 
@@ -76,7 +76,7 @@ Gopher Gold weekly curation for Wed Jan 20 2021.
 - **go-yaml/yaml** (Go): [YAML support for the Go language.](https://github.com/go-yaml/yaml)
 - **hashicorp/terraform-provider-aws** (Go): [Terraform AWS provider](https://github.com/hashicorp/terraform-provider-aws)
 
-<Ad />
+
 
 ## Topics from the Weekly Go Forum
 

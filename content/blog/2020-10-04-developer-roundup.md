@@ -7,7 +7,7 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/xg2dgz5vcfhp0zqp92hk.png
 
 Developer roundup from across the web for the week of 2020-10-04.
 
-<Ad />
+
 
 ## Trending This Week On Github
 
@@ -37,7 +37,7 @@ Developer roundup from across the web for the week of 2020-10-04.
 - **jeremylong/DependencyCheck** (Java): [OWASP dependency-check is a software composition analysis utility that detects publicly disclosed vulnerabilities in application dependencies.](https://github.com/jeremylong/DependencyCheck)
 - **invertase/react-native-firebase** (JavaScript): [🔥 A well-tested feature-rich modular Firebase implementation for React Native. Supports both iOS & Android platforms for all Firebase services.](https://github.com/invertase/react-native-firebase)
 
-<Ad />
+
 
 ## Trending This Week On Dev.To
 
@@ -77,7 +77,7 @@ Developer roundup from across the web for the week of 2020-10-04.
 - **Sunil Kumar**: [Quit Your Job By Growing Online Presence: An Effective Way To Take Control Of Your Life](https://dev.to/sunilc_/quit-your-job-by-growing-online-presence-an-effective-way-to-take-control-of-your-life-26dm)
 - **Ankush Singh Gandhi**: [#showdevSTEPS TO MASTER PYTHON](https://dev.to/ankushsinghgandhi/steps-to-master-python-1p06)
 
-<Ad />
+
 
 ## Trending This Week On Hacker News
 

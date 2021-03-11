@@ -7,7 +7,7 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/qs7o2ag8vzo0uborgc7v.png
 
 Gopher Gold weekly curation for Wed Jan 27 2021.
 
-<Ad />
+
 
 ## Go Articles This Week On Dev.To
 
@@ -46,7 +46,7 @@ Gopher Gold weekly curation for Wed Jan 27 2021.
 - **Ilya Revenko**: [CLI for Finding Anime By Image](https://dev.to/irevenko/cli-for-finding-anime-by-image-5go8)
 - **Sebastien Armand**: [Building a debugger Go plugin for Roadrunner](https://dev.to/khepin/building-a-debugger-go-plugin-for-roadrunner-2ag)
 
-<Ad />
+
 
 ## Trending Go Repositories This Week On Github
 
@@ -76,7 +76,7 @@ Gopher Gold weekly curation for Wed Jan 27 2021.
 - **argoproj/argo-cd** (Go): [Declarative continuous deployment for Kubernetes.](https://github.com/argoproj/argo-cd)
 - **kubernetes/kube-state-metrics** (Go): [Add-on agent to generate and expose cluster-level metrics.](https://github.com/kubernetes/kube-state-metrics)
 
-<Ad />
+
 
 ## Topics from the Weekly Go Forum
 

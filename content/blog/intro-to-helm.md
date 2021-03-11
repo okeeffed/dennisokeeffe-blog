@@ -4,7 +4,7 @@ date: "2019-04-22"
 description: An introduction into managing packages on Kubernetes with Helm.
 ---
 
-<Ad />
+
 
 ## Intro to Helm
 
@@ -98,7 +98,7 @@ kubectl apply -f helm-rbac.yaml
 helm init --service-account tiller
 ```
 
-<Ad />
+
 
 ## Creating your own helm charts
 
@@ -351,7 +351,7 @@ Rollbacks can easily be done as well.
 
 Use `helm history <CHART>` to get a history of deployments. Say we want to rollback to revision one, we can then just run `helm rollback <CHART> 1`.
 
-<Ad />
+
 
 ## Setting up Helm Repo with S3
 

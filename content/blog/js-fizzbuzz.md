@@ -6,7 +6,7 @@ description: The classic FizzBuzz implementation in JavaScript with Unit Testing
 
 This blog assumes a global install of `mocha`, although that can also be installed locally. `chai` is also required as the assertion library - install as a dev dependency.
 
-<Ad />
+
 
 ## Writing tests
 
@@ -39,7 +39,7 @@ describe("check basic function", function() {
 })
 ```
 
-<Ad />
+
 
 ## Main js file
 
@@ -64,7 +64,7 @@ module.exports = {
 }
 ```
 
-<Ad />
+
 
 ## Testing
 

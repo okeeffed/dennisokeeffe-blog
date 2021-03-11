@@ -6,7 +6,7 @@ description: PHP implementation of a basic unidirectional Linked List.
 
 This expects an installation on the system of `phpunit`.
 
-<Ad />
+
 
 ## Test File
 
@@ -40,7 +40,7 @@ class LinkedListTest extends PHPUnit\Framework\TestCase
 }
 ```
 
-<Ad />
+
 
 ## Linked List
 
@@ -105,7 +105,7 @@ class Node {
 }
 ```
 
-<Ad />
+
 
 ## Running Tests
 

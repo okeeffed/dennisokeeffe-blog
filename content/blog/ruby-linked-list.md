@@ -6,7 +6,7 @@ description: Ruby implementation of a basic unidirectional Linked List.
 
 This requires the gem installation of `minitest`.
 
-<Ad />
+
 
 ## Test file
 
@@ -59,7 +59,7 @@ end
 __END__
 ```
 
-<Ad />
+
 
 ## Linked List
 
@@ -117,7 +117,7 @@ class Node
 end
 ```
 
-<Ad />
+
 
 ## Testing
 

@@ -6,7 +6,7 @@ description: Ruby implementation of comparing two strings to check if they are a
 
 This requires the gem installation of `minitest`.
 
-<Ad />
+
 
 ## Test file
 
@@ -53,7 +53,7 @@ end
 __END__
 ```
 
-<Ad />
+
 
 ## Anagrams
 
@@ -67,7 +67,7 @@ class Anagrams
 end
 ```
 
-<Ad />
+
 
 ## Testing
 

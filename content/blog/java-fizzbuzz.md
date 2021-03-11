@@ -4,7 +4,7 @@ date: "2018-07-04"
 description: The classic FizzBuzz implementation in Java with Unit Testing.
 ---
 
-<Ad />
+
 
 ## Gradle setup
 
@@ -30,7 +30,7 @@ test {
 }
 ```
 
-<Ad />
+
 
 ## Setting up the Tests
 
@@ -66,7 +66,7 @@ public class FizzBuzzTest {
 }
 ```
 
-<Ad />
+
 
 ## src/main/java/FizzBuzz.java
 
@@ -88,7 +88,7 @@ class FizzBuzz {
 }
 ```
 
-<Ad />
+
 
 ## Running tests
 

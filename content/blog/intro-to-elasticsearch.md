@@ -4,7 +4,7 @@ date: "2019-06-08"
 description: A look at ElasticSearch and setting up a multi-node cluster using Docker compose and create a JavaScript client for insertions.
 ---
 
-<Ad />
+
 
 ## Why ElasticSearch?
 
@@ -20,7 +20,7 @@ ElasticSearch achieves incredible performance as it searches for indexes instead
 
 A typical setup with extend search capabilities through the use of APIs and query DSLs and there are a bunch of ready-to-go clients.
 
-<Ad />
+
 
 ## Pulling ElasticSearch with Docker
 
@@ -86,13 +86,13 @@ networks: esnet:
 
 Run `docker-compose up` to run the cluster and `docker-compose down` to tear down. Use `docker-compose down -v` to also destroy the data volumes, otherwise the cluster data volumes persist.
 
-<Ad />
+
 
 ## Testing cluster health
 
 Simply run `curl http://127.0.0.1:9200/_cat/health`
 
-<Ad />
+
 
 ## Interacting with the ElasticSearch Cluster
 
@@ -100,7 +100,7 @@ In this case, we will use the `NodeJS` client to run a few commands to interact 
 
 The official repo for this client [can be found here](https://github.com/elastic/elasticsearch-js).
 
-<Ad />
+
 
 ## Setting up the client
 
@@ -111,7 +111,7 @@ The official repo for this client [can be found here](https://github.com/elastic
 > yarn add @elastic/elasticsearch@7
 ```
 
-<Ad />
+
 
 ## Basic doc creation
 
@@ -137,7 +137,7 @@ client.create(
 )
 ```
 
-<Ad />
+
 
 ## Basic search
 

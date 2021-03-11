@@ -8,7 +8,7 @@ This should cover things like logging, tracing etc.
 
 [This article is a great reference.](https://medium.freecodecamp.org/how-you-can-improve-your-workflow-using-the-javascript-console-bdd7823a9472)
 
-<Ad />
+
 
 ## Logging
 
@@ -35,7 +35,7 @@ We have a few methods we can use with `console` to help us be more proficient on
 2.  Assertions may also become handy when `if/else` logic is involved for logging purposes.
 3.  Ensure these logs only show when running in a certain environment (ie not in production mode).
 
-<Ad />
+
 
 ## Practical usage
 
@@ -167,7 +167,7 @@ export default ComponentALLandingFive
 
 ![Example in action](https://res.cloudinary.com/gitgoodclub/image/upload/v1539219876/gifAnalytics.gif)
 
-<Ad />
+
 
 ## Other tips and gotchas
 

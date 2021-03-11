@@ -7,7 +7,7 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/qs7o2ag8vzo0uborgc7v.png
 
 Gopher Gold weekly curation for Wed Dec 23 2020.
 
-<Ad />
+
 
 ## Hot Go Articles This Week On Reddit
 
@@ -15,7 +15,7 @@ Gopher Gold weekly curation for Wed Dec 23 2020.
 - [Go modules are soon going to be the only future](https://www.reddit.com/r/golang/comments/ki3j8h/go_modules_are_soon_going_to_be_the_only_future/) (20 hours ago)
 - [Go on ARM and Beyond](https://www.reddit.com/r/golang/comments/khttzb/go_on_arm_and_beyond/) (1 day ago)
 
-<Ad />
+
 
 ## Go Articles This Week On Dev.To
 
@@ -53,7 +53,7 @@ Gopher Gold weekly curation for Wed Dec 23 2020.
 - **Haseeb Majid**: [Golang & MongoDB with Polymorphism and BSON Unmarshal](https://dev.to/hmajid2301/golang-mongodb-with-polymorphism-and-bson-unmarshal-177g)
 - **AdrnlnJnky**: [Daily Blog](https://dev.to/adrnlnjnky/daily-blog-7i1)
 
-<Ad />
+
 
 ## Trending Go Repositories This Week On Github
 
@@ -83,7 +83,7 @@ Gopher Gold weekly curation for Wed Dec 23 2020.
 - **grpc-ecosystem/go-grpc-middleware** (Go): [Golang gRPC Middlewares: interceptor chaining, auth, logging, retries and more.](https://github.com/grpc-ecosystem/go-grpc-middleware)
 - **normen/whatscli** (Go): [A command line interface for WhatsApp](https://github.com/normen/whatscli)
 
-<Ad />
+
 
 ## Topics from the Weekly Go Forum
 

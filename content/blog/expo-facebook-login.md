@@ -8,7 +8,7 @@ If using Expo, first you need to follow the setup instructions.
 
 https://docs.expo.io/versions/latest/sdk/facebook
 
-<Ad />
+
 
 ## tl;dr
 

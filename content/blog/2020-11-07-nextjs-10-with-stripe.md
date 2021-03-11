@@ -13,7 +13,7 @@ We will use a Stripe + Nextjs starter template, upgrade React to version 17, Typ
 
 _I tell you what, I sure am ready to leave me 9-5 job._
 
-<Ad />
+
 
 ## Prerequisites and requirements
 
@@ -21,7 +21,7 @@ _I tell you what, I sure am ready to leave me 9-5 job._
 2. Have your [API keys](https://support.stripe.com/questions/locate-api-keys-in-the-dashboard#:~:text=Users%20with%20Administrator%20permissions%20can,and%20clicking%20on%20API%20Keys.&text=If%20you%20have%20already%20enabled,one%20or%20more%20hardware%20security%E2%80%A6) ready.
 3. A [Vercel](https://vercel.com) account.
 
-<Ad />
+
 
 ## Getting started
 
@@ -49,7 +49,7 @@ In my case, this brought TypeScript up to v4.0.5 and React + ReactDOM to v17.0.1
 
 > You could check for the other packages as well (Stripe, etc.) but I will leave them for the sake of working with what is currently there.
 
-<Ad />
+
 
 ## Preparing the app
 
@@ -75,7 +75,7 @@ STRIPE_PAYMENT_DESCRIPTION='Software development services'
 STRIPE_WEBHOOK_SECRET=<your-webhook-secret-from-stripe-cli>
 ```
 
-<Ad />
+
 
 ## Exploring the app
 
@@ -95,7 +95,7 @@ This page allows us to run three examples:
 
 Let's explore the code for each page.
 
-<Ad />
+
 
 ## Donate with Stripe Checkout
 
@@ -208,7 +208,7 @@ The UI itself will redirect to `/result` where the response JSON body will be sh
 
 <figcaption>Response on result page</figcaption>
 
-<Ad />
+
 
 ## Donate with Stripe Elements
 
@@ -274,7 +274,7 @@ If we fill out the details similar to before with the same test card and click `
 
 <figcaption>Elements paid</figcaption>
 
-<Ad />
+
 
 ## Exploring the Shopping Cart
 
@@ -296,7 +296,7 @@ The difference in this cart, however, is that your items will show on the checko
 
 <figcaption>Checkout with shopping cart</figcaption>
 
-<Ad />
+
 
 ## See the payments in the dashboard
 
@@ -306,7 +306,7 @@ If you head to the **Payments** section of your Stripe Dashboard, you will be ab
 
 <figcaption>Payments in the dashboard</figcaption>
 
-<Ad />
+
 
 ## Deploying to Vercel
 
@@ -348,7 +348,7 @@ Head to your URL now, run through one of the flows we described during this post
 
 <figcaption>Production payment on the Stripe Dashboard</figcaption>
 
-<Ad />
+
 
 ## Conclusion
 
@@ -358,7 +358,7 @@ Most of these example API routes and implementations from the app can be re-used
 
 Stripe + Vercel = Greatness. Happy hacking!
 
-<Ad />
+
 
 ## Resources and further reading
 

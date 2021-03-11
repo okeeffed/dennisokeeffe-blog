@@ -7,7 +7,7 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/xg2dgz5vcfhp0zqp92hk.png
 
 Developer roundup from across the web for the week of 2020-11-01.
 
-<Ad />
+
 
 ## Trending This Week On Github
 
@@ -37,7 +37,7 @@ Developer roundup from across the web for the week of 2020-11-01.
 - **paritytech/substrate** (Rust): [Substrate: The platform for blockchain innovators](https://github.com/paritytech/substrate)
 - **google-research/google-research** (Jupyter Notebook): [Google Research](https://github.com/google-research/google-research)
 
-<Ad />
+
 
 ## Trending This Week On Dev.To
 
@@ -78,7 +78,7 @@ Developer roundup from across the web for the week of 2020-11-01.
 - **Lynne**: [My Online Portfolio](https://dev.to/lynnecodes/my-online-portfolio-436m)
 - **gmlunesa**: [How I developed and deployed my optimized website within a day](https://dev.to/gmlunesa/how-i-developed-and-deployed-my-optimized-website-within-a-day-357l)
 
-<Ad />
+
 
 ## Trending This Week On Hacker News
 

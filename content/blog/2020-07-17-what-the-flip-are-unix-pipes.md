@@ -8,7 +8,7 @@ In Unix systems, pipes and redirections are the bridges that join our programs. 
 
 Today's post will explore pipes from their humble beginnings to how we use them in our programs (with example help from Golang).
 
-<Ad />
+
 
 ## Humble beginnings
 
@@ -35,7 +35,7 @@ friends
 
 You get the gist. What gets cool though is that you can create "named pipes" to start piping in some cooler ways.
 
-<Ad />
+
 
 ## Named pipes
 
@@ -61,7 +61,7 @@ In another terminal, we can do that very things by running `cat < example-pipe` 
 
 ![Getting output from the named pipe](../assets/2020-07-17-named-pipe-output.png)
 
-<Ad />
+
 
 ## Running the output of a named pipe to Golang
 
@@ -156,7 +156,7 @@ Of course, once we run our terminate signal, we can close the Go program (and yo
 
 Awesome! We've managed to create some named pipes and use content piped into them in our program!
 
-<Ad />
+
 
 ## Conclusion
 
@@ -166,7 +166,7 @@ For example at work, we have a tool that I am about to take ownership of which c
 
 I have linked a bunch of great resources below that relate to more information on both the pipes and everything that has been happening on the Golang side of things.
 
-<Ad />
+
 
 ## Resources and further reading
 

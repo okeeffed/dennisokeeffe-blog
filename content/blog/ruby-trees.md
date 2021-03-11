@@ -6,7 +6,7 @@ description: Ruby implementation of a basic node tree and traversal using DFS an
 
 This requires the gem installation of `minitest`.
 
-<Ad />
+
 
 ## Test file
 
@@ -58,7 +58,7 @@ end
 __END__
 ```
 
-<Ad />
+
 
 ## Trees
 
@@ -123,7 +123,7 @@ class Node
 end
 ```
 
-<Ad />
+
 
 ## Testing
 

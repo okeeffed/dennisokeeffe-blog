@@ -6,7 +6,7 @@ date: "2021-02-10"
 
 Rusticles weekly curation for Wed Feb 10 2021.
 
-<Ad />
+
 
 ## Rust Articles This Week On Dev.To
 
@@ -18,7 +18,7 @@ Rusticles weekly curation for Wed Feb 10 2021.
 - **rhymu8354**: [Swift vs. Rust -- an Overview of Swift from a Rusty Perspective](https://dev.to/rhymu8354/swift-vs-rust-an-overview-of-swift-from-a-rusty-perspective-18c7)
 - **Mario Carrion**: [Go Tips: WebAssembly and Vugu](https://dev.to/mariocarrion/go-tips-webassembly-and-vugu-eil)
 
-<Ad />
+
 
 ## Trending Rust Repositories This Week On Github
 

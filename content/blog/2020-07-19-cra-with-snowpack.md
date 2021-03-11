@@ -23,7 +23,7 @@ There really hasn't been many posts available on how to do this, so I decided to
 
 > Note: This tutorial ran with `create-react-app@3.4.1` and `snowpack@2.6.4`.
 
-<Ad />
+
 
 ## Getting started
 
@@ -35,7 +35,7 @@ npx create-react-app snowpack-uplift
 
 This will create the default `create-react-app` setup into the `snowpack-uplift` folder.
 
-<Ad />
+
 
 ## Babel Run Command File
 
@@ -47,7 +47,7 @@ Add a `.babelrc` file to your root directory and add the following:
 }
 ```
 
-<Ad />
+
 
 ## index.html
 
@@ -102,7 +102,7 @@ Mine looked like the following:
 </html>
 ```
 
-<Ad />
+
 
 ## Add Dependencies
 
@@ -118,7 +118,7 @@ rollup-plugin-node-polyfills \
 snowpack
 ```
 
-<Ad />
+
 
 ## package.json
 
@@ -130,7 +130,7 @@ Add the follow script to we can run `dev` as a npm script during development. It
 }
 ```
 
-<Ad />
+
 
 ## Snowpack Config
 
@@ -157,13 +157,13 @@ module.exports = {
 
 These options are some that I carried over from the `Create Snowpack App` starter application. The `devOptions` may not be required, although I found the build would fail prior to add `fallback: "public/index.html"` to those options.
 
-<Ad />
+
 
 ## An important update for Create-React-App 4.0
 
 In the CRA 4 `src/App.js` file, you will note does not import React for you. If you wish to use Snowpack, you will need to add import React from 'react' to the top of the file.
 
-<Ad />
+
 
 ## Running out Application
 
@@ -245,7 +245,7 @@ function Alt() {
 export default Alt
 ```
 
-<Ad />
+
 
 ## Seeing the speed changes
 
@@ -281,7 +281,7 @@ The beauty with running CRA is that we can actually compare with the default set
 
 It is really important to note here that the app is still **really, really small**, so time to bundle will only grow greater as we make the application larger and larger! That will be when Snowpack truly shines.
 
-<Ad />
+
 
 ## Conclusion
 
@@ -289,7 +289,7 @@ We got up and running with Snowpack in 5 minutes and had a great chance to compa
 
 If you liked this short tutorial, you are going to love my next one where I dive into remote microfrontends with Webpack Federation. Be sure to follow me on [GitHub](https://github.com/okeeffed) and [Twitter](https://twitter.com/dennisokeeffe92) for updates on upcoming content.
 
-<Ad />
+
 
 ## Resources and further reading
 

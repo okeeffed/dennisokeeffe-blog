@@ -14,7 +14,7 @@ There will be 5 main series that I will be aiming to write for:
 4. Pensive
 5. Imposter
 
-<Ad />
+
 
 ## 1. Build Series
 
@@ -22,25 +22,25 @@ The "build" series will be general retrospectives on projects, apps and builds t
 
 For larger projects, these will be short recounts on some of the challenges faced during the build and lessons learned, while for smaller projects this could be as short as a blog post based on the project itself.
 
-<Ad />
+
 
 ## 2. Hello Series
 
 The "hello" series will be short applications of useful ideas that aims to help expand your toolset and may help spark creative solutions to problems.
 
-<Ad />
+
 
 ## 3. Depth Series
 
 The "depth" series will be large posts on start-to-finish ideas and tools to use in projects.
 
-<Ad />
+
 
 ## 4. Pensive Series
 
 The "pensive" series will be a collage of keys ideas and reflections from the books and posts, and an insight into the paradigm and principles that are helping me guide my decisions.
 
-<Ad />
+
 
 ## 5. Imposter Series
 

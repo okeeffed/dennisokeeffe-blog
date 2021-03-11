@@ -6,7 +6,7 @@ date: "2020-07-07"
 
 Change my mind: CSS is hard. In fact, I preach day in and day out that scalable CSS is one of the more difficult concepts to grasp effectively. Here are 7 tips to help you scale and manage CSS and its alternatives.
 
-<Ad />
+
 
 ## 1: Keep Architecture Front Of Mind
 
@@ -26,7 +26,7 @@ Atomic design is inspired by chemistry and attempts to take things from first pr
 
 While this post is not a deep dive into that thinking framework (nor others), identifying and isolating smaller components from larger ones such as the pages will go a long way into how you begin to organize your style files and avoid repetitiveness.
 
-<Ad />
+
 
 ## 2: Where Appropriate, Use Processors
 
@@ -128,7 +128,7 @@ As you can see, we no longer have to write rules for variant of browser - **a mo
 
 Cool - so we've managed to save ourselves some code and are preventing some side-effects with the basic capabilities of pre-processors, but we are still in a bit of a pickle. We can still abuse these powers and end up in a mess. So what can we do next?
 
-<Ad />
+
 
 ## 3: Find Structures That Work For Your Team
 
@@ -241,7 +241,7 @@ With [OOCSS](https://github.com/stubbornella/oocss/wiki), it brings in the commo
 
 [SMACSS](http://smacss.com/) itself self-proclaims to be more of a style guide than a framework, so placing it in this section may be incorrect, but it certainly leads us to the next important point.
 
-<Ad />
+
 
 ## 4: Use Style Guides, Linters and Code Formatters
 
@@ -260,7 +260,7 @@ Here is a non-exhaustive list to kick start your research into this:
 3. [Stylelint.io](https://stylelint.io/)
 4. [Prettier.io](https://prettier.io/)
 
-<Ad />
+
 
 ## 5: Consider Frameworks That Support Compartmentalization
 
@@ -294,7 +294,7 @@ const ComponentB = () => <div className="component"></div>
 
 Thanks to the separation and power of transpilers, the styling applied to both classes can be independent of each other and do not clash. This solves our previous issue around "style bleeding".
 
-<Ad />
+
 
 ## 6: Consider CSS-in-JS
 
@@ -306,7 +306,7 @@ Modern libraries such as [styled-components](https://styled-components.com/) and
 
 For those who want to harness these powers but still prefer the final CSS output, checkout alternatives such as [Treat](https://github.com/seek-oss/treat) which enable you to do this.
 
-<Ad />
+
 
 ## 7: Use Comments
 
@@ -317,7 +317,7 @@ This should be self-explanatory, but I have two requests:
 
 Comments are powerful for humanizing the code and explaining what is happening in understandable terms. They are not an alibi.
 
-<Ad />
+
 
 ## Conclusion
 
@@ -327,7 +327,7 @@ Here is to hoping that these resources help you in your own battle against maint
 
 Do you have any other tips that you have learned along the way? Share them below!
 
-<Ad />
+
 
 ## Resources and Further Reading
 

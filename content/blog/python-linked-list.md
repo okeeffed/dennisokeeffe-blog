@@ -4,7 +4,7 @@ date: "2018-08-12"
 description: Python implementation of a basic unidirectional Linked List.
 ---
 
-<Ad />
+
 
 ## Test file
 
@@ -179,7 +179,7 @@ if __name__ == '__main__':
     unittest.main()
 ```
 
-<Ad />
+
 
 ## Linked Lists
 
@@ -326,7 +326,7 @@ class LinkedList:
         self.size += 1
 ```
 
-<Ad />
+
 
 ## Running tests
 

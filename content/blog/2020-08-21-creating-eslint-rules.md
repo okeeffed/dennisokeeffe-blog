@@ -11,7 +11,7 @@ That being said, light bulbs look to go off on how it works once all of it comes
 
 You do not need to know React to follow along. I've chosen to use Create React App to demonstrate a working example of getting your first rule up and going. Let's begin!
 
-<Ad />
+
 
 ## Setup
 
@@ -28,7 +28,7 @@ mkdir rules
 
 Now that we have our two sub-directories set up (one to house the React app, the other for the rules), let's take a quick jump over the [AST Explorer](https://astexplorer.net/) website in order to quickly put together our rule.
 
-<Ad />
+
 
 ## AST Explorer
 
@@ -154,7 +154,7 @@ As an example: here is my screen after adding all of the above:
 
 Now that we have code to replace both the `import` and `require` statement, let's head back to our code and see it in action!
 
-<Ad />
+
 
 ## Adding the rule
 
@@ -259,7 +259,7 @@ As a last part, ensure that you're `package.json` file has the following:
 
 We are now ready to apply this in our React App!
 
-<Ad />
+
 
 ## Setting up the new rule in our React App
 
@@ -335,7 +335,7 @@ Once the app starts up, you will see that our rule has successfully been added!
 
 ![ESLint warnings](../assets/2020-08-21-eslint-warnings.png)
 
-<Ad />
+
 
 ## Conclusion
 
@@ -343,7 +343,7 @@ It has been a little bit of a whirlwind to getting this ESLint rule in, but hope
 
 Have a play around afterwards to get a feel, but use tools like AST Explorer to your benefit and, if you are like me, returning to the ESLint docs after getting the working example in will lighten up how it all works and how to apply it all.
 
-<Ad />
+
 
 ## Resources and Further Reading
 

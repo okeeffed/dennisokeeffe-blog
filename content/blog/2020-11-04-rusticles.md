@@ -6,7 +6,7 @@ date: "2020-11-04"
 
 Rusticles weekly curation for Wed Nov 04 2020.
 
-<Ad />
+
 
 ## Hot Rust Articles This Week On Reddit
 
@@ -15,7 +15,7 @@ Rusticles weekly curation for Wed Nov 04 2020.
 - [rkvm - A tool to share keyboard and mouse over the network on Linux machines](https://www.reddit.com/r/rust/comments/jlhga1/rkvm_a_tool_to_share_keyboard_and_mouse_over_the/) (3 days ago)
 - [rust-script - run Rust files and expressions as scripts](https://www.reddit.com/r/rust/comments/jjnyv1/rustscript_run_rust_files_and_expressions_as/) (6 days ago)
 
-<Ad />
+
 
 ## Rust Articles This Week On Dev.To
 
@@ -30,7 +30,7 @@ Rusticles weekly curation for Wed Nov 04 2020.
 - **Nivethan**: [A Gopher Client in Rust - 03 Bookmarks and Full Code](https://dev.to/krowemoh/gopher-client-in-rust-03-extras-4o4d)
 - **Sivakumar**: [Data Structures & Algorithms using Rust: Convert Binary Number in a Linked List to Integer](https://dev.to/ssivakumar77/data-structures-algorithms-using-rust-convert-binary-number-in-a-linked-list-to-integer-kjf)
 
-<Ad />
+
 
 ## Trending Rust Repositories This Week On Github
 

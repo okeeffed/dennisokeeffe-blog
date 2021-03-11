@@ -12,7 +12,7 @@ The expectations are that you have Java installed and have your [Stripe API keys
 
 > The following comes in part from my [documentation website](https://docs.dennisokeeffe.com/manual-stripe-spring-stripe-configuration).
 
-<Ad />
+
 
 ## Setup
 
@@ -24,7 +24,7 @@ touch build.gradle src/main/java/stripe/StripeCharge.java src/main/java/stripe/S
 gradle wrapper
 ```
 
-<Ad />
+
 
 ## Setup build.gradle
 
@@ -66,7 +66,7 @@ dependencies {
 }
 ```
 
-<Ad />
+
 
 ## Set up dotenv file
 
@@ -79,7 +79,7 @@ SK_TEST_KEY=sk_...
 PK_TEST_KEY=pk_...
 ```
 
-<Ad />
+
 
 ## Setting up the main application
 
@@ -100,7 +100,7 @@ public class Application {
 }
 ```
 
-<Ad />
+
 
 ## Setting up the model
 
@@ -142,7 +142,7 @@ public class StripeCharge {
 }
 ```
 
-<Ad />
+
 
 ## Setting up the controller
 
@@ -191,7 +191,7 @@ public class StripeChargeController {
 }
 ```
 
-<Ad />
+
 
 ## Build, Run and Ping
 
@@ -221,7 +221,7 @@ If you now go and check your Stripe dashboard, you will be able to see a charge.
 
 ![Stripe Dashboard](../assets/2020-06-26-stripe-dashboard.png)
 
-<Ad />
+
 
 ## Resources and Further Reading
 

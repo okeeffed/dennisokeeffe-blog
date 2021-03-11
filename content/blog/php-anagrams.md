@@ -6,7 +6,7 @@ description: PHP implementation of comparing two strings to check if they are an
 
 This expects an installation on the system of `phpunit`.
 
-<Ad />
+
 
 ## Test File
 
@@ -45,7 +45,7 @@ class AnagramsTest extends PHPUnit\Framework\TestCase
 }
 ```
 
-<Ad />
+
 
 ## Anagrams
 
@@ -74,7 +74,7 @@ function anagrams($a, $b)
 }
 ```
 
-<Ad />
+
 
 ## Running Tests
 

@@ -7,7 +7,7 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/xg2dgz5vcfhp0zqp92hk.png
 
 Here is your update from across the web for the week of 2020-08-23.
 
-<Ad />
+
 
 ## Trending This Week On Github
 
@@ -37,7 +37,7 @@ Here is your update from across the web for the week of 2020-08-23.
 - **tailwindlabs/tailwindcss** (CSS): [A utility-first CSS framework for rapid UI development.](https://github.com/tailwindlabs/tailwindcss)
 - **mingrammer/diagrams** (Python): [🎨 Diagram as Code for prototyping cloud system architectures](https://github.com/mingrammer/diagrams)
 
-<Ad />
+
 
 ## Trending This Week On Dev.To
 
@@ -77,7 +77,7 @@ Here is your update from across the web for the week of 2020-08-23.
 - **Yogesh Chavan**: [How to generate mock data within seconds using Node.js to use in any application](https://dev.to/myogeshchavan97/how-to-generate-mock-data-within-seconds-using-node-js-2e4l)
 - **Silvia Bogdan**: [Accessibility for the web - introduction to ARIA](https://dev.to/cilvako/accessibility-for-the-web-introduction-to-aria-5h2m)
 
-<Ad />
+
 
 ## Trending This Week On Hacker News
 

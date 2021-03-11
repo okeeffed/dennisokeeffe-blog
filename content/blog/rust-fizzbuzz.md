@@ -6,7 +6,7 @@ description: The classic FizzBuzz implementation in Rust with Unit Testing.
 
 A basic implementation of FizzBuzz in Rust.
 
-<Ad />
+
 
 ## Writing the Code
 
@@ -45,7 +45,7 @@ To learn more about Rust tests refer to the [online test documentation][rust-tes
 Make sure to read the [Modules](https://doc.rust-lang.org/book/ch07-02-modules-and-use-to-control-scope-and-privacy.html) chapter if you
 haven't already, it will help you with organizing your files.
 
-<Ad />
+
 
 ## Further improvements
 
@@ -57,7 +57,7 @@ To format your solution, inside the solution directory use
 cargo fmt
 ```
 
-<Ad />
+
 
 ## Cargo.toml
 
@@ -77,7 +77,7 @@ path = "tests/fizz_buzz.rs"
 # itoa = "0.4.3"
 ```
 
-<Ad />
+
 
 ## The test file
 
@@ -108,7 +108,7 @@ fn test_fizz_buzz() {
 }
 ```
 
-<Ad />
+
 
 ## FizzBuzz
 
@@ -128,7 +128,7 @@ pub fn run(i: u32) -> String {
 }
 ```
 
-<Ad />
+
 
 ## Run the final test
 

@@ -7,7 +7,7 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/xg2dgz5vcfhp0zqp92hk.png
 
 Developer roundup from across the web for the week of 2021-02-07.
 
-<Ad />
+
 
 ## Trending This Week On Github
 
@@ -37,7 +37,7 @@ Developer roundup from across the web for the week of 2021-02-07.
 - **explosion/spaCy** (Python): [💫 Industrial-strength Natural Language Processing (NLP) in Python](https://github.com/explosion/spaCy)
 - **chartjs/Chart.js** (JavaScript): [Simple HTML5 Charts using the `<canvas>` tag](https://github.com/chartjs/Chart.js)
 
-<Ad />
+
 
 ## Trending This Week On Dev.To
 
@@ -93,7 +93,7 @@ Developer roundup from across the web for the week of 2021-02-07.
 - **Rupak Dey**: [Prep For Interviews Like a PRO!](https://dev.to/deyrupak/prep-for-interviews-like-a-pro-gko)
 - **Jordan Brennan**: [5 Reasons Why Front-end Is So Hard](https://dev.to/jfbrennan/5-reasons-why-front-end-is-so-hard-2b92)
 
-<Ad />
+
 
 ## Trending This Week On Hacker News
 

@@ -9,7 +9,7 @@ In the previous post, I went on a small spike to explore generating TypeScript t
 
 This example will build a little more on top of the previous post, however it is not required reading.
 
-<Ad />
+
 
 ## Getting Started
 
@@ -51,7 +51,7 @@ The above is actually a little different to what I had in the previous blog post
 
 We are going to import this in and using it for our values for a component.
 
-<Ad />
+
 
 ## Creating the Open Specification
 
@@ -94,7 +94,7 @@ Basically I just copied across the example they gave for using components and tr
 }
 ```
 
-<Ad />
+
 
 ## Setting Up The Validator
 
@@ -144,7 +144,7 @@ main()
 
 The most confusing part here may be where I am adjusting the Open API Schema to use the definitions from `book.json`. I am doing this is keep in line with what I was doing with combining the other JSON files. I am thinking in my own work that I may follow the precedent of splitting up component definitions and combining when required.
 
-<Ad />
+
 
 ## Running The Validator
 
@@ -204,7 +204,7 @@ I changed `"description": "A list of books",` to `"descriptions": "A list of boo
 
 Success! Now we have a way to validate our OpenAPI schema.
 
-<Ad />
+
 
 ## Resources and Further Reading
 

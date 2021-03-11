@@ -12,7 +12,7 @@ The expectations are that you have both Dotnet installed and have your [Stripe A
 
 > The following comes in part from my [documentation website](https://docs.dennisokeeffe.com/manual-stripe-gin-stripe-configuration).
 
-<Ad />
+
 
 ## Setting up
 
@@ -27,7 +27,7 @@ go get github.com/stripe/stripe-go
 go get github.com/joho/godotenv
 ```
 
-<Ad />
+
 
 ## Setting up main.go
 
@@ -104,7 +104,7 @@ func main() {
 }
 ```
 
-<Ad />
+
 
 ## Making A Test Charge
 
@@ -129,7 +129,7 @@ If you now go and check your Stripe dashboard, you will be able to see a charge.
 
 ![Stripe Dashboard](../assets/2020-06-26-stripe-dashboard.png)
 
-<Ad />
+
 
 ## Resources and Further Reading
 

@@ -7,7 +7,7 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/xg2dgz5vcfhp0zqp92hk.png
 
 Developer roundup from across the web for the week of 2021-01-31.
 
-<Ad />
+
 
 ## Trending This Week On Github
 
@@ -37,7 +37,7 @@ Developer roundup from across the web for the week of 2021-01-31.
 - **qutebrowser/qutebrowser** (Python): [A keyboard-driven, vim-like browser based on PyQt5.](https://github.com/qutebrowser/qutebrowser)
 - **brave/brave-browser** (JavaScript): [Next generation Brave browser for Android, Linux, macOS, Windows.](https://github.com/brave/brave-browser)
 
-<Ad />
+
 
 ## Trending This Week On Dev.To
 
@@ -92,7 +92,7 @@ Developer roundup from across the web for the week of 2021-01-31.
 - **Tobias Günther**: [Become a Better Programmer: 5 Essential Methods at a Glance](https://dev.to/gittower/become-a-better-programmer-5-essential-methods-at-a-glance-25bh)
 - **Paymon Wang Lotfi**: [A Complete Guide to Creating a Chrome Extension](https://dev.to/paymon123/a-complete-guide-to-creating-a-chrome-extension-4a87)
 
-<Ad />
+
 
 ## Trending This Week On Hacker News
 

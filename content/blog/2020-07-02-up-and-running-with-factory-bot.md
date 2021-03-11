@@ -8,7 +8,7 @@ This post is a short getting-up-and-running style of post.
 
 It expects that you have Rails 5 setup and ready to roll.
 
-<Ad />
+
 
 ## Why Factory Bot?
 
@@ -20,7 +20,7 @@ There is more info on the why on the [Why Factories](https://thoughtbot.com/blog
 
 This is simply a quick start to get up and going to test model validation.
 
-<Ad />
+
 
 ## Quick start
 
@@ -30,7 +30,7 @@ cd <project>
 gem install rspec factory_bot_rails
 ```
 
-<Ad />
+
 
 ## Update Gemfile config
 
@@ -45,7 +45,7 @@ end
 
 Run `bundle install`.
 
-<Ad />
+
 
 ## Automatic factory definition loading
 
@@ -70,7 +70,7 @@ config.factory_bot.definition_file_paths = ["custom/factories"]
 
 This will cause factory_bot_rails to automatically load factories in `custom/factories.rb` and `custom/factories/*.rb`.
 
-<Ad />
+
 
 ## Config
 
@@ -103,7 +103,7 @@ class ActiveSupport::TestCase
 end
 ```
 
-<Ad />
+
 
 ## Create a model
 
@@ -124,7 +124,7 @@ If successful, the migration should return:
 ==  CreateArticles: migrated (0.0020s) =========================================
 ```
 
-<Ad />
+
 
 ## Update Ruby
 
@@ -137,7 +137,7 @@ class Article < ApplicationRecord
 end
 ```
 
-<Ad />
+
 
 ## Add the following to the factories directory
 
@@ -151,7 +151,7 @@ FactoryBot.define do
 end
 ```
 
-<Ad />
+
 
 ## Add an Rspec for the model
 
@@ -192,7 +192,7 @@ class ArticleTest < ActiveSupport::TestCase
 end
 ```
 
-<Ad />
+
 
 ## Running the test
 
@@ -218,7 +218,7 @@ Finished in 0.001607s, 0.0000 runs/s, 0.0000 assertions/s.
 0 runs, 0 assertions, 0 failures, 0 errors, 0 skips
 ```
 
-<Ad />
+
 
 ## Resources and Further Reading
 

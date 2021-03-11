@@ -7,7 +7,7 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/xg2dgz5vcfhp0zqp92hk.png
 
 Here is your update from across the web for the week of 2020-09-06.
 
-<Ad />
+
 
 ## Trending This Week On Github
 
@@ -37,7 +37,7 @@ Here is your update from across the web for the week of 2020-09-06.
 - **blender/blender** (C): [Official mirror of Blender](https://github.com/blender/blender)
 - **Aircoookie/WLED** (C++): [Control WS2812B and many more types of digital RGB LEDs with an ESP8266 or ESP32 over WiFi!](https://github.com/Aircoookie/WLED)
 
-<Ad />
+
 
 ## Trending This Week On Dev.To
 
@@ -77,7 +77,7 @@ Here is your update from across the web for the week of 2020-09-06.
 - **Chaitanya Chaturvedi**: [Important Git Commands: Git Commands You Must Know](https://dev.to/chaitanya4vedi/important-git-commands-git-commands-you-must-know-272b)
 - **Arek Nawo**: [Top 5 JavaScript secrets](https://dev.to/areknawo/top-5-javascript-secrets-2gp7)
 
-<Ad />
+
 
 ## Trending This Week On Hacker News
 

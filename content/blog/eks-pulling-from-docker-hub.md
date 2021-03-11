@@ -6,7 +6,7 @@ description: Adding credentials to be used for EKS when pulling images from Dock
 
 Reference from here https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/.
 
-<Ad />
+
 
 ## tl;dr
 

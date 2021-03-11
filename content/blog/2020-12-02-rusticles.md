@@ -6,7 +6,7 @@ date: "2020-12-02"
 
 Rusticles weekly curation for Wed Dec 02 2020.
 
-<Ad />
+
 
 ## Hot Rust Articles This Week On Reddit
 
@@ -15,7 +15,7 @@ Rusticles weekly curation for Wed Dec 02 2020.
 - [Announcing Rustup 1.23.0](https://www.reddit.com/r/rust/comments/k22wbb/announcing_rustup_1230/) (4 days ago)
 - [breadx, a mutex-free, #![forbid(unsafe_code)] implementation of the X Window System Protocol](https://www.reddit.com/r/rust/comments/k4adad/breadx_a_mutexfree_forbidunsafe_code/) (1 day ago)
 
-<Ad />
+
 
 ## Rust Articles This Week On Dev.To
 
@@ -26,7 +26,7 @@ Rusticles weekly curation for Wed Dec 02 2020.
 - **Davide Del Papa**: [Rocket Tutorial 04: Data Persistency and Rocket (with MongoDB)](https://dev.to/davidedelpapa/rocket-tutorial-04-data-persistency-and-rocket-with-mongodb-e5j)
 - **Christian Melendez**: [Getting Started with Okteto and Rust](https://dev.to/christianmldz/getting-started-with-okteto-and-rust-24l)
 
-<Ad />
+
 
 ## Trending Rust Repositories This Week On Github
 

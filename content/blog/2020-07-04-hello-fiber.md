@@ -12,7 +12,7 @@ In this entry into Fiber, we will cover installation of Fiber, as well as the ba
 
 It expects that you Golang installed and understand the basics of running Go applications.
 
-<Ad />
+
 
 ## Installing Fiber
 
@@ -20,7 +20,7 @@ It expects that you Golang installed and understand the basics of running Go app
 go get -u github.com/gofiber/fiber
 ```
 
-<Ad />
+
 
 ## Running our Hello World
 
@@ -70,7 +70,7 @@ Hello, World 👋!%
 
 We are in business!
 
-<Ad />
+
 
 ## Using POST requests
 
@@ -106,7 +106,7 @@ hello=world%
 
 Peaches! We get back what we send as expected.
 
-<Ad />
+
 
 ## Binding the request body to a struct
 
@@ -227,7 +227,7 @@ _____ / /_  / / __ \/ _ \/ ___/   PORT   3000       CORES 8
 
 Nice! Things are up and running!
 
-<Ad />
+
 
 ## Returning JSON
 
@@ -320,7 +320,7 @@ Note: Unnecessary use of -X or --request, POST is already inferred.
 
 There are some intering points that come from here. For starters, apparently I've been using `-X` unnecessarily my whole life (oops). Secondly, we can see that the `Content-Type` we get back with our called it already set to be `application/json` thanks to the `c.JSON` method!
 
-<Ad />
+
 
 ## Wrap Up
 
@@ -330,7 +330,7 @@ Between this information, you are already in a great position to start building 
 
 We'll continue using Fiber in the following blog posts and start getting into handling things like deployments and connecting to databases!
 
-<Ad />
+
 
 ## Final code
 
@@ -408,7 +408,7 @@ func main() {
 }
 ```
 
-<Ad />
+
 
 ## Resources and Further Reading
 

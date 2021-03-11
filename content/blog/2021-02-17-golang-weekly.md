@@ -7,7 +7,7 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/qs7o2ag8vzo0uborgc7v.png
 
 Gopher Gold weekly curation for Wed Feb 17 2021.
 
-<Ad />
+
 
 ## Go Articles This Week On Dev.To
 
@@ -33,9 +33,9 @@ Gopher Gold weekly curation for Wed Feb 17 2021.
 - **Mattias Fjellström**: [Azure functions custom handlers in Go: Logging](https://dev.to/mattiasfjellstrom/azure-functions-custom-handlers-in-go-logging-31bp)
 - **Davide Madrisan**: [A simple Mattermost notifier written in Go](https://dev.to/madrisan/a-simple-mattermost-notifier-written-in-go-281o)
 
-<Ad/>
 
-<Ad />
+
+
 
 ## Trending Go Repositories This Week On Github
 
@@ -65,9 +65,9 @@ Gopher Gold weekly curation for Wed Feb 17 2021.
 - **ElrondNetwork/elrond-go** (Go): [⚡ Elrond-GO: The official implementation of the Elrond protocol, written in golang.](https://github.com/ElrondNetwork/elrond-go)
 - **bitnami-labs/sealed-secrets** (Go): [A Kubernetes controller and tool for one-way encrypted Secrets](https://github.com/bitnami-labs/sealed-secrets)
 
-<Ad/>
 
-<Ad />
+
+
 
 ## Topics from the Weekly Go Forum
 

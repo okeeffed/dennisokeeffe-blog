@@ -7,7 +7,7 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/xg2dgz5vcfhp0zqp92hk.png
 
 Developer roundup from across the web for the week of 2020-12-06.
 
-<Ad />
+
 
 ## Trending This Week On Github
 
@@ -37,7 +37,7 @@ Developer roundup from across the web for the week of 2020-12-06.
 - **AobingJava/JavaFamily** : [【Java面试+Java学习指南】 一份涵盖大部分Java程序员所需要掌握的核心知识。](https://github.com/AobingJava/JavaFamily)
 - **jiupinjia/stylized-neural-painting** (Python): [Official Pytorch implementation of the preprint paper "Stylized Neural Painting", in arXiv:2011.08114.](https://github.com/jiupinjia/stylized-neural-painting)
 
-<Ad />
+
 
 ## Trending This Week On Dev.To
 
@@ -77,7 +77,7 @@ Developer roundup from across the web for the week of 2020-12-06.
 - **Sm0ke**: [GIT - Unorthodox commands I use from time to time](https://dev.to/sm0ke/git-unorthodox-commands-i-use-from-time-to-time-10fj)
 - **Kaylan Stock**: [WebSocket Explained (By a Non-Developer)](https://dev.to/harperdb/websocket-explained-by-a-non-developer-3naj)
 
-<Ad />
+
 
 ## Trending This Week On Hacker News
 

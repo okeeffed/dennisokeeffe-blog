@@ -4,7 +4,7 @@ date: "2019-06-14"
 description: Looking at usage of the web "fetch" API. This example uses the node-fetch library for demonstration purposes.
 ---
 
-<Ad />
+
 
 ## Space Complexity vs. Auxiliary Space
 
@@ -14,7 +14,7 @@ Space complexity on the other hand is a reference to the total space taken in an
 
 When comparing things such as sorting algorithms, it is better to reference Auxiliary Space. Why? Well in the case of space complexity, all of the sorting algorithms that that an array consist of O(n) space complexity given the input size. That being said, auxiliary space for `insertion` and `heap` sort use O(1) auxiliary space while `merge` sort using O(n) auxiliary space given the conditions required to create temporary subarrays.
 
-<Ad />
+
 
 ## Memory Usage during runtime
 
@@ -26,7 +26,7 @@ Memory is used during the execution of an algorithm for a few reasons:
 
 When calculating space complexity, we usually only consider the `data space`.
 
-<Ad />
+
 
 ## Calculation
 
@@ -64,7 +64,7 @@ This gives us a total memory requirement of `(4n + 12)`. This itself is O(n) lin
 
 What is important to note with this example is that the auxiliary space required for the above `sum` function is actually O(1) constant given that the auxiliary variables are only `x` and `i` which totals a `(8)` memory requirement (constant).
 
-<Ad />
+
 
 ## References
 

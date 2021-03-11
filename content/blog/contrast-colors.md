@@ -6,7 +6,7 @@ description: A small intro into auto-determing WCAG color contrast standards
 
 Short and sharp. I needed to use something to help auto-determine what text color to use for components based on the background color. Also - American spelling for those Australians out there. I know.
 
-<Ad />
+
 
 ## Installation
 
@@ -17,7 +17,7 @@ npm install --save get-contrast
 yarn add get-contrast
 ```
 
-<Ad />
+
 
 ## Example code
 
@@ -39,7 +39,7 @@ const res = `${arg} is light: ${isLight}. You should use ${
 console.log(res)
 ```
 
-<Ad />
+
 
 ## Usage
 

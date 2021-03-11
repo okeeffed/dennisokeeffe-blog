@@ -7,7 +7,7 @@ tags: nextjs,react,vercel,i18n
 
 In this post, we will be diving into one of Next.js 10's new advanced features in [internationalised routing](https://nextjs.org/docs/advanced-features/i18n-routing) and how we can use this with [react-intl](https://www.npmjs.com/package/react-intl).
 
-<Ad />
+
 
 ## Getting started
 
@@ -40,7 +40,7 @@ touch next.config.js
 
 Now that we have some files going, let's get started with some basic content!
 
-<Ad />
+
 
 ## Setting up Next.js i18n
 
@@ -64,7 +64,7 @@ Here we are going with [sub-path routing](https://nextjs.org/docs/advanced-featu
 
 Now that we have that out of the way, let's update the `pages/index.js` page!
 
-<Ad />
+
 
 ## Internationalising our home page
 
@@ -112,7 +112,7 @@ Given what we mentioned previously about the sub-routing, we can now go to `/fr`
 
 Amazing! Now that we are done here, we can get to using this with `react-intl`.
 
-<Ad />
+
 
 ## Switching copy with react-intl
 
@@ -285,7 +285,7 @@ Notice that we have re-used the `hello` key for this page too but we are not get
 
 > Note: if you are having an error pop up in the terminal about missing Polyfills, refer to the [formatjs documentation](https://formatjs.io/docs/react-intl/#runtime-requirements). The tl;dr is that you need Node v13+ or you can install a package.
 
-<Ad />
+
 
 ## Summary
 
@@ -293,7 +293,7 @@ In conclusion, we have explored Next.js internationalisation and used the `react
 
 See the final project (although lacking aesthetics) [here](https://hello-nextjs-i18n.vercel.app/) and the final code [here](https://github.com/okeeffed/hello-nextjs-i18n).
 
-<Ad />
+
 
 ## Resources and further reading
 

@@ -6,13 +6,13 @@ date: "2020-12-16"
 
 Rusticles weekly curation for Wed Dec 16 2020.
 
-<Ad />
+
 
 ## Hot Rust Articles This Week On Reddit
 
 - [Pointers Are Complicated II, or: We need better language specs](https://www.reddit.com/r/rust/comments/kd157i/pointers_are_complicated_ii_or_we_need_better/) (1 day ago)
 
-<Ad />
+
 
 ## Rust Articles This Week On Dev.To
 
@@ -27,7 +27,7 @@ Rusticles weekly curation for Wed Dec 16 2020.
 - **WT**: [TiDB Hackathon 2020](https://dev.to/wtliu/tidb-hackathon-2020-4ild)
 - **Henry Barreto**: [JSON, RON and Rust](https://dev.to/henrybarreto/json-ron-and-rust-5c42)
 
-<Ad />
+
 
 ## Trending Rust Repositories This Week On Github
 

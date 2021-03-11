@@ -6,7 +6,7 @@ date: "2020-08-09"
 
 Here is your update from across the web for the week of 2020-08-09.
 
-<Ad />
+
 
 ## Trending This Week On Github
 
@@ -36,7 +36,7 @@ Here is your update from across the web for the week of 2020-08-09.
 - **facebook/react-native** (JavaScript): [A framework for building native apps with React.](https://github.com/facebook/react-native)
 - **iluwatar/java-design-patterns** (Java): [Design patterns implemented in Java](https://github.com/iluwatar/java-design-patterns)
 
-<Ad />
+
 
 ## Trending This Week On Dev.To
 
@@ -76,7 +76,7 @@ Here is your update from across the web for the week of 2020-08-09.
 - **ABHINAVA GHOSH**: [Let's Talk About REGEX !!](https://dev.to/the_unconventional_coder/lets-talk-about-regex-3npd)
 - **Margo McCabe**: [Building a Database Written in Node.js from the Ground Up](https://dev.to/harperdb/building-a-database-written-in-node-js-from-the-ground-up-2hgm)
 
-<Ad />
+
 
 ## Trending This Week On Hacker News
 

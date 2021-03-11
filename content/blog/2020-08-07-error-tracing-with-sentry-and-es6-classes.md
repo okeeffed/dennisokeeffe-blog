@@ -13,7 +13,7 @@ This tutorial expects that you have a [Sentry](https://sentry.io/) account set u
 
 It also expects you are running a version of Node that supports ES6 classes. I am running `12.16.1` in this project.
 
-<Ad />
+
 
 ## Getting started
 
@@ -38,7 +38,7 @@ Throw in the files we don't wish to store in Git.
 node_modules/
 ```
 
-<Ad />
+
 
 ## Setting up Sentry
 
@@ -54,7 +54,7 @@ SENTRY_ENDPOINT=<replace-with-your-url-here>
 
 We are now ready to set up our custom error!
 
-<Ad />
+
 
 ## SentryError.js
 
@@ -114,7 +114,7 @@ Afterwards, we are essentially setting a breadcrumb and telling Sentry to captur
 
 With this alone, we are ready to roll!
 
-<Ad />
+
 
 ## Testing out our new error
 
@@ -179,7 +179,7 @@ Those logs came from our `catch` block. If we change from "App only" to "Raw" yo
 
 ![Exception error](../assets/2020-08-07-full-error.png)
 
-<Ad />
+
 
 ## Handling sensitive information
 
@@ -333,7 +333,7 @@ Let's run `node index.js` again and confirm this in Sentry.
 
 Victory!
 
-<Ad />
+
 
 ## Conclusion
 
@@ -343,7 +343,7 @@ I find classes in this case to be more readable and a better developer experienc
 
 Today, we went with the idea of a "block" list. If you want a stronger alternative, go with the idea of an "allow" list where a property **must be allowed** before it will show up on Sentry.
 
-<Ad />
+
 
 ## Resources and Further Reading
 

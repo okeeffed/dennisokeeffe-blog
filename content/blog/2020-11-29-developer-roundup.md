@@ -7,7 +7,7 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/xg2dgz5vcfhp0zqp92hk.png
 
 Developer roundup from across the web for the week of 2020-11-29.
 
-<Ad />
+
 
 ## Trending This Week On Github
 
@@ -37,7 +37,7 @@ Developer roundup from across the web for the week of 2020-11-29.
 - **tailwindlabs/tailwindcss** (CSS): [A utility-first CSS framework for rapid UI development.](https://github.com/tailwindlabs/tailwindcss)
 - **facebook/ent** (Go): [An entity framework for Go](https://github.com/facebook/ent)
 
-<Ad />
+
 
 ## Trending This Week On Dev.To
 
@@ -77,7 +77,7 @@ Developer roundup from across the web for the week of 2020-11-29.
 - **Amy Shackles**: [Why Is {} > [] ?](https://dev.to/amyshackles/why-is-2hkk)
 - **stereobooster**: [Dev.to posts quality](https://dev.to/stereobooster/dev-to-posts-quality-1j8a)
 
-<Ad />
+
 
 ## Trending This Week On Hacker News
 

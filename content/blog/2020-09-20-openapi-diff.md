@@ -16,7 +16,7 @@ yarn add openapi-diff
 touch books.json openapi.json
 ```
 
-<Ad />
+
 
 ## Setting up the required files
 
@@ -85,7 +85,7 @@ For `openapi.json`:
 }
 ```
 
-<Ad />
+
 
 ## Running the validation
 
@@ -253,7 +253,7 @@ Breaking change found!
 
 Amazing! Since we are exiting with a non-zero code, we can start pulling things like this short script into our CI tools.
 
-<Ad />
+
 
 ## Resources And Further Reading
 

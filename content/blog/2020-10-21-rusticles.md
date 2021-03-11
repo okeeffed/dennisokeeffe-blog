@@ -6,14 +6,14 @@ date: "2020-10-21"
 
 Rusticles weekly curation for Wed Oct 21 2020.
 
-<Ad />
+
 
 ## Hot Rust Articles This Week On Reddit
 
 - [Announcing Tokio 0.3 and the path to 1.0](https://www.reddit.com/r/rust/comments/jbr4m5/announcing_tokio_03_and_the_path_to_10/) (5 days ago)
 - [No, C++ still isn't cutting it.](https://www.reddit.com/r/rust/comments/jdgm6u/no_c_still_isnt_cutting_it/) (2 days ago)
 
-<Ad />
+
 
 ## Rust Articles This Week On Dev.To
 
@@ -30,7 +30,7 @@ Rusticles weekly curation for Wed Oct 21 2020.
 - **Jolocom Dev Team**: [How KERI tackles the problem of trust](https://dev.to/jolocomdev/how-keri-tackles-the-problem-of-trust-344d)
 - **Rlogical Techsoft Pvt Ltd**: [Rust Programming Language: Knows about Pros & Cons](https://dev.to/rlogical/rust-programming-language-knows-about-pros-cons-53f)
 
-<Ad />
+
 
 ## Trending Rust Repositories This Week On Github
 

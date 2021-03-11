@@ -12,7 +12,7 @@ If you haven't installed, you can follow instructions on how to do so on the [Do
 
 Not enough time/care? See a [completed project here](https://github.com/okeeffed/express-redis-rate-limiting).
 
-<Ad />
+
 
 ## Setting up Docker
 
@@ -35,7 +35,7 @@ CONTAINER ID        IMAGE               COMMAND                  CREATED        
 
 Happy days! Let's move forward.
 
-<Ad />
+
 
 ## Setting up the project
 
@@ -53,7 +53,7 @@ The package `express-rate-limit` is how we will implment the rate limiting, whil
 
 We are installing developer dependencies `execa` and `jest` for testing purposes. We will use them as a helper of sorts to check the rate limiting from the CLI.
 
-<Ad />
+
 
 ## Setting up the Express Server
 
@@ -75,7 +75,7 @@ From the terminal, run `node index.js` and you should see `server started`.
 
 From another terminal, run `curl localhost:8000` and you should see our `RESPONSE_SUCCESS` command. Perfect!
 
-<Ad />
+
 
 ## Adding in the test to help us out
 
@@ -149,7 +149,7 @@ expect(matches.length).toEqual(100)
 
 We are going to use this to ensure we only allow 100 max successful responses during the rate limiting period.
 
-<Ad />
+
 
 ## Running the test for the first time
 
@@ -208,7 +208,7 @@ For the first test, we expected on 100 cases of `RESPONSE_SUCCESS` to show up, n
 Q: Why did this happen?
 A: Because we have not added rate limiting
 
-<Ad />
+
 
 ## Adding in InMemory rate limiting
 
@@ -272,7 +272,7 @@ Hang on, now we get success two times? What happen to the rate limiting from our
 
 Without supplying a store for the Express rate limiter, we are using in-memory store. This means anytime the server shuts down, we lose track of the IPs! Even worse, if we have a setup with multiple servers, a rate limit on one server doesn't necessarily mean it is limited on the others!
 
-<Ad />
+
 
 ## Redis to the Rescue
 
@@ -338,7 +338,7 @@ In the wild, this now means that Express instances that connect the same Redis d
 
 > Note: I said the "same" database here, as we are not going into Redis replicas here. That's a tale for another time friends.
 
-<Ad />
+
 
 ## Conclusion
 
@@ -355,7 +355,7 @@ Go forth and rate limit those pesky IPs from your sweet, sweet dog appreciation 
 
 > It is also probably worth reiterating with the tests that they were more of a visual helper - you don't really want a flaky test for the rate limiting that fails intermittent as soon as you are rate limiting and don't get the 100 successful requests. There are solutions for that (changing limit time based on environment etc) but I will leave that one.
 
-<Ad />
+
 
 ## Resources and Further Reading
 

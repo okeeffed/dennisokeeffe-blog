@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
-import { AdUnit } from "./Ad"
+import { BuyMeACoffee } from "../components/BuyMeACoffee"
 
 import { rhythm, scale } from "../utils/typography"
 
@@ -65,13 +65,9 @@ class Layout extends React.Component {
           }}
         >
           <header>{header}</header>
-          <AdUnit
-            currentPath={typeof window !== `undefined` ? window.location : null}
-          />
+          <BuyMeACoffee />
           <main>{children}</main>
-          <AdUnit
-            currentPath={typeof window !== `undefined` ? window.location : null}
-          />
+          <BuyMeACoffee />
         </div>
         <Footer>
           <a href="https://dennisokeeffe.com">Dennis O'Keeffe</a> ©{" "}

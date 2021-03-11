@@ -9,7 +9,7 @@ LocalStack provides an easy-to-use test/mocking framework for developing Cloud a
 
 In particular, today's post will have a quick look at emulating S3 buckets for local development.
 
-<Ad />
+
 
 ## Prerequisites
 
@@ -20,7 +20,7 @@ Before getting started, it is required that you have the following on your machi
 - Docker
 - AWS CLI (for interacting with LocalStack after installation)
 
-<Ad />
+
 
 ## Installing LocalStack
 
@@ -35,13 +35,13 @@ pip3 install localstack
 
 In my case, I installed using `pip3`.
 
-<Ad />
+
 
 ## Running LocalStack
 
 Once installed, we can get everything up by running `localstack start`. You will get feedback in the terminal that a number of services are started and finally get the service list with the ports they are running on. By default, these services will start on port 4566. Easy peasy!
 
-<Ad />
+
 
 ## Creating our first S3 bucket with LocalStack
 
@@ -84,7 +84,7 @@ To confirm it has been made, we can run `aws s3api list-buckets --endpoint-url h
 
 Success!
 
-<Ad />
+
 
 ## Adding and removing objects locally
 
@@ -128,7 +128,7 @@ Once successful, you can run `cat temp2.txt` to see that we installed the bucket
 
 Now that we have proven how to develop and test the S3 service locally, we can terminate our `localstack` instance in the terminal to tear down the local infrastructure.
 
-<Ad />
+
 
 ## Conclusion
 
@@ -138,7 +138,7 @@ I am working locally with interacting with some AWS services through some langua
 
 I highly recommend giving it a go for your own infrastructure development. There may be some issues that I am yet to run into, but as far as a lightweight approach to quickly interacting with files locally and not expending costs, it has been great for introductions into some of the AWS products.
 
-<Ad />
+
 
 ## Resources and further reading
 

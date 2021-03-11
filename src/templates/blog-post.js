@@ -7,14 +7,9 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import RelatedArticles from "../components/related"
 import { rhythm, scale } from "../utils/typography"
-import { AdUnit } from "../components/Ad"
 
-const Ad = () => (
-  <AdUnit
-    currentPath={typeof window !== `undefined` ? window.location : null}
-  />
-)
-const shortcodes = { Ad }
+// If you want to add shortcodes
+const shortcodes = {}
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -46,9 +41,6 @@ class BlogPostTemplate extends React.Component {
           style={{
             marginBottom: rhythm(1),
           }}
-        />
-        <AdUnit
-          currentPath={typeof window !== `undefined` ? window.location : null}
         />
         <RelatedArticles
           tags={post.frontmatter.tags && post.frontmatter.tags.split(",")}

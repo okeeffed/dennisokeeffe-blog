@@ -14,7 +14,7 @@ If you are running it on a network, first create the network `docker network cre
 
 Linking `docker run -d -name app-container-name --link mysql-container-name app-image-name`.
 
-<Ad />
+
 
 ## Updating the local Docker MySQL instance
 

@@ -4,7 +4,7 @@ date: "2018-10-22"
 description: Example of adding in Amplify
 ---
 
-<Ad />
+
 
 ## Links
 
@@ -25,7 +25,7 @@ awsmobile user-signin enable --prompt
 awsmobile console
 ```
 
-<Ad />
+
 
 ## Get
 
@@ -46,7 +46,7 @@ awsmobile cloud-api invoke ServerlessExampleCRUD GET /ServerlessExample/object/1
   userId: 'UNAUTH' }
 ```
 
-<Ad />
+
 
 ## In code
 

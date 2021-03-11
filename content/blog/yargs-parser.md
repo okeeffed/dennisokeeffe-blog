@@ -8,7 +8,7 @@ description: Say hello to an easy way to parse CLI args and options with yargs p
 
 This is a basic library I tend to use a lot for any of my CLI tools that I am building out.
 
-<Ad />
+
 
 ## Installation
 
@@ -20,7 +20,7 @@ npm install yargs-parser --save
 yarn add yargs-parser
 ```
 
-<Ad />
+
 
 ## Example code
 

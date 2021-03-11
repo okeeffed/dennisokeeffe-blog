@@ -7,14 +7,14 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/qs7o2ag8vzo0uborgc7v.png
 
 Gopher Gold weekly curation for Wed Oct 21 2020.
 
-<Ad />
+
 
 ## Hot Go Articles This Week On Reddit
 
 - [Breakout: browser game written on pure Go and compiled into WASM. No JS added.](https://www.reddit.com/r/golang/comments/jb5kn7/breakout_browser_game_written_on_pure_go_and/) (6 days ago)
 - [Gosaic - 4yrs but still a piece of art](https://www.reddit.com/r/golang/comments/jcrmou/gosaic_4yrs_but_still_a_piece_of_art/) (3 days ago)
 
-<Ad />
+
 
 ## Go Articles This Week On Dev.To
 
@@ -54,7 +54,7 @@ Gopher Gold weekly curation for Wed Oct 21 2020.
 - **Tymoteusz Blazejczyk**: [Go Error](https://dev.to/tymonx/go-error-3k2m)
 - **Pierangelo**: [nodejs vs golang with MongoDB](https://dev.to/pierangelo1982/nodejs-vs-golang-with-mongodb-kee)
 
-<Ad />
+
 
 ## Trending Go Repositories This Week On Github
 
@@ -84,7 +84,7 @@ Gopher Gold weekly curation for Wed Oct 21 2020.
 - **kubernetes/kubernetes** (Go): [Production-Grade Container Scheduling and Management](https://github.com/kubernetes/kubernetes)
 - **casbin/casbin** (Go): [An authorization library that supports access control models like ACL, RBAC, ABAC in Golang](https://github.com/casbin/casbin)
 
-<Ad />
+
 
 ## Topics from the Weekly Go Forum
 

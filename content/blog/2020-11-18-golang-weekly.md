@@ -7,7 +7,7 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/qs7o2ag8vzo0uborgc7v.png
 
 Gopher Gold weekly curation for Wed Nov 18 2020.
 
-<Ad />
+
 
 ## Go Articles This Week On Dev.To
 
@@ -46,7 +46,7 @@ Gopher Gold weekly curation for Wed Nov 18 2020.
 - **Clavin June**: [AVL Tree in Go](https://dev.to/clavinjune/avl-tree-in-go-g46)
 - **Yaroslav Podorvanov**: [Face recognition with Golang](https://dev.to/yaroslavpodorvanov/face-recognition-with-golang-4k6f)
 
-<Ad />
+
 
 ## Trending Go Repositories This Week On Github
 
@@ -76,7 +76,7 @@ Gopher Gold weekly curation for Wed Nov 18 2020.
 - **Shopify/sarama** (Go): [Sarama is a Go library for Apache Kafka 0.8, and up.](https://github.com/Shopify/sarama)
 - **golang/oauth2** (Go): [Go OAuth2](https://github.com/golang/oauth2)
 
-<Ad />
+
 
 ## Topics from the Weekly Go Forum
 

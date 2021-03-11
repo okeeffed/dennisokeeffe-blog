@@ -7,7 +7,7 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/qs7o2ag8vzo0uborgc7v.png
 
 Gopher Gold weekly curation for Wed Dec 02 2020.
 
-<Ad />
+
 
 ## Hot Go Articles This Week On Reddit
 
@@ -15,7 +15,7 @@ Gopher Gold weekly curation for Wed Dec 02 2020.
 - [Golang <-time.After() is not garbage collected](https://www.reddit.com/r/golang/comments/k1xk52/golang_timeafter_is_not_garbage_collected/) (4 days ago)
 - [Step-by-Step Guide to Use WebSockets in Golang](https://www.reddit.com/r/golang/comments/k1ey2a/stepbystep_guide_to_use_websockets_in_golang/) (5 days ago)
 
-<Ad />
+
 
 ## Go Articles This Week On Dev.To
 
@@ -49,7 +49,7 @@ Gopher Gold weekly curation for Wed Dec 02 2020.
 - **Uday Yadav**: [Testing simple web server](https://dev.to/dev117uday/testing-simple-web-server-jlh)
 - **handuy**: [Concurrency trong Go: Tạo goroutine (phần 2)](https://dev.to/handuy/concurrency-trong-go-t-o-goroutine-ph-n-2-10kc)
 
-<Ad />
+
 
 ## Trending Go Repositories This Week On Github
 
@@ -79,7 +79,7 @@ Gopher Gold weekly curation for Wed Dec 02 2020.
 - **containrrr/watchtower** (Go): [A process for automating Docker container base image updates.](https://github.com/containrrr/watchtower)
 - **hashicorp/vault** (Go): [A tool for secrets management, encryption as a service, and privileged access management](https://github.com/hashicorp/vault)
 
-<Ad />
+
 
 ## Topics from the Weekly Go Forum
 

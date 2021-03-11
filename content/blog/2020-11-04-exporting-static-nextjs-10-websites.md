@@ -11,7 +11,7 @@ This post goes alongside a partner post on [deploying static websites to S3 usin
 
 > Note: There are reasons for and against exporting static HTML for a NextJS application. Those needs may differ from person to person. Please see NextJS documentation on [Static HTML Export](https://nextjs.org/docs/advanced-features/static-html-export#caveats) for the latest caveats when using their static export feature.
 
-<Ad />
+
 
 ## Getting Started
 
@@ -24,7 +24,7 @@ npx create-next-app next-10-static-export
 
 Once this runs, there will be a new folder that hosts your NextJS 10 application in `next-10-static-export`.
 
-<Ad />
+
 
 ## Building the application
 
@@ -44,7 +44,7 @@ Adjust your application's `package.json` file to add a new script for export:
 }
 ```
 
-<Ad />
+
 
 ## Building and exporting the website
 
@@ -63,7 +63,7 @@ Once you have run both commands, you'll notice that there is now a `_next` and `
 
 The `out` directory is where `next export` will move the assets to.
 
-<Ad />
+
 
 ## Seeing the final product
 
@@ -79,13 +79,13 @@ Head to the website and you will see the following:
 
 Congrats! You have your statically exported site.
 
-<Ad />
+
 
 ## What's next?
 
 If you would like to see how to deploy your website to AWS S3 using the AWS TypeScript CDK, head to [the partner post](https://blog.dennisokeeffe.com/blog/2020-11-04-deploying-websites-to-aws-s3-with-the-cdk/) and continue on.
 
-<Ad />
+
 
 ## Resources
 

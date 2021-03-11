@@ -7,7 +7,7 @@ tags: productivity, career, writing
 
 Today marks the one month milestone of active writing! This milestone was one that I had set in mind when beginning on June 20th and I wanted to reflect on some learnings, achievements and earnest thoughts I've had about the future in writing.
 
-<Ad />
+
 
 ## The Why
 
@@ -17,7 +17,7 @@ I've always been in awe of those who write. **I have always been consuming great
 
 Another contributing factor was inadvertent improvement of my communication soft skills while writing. That's just a delightful bonus.
 
-<Ad />
+
 
 ## The How
 
@@ -33,7 +33,7 @@ This code included scripts to modify the markdown based on the platform it was h
 
 While I am typing away in my code editor, I did add the "spell check" VSCode extension after realising how awful my spelling can be when typing away with proofreading, but I also plan to update this down the track to include grammar and spell checks as part of a Git Hook. I also plan to incorporate a webhook to automate sharing the content to Twitter for me after posting.
 
-<Ad />
+
 
 ## The Facts
 
@@ -112,7 +112,7 @@ Messages from content curators for these publications also come off as more robo
 
 The fact that I've had 21k+ views on Dev.To and only about 746 on Medium may also say something about Medium's pay wall or the goto for developers in 2020.
 
-<Ad />
+
 
 ## What Next
 
@@ -145,7 +145,7 @@ I want to begin practising my skills on the microphone and reflecting on how I s
 
 Like the writing, I do not want to spend more time than necessary to publish podcasts, so I will do my best to find a way to automate the mastering and distribution of content.
 
-<Ad />
+
 
 ## Summary
 

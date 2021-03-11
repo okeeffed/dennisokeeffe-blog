@@ -4,7 +4,7 @@ date: "2019-06-28"
 description: Weekly roundup for June 28th 2019
 ---
 
-<Ad />
+
 
 ## Trending This Week On Github
 
@@ -18,7 +18,7 @@ description: Weekly roundup for June 28th 2019
 - **zephyrproject-rtos / zephyr** (C): [Primary Git Repository for the Zephyr Project. Zephyr is a new generation, scalable, optimized, secure RTOS for multiple hardware architectures.](https://github.com/zephyrproject-rtos/zephyr)
 - **princewen / tensorflow_practice** (Python): [tensorflow 实战练习，包括强化学习、推荐系统、nlp 等](https://github.com/princewen/tensorflow_practice)
 
-<Ad />
+
 
 ## Trending This Week On Dev.To
 
@@ -33,7 +33,7 @@ description: Weekly roundup for June 28th 2019
 - **Francesco Leardini・Jun 23**: [A gentle introduction to Progressive Web Apps - Step 1](https://dev.to/paco_ita/a-gentle-introduction-to-progressive-web-apps-step-1-24da)
 - **Shubheksha Jalan・Jun 24**: [A few things I wish I knew before I started working as a software engineer](https://dev.to/shubheksha/a-few-things-i-wish-i-knew-before-i-started-working-as-a-software-engineer-3kd2)
 
-<Ad />
+
 
 ## Trending This Week In Hacker News
 

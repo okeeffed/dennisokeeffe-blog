@@ -6,7 +6,7 @@ description: An introduction to what EKS is.
 
 This is more of a basic theory section to understand how EKS works.
 
-<Ad />
+
 
 ## Pricing
 
@@ -21,7 +21,7 @@ You pay normally for all the other resources related to running your apps:
 
 Check online for if pricing ever changes.
 
-<Ad />
+
 
 ## EKS Control Place
 
@@ -38,7 +38,7 @@ Our local `kubectl` will talk directly to EKS.
 - Single tenant (you do not share it with other customers)
 - Made of native AWS component (EC2, ELB, ASG, NLB, VPC)
 
-<Ad />
+
 
 ## EKS Networking
 

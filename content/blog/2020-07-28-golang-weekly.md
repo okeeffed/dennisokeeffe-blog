@@ -7,7 +7,7 @@ cover_image: https://dev-to-uploads.s3.amazonaws.com/i/qs7o2ag8vzo0uborgc7v.png
 
 Go Weekly, a weekly curation for all things Go in one centralised place. Here is your curation for Tue Jul 28 2020.
 
-<Ad />
+
 
 ## Hot Go Articles This Week On Reddit
 
@@ -15,7 +15,7 @@ Go Weekly, a weekly curation for all things Go in one centralised place. Here is
 - [A Growing Collection of Challenges to help you learn Go and Math!](https://www.reddit.com/r/golang/comments/hxkpxt/a_growing_collection_of_challenges_to_help_you/) (2 days ago)
 - [Go 1.15 Release Candidate 1 is released](https://www.reddit.com/r/golang/comments/hx98am/go_115_release_candidate_1_is_released/) (3 days ago)
 
-<Ad />
+
 
 ## Go Articles This Week On Dev.To
 
@@ -48,7 +48,7 @@ Go Weekly, a weekly curation for all things Go in one centralised place. Here is
 - **Joseph Heyburn**: [Assertions in gotests Test Generation](https://dev.to/jdheyburn/assertions-in-gotests-test-generation-6h1)
 - **Solace Infotech Pvt. Ltd.**: [#techtalksTop 7 Golang Frameworks That You Must Know In 2020](https://dev.to/ltdsolace/top-7-golang-frameworks-that-you-must-know-in-2020-2m60)
 
-<Ad />
+
 
 ## Trending Go Repositories This Week On Github
 
@@ -78,7 +78,7 @@ Go Weekly, a weekly curation for all things Go in one centralised place. Here is
 - **jaegertracing/jaeger** (Go): [CNCF Jaeger, a Distributed Tracing Platform](https://github.com/jaegertracing/jaeger)
 - **future-architect/vuls** (Go): [Agent-less vulnerability scanner for Linux, FreeBSD, Container Image, Running Container, WordPress, Programming language libraries, Network devices](https://github.com/future-architect/vuls)
 
-<Ad />
+
 
 ## Topics from the Weekly Go Forum
 

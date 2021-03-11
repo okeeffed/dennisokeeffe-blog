@@ -4,13 +4,13 @@ date: "2019-06-06"
 description: A small intro into how you can get started with Cassandra using Docker and basic syntax.
 ---
 
-<Ad />
+
 
 ## Foreword
 
 I am currently reading `Designing Data-Driven Applications` and am about to do a mini series on some technologies I come across in the book and some of the pros/cons.
 
-<Ad />
+
 
 ## What is Cassandra?
 
@@ -33,13 +33,13 @@ Cassandra also boasts a few important features:
 5. Field updates
 6. Easy for programmers
 
-<Ad />
+
 
 ## Cassandra Query Language
 
 Cassandra uses the Cassandra Query Language (CQL) which runs through the Cassandra shell (cqlsh).
 
-<Ad />
+
 
 ## Other points
 
@@ -49,7 +49,7 @@ Cassandra itself, given it's lack of emphasis on consistency, offers the `AID` p
 
 Some of the downsides to Cassandra include its lack of aggregation functionality, lack of table joins (there requiring de-normalisation pre-insertion) and search basing only on keys and indexes.
 
-<Ad />
+
 
 ## Playing around with Cassandra
 
@@ -97,7 +97,7 @@ $> docker exec -it my-dse bash
 
 Great! We can then run a notebook to play around with Cassandra.
 
-<Ad />
+
 
 ## Cassandra Basics Calls
 

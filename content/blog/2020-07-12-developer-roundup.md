@@ -6,7 +6,7 @@ date: "2020-07-12"
 
 Here is your update from across the web for the week of 2020-07-12.
 
-<Ad />
+
 
 ## Trending This Week On Github
 
@@ -36,7 +36,7 @@ Here is your update from across the web for the week of 2020-07-12.
 - **Azure/azure-sdk-for-python** (Python): [This repository is for active development of the Azure SDK for Python. For consumers of the SDK we recommend visiting our public developer docs at https://docs.microsoft.com/en-us/python/azure/ or our versioned developer docs at https://azure.github.io/azure-sdk-for-python.](https://github.com/Azure/azure-sdk-for-python)
 - **HSEIreland/covid-tracker-app** (TypeScript): [COVID Tracker App Repository](https://github.com/HSEIreland/covid-tracker-app)
 
-<Ad />
+
 
 ## Trending This Week On Dev.To
 
@@ -76,7 +76,7 @@ Here is your update from across the web for the week of 2020-07-12.
 - **Wassim Chegham**: [#showdevEver wondered what happens when you type in a URL in an address bar in a browser?](https://dev.to/wassimchegham/ever-wondered-what-happens-when-you-type-in-a-url-in-an-address-bar-in-a-browser-3dob)
 - **Emmanuel Antony**: [Valerie: Rethinking Web Apps in Rust](https://dev.to/emmanuelantony2000/valerie-rethinking-web-apps-in-rust-4cl3)
 
-<Ad />
+
 
 ## Trending This Week On Hacker News
 

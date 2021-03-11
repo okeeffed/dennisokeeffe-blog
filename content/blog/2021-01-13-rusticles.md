@@ -6,7 +6,7 @@ date: "2021-01-13"
 
 Rusticles weekly curation for Wed Jan 13 2021.
 
-<Ad />
+
 
 ## Rust Articles This Week On Dev.To
 
@@ -32,7 +32,7 @@ Rusticles weekly curation for Wed Jan 13 2021.
 - **Christopher Daniel**: [Portfolio - Building the website](https://dev.to/chris_daniel/portfolio-building-the-website-ml0)
 - **Christopher Daniel**: [Portfolio - Key Takes](https://dev.to/chris_daniel/portfolio-key-takes-1lkk)
 
-<Ad />
+
 
 ## Trending Rust Repositories This Week On Github
 

@@ -6,7 +6,7 @@ description: Ruby Spiral Matrices with unit testing.
 
 This requires the gem installation of `minitest`.
 
-<Ad />
+
 
 ## Test file
 
@@ -42,7 +42,7 @@ end
 __END__
 ```
 
-<Ad />
+
 
 ## Spiral Matrix
 
@@ -102,7 +102,7 @@ class SpiralMatrix
 end
 ```
 
-<Ad />
+
 
 ## Testing
 
