@@ -1,8 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
-import { BuyMeACoffee } from "../components/BuyMeACoffee"
-
 import { rhythm, scale } from "../utils/typography"
 
 class Layout extends React.Component {
@@ -65,9 +63,7 @@ class Layout extends React.Component {
           }}
         >
           <header>{header}</header>
-          <BuyMeACoffee />
           <main>{children}</main>
-          <BuyMeACoffee />
         </div>
         <Footer>
           <a href="https://dennisokeeffe.com">Dennis O'Keeffe</a> ©{" "}
